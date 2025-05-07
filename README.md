@@ -1,2 +1,3 @@
 # ninjanirs-sipm
-Power supplies and electronics for SiPM base optodes
+
+Power supplies and electronics for SiPM-based optodes
