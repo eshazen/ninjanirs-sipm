@@ -1,0 +1,111 @@
+(footprint "tp_SMT_label2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
+	(tags "test point THT pad")
+	(property "Reference" "TP9"
+		(at 0 -1.998 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b68c5b93-421d-488d-9506-c57705a4d50a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "GND"
+		(at 0 2.05 0)
+		(layer "F.Fab")
+		(uuid "3f2288e1-5e3f-4069-8ca1-2eb7f90cd384")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "40084dba-5795-459b-80b5-d250b9b2fe7d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "test point"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "169db077-b637-43fc-ba83-c2a2da5a6bb8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Label" "NAME"
+		(at 0 -2.5 0)
+		(layer "F.SilkS")
+		(uuid "e47ecfc2-5a80-4b94-85fb-4ab17aa9fdc1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(attr exclude_from_pos_files)
+	(fp_circle
+		(center 0 0)
+		(end 0 1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5b5320eb-096d-45bb-8c91-ee2a07308296")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f107edcc-ab95-4ffc-a18c-e621e5485230")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2 0)
+		(layer "F.Fab")
+		(uuid "4a8bb2cc-0c49-462a-9d96-de06e17bfdcf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8784f714-61bb-4575-8f39-b8fad6e51ee5")
+	)
+	(embedded_fonts no)
+)
