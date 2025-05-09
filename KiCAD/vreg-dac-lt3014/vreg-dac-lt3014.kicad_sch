@@ -1757,6 +1757,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:Jumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Open"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Open_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_1"
+				(arc
+					(start -1.524 1.27)
+					(mid 0 1.778)
+					(end 1.524 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_Module:RaspberryPi_Pico"
 			(pin_names
 				(offset 0.762)
@@ -4134,7 +4284,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 116.84) (xy 55.88 118.11)
+			(xy 55.88 107.95) (xy 55.88 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4541,6 +4691,16 @@
 			(type default)
 		)
 		(uuid "43dc603e-adb2-4a31-958e-42ba4aa1c077")
+	)
+	(wire
+		(pts
+			(xy 74.93 104.14) (xy 74.93 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "453fd13c-cc8b-4325-9ad9-49b068a8e1fb")
 	)
 	(wire
 		(pts
@@ -5014,6 +5174,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 107.95) (xy 69.85 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91407bc4-7bbb-4828-bb53-26fe3bdda6db")
+	)
+	(wire
+		(pts
 			(xy 231.14 76.2) (xy 231.14 80.01)
 		)
 		(stroke
@@ -5331,6 +5501,16 @@
 			(type default)
 		)
 		(uuid "cd592b86-6023-4af9-a021-ec848bc2fac0")
+	)
+	(wire
+		(pts
+			(xy 59.69 107.95) (xy 55.88 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cda1c82b-f550-4899-8dca-535152c5c0d4")
 	)
 	(wire
 		(pts
@@ -5973,6 +6153,74 @@
 			(project "vreg-dac-lt3014"
 				(path "/952a2494-dc5e-4846-8ac3-c813f939709c"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 64.77 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bd43d48-ba4d-489c-afc2-bceb1a125d58")
+		(property "Reference" "JP1"
+			(at 64.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 64.77 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 64.77 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 64.77 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97be70b3-e7d7-4864-9798-26d1ab8a7238")
+		)
+		(pin "2"
+			(uuid "cd26f654-ab4d-46e6-82d4-7dbaac6c45b3")
+		)
+		(instances
+			(project ""
+				(path "/952a2494-dc5e-4846-8ac3-c813f939709c"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -6893,7 +7141,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "my_smt_led:my_SMT_0603"
 			(at 115.57 39.37 0)
 			(effects
 				(font
@@ -7241,7 +7489,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "my_smt_led:my_SMT_0603"
 			(at 118.11 191.77 0)
 			(effects
 				(font
@@ -8955,7 +9203,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "my_smt_led:my_SMT_0603"
 			(at 242.57 41.91 0)
 			(effects
 				(font
@@ -9374,7 +9622,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "my_smt_led:my_SMT_0603"
 			(at 130.81 191.77 0)
 			(effects
 				(font
@@ -11897,7 +12145,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 55.88 116.84 0)
+		(at 74.93 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11906,7 +12154,7 @@
 		(fields_autoplaced yes)
 		(uuid "fda9e6b9-f7f0-424f-b33d-66db79a6bbf0")
 		(property "Reference" "#PWR029"
-			(at 55.88 120.65 0)
+			(at 74.93 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11915,7 +12163,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 55.88 111.76 0)
+			(at 74.93 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11923,7 +12171,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 116.84 0)
+			(at 74.93 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11932,7 +12180,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 116.84 0)
+			(at 74.93 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11941,7 +12189,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 55.88 116.84 0)
+			(at 74.93 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
