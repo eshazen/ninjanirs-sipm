@@ -466,7 +466,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "vreg-dac-lt3014.kicad_pro",
+    "filename": "lt3014-test.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -502,7 +502,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

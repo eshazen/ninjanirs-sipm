@@ -3999,7 +3999,7 @@
 		(at 241.046 75.184 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.905 1.905)
 			)
 		)
 		(uuid "35a5652a-cba0-4b18-98aa-f20d165f0514")
@@ -4014,15 +4014,45 @@
 		)
 		(uuid "445c16b8-5974-4338-83f9-3ec3e76ac409")
 	)
-	(text "60V Input"
+	(text "2025-05"
 		(exclude_from_sim no)
-		(at 21.336 83.312 0)
+		(at 195.834 199.136 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
+		(uuid "45f9b597-9865-4a36-8b53-d7177f367bfb")
+	)
+	(text "1.0"
+		(exclude_from_sim no)
+		(at 254 199.136 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "47ee6de1-cfa7-4a68-b01d-8e666a61720b")
+	)
+	(text "60V Input"
+		(exclude_from_sim no)
+		(at 23.876 79.502 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
 		(uuid "68e0017f-5020-4b67-8d65-19a9e0e976cc")
+	)
+	(text "SiPM Voltage Regulator"
+		(exclude_from_sim no)
+		(at 184.15 176.022 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "97b79558-5c95-4519-b82e-7d397a56626c")
 	)
 	(text "32V - 62V range\nfor R values shown"
 		(exclude_from_sim no)
@@ -4033,6 +4063,16 @@
 			)
 		)
 		(uuid "bd75f622-4b37-41b1-9004-fe842d674cb4")
+	)
+	(text "Optional filter"
+		(exclude_from_sim no)
+		(at 106.934 61.214 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "be61fbc4-dcec-45aa-abae-3fe67fa59dad")
 	)
 	(junction
 		(at 125.73 83.82)
