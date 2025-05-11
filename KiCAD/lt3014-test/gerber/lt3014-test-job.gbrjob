@@ -5,12 +5,12 @@
       "Application": "Pcbnew",
       "Version": "9.0.2-9.0.2-0~ubuntu24.04.1"
     },
-    "CreationDate": "2025-05-09T12:29:10-04:00"
+    "CreationDate": "2025-05-10T13:12:50-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "vreg-dac-lt3014",
-      "GUID": "76726567-2d64-4616-932d-6c7433303134",
+      "Name": "lt3014-test",
+      "GUID": "6c743330-3134-42d7-9465-73742e6b6963",
       "Revision": "rev?"
     },
     "Size": {
@@ -40,57 +40,52 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "vreg-dac-lt3014-F_Cu.gbr",
+      "Path": "lt3014-test-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "vreg-dac-lt3014-In1_Cu.gbr",
+      "Path": "lt3014-test-In1_Cu.gbr",
       "FileFunction": "Copper,L5,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "vreg-dac-lt3014-In2_Cu.gbr",
+      "Path": "lt3014-test-In2_Cu.gbr",
       "FileFunction": "Copper,L7,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "vreg-dac-lt3014-B_Cu.gbr",
+      "Path": "lt3014-test-B_Cu.gbr",
       "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "vreg-dac-lt3014-F_Paste.gbr",
+      "Path": "lt3014-test-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "vreg-dac-lt3014-B_Paste.gbr",
-      "FileFunction": "SolderPaste,Bot",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "vreg-dac-lt3014-F_Silkscreen.gbr",
+      "Path": "lt3014-test-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "vreg-dac-lt3014-B_Silkscreen.gbr",
+      "Path": "lt3014-test-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "vreg-dac-lt3014-F_Mask.gbr",
+      "Path": "lt3014-test-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "vreg-dac-lt3014-B_Mask.gbr",
+      "Path": "lt3014-test-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "vreg-dac-lt3014-Edge_Cuts.gbr",
+      "Path": "lt3014-test-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

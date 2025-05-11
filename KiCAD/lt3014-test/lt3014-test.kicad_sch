@@ -3994,6 +3994,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Misc LEDs"
+		(exclude_from_sim no)
+		(at 151.13 167.894 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "060c3560-7a18-4640-aad3-7dc851741349")
+	)
 	(text "OUTPUT"
 		(exclude_from_sim no)
 		(at 241.046 75.184 0)
@@ -4003,6 +4013,16 @@
 			)
 		)
 		(uuid "35a5652a-cba0-4b18-98aa-f20d165f0514")
+	)
+	(text "Shutdown LED"
+		(exclude_from_sim no)
+		(at 122.174 19.558 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "3d094bef-68f4-4942-bbca-93e3c8eac53a")
 	)
 	(text "(optional)\nSoft start"
 		(exclude_from_sim no)
@@ -4034,6 +4054,16 @@
 		)
 		(uuid "47ee6de1-cfa7-4a68-b01d-8e666a61720b")
 	)
+	(text "Power LED"
+		(exclude_from_sim no)
+		(at 254.508 38.1 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "5d8d1942-a4e4-4af6-bb1e-b785d1b6bafa")
+	)
 	(text "60V Input"
 		(exclude_from_sim no)
 		(at 23.876 79.502 0)
@@ -4043,6 +4073,16 @@
 			)
 		)
 		(uuid "68e0017f-5020-4b67-8d65-19a9e0e976cc")
+	)
+	(text "3.3V from RPI"
+		(exclude_from_sim no)
+		(at 67.818 112.014 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "77d55caf-ec8b-4163-af94-a8a96142c483")
 	)
 	(text "SiPM Voltage Regulator"
 		(exclude_from_sim no)
@@ -4073,6 +4113,26 @@
 			)
 		)
 		(uuid "be61fbc4-dcec-45aa-abae-3fe67fa59dad")
+	)
+	(text "UART / GPIO"
+		(exclude_from_sim no)
+		(at 103.124 178.054 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "c8ac2498-3f8e-4e5f-a1df-0ef91d41f5b9")
+	)
+	(text "50K 1024 taps"
+		(exclude_from_sim no)
+		(at 187.198 136.652 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "e47001b9-2e6c-437b-96b7-0214ce16be9f")
 	)
 	(junction
 		(at 125.73 83.82)
@@ -4219,7 +4279,7 @@
 		(uuid "9a5fe527-9d5f-4aa1-837e-85075cc311f8")
 	)
 	(junction
-		(at 124.46 199.39)
+		(at 134.62 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7e07f71-b461-4f2b-8810-9b95a3ad5153")
@@ -4424,7 +4484,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 199.39) (xy 130.81 195.58)
+			(xy 140.97 198.12) (xy 140.97 194.31)
 		)
 		(stroke
 			(width 0)
@@ -4444,7 +4504,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 182.88) (xy 99.06 182.88)
+			(xy 93.98 186.69) (xy 102.87 186.69)
 		)
 		(stroke
 			(width 0)
@@ -4644,7 +4704,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 185.42) (xy 130.81 187.96)
+			(xy 140.97 184.15) (xy 140.97 186.69)
 		)
 		(stroke
 			(width 0)
@@ -4784,7 +4844,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 180.34) (xy 99.06 180.34)
+			(xy 93.98 184.15) (xy 102.87 184.15)
 		)
 		(stroke
 			(width 0)
@@ -4834,7 +4894,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 199.39) (xy 124.46 199.39)
+			(xy 128.27 198.12) (xy 134.62 198.12)
 		)
 		(stroke
 			(width 0)
@@ -4904,7 +4964,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 185.42) (xy 118.11 187.96)
+			(xy 128.27 184.15) (xy 128.27 186.69)
 		)
 		(stroke
 			(width 0)
@@ -4914,7 +4974,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 187.96) (xy 96.52 190.5)
+			(xy 100.33 191.77) (xy 100.33 194.31)
 		)
 		(stroke
 			(width 0)
@@ -5004,7 +5064,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 175.26) (xy 118.11 177.8)
+			(xy 128.27 173.99) (xy 128.27 176.53)
 		)
 		(stroke
 			(width 0)
@@ -5344,7 +5404,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 185.42) (xy 99.06 185.42)
+			(xy 93.98 189.23) (xy 102.87 189.23)
 		)
 		(stroke
 			(width 0)
@@ -5394,7 +5454,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 175.26) (xy 130.81 177.8)
+			(xy 140.97 173.99) (xy 140.97 176.53)
 		)
 		(stroke
 			(width 0)
@@ -5454,7 +5514,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 187.96) (xy 96.52 187.96)
+			(xy 102.87 191.77) (xy 100.33 191.77)
 		)
 		(stroke
 			(width 0)
@@ -5484,7 +5544,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 199.39) (xy 130.81 199.39)
+			(xy 134.62 198.12) (xy 140.97 198.12)
 		)
 		(stroke
 			(width 0)
@@ -5814,7 +5874,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 195.58) (xy 118.11 199.39)
+			(xy 128.27 194.31) (xy 128.27 198.12)
 		)
 		(stroke
 			(width 0)
@@ -5863,7 +5923,7 @@
 		(uuid "014bfd2e-cd91-4a42-b323-9b37262ab539")
 	)
 	(label "LED1"
-		(at 118.11 175.26 90)
+		(at 128.27 173.99 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5903,7 +5963,7 @@
 		(uuid "1c729368-03d6-4570-971c-3e015f2c3548")
 	)
 	(label "GP2"
-		(at 90.17 185.42 0)
+		(at 93.98 189.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5963,7 +6023,7 @@
 		(uuid "3864970f-3189-4f2a-b93b-eecf54f43f55")
 	)
 	(label "GP1{slash}RX"
-		(at 90.17 182.88 0)
+		(at 93.98 186.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6013,7 +6073,7 @@
 		(uuid "80ae9b6e-d71b-471e-bffc-57e21d842eeb")
 	)
 	(label "LED2"
-		(at 130.81 175.26 90)
+		(at 140.97 173.99 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6113,7 +6173,7 @@
 		(uuid "e2049656-e505-46d9-bcaf-9102662b02f4")
 	)
 	(label "GP0{slash}TX"
-		(at 90.17 180.34 0)
+		(at 93.98 184.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6205,7 +6265,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0bd43d48-ba4d-489c-afc2-bceb1a125d58")
 		(property "Reference" "JP1"
@@ -6243,6 +6303,15 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, open"
+			(at 64.77 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" ""
 			(at 64.77 107.95 0)
 			(effects
 				(font
@@ -6303,7 +6372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 40.64 50.8 0)
 			(effects
 				(font
@@ -6313,6 +6382,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 40.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "RC0603FR-07140KL"
+			(at 40.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "311-140KHRCT-ND"
 			(at 40.64 50.8 0)
 			(effects
 				(font
@@ -6523,6 +6610,24 @@
 				(hide yes)
 			)
 		)
+		(property "MfgNo" "AD5270BRMZ-50"
+			(at 152.4 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "505-AD5270BRMZ-50-ND"
+			(at 152.4 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "08167227-bdcb-4b03-922c-99b6641e0d5b")
 		)
@@ -6569,7 +6674,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1f407963-d185-4786-a713-54f1761e6de7")
 		(property "Reference" "TP9"
 			(at 206.756 22.098 0)
@@ -6608,6 +6713,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 212.09 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" ""
 			(at 212.09 27.94 0)
 			(effects
 				(font
@@ -6665,7 +6779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
 			(at 242.57 31.75 0)
 			(effects
 				(font
@@ -6675,6 +6789,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 242.57 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "RT0603BRD071K5L"
+			(at 242.57 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "YAG1570CT-ND"
 			(at 242.57 31.75 0)
 			(effects
 				(font
@@ -6705,7 +6837,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "257ab830-c398-4da1-952e-7aa669752483")
 		(property "Reference" "TP4"
 			(at 225.806 70.358 0)
@@ -6752,6 +6884,15 @@
 				(hide yes)
 			)
 		)
+		(property "MfgNo" ""
+			(at 231.14 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "54305b9b-708b-48b7-9603-a1b9913cb6f0")
 		)
@@ -6784,7 +6925,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10.0k 1%"
 			(at 121.92 36.8299 0)
 			(effects
 				(font
@@ -6802,7 +6943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
 			(at 124.46 35.56 0)
 			(effects
 				(font
@@ -6812,6 +6953,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 124.46 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "RC0603FR-0710KL"
+			(at 124.46 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "311-10.0KHRCT-ND"
 			(at 124.46 35.56 0)
 			(effects
 				(font
@@ -7029,6 +7188,15 @@
 				)
 			)
 		)
+		(property "MfgNo" "INA201AIDR"
+			(at 73.66 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "fc22aa1c-8cd1-4ce9-9ca2-edb2d27b8ec4")
 		)
@@ -7134,6 +7302,15 @@
 				(hide yes)
 			)
 		)
+		(property "MfgNo" "BSS138"
+			(at 121.92 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "31248e3f-7d9c-41ab-9ad8-79c3d81a5c65")
 		)
@@ -7190,7 +7367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4237/B19Y1USD-20C000113U1930.pdf"
 			(at 115.57 39.37 0)
 			(effects
 				(font
@@ -7210,6 +7387,24 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 115.57 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "B19Y1USD-20C000113U1930"
+			(at 115.57 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "3147-B19Y1USD-20C000113U1930CT-ND"
+			(at 115.57 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7239,7 +7434,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "39ce2b36-61e8-4ee5-bb36-ace530b25a6e")
 		(property "Reference" "TP10"
 			(at 216.916 22.098 0)
@@ -7286,6 +7481,15 @@
 				(hide yes)
 			)
 		)
+		(property "MfgNo" ""
+			(at 222.25 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b68f5058-007b-419e-b28c-4fd237e1fa6d")
 		)
@@ -7300,7 +7504,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 199.39 0)
+		(at 134.62 198.12 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7309,7 +7513,7 @@
 		(dnp no)
 		(uuid "3ae481c4-f93f-4cec-b4d6-510ac1e1142a")
 		(property "Reference" "#PWR035"
-			(at 124.46 205.74 0)
+			(at 134.62 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7318,7 +7522,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.27 201.168 0)
+			(at 138.43 199.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7326,7 +7530,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 199.39 0)
+			(at 134.62 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7335,7 +7539,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 199.39 0)
+			(at 134.62 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7344,7 +7548,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 199.39 0)
+			(at 134.62 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7372,7 +7576,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "45963ac9-96b5-43bf-bcbf-3ee119ceabe7")
 		(property "Reference" "TP8"
 			(at 104.14 54.1021 0)
@@ -7419,6 +7623,15 @@
 				(hide yes)
 			)
 		)
+		(property "MfgNo" ""
+			(at 101.6 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "329c881b-1d05-41ec-a8b6-867f5e43f48e")
 		)
@@ -7433,7 +7646,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 118.11 181.61 0)
+		(at 128.27 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7442,7 +7655,7 @@
 		(fields_autoplaced yes)
 		(uuid "4641aa90-31a2-48e0-bd19-1e6136d826fb")
 		(property "Reference" "R17"
-			(at 120.65 180.3399 0)
+			(at 130.81 179.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7451,7 +7664,7 @@
 			)
 		)
 		(property "Value" "1.5k"
-			(at 120.65 182.8799 0)
+			(at 130.81 181.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7460,7 +7673,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 119.126 181.864 90)
+			(at 129.286 180.594 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7468,8 +7681,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 118.11 181.61 0)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
+			(at 128.27 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7478,7 +7691,25 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 118.11 181.61 0)
+			(at 128.27 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "RT0603BRD071K5L"
+			(at 128.27 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "YAG1570CT-ND"
+			(at 128.27 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7503,7 +7734,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 118.11 191.77 90)
+		(at 128.27 190.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7512,7 +7743,7 @@
 		(fields_autoplaced yes)
 		(uuid "47e60329-5b03-42cc-8010-c3e285efb63a")
 		(property "Reference" "D3"
-			(at 121.92 192.0874 90)
+			(at 132.08 190.8174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7521,7 +7752,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 121.92 194.6274 90)
+			(at 132.08 193.3574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7530,7 +7761,7 @@
 			)
 		)
 		(property "Footprint" "my_smt_led:my_SMT_0603"
-			(at 118.11 191.77 0)
+			(at 128.27 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7538,8 +7769,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 118.11 191.77 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4237/B19Y1USD-20C000113U1930.pdf"
+			(at 128.27 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7548,7 +7779,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 118.11 191.77 0)
+			(at 128.27 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7557,7 +7788,25 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 118.11 191.77 0)
+			(at 128.27 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "B19Y1USD-20C000113U1930"
+			(at 128.27 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "3147-B19Y1USD-20C000113U1930CT-ND"
+			(at 128.27 190.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7587,7 +7836,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "49f0e6dd-c117-4a48-b908-b27459f66bb5")
 		(property "Reference" "TP5"
 			(at 74.168 79.502 0)
@@ -7634,6 +7883,15 @@
 				(hide yes)
 			)
 		)
+		(property "MfgNo" ""
+			(at 78.74 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0ca81174-38e9-4d55-b248-0dc536dff316")
 		)
@@ -7648,7 +7906,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 96.52 190.5 0)
+		(at 100.33 194.31 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7657,7 +7915,7 @@
 		(dnp no)
 		(uuid "4cbd8bc0-c843-4691-aee5-e45b9cb09076")
 		(property "Reference" "#PWR036"
-			(at 96.52 196.85 0)
+			(at 100.33 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7666,7 +7924,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 192.278 0)
+			(at 104.14 196.088 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7674,7 +7932,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 190.5 0)
+			(at 100.33 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7683,7 +7941,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 190.5 0)
+			(at 100.33 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7692,7 +7950,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 190.5 0)
+			(at 100.33 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7815,7 +8073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 97.79 68.58 0)
 			(effects
 				(font
@@ -7825,6 +8083,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 97.79 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "RC0603JR-070RL"
+			(at 97.79 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "311-0.0GRCT-ND"
 			(at 97.79 68.58 0)
 			(effects
 				(font
@@ -7921,7 +8197,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "571c94a2-97bb-4a7b-ba62-952db1dca54f")
 		(property "Reference" "TP1"
@@ -7969,6 +8245,15 @@
 				(hide yes)
 			)
 		)
+		(property "MfgNo" ""
+			(at 176.53 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "78b83e9f-e64e-437f-adf1-aae5323d67bb")
 		)
@@ -8000,7 +8285,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1.0uF"
 			(at 163.83 149.8599 0)
 			(effects
 				(font
@@ -8018,7 +8303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3584/CL10B105KP8NNNC_Spec.pdf"
 			(at 167.64 148.59 0)
 			(effects
 				(font
@@ -8028,6 +8313,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 167.64 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "1276-1946-1-ND"
+			(at 167.64 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "CL10B105KP8NNNC"
 			(at 167.64 148.59 0)
 			(effects
 				(font
@@ -8058,7 +8361,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5be8e2b3-3cff-4238-9116-a71afb2c03c9")
 		(property "Reference" "TP6"
 			(at 228.346 89.916 0)
@@ -8097,6 +8400,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 222.25 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" ""
 			(at 222.25 87.63 0)
 			(effects
 				(font
@@ -8153,7 +8465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.waldom.com/upload/parts/datasheets/mf-fci/fci-68000-208hlf.pdf"
 			(at 100.33 137.16 0)
 			(effects
 				(font
@@ -8163,6 +8475,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 100.33 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "68000-208HLF"
+			(at 100.33 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "609-3257-ND"
 			(at 100.33 137.16 0)
 			(effects
 				(font
@@ -8241,7 +8571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 172.72 87.63 0)
 			(effects
 				(font
@@ -8251,6 +8581,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 172.72 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "RMCF0603FT2M49"
+			(at 172.72 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "RMCF0603FT2M49CT-ND"
 			(at 172.72 87.63 0)
 			(effects
 				(font
@@ -8442,7 +8790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
 			(at 172.72 109.22 0)
 			(effects
 				(font
@@ -8452,6 +8800,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 172.72 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "RT0603BRD0750KL"
+			(at 172.72 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "13-RT0603BRD0750KLCT-ND"
 			(at 172.72 109.22 0)
 			(effects
 				(font
@@ -8511,7 +8877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 90.17 68.58 0)
 			(effects
 				(font
@@ -8521,6 +8887,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 90.17 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "RC0603JR-070RL"
+			(at 90.17 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "311-0.0GRCT-ND"
 			(at 90.17 68.58 0)
 			(effects
 				(font
@@ -8581,7 +8965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 205.74 91.44 0)
 			(effects
 				(font
@@ -8591,6 +8975,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 205.74 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "RC0603FR-0710KL"
+			(at 205.74 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "311-10.0KHRCT-ND"
 			(at 205.74 91.44 0)
 			(effects
 				(font
@@ -8650,7 +9052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 205.74 83.82 0)
 			(effects
 				(font
@@ -8660,6 +9062,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 205.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "RC0603FR-07100KL"
+			(at 205.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "311-100KHRCT-ND"
 			(at 205.74 83.82 0)
 			(effects
 				(font
@@ -8690,7 +9110,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "81691860-dd11-4ab2-a1cc-2fff59f4668b")
 		(property "Reference" "H2"
@@ -8730,6 +9150,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 170.18 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" ""
 			(at 170.18 27.94 0)
 			(effects
 				(font
@@ -8867,6 +9296,15 @@
 				(hide yes)
 			)
 		)
+		(property "MfgNo" ""
+			(at 177.8 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "88e8e8d5-ac1e-4e3b-87b7-cc633ce8a424")
 		)
@@ -8920,7 +9358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.kemet.com/download/datasheet/C0603C103M4REC7411"
 			(at 78.74 22.86 0)
 			(effects
 				(font
@@ -8930,6 +9368,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 78.74 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "C0603C103M4REC7411"
+			(at 78.74 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "399-C0603C103M4REC7411CT-ND"
 			(at 78.74 22.86 0)
 			(effects
 				(font
@@ -9092,7 +9548,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8aa33d55-2285-4cef-9731-945b297d4b54")
 		(property "Reference" "H3"
@@ -9132,6 +9588,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 170.18 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" ""
 			(at 170.18 34.29 0)
 			(effects
 				(font
@@ -9252,7 +9717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4237/B19Y1USD-20C000113U1930.pdf"
 			(at 242.57 41.91 0)
 			(effects
 				(font
@@ -9272,6 +9737,24 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 242.57 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "B19Y1USD-20C000113U1930"
+			(at 242.57 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "3147-B19Y1USD-20C000113U1930CT-ND"
+			(at 242.57 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9395,7 +9878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/tsw-xxx-xx-xxx-x-xx-xxx-mkt.pdf"
 			(at 102.87 105.41 0)
 			(effects
 				(font
@@ -9405,6 +9888,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 102.87 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "TSW-102-07-F-S"
+			(at 102.87 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "SAM10844-ND"
 			(at 102.87 105.41 0)
 			(effects
 				(font
@@ -9435,7 +9936,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "942ccc50-bef9-4462-b270-9996a2a73ace")
 		(property "Reference" "H4"
@@ -9475,6 +9976,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 170.18 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" ""
 			(at 170.18 40.64 0)
 			(effects
 				(font
@@ -9610,6 +10120,24 @@
 				(hide yes)
 			)
 		)
+		(property "MfgNo" "LT3014ES5#TRPBF"
+			(at 152.4 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "LT3014ES5#TRPBFCT-ND"
+			(at 152.4 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "01651dca-8f6d-4bc1-9703-a2755a35340e")
 		)
@@ -9636,7 +10164,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 130.81 191.77 90)
+		(at 140.97 190.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9645,7 +10173,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d4f4c87-eeaf-47bc-9214-55211e820501")
 		(property "Reference" "D4"
-			(at 134.62 192.0874 90)
+			(at 144.78 190.8174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9654,7 +10182,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 134.62 194.6274 90)
+			(at 144.78 193.3574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9663,7 +10191,7 @@
 			)
 		)
 		(property "Footprint" "my_smt_led:my_SMT_0603"
-			(at 130.81 191.77 0)
+			(at 140.97 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9671,8 +10199,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 130.81 191.77 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4237/B19Y1USD-20C000113U1930.pdf"
+			(at 140.97 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9681,7 +10209,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 130.81 191.77 0)
+			(at 140.97 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9690,7 +10218,25 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 130.81 191.77 0)
+			(at 140.97 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "B19Y1USD-20C000113U1930"
+			(at 140.97 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "3147-B19Y1USD-20C000113U1930CT-ND"
+			(at 140.97 190.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9916,7 +10462,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a5b6dc42-6c5d-4dcd-9955-0322f73d8166")
 		(property "Reference" "TP2"
@@ -9956,6 +10502,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 177.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" ""
 			(at 177.8 97.79 0)
 			(effects
 				(font
@@ -10114,7 +10669,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ad307417-82ea-42b9-953b-6b854273c7e4")
 		(property "Reference" "H1"
@@ -10154,6 +10709,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 170.18 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" ""
 			(at 170.18 21.59 0)
 			(effects
 				(font
@@ -10274,7 +10838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/tsw-xxx-xx-xxx-x-xx-xxx-mkt.pdf"
 			(at 241.3 80.01 0)
 			(effects
 				(font
@@ -10284,6 +10848,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 241.3 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "TSW-102-07-F-S"
+			(at 241.3 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "SAM10844-ND"
 			(at 241.3 80.01 0)
 			(effects
 				(font
@@ -10411,7 +10993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 119.38 157.48 0)
 			(effects
 				(font
@@ -10421,6 +11003,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 119.38 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "RC0603FR-07100KL"
+			(at 119.38 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "311-100KHRCT-ND"
 			(at 119.38 157.48 0)
 			(effects
 				(font
@@ -10452,7 +11052,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c8ae8ada-a3a9-4844-ac7b-b99634fcd5a6")
 		(property "Reference" "TP7"
 			(at 38.1 28.4479 0)
@@ -10491,6 +11091,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 40.64 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" ""
 			(at 40.64 33.02 0)
 			(effects
 				(font
@@ -10559,6 +11168,24 @@
 		)
 		(property "Description" "Versatile and inexpensive microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2"
 			(at 50.8 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "2648-SC0917-ND"
+			(at 50.8 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "SC0917"
+			(at 50.8 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10697,7 +11324,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 104.14 182.88 0)
+		(at 107.95 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10706,7 +11333,7 @@
 		(fields_autoplaced yes)
 		(uuid "c9a98ab4-ee8a-4a58-87bf-e061bd88401e")
 		(property "Reference" "J5"
-			(at 106.68 182.8799 0)
+			(at 110.49 186.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10715,7 +11342,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 106.68 185.4199 0)
+			(at 110.49 189.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10724,7 +11351,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 104.14 182.88 0)
+			(at 107.95 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10732,8 +11359,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 104.14 182.88 0)
+		(property "Datasheet" "https://www.waldom.com/upload/parts/datasheets/mf-fci/fci-68000-204hlf.pdf"
+			(at 107.95 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10742,7 +11369,25 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 104.14 182.88 0)
+			(at 107.95 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "68000-204HLF"
+			(at 107.95 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "609-3255-ND"
+			(at 107.95 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10809,7 +11454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3584/CL10B105KP8NNNC_Spec.pdf 1276-1946-1-ND CL10B105KP8NNNC"
 			(at 191.77 86.36 0)
 			(effects
 				(font
@@ -10819,6 +11464,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 191.77 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "CL10B105KP8NNNC"
+			(at 191.77 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "1276-1946-1-ND"
 			(at 191.77 86.36 0)
 			(effects
 				(font
@@ -10914,7 +11577,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d6aa6cee-e30b-415d-9ed6-fddfca61b3a7")
 		(property "Reference" "TP3"
 			(at 110.998 78.74 0)
@@ -10953,6 +11616,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 115.57 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" ""
 			(at 115.57 80.01 0)
 			(effects
 				(font
@@ -11045,6 +11717,15 @@
 				(hide yes)
 			)
 		)
+		(property "MfgNo" "BSS138"
+			(at 53.34 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "df66c6ab-3508-49e4-a408-a4422e2c1c91")
 		)
@@ -11100,7 +11781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 46.99 71.12 0)
 			(effects
 				(font
@@ -11110,6 +11791,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 46.99 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "RC0603FR-07100KL"
+			(at 46.99 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "311-100KHRCT-ND"
 			(at 46.99 71.12 0)
 			(effects
 				(font
@@ -11348,7 +12047,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10.0k 1%"
 			(at 52.324 32.766 0)
 			(effects
 				(font
@@ -11366,7 +12065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
 			(at 55.88 31.75 0)
 			(effects
 				(font
@@ -11376,6 +12075,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 55.88 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "RC0603FR-0710KL"
+			(at 55.88 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "311-10.0KHRCT-ND"
 			(at 55.88 31.75 0)
 			(effects
 				(font
@@ -11401,7 +12118,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 130.81 181.61 0)
+		(at 140.97 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11410,7 +12127,7 @@
 		(fields_autoplaced yes)
 		(uuid "e64d133c-272f-4212-b107-b80c0ae21e50")
 		(property "Reference" "R18"
-			(at 133.35 180.3399 0)
+			(at 143.51 179.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11419,7 +12136,7 @@
 			)
 		)
 		(property "Value" "1.5k"
-			(at 133.35 182.8799 0)
+			(at 143.51 181.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11428,7 +12145,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 131.826 181.864 90)
+			(at 141.986 180.594 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11436,8 +12153,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 130.81 181.61 0)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
+			(at 140.97 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11446,7 +12163,25 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 130.81 181.61 0)
+			(at 140.97 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "RT0603BRD071K5L"
+			(at 140.97 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "YAG1570CT-ND"
+			(at 140.97 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11504,7 +12239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
 			(at 93.98 87.63 0)
 			(effects
 				(font
@@ -11515,6 +12250,24 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 93.98 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "RMCF0603FT3R00"
+			(at 93.98 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "RMCF0603FT3R00CT-ND"
+			(at 93.98 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11574,7 +12327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/tsw-xxx-xx-xxx-x-xx-xxx-mkt.pdf"
 			(at 33.02 83.82 0)
 			(effects
 				(font
@@ -11584,6 +12337,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 33.02 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "TSW-102-07-F-S"
+			(at 33.02 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "SAM10844-ND"
 			(at 33.02 83.82 0)
 			(effects
 				(font
@@ -11653,6 +12424,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 93.98 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" ""
+			(at 93.98 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11739,6 +12519,15 @@
 			)
 		)
 		(property "Vendor" "DigiKey"
+			(at 130.81 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "BSS138"
 			(at 130.81 151.13 0)
 			(effects
 				(font
@@ -11868,7 +12657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
 			(at 115.57 31.75 0)
 			(effects
 				(font
@@ -11878,6 +12667,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 115.57 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "RT0603BRD071K5L"
+			(at 115.57 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "YAG1570CT-ND"
 			(at 115.57 31.75 0)
 			(effects
 				(font
@@ -11938,7 +12745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.kemet.com/download/datasheet/C0603C103M4REC7411"
 			(at 144.78 114.3 0)
 			(effects
 				(font
@@ -11948,6 +12755,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 144.78 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "C0603C103M4REC7411"
+			(at 144.78 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "399-C0603C103M4REC7411CT-ND"
 			(at 144.78 114.3 0)
 			(effects
 				(font
@@ -12009,7 +12834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
 			(at 105.41 39.37 0)
 			(effects
 				(font
@@ -12019,6 +12844,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 105.41 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "RT0603BRD074K7L"
+			(at 105.41 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "YAG1676CT-ND"
 			(at 105.41 39.37 0)
 			(effects
 				(font
@@ -12062,7 +12905,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1.0uF"
 			(at 129.54 91.4399 0)
 			(effects
 				(font
@@ -12080,7 +12923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3584/CL10B105KP8NNNC_Spec.pdf"
 			(at 125.73 90.17 0)
 			(effects
 				(font
@@ -12090,6 +12933,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 125.73 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "1276-1946-1-ND"
+			(at 125.73 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "CL10B105KP8NNNC"
 			(at 125.73 90.17 0)
 			(effects
 				(font
@@ -12150,7 +13011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 40.64 43.18 0)
 			(effects
 				(font
@@ -12160,6 +13021,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 40.64 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "RC0603FR-07210KL"
+			(at 40.64 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "311-210KHRCT-ND"
 			(at 40.64 43.18 0)
 			(effects
 				(font
