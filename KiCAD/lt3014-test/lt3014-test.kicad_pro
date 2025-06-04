@@ -610,7 +610,7 @@
           "group_by": false,
           "label": "MfgNo",
           "name": "MfgNo",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",

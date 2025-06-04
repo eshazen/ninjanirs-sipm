@@ -4004,13 +4004,14 @@
 		)
 		(uuid "060c3560-7a18-4640-aad3-7dc851741349")
 	)
-	(text "2025-05-12 Edits per BZ"
+	(text "2025-05-12 Edits per BZ\n  -- As built Rev 1.0 --\n\n2025-06-04 Change P/N for C4, C5 for 100V"
 		(exclude_from_sim no)
-		(at 237.998 169.926 0)
+		(at 206.502 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "10db7616-7b79-4419-b232-8bc70e91d100")
 	)
@@ -4054,7 +4055,7 @@
 		)
 		(uuid "45f9b597-9865-4a36-8b53-d7177f367bfb")
 	)
-	(text "1.0a"
+	(text "2.0"
 		(exclude_from_sim no)
 		(at 254 199.136 0)
 		(effects
@@ -8349,7 +8350,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.0uF"
+		(property "Value" "1.0uF 100V"
 			(at 163.83 149.8599 0)
 			(effects
 				(font
@@ -8385,7 +8386,7 @@
 				(hide yes)
 			)
 		)
-		(property "CatNo" "1276-1946-1-ND"
+		(property "CatNo" "490-GRM188D72A105ME01WCT-ND"
 			(at 167.64 148.59 0)
 			(effects
 				(font
@@ -8394,7 +8395,7 @@
 				(hide yes)
 			)
 		)
-		(property "MfgNo" "CL10B105KP8NNNC"
+		(property "MfgNo" "GRM188D72A105ME01W"
 			(at 167.64 148.59 0)
 			(effects
 				(font
@@ -11566,7 +11567,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.0uF"
+		(property "Value" "1.0uF 100V"
 			(at 195.58 87.6299 0)
 			(effects
 				(font
@@ -11602,7 +11603,7 @@
 				(hide yes)
 			)
 		)
-		(property "MfgNo" "CL10B105KP8NNNC"
+		(property "MfgNo" "GRM188D72A105ME01W"
 			(at 191.77 86.36 0)
 			(effects
 				(font
@@ -11611,7 +11612,7 @@
 				(hide yes)
 			)
 		)
-		(property "CatNo" "1276-1946-1-ND"
+		(property "CatNo" "490-GRM188D72A105ME01WCT-ND"
 			(at 191.77 86.36 0)
 			(effects
 				(font
@@ -13035,7 +13036,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.0uF"
+		(property "Value" "1.0uF 100V"
 			(at 129.54 91.4399 0)
 			(effects
 				(font
@@ -13071,7 +13072,7 @@
 				(hide yes)
 			)
 		)
-		(property "CatNo" "1276-1946-1-ND"
+		(property "CatNo" "490-GRM188D72A105ME01WCT-ND"
 			(at 125.73 90.17 0)
 			(effects
 				(font
@@ -13080,7 +13081,7 @@
 				(hide yes)
 			)
 		)
-		(property "MfgNo" "CL10B105KP8NNNC"
+		(property "MfgNo" "GRM188D72A105ME01W"
 			(at 125.73 90.17 0)
 			(effects
 				(font

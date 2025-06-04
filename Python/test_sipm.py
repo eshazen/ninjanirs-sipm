@@ -81,7 +81,7 @@ while True:
     # for d in range( 0, 1024, 64):
     #     set_dac_print(d)
     set_dac_print(dac_lo)
-    time.sleep_ms(15)
+    time.sleep_ms(100)
     set_dac_print(dac_hi)
     time.sleep_ms(5)
     # time.sleep_ms(100)
