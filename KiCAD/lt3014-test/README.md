@@ -17,3 +17,10 @@ package sizes to fit on a future version of the detector adapter board.
 
 * V1.0 - never fabricated
 * V1.0a - as built with small changes suggested by BZ
+
+## Debug log
+
+### 2025-05-27
+* Install Thonny on PC and micropython on the R-Pi.  Blinky working.
+* Writing to the digital pot seems to work, but can't read back for some reason.
+
