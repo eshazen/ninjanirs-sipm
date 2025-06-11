@@ -63,10 +63,11 @@ def set_dac_print(d):
     dac = 1023-d
     vout = 1.22 * (1 + 2.5e6/(50e3+(dac/1023)*50e3))
     reg_write(spi, cs, AD5270_WDAC | dac)
-    time.sleep_ms(10)
+    time.sleep_ms(100)
+    vsense = vmon.read_u16()
     v_imon = (imon.read_u16()/65535.)*3.3*(20./3)
-    v_vmon = (vmon.read_u16()/65535.)*3.3*(210./10.)
-    print( d, ",", vout, ",", v_vmon, ",", v_imon)
+    v_vmon = (vmon.read_u16()/65535.)*3.3*(510./24.)
+    print( d, ",", vsense, ",", vout, ",", v_vmon, ",", v_imon)
     
 #--- Main ---
 
@@ -75,14 +76,20 @@ def set_dac_print(d):
 dac_lo = 300
 dac_hi = 700
 
+delay = 100
+
 while True:
 #for i in range(1):
-    # print("----")
-    # for d in range( 0, 1024, 64):
-    #     set_dac_print(d)
-    set_dac_print(dac_lo)
-    time.sleep_ms(100)
-    set_dac_print(dac_hi)
-    time.sleep_ms(5)
+    print("----")
+    for d in range( dac_lo, dac_hi+1, dac_hi-dac_lo):
+         set_dac_print(d)
+         time.sleep_ms(delay)
+#    set_dac_print(1023)
+    time.sleep_ms(delay)
+    # time.sleep_ms(10000)
+    #set_dac_print(dac_lo)
+    #time.sleep_ms(delay)
+    #set_dac_print(dac_hi)
+    #time.sleep_ms(delay)
     # time.sleep_ms(100)
 
