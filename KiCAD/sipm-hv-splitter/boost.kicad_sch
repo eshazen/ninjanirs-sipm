@@ -6347,7 +6347,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "9.76k"
+		(property "Value" "10k"
 			(at 55.88 172.7199 0)
 			(effects
 				(font
@@ -9106,7 +9106,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "12nF"
+		(property "Value" "0.1uF"
 			(at 64.77 172.7262 0)
 			(effects
 				(font
