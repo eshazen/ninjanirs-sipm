@@ -5249,6 +5249,16 @@
 			"5yAQCIxY1XdigUAguCQc5L+yFwgEYlYIBIJS/C/AADLuJ6kEonq/AAAAAElFTkSuQmCC"
 		)
 	)
+	(label "V62_IN"
+		(at 114.3 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "462b872b-946d-40af-acde-6b81799ae965")
+	)
 	(label "IMON"
 		(at 46.99 48.26 0)
 		(effects
@@ -5259,7 +5269,7 @@
 		)
 		(uuid "52230764-b4e4-438e-b62a-0b4e20a67fe1")
 	)
-	(label "+62V"
+	(label "62V"
 		(at 83.82 124.46 0)
 		(effects
 			(font
@@ -6066,9 +6076,9 @@
 		(at 243.84 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "257ab830-c398-4da1-952e-7aa669752483")
 		(property "Reference" "TP8"
 			(at 238.506 32.258 0)
@@ -6088,7 +6098,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 248.92 38.1 0)
 			(effects
 				(font
@@ -6643,7 +6653,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "38c04847-a740-4e25-939b-3c037a606619")
 		(property "Reference" "C15"
 			(at 236.22 93.9799 0)
@@ -6923,9 +6933,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "45963ac9-96b5-43bf-bcbf-3ee119ceabe7")
 		(property "Reference" "TP3"
 			(at 101.6 62.9921 0)
@@ -6945,7 +6955,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 104.14 58.42 0)
 			(effects
 				(font
@@ -7086,9 +7096,9 @@
 		(at 76.2 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "49f0e6dd-c117-4a48-b908-b27459f66bb5")
 		(property "Reference" "TP2"
 			(at 71.628 88.392 0)
@@ -7108,7 +7118,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 81.28 88.9 0)
 			(effects
 				(font
@@ -7314,9 +7324,9 @@
 		(at 231.14 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "571c94a2-97bb-4a7b-ba62-952db1dca54f")
 		(property "Reference" "TP6"
@@ -7337,7 +7347,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 236.22 113.03 0)
 			(effects
 				(font
@@ -7455,9 +7465,9 @@
 		(at 233.68 52.07 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "5be8e2b3-3cff-4238-9116-a71afb2c03c9")
 		(property "Reference" "TP7"
 			(at 239.776 54.356 0)
@@ -7477,7 +7487,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 228.6 52.07 0)
 			(effects
 				(font
@@ -9707,9 +9717,9 @@
 		(at 180.34 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5b6dc42-6c5d-4dcd-9955-0322f73d8166")
 		(property "Reference" "TP5"
@@ -9730,7 +9740,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 185.42 59.69 0)
 			(effects
 				(font
@@ -10116,9 +10126,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "c8ae8ada-a3a9-4844-ac7b-b99634fcd5a6")
 		(property "Reference" "TP1"
 			(at 35.56 37.3379 0)
@@ -10138,7 +10148,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 33.02 41.91 0)
 			(effects
 				(font
@@ -10461,9 +10471,9 @@
 		(at 104.14 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "d6aa6cee-e30b-415d-9ed6-fddfca61b3a7")
 		(property "Reference" "TP4"
 			(at 99.568 87.63 0)
@@ -10483,7 +10493,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 109.22 88.9 0)
 			(effects
 				(font

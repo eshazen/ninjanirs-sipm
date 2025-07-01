@@ -2386,7 +2386,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:Texas_R-PDSO-G5_DCK-5"
+		(property "Footprint" "my_SC70:Texas_R-PDSO-G5_DCK-5"
 			(at 87.376 97.028 0)
 			(effects
 				(font

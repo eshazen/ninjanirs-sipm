@@ -5,4 +5,6 @@
   (lib (name "samtec")(type "KiCad")(uri "${KIPRJMOD}/samtec.pretty")(options "")(descr ""))
   (lib (name "my_smt_led")(type "KiCad")(uri "${KIPRJMOD}/my_smt_led.pretty")(options "")(descr ""))
   (lib (name "my_tp")(type "KiCad")(uri "${KIPRJMOD}/my_tp.pretty")(options "")(descr ""))
+  (lib (name "my_SC70")(type "KiCad")(uri "${KIPRJMOD}/my_SC70.pretty")(options "")(descr ""))
+  (lib (name "my_QFN")(type "KiCad")(uri "${KIPRJMOD}/my_QFN.pretty")(options "")(descr ""))
 )
