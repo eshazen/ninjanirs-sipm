@@ -4261,6 +4261,16 @@
 		)
 		(uuid "b92e5e04-54ee-4060-935e-3335980e9a0b")
 	)
+	(text "ISP Header\n(same as on IMU\nfor which we have\nan adapter PCB)"
+		(exclude_from_sim no)
+		(at 127.508 132.588 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ddd20102-82af-4840-ac6c-86577894c424")
+	)
 	(text "Readout (ribbon)"
 		(exclude_from_sim no)
 		(at 207.01 18.796 0)

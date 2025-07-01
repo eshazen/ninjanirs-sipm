@@ -3251,6 +3251,12 @@
 		(uuid "049f42b6-15bd-440f-bc37-12ef552442b1")
 	)
 	(junction
+		(at 66.04 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06c4b699-fcaf-4d70-8f10-013fb937cb7f")
+	)
+	(junction
 		(at 233.68 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3459,6 +3465,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae145ba1-b8ee-4ca4-8250-d2f11491d1ff")
+	)
+	(junction
+		(at 66.04 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b13f28d0-27f6-48c3-badf-e2451fd3d5f0")
 	)
 	(junction
 		(at 243.84 41.91)
@@ -4112,6 +4124,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 135.89) (xy 77.47 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a93fd25-4685-43bc-b6ed-fa0fa9862bbb")
+	)
+	(wire
+		(pts
 			(xy 53.34 140.97) (xy 82.55 140.97)
 		)
 		(stroke
@@ -4172,7 +4194,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 135.89) (xy 77.47 135.89)
+			(xy 38.1 135.89) (xy 66.04 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4739,6 +4761,16 @@
 			(type default)
 		)
 		(uuid "cff5bd56-8800-47ad-a0e4-3fccd9d8998c")
+	)
+	(wire
+		(pts
+			(xy 66.04 135.89) (xy 66.04 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d007380f-d115-40b2-8b4d-7953c1383e0f")
 	)
 	(wire
 		(pts
@@ -6056,7 +6088,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "my_tp:tp_SMT_label2"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 248.92 38.1 0)
 			(effects
 				(font
@@ -6843,7 +6875,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 133.35 146.05 0)
 			(effects
 				(font
@@ -6913,7 +6945,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "my_tp:tp_SMT_label2"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 104.14 58.42 0)
 			(effects
 				(font
@@ -7076,7 +7108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "my_tp:tp_SMT_label2"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 81.28 88.9 0)
 			(effects
 				(font
@@ -7305,7 +7337,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "my_tp:tp_SMT_label2"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 236.22 113.03 0)
 			(effects
 				(font
@@ -7445,7 +7477,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "my_tp:tp_SMT_label2"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 228.6 52.07 0)
 			(effects
 				(font
@@ -8346,7 +8378,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 91.694 97.536 90)
 			(effects
 				(font
@@ -8588,7 +8620,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 120.65 146.05 0)
 			(effects
 				(font
@@ -9698,7 +9730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "my_tp:tp_SMT_label2"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 185.42 59.69 0)
 			(effects
 				(font
@@ -10106,7 +10138,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "my_tp:tp_SMT_label2"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 33.02 41.91 0)
 			(effects
 				(font
@@ -10451,7 +10483,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "my_tp:tp_SMT_label2"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 109.22 88.9 0)
 			(effects
 				(font
