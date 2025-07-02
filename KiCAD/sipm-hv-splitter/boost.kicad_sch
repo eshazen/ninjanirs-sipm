@@ -889,146 +889,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_US"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "capacitor, US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_US_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.032 -1.27)
-					(mid 0 -0.5572)
-					(end 2.032 -1.27)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 3.302)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:D_Schottky"
 			(pin_numbers
 				(hide yes)
@@ -6859,7 +6719,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "Device:C")
 		(at 133.35 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6886,6 +6746,15 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 134.3152 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 133.35 146.05 0)
 			(effects
 				(font
@@ -6894,16 +6763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 133.35 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "capacitor, US symbol"
+		(property "Description" "Unpolarized capacitor"
 			(at 133.35 146.05 0)
 			(effects
 				(font
@@ -7882,7 +7742,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "Device:C")
 		(at 38.1 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7909,6 +7769,15 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 39.0652 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 38.1 140.97 0)
 			(effects
 				(font
@@ -7917,16 +7786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 38.1 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "capacitor, US symbol"
+		(property "Description" "Unpolarized capacitor"
 			(at 38.1 140.97 0)
 			(effects
 				(font
@@ -8604,7 +8464,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "Device:C")
 		(at 120.65 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8631,6 +8491,15 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 121.6152 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 120.65 146.05 0)
 			(effects
 				(font
@@ -8639,16 +8508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 120.65 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "capacitor, US symbol"
+		(property "Description" "Unpolarized capacitor"
 			(at 120.65 146.05 0)
 			(effects
 				(font
@@ -9200,7 +9060,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "Device:C")
 		(at 53.34 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9227,6 +9087,15 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 54.3052 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 53.34 147.32 0)
 			(effects
 				(font
@@ -9235,16 +9104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 53.34 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "capacitor, US symbol"
+		(property "Description" "Unpolarized capacitor"
 			(at 53.34 147.32 0)
 			(effects
 				(font
@@ -10542,7 +10402,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_US")
+		(lib_id "Device:C")
 		(at 66.04 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10569,6 +10429,15 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 67.0052 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 66.04 147.32 0)
 			(effects
 				(font
@@ -10577,16 +10446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 66.04 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "capacitor, US symbol"
+		(property "Description" "Unpolarized capacitor"
 			(at 66.04 147.32 0)
 			(effects
 				(font

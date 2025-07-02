@@ -498,6 +498,10 @@
       {
         "netclass": "HV",
         "pattern": "*BIAS*"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "*SIPM_K*"
       }
     ]
   },
