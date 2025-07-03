@@ -137,7 +137,7 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.1524,
         "min_track_width": 0.0,
-        "min_via_annular_width": 0.1,
+        "min_via_annular_width": 0.0762,
         "min_via_diameter": 0.254,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -499,11 +499,11 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.381,
+        "clearance": 0.3556,
         "line_style": 0,
         "name": "HV",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.381,
         "via_diameter": 0.635,
@@ -516,8 +516,21 @@
         "line_style": 0,
         "name": "PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(40, 121, 255)",
+        "track_width": 0.381,
+        "via_diameter": 0.635,
+        "via_drill": 0.254,
+        "wire_width": 10
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.381,
+        "line_style": 0,
+        "name": "SIG",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(113, 15, 255)",
         "track_width": 0.381,
         "via_diameter": 0.635,
         "via_drill": 0.254,
@@ -557,6 +570,10 @@
       {
         "netclass": "PWR",
         "pattern": "-24V"
+      },
+      {
+        "netclass": "SIG",
+        "pattern": "*SIG*"
       }
     ]
   },
