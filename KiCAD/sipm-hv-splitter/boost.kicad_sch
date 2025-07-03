@@ -5325,7 +5325,7 @@
 				(hide yes)
 			)
 		)
-		(property "MfgNo" "C0603C103M4REC7411"
+		(property "MfgNo" "06035C103MAZ2A"
 			(at 199.39 97.79 0)
 			(effects
 				(font
@@ -5334,7 +5334,7 @@
 				(hide yes)
 			)
 		)
-		(property "CatNo" "399-C0603C103M4REC7411CT-ND"
+		(property "CatNo" "478-KGF15AR71H103MTCT-ND"
 			(at 199.39 97.79 0)
 			(effects
 				(font
@@ -6215,6 +6215,24 @@
 				(hide yes)
 			)
 		)
+		(property "CatNo" "478-600S560JT250XT4KCT-ND"
+			(at 107.95 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "600S560JT250XT4K"
+			(at 107.95 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "37f1809d-2d45-47a2-bdcd-9ec8c53259d3")
 		)
@@ -6277,6 +6295,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 58.42 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "311-10.0KHRCT-ND"
+			(at 58.42 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "RC0603FR-0710KL"
 			(at 58.42 171.45 0)
 			(effects
 				(font
@@ -6703,6 +6739,24 @@
 				(hide yes)
 			)
 		)
+		(property "CatNo" "1292-1415-1-ND"
+			(at 102.87 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "0603B223K160CT"
+			(at 102.87 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3403d857-cb6d-4ce7-8dcf-194eec24e7f2")
 		)
@@ -6764,6 +6818,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 133.35 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "1276-6807-1-ND"
+			(at 133.35 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "CL10B104KC8NNNC"
 			(at 133.35 146.05 0)
 			(effects
 				(font
@@ -7146,7 +7218,7 @@
 				(hide yes)
 			)
 		)
-		(property "MfgNo" ""
+		(property "MfgNo" "ERJ-3EKF1000V"
 			(at 95.25 77.47 0)
 			(effects
 				(font
@@ -7155,7 +7227,7 @@
 				(hide yes)
 			)
 		)
-		(property "CatNo" ""
+		(property "CatNo" "P100HCT-ND"
 			(at 95.25 77.47 0)
 			(effects
 				(font
@@ -7795,6 +7867,24 @@
 				(hide yes)
 			)
 		)
+		(property "CatNo" "1276-1784-1-ND"
+			(at 38.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "CL10A475KO8NNNC"
+			(at 38.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "87fb0801-1986-4c25-bfa6-6130fdbbe292")
 		)
@@ -7929,7 +8019,7 @@
 				(hide yes)
 			)
 		)
-		(property "MfgNo" ""
+		(property "MfgNo" "ERJ-3EKF1000V"
 			(at 87.63 77.47 0)
 			(effects
 				(font
@@ -7938,7 +8028,7 @@
 				(hide yes)
 			)
 		)
-		(property "CatNo" ""
+		(property "CatNo" "P100HCT-ND"
 			(at 87.63 77.47 0)
 			(effects
 				(font
@@ -8430,7 +8520,7 @@
 				(hide yes)
 			)
 		)
-		(property "MfgNo" "C0603C103M4REC7411"
+		(property "MfgNo" "06035C103MAZ2A"
 			(at 76.2 31.75 0)
 			(effects
 				(font
@@ -8439,7 +8529,7 @@
 				(hide yes)
 			)
 		)
-		(property "CatNo" "399-C0603C103M4REC7411CT-ND"
+		(property "CatNo" "478-KGF15AR71H103MTCT-ND"
 			(at 76.2 31.75 0)
 			(effects
 				(font
@@ -8517,6 +8607,24 @@
 				(hide yes)
 			)
 		)
+		(property "CatNo" "490-18620-1-ND"
+			(at 120.65 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "GRM31CC72A475KE11L"
+			(at 120.65 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "187ed599-79cc-477b-b2a9-33824ba2e1d5")
 		)
@@ -8544,21 +8652,21 @@
 		(fields_autoplaced yes)
 		(uuid "86912fc8-8079-4233-a1d0-fe8354bf6091")
 		(property "Reference" "R16"
-			(at 119.38 43.1799 0)
+			(at 124.46 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "10.0k 1%"
-			(at 119.38 45.7199 0)
+		(property "Value" "10k"
+			(at 124.46 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
@@ -9044,6 +9152,24 @@
 				(hide yes)
 			)
 		)
+		(property "CatNo" "311-1088-1-ND"
+			(at 67.31 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "CC0603KRX7R7BB104"
+			(at 67.31 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2fc93d5a-e766-47f3-a978-30a7c95517a8")
 		)
@@ -9105,6 +9231,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 53.34 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "1276-1019-1-ND"
+			(at 53.34 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "CL10B105KO8NNNC"
 			(at 53.34 147.32 0)
 			(effects
 				(font
@@ -9241,6 +9385,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 60.96 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "541-100KHCT-ND"
+			(at 60.96 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "CRCW0603100KFKEA"
 			(at 60.96 101.6 0)
 			(effects
 				(font
@@ -10455,6 +10617,24 @@
 				(hide yes)
 			)
 		)
+		(property "CatNo" "1276-1019-1-ND"
+			(at 66.04 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "CL10B105KO8NNNC"
+			(at 66.04 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0f70992b-7e31-42f9-9f39-44f4f37344d9")
 		)
@@ -10742,7 +10922,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10.0k 1%"
+		(property "Value" "10k"
 			(at 52.832 43.434 0)
 			(effects
 				(font
@@ -11090,7 +11270,16 @@
 				(hide yes)
 			)
 		)
-		(property "MfgNo" ""
+		(property "MfgNo" "CL10B105KO8NNNC"
+			(at 91.44 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "1276-1019-1-ND"
 			(at 91.44 71.12 90)
 			(effects
 				(font

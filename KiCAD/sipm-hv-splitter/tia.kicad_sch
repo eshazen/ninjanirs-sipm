@@ -1241,6 +1241,24 @@
 				(hide yes)
 			)
 		)
+		(property "CatNo" "311-1088-1-ND"
+			(at 132.08 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "CC0603KRX7R7BB104"
+			(at 132.08 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "784fa420-34eb-441c-a753-7ec58b889a74")
 		)
@@ -1433,6 +1451,24 @@
 				(hide yes)
 			)
 		)
+		(property "CatNo" "311-1088-1-ND"
+			(at 73.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "CC0603KRX7R7BB104"
+			(at 73.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fa127193-ed73-45d5-b378-7c5081251bc5")
 		)
@@ -1528,6 +1564,24 @@
 				(hide yes)
 			)
 		)
+		(property "CatNo" "RMCF0603FT1K00CT-ND"
+			(at 63.5 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "RMCF0603FT1K00"
+			(at 63.5 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "06555553-58fe-428e-aad3-45c3181f5668")
 		)
@@ -1616,6 +1670,24 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 152.4 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "1276-CL03B102KOSVPNCCT-ND"
+			(at 152.4 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "CL03B102KOSVPNC"
+			(at 152.4 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2278,6 +2350,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 132.08 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "311-1088-1-ND"
+			(at 132.08 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "CC0603KRX7R7BB104"
 			(at 132.08 99.06 0)
 			(effects
 				(font

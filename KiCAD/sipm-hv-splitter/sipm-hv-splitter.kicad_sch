@@ -7907,7 +7907,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "-OMIT-"
+		(property "Value" "ISP"
 			(at 101.6 142.24 0)
 			(effects
 				(font
@@ -8165,6 +8165,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 241.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "587-2909-1-ND"
+			(at 241.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "TMK107ABJ225KA-T"
 			(at 241.3 137.16 0)
 			(effects
 				(font
@@ -8703,6 +8721,24 @@
 				(hide yes)
 			)
 		)
+		(property "CatNo" "1276-1019-1-ND"
+			(at 167.64 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "CL10B105KO8NNNC"
+			(at 167.64 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9b5d1e81-5da7-4668-aa1c-f61755ceff3e")
 		)
@@ -9036,6 +9072,24 @@
 				(hide yes)
 			)
 		)
+		(property "CatNo" "1276-1019-1-ND"
+			(at 101.6 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "CL10B105KO8NNNC"
+			(at 101.6 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4a3a32f3-83c2-4f4a-a93c-44f3bbf46dd8")
 		)
@@ -9163,6 +9217,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 57.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "1276-1019-1-ND"
+			(at 57.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "CL10B105KO8NNNC"
 			(at 57.15 96.52 0)
 			(effects
 				(font
@@ -10080,6 +10152,24 @@
 				(hide yes)
 			)
 		)
+		(property "CatNo" "587-2909-1-ND"
+			(at 196.85 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "TMK107ABJ225KA-T"
+			(at 196.85 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0ae75361-6bb4-4c11-bc29-32306a1732f7")
 		)
@@ -10140,6 +10230,24 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 224.79 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "RMCF0603FT1K00CT-ND"
+			(at 224.79 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "RMCF0603FT1K00"
+			(at 224.79 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10289,6 +10397,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 210.82 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "1276-1019-1-ND"
+			(at 210.82 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "CL10B105KO8NNNC"
 			(at 210.82 137.16 0)
 			(effects
 				(font
