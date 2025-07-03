@@ -6267,7 +6267,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10.0k"
 			(at 55.88 172.7199 0)
 			(effects
 				(font
@@ -8192,7 +8192,7 @@
 				(hide yes)
 			)
 		)
-		(property "MfgNo" ""
+		(property "MfgNo" "RMCF0603FT24K0"
 			(at 218.44 53.34 0)
 			(effects
 				(font
@@ -8201,7 +8201,7 @@
 				(hide yes)
 			)
 		)
-		(property "CatNo" ""
+		(property "CatNo" "RMCF0603FT24K0CT-ND"
 			(at 218.44 53.34 0)
 			(effects
 				(font
@@ -8279,7 +8279,7 @@
 				(hide yes)
 			)
 		)
-		(property "MfgNo" ""
+		(property "MfgNo" "RMCF0603FT510K"
 			(at 218.44 45.72 0)
 			(effects
 				(font
@@ -8288,7 +8288,7 @@
 				(hide yes)
 			)
 		)
-		(property "CatNo" ""
+		(property "CatNo" "RMCF0603FT510KCT-ND"
 			(at 218.44 45.72 0)
 			(effects
 				(font
@@ -8365,7 +8365,7 @@
 				(hide yes)
 			)
 		)
-		(property "MfgNo" "RMCF0603FT3R00"
+		(property "MfgNo" "MFCR1206F3R00QHR"
 			(at 91.44 96.52 90)
 			(effects
 				(font
@@ -8374,7 +8374,7 @@
 				(hide yes)
 			)
 		)
-		(property "CatNo" "RMCF0603FT3R00CT-ND"
+		(property "CatNo" "4506-MFCR1206F3R00QHRCT-ND"
 			(at 91.44 96.52 90)
 			(effects
 				(font
@@ -8660,7 +8660,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10.0k"
 			(at 124.46 45.7199 0)
 			(effects
 				(font
@@ -9036,6 +9036,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 72.39 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "296-LM51581RTERCT-ND"
+			(at 72.39 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "LM51581RTER"
 			(at 72.39 148.59 0)
 			(effects
 				(font
@@ -9865,6 +9883,24 @@
 				(hide yes)
 			)
 		)
+		(property "CatNo" "541-5389-1-ND"
+			(at 102.87 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "CRCW06033K16FKEAC"
+			(at 102.87 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4928b215-08f8-45da-ace3-c2de38415dcd")
 		)
@@ -10273,6 +10309,24 @@
 				(hide yes)
 			)
 		)
+		(property "CatNo" "P150KHCT-ND"
+			(at 107.95 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "ERJ-3EKF1503V"
+			(at 107.95 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "557d0fb3-b238-4bf8-9a3d-892de6ac478c")
 		)
@@ -10400,6 +10454,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 107.95 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "541-4044-1-ND"
+			(at 107.95 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "CRCW06032K49FKEAC"
 			(at 107.95 154.94 0)
 			(effects
 				(font
@@ -10922,7 +10994,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10.0k"
 			(at 52.832 43.434 0)
 			(effects
 				(font

@@ -1884,6 +1884,24 @@
 				(hide yes)
 			)
 		)
+		(property "CatNo" "A121558CT-ND"
+			(at 152.4 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "CRG0603F15K"
+			(at 152.4 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d7f8a009-8401-45f3-bc16-337107d35197")
 		)
@@ -2066,6 +2084,24 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 171.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "311-15.0HRCT-ND"
+			(at 171.45 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "RC0603FR-0715RL"
+			(at 171.45 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2559,6 +2595,24 @@
 		)
 		(property "Description" "140-MHz, Rail-to-Rail Input and Output, FET-Input Operational Amplifier, SC-70-5"
 			(at 146.05 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CatNo" "296-OPA810IDCKRCT-ND"
+			(at 146.05 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgNo" "OPA810IDCKR"
+			(at 146.05 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
