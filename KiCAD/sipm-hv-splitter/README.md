@@ -52,11 +52,22 @@ the adapter card.
 
 ## Revision log
 
-Edits due from BZ on 7/1/25:
+### 7/7/25:
+Final checks
+
+* Add LC filter on AVCC on MCU
+* Add filter C on AREF
+   * working on layout changes
+
+### 7/3/25:  
+First complete draft, posted to Basecamp
+
+### Edits due from BZ on 7/1/25:
 
 * Mis-wired RC filter on TIA input; should be on each SiPM bias line.
 <br>_NOTE:_ the RC filter should be moved to the heirarchial block for
-each channel for common layout?
+each channel for common layout? *DONE*
 * Swap UART TX/RX *DONE*
-* Use same symbol for all caps C2, C3 etc
-* Add filter on `THERM`
+* Use same symbol for all caps C2, C3 etc *DONE*
+* Add filter on `THERM` *DONE*
+
