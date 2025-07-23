@@ -1,12 +1,12 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,9.0.2-9.0.2-0~ubuntu24.04.1*%
-%TF.CreationDate,2025-07-08T13:32:57-04:00*%
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.3-9.0.3-0~ubuntu24.04.1*%
+%TF.CreationDate,2025-07-10T15:37:18-04:00*%
 %TF.ProjectId,sipm-hv-splitter,7369706d-2d68-4762-9d73-706c69747465,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L6,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.2-9.0.2-0~ubuntu24.04.1) date 2025-07-08 13:32:57*
+G04 Created by KiCad (PCBNEW 9.0.3-9.0.3-0~ubuntu24.04.1) date 2025-07-10 15:37:18*
 %MOMM*%
 %LPD*%
 G01*
@@ -30,13 +30,13 @@ G04 Aperture macros list*
 20,1,$1+$1,$8,$9,$2,$3,0*%
 G04 Aperture macros list end*
 %TA.AperFunction,HeatsinkPad*%
-%ADD10C,0.500000*%
+%ADD10C,0.350000*%
 %TD*%
 %TA.AperFunction,HeatsinkPad*%
-%ADD11R,0.500000X1.600000*%
+%ADD11C,0.500000*%
 %TD*%
 %TA.AperFunction,HeatsinkPad*%
-%ADD12C,0.254000*%
+%ADD12R,0.500000X1.600000*%
 %TD*%
 %TA.AperFunction,ComponentPad*%
 %ADD13R,0.850000X0.850000*%
@@ -70,15 +70,6 @@ G04 Aperture macros list end*
 %TD*%
 G04 APERTURE END LIST*
 D10*
-%TO.P,U16,7,Pad*%
-%TO.N,GND*%
-X77849500Y-80715000D03*
-D11*
-X77849500Y-81265000D03*
-D10*
-X77849500Y-81815000D03*
-%TD*%
-D12*
 %TO.P,U3,17,EP/GND*%
 %TO.N,GND*%
 X70627000Y-58027500D03*
@@ -86,6 +77,15 @@ X70627000Y-57187500D03*
 X70207000Y-57607500D03*
 X69787000Y-58027500D03*
 X69787000Y-57187500D03*
+%TD*%
+D11*
+%TO.P,U16,7,Pad*%
+%TO.N,GND*%
+X77849500Y-80715000D03*
+D12*
+X77849500Y-81265000D03*
+D11*
+X77849500Y-81815000D03*
 %TD*%
 D13*
 %TO.P,J3,1,MISO*%
@@ -108,13 +108,13 @@ X83931000Y-53213000D03*
 %TO.N,GND*%
 X84931000Y-53213000D03*
 %TD*%
-D10*
+D11*
 %TO.P,U14,7,Pad*%
 %TO.N,GND*%
 X67311500Y-80715000D03*
-D11*
+D12*
 X67311500Y-81265000D03*
-D10*
+D11*
 X67311500Y-81815000D03*
 %TD*%
 D15*
@@ -781,8 +781,6 @@ X72898000Y-56134000D03*
 %TO.N,Net-(U1-PD2)*%
 X79633500Y-55748500D03*
 X80391000Y-54102000D03*
-%TO.N,Net-(U1-AVCC)*%
-X85090000Y-59436000D03*
 %TD*%
 D21*
 %TO.N,GND*%
