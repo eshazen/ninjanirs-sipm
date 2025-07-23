@@ -24,6 +24,9 @@ static char buff[80];
 static char* argv[MAXARG];
 static int iargv[MAXARG];
 
+// temp variables
+uint8_t v;
+
 void error() {
   puts_P( PSTR("Error"));
 }
@@ -44,6 +47,7 @@ int main (void)
   BOOST_PORT &= ~(_BV(BOOST_BIT));
 
   set_digi_pot( AD5270_WCTL | 2);    // enable wiper setting
+  set_digi_pot( AD5270_WCTL | 2);    // enable wiper setting (why twice?)
 
   puts_P( PSTR("SIPM test 0.1\n"));
 
@@ -60,6 +64,39 @@ int main (void)
       puts_P( PSTR("L d   - set LED"));
       puts_P( PSTR("B d   - set BOOST_ENA"));
       puts_P( PSTR("P d   - set digital pot"));
+      puts_P( PSTR("R d   - raw SPI write/read"));
+      puts_P( PSTR("D d   - debug write/read"));
+      break;
+
+    case 'D':
+      do {
+	SPI_PORT &= ~(_BV(DIGI_POT_SYNC_BIT)); /* nSYNC low */
+	spi_transmit( (iargv[1] >> 8) & 0xff);
+	v = spi_receive();
+	printf("%02x ", v);
+	spi_transmit( iargv[1] & 0xff);
+	v = spi_receive();
+	printf("%02x\n", v);
+	SPI_PORT |= _BV(DIGI_POT_SYNC_BIT); /* nSYNC high */
+	_delay_ms(500);
+      } while( !USART0CharacterAvailable());
+      break;
+      
+    case 'R':
+      // write a command
+      SPI_PORT &= ~(_BV(DIGI_POT_SYNC_BIT)); /* nSYNC low */
+      spi_transmit( (iargv[1] >> 8) & 0xff);
+      spi_transmit( iargv[1] & 0xff);
+      SPI_PORT |= _BV(DIGI_POT_SYNC_BIT); /* nSYNC high */
+      // extra 16 clocks to optionally read
+      SPI_PORT &= ~(_BV(DIGI_POT_SYNC_BIT)); /* nSYNC low */
+      spi_transmit( 0);
+      v = spi_receive();
+      printf("%02x ", v);
+      spi_transmit( 0);
+      v = spi_receive();
+      printf("%02x\n", v);
+      SPI_PORT |= _BV(DIGI_POT_SYNC_BIT); /* nSYNC high */
       break;
 
     case 'L':

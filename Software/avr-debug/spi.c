@@ -5,9 +5,9 @@
 
 void spi_init() {
   SPI_DDR |= _BV(SPI_SCK_PIN) | _BV(SPI_MOSI_PIN);
-  // enable SPI, set as master, rate = fosc/16 (62.5kHz for 1MHz clock)
+  // enable SPI, set as master, rate = fosc/16 (62.5kHz for 8MHz clock)
   // set CPOL=0, CPHA=1 per DPOT data sheet
-  SPCR = _BV(CPHA) |_BV(SPE) | _BV(MSTR) | _BV(SPR0);
+  SPCR = _BV(SPR1) | _BV(CPHA) |_BV(SPE) | _BV(MSTR) | _BV(SPR0);
 }
 
 void spi_transmit( uint8_t d) {

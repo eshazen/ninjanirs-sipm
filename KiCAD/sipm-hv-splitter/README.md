@@ -60,7 +60,11 @@ Soldered temporary FTDI serial thing on R1 site.
 Boost converter works!  Outputting 61.3V, drawing 69mA on 12V.
 Controlled as expected by `BOOST_ENA` output from MCU.
 
-Install Digi pot.
+Install Digi pot.  Doesn't work :(  <br>
+Verified SCK, MOSI, nSYNC all look OK. <br>
+Nothing comes out MISO, POT stuck at 50%. <br>
+
+Giving up for today
 
 ## Revision log
 
