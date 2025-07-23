@@ -50,6 +50,18 @@ data) from the adapter card to the on-board MCU.  `COMM/TX` is an
 optional half-duplex return path for bidirectional communication with
 the adapter card.
 
+## Testing Log
+
+### 7/23/25:
+
+Soldered 3.3V regulators, MCU and boost converter parts.
+Soldered temporary FTDI serial thing on R1 site.
+
+Boost converter works!  Outputting 61.3V, drawing 69mA on 12V.
+Controlled as expected by `BOOST_ENA` output from MCU.
+
+Install Digi pot.
+
 ## Revision log
 
 ### 7/7/25:
