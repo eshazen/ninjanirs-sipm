@@ -52,6 +52,21 @@ the adapter card.
 
 ## Testing Log
 
+### 7/24/25:
+
+Found a "feature" of the AVR SPI bus:  The pin called nSS (PB2)
+must be driven high for the SPI bus to work.  We're using this
+for BOOST_ENA so this is a bit of a problem.
+
+More seriously, the ISP interface on the AVR seems to be dead.
+This could be because we were using the ISP in 5V mode :(
+<br>One can set 3.3V (host power) mode by removing the little yellow jumper
+on the USBTinyISP.
+
+May need to solder up a new board :( :(
+<br>Start on board#2.  Install only 3.3V digital and MCU.
+Programs fine.  Stopping for the weekend.
+
 ### 7/23/25:
 
 Soldered 3.3V regulators, MCU and boost converter parts.

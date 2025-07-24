@@ -45,16 +45,22 @@ int main (void)
   stdout = &usart0_str;		/* connect UART to stdout */
   stdin = &usart0_str;		/* connect UART to stdin */
 
-  LED_DDR |= _BV(LED_BIT);
-  BOOST_DDR |= _BV(BOOST_BIT); 
+  DDRB |= _BV(2);		/* set SS (PB2) as output */
+  PORTB |= _BV(2);		/* set SS (PB2) high */
 
-  LED_PORT &= ~(_BV(LED_BIT));
-  BOOST_PORT &= ~(_BV(BOOST_BIT));
+//  LED_DDR |= _BV(LED_BIT);
+//  BOOST_DDR |= _BV(BOOST_BIT); 
+//
+//  LED_PORT &= ~(_BV(LED_BIT));
+//  BOOST_PORT &= ~(_BV(BOOST_BIT));
 
-  set_digi_pot( AD5270_WCTL | 2);    // enable wiper setting
-  set_digi_pot( AD5270_WCTL | 2);    // enable wiper setting (why twice?)
+  //  set_digi_pot( AD5270_WCTL | 2);    // enable wiper setting
+  //  set_digi_pot( AD5270_WCTL | 2);    // enable wiper setting (why twice?)
 
-  puts_P( PSTR("SIPM test 0.1\n"));
+  do {
+    puts_P( PSTR("SIPM test 0.1\n"));
+    _delay_ms( 1000);
+  } while( !USART0CharacterAvailable());
 
   while(1) {
     fputs(">", stdout);
@@ -79,6 +85,8 @@ int main (void)
 	error();
       } else {
 	spi_init( iargv[1], iargv[2]);
+	// read and display the registers
+	printf("SPCR = 0x%02x SPSR = 0x%02x\n", SPCR, SPSR);
       }
       break;
       

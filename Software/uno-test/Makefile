@@ -6,7 +6,7 @@
 #
 
 # options: uno, avr
-chip=avr
+chip=uno
 # options: avrisp2, usbtiny, arduino
 prog=usbtiny
 
@@ -52,8 +52,15 @@ CFLAGS_NOOPT = -g -O0 -mmcu=$(MCU) $(EXTRAOPT) -DF_CPU=$(F_OSC) -I../util -Wl,-u
 
 LDFLAGS = -Wl,-Map=$(<:.o=.map),--cref -mmcu=$(MCU)
 
+ifeq ($(chip),uno)
+# restore default fuses on uno
+FUSEOPT = -U lfuse:w:0xff:m -U hfuse:w:0xd9:m
+endif
+
+ifeq ($(chip),avr)
 # lfuse default 0x62 write as 0xe2 to disable CLKDIV8
 FUSEOPT = -U lfuse:w:0xe2:m
+endif
 
 RFUSEOPT = -U hfuse:r:-:h -U lfuse:r:-:h -U efuse:r:-:h
 

@@ -1,5 +1,7 @@
 // spi.c - super simple SPI library for AVR
 
+#include <avr/pgmspace.h>
+#include <stdio.h>
 #include <avr/io.h>
 #include <util/delay.h>
 #include "spi.h"
@@ -17,14 +19,13 @@ void spi_init( int cpha, int cpol) {
     SPCR |= _BV( CPOL);
   else
     SPCR &= ~_BV( CPOL);
+  printf_P( PSTR("init: SPCR = 0x%02x SPSR = 0x%02x\n"), SPCR, SPSR);
 }
 
 void spi_transmit( uint8_t d) {
   SPDR = d;
-  // try a fixed delay
-//   while( !(SPSR & _BV(SPIF)))
-//     ;
-  _delay_us( 150);
+  while( !(SPSR & _BV(SPIF)))
+    ;
 }
 
 uint8_t spi_receive() {
