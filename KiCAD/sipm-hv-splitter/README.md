@@ -50,7 +50,30 @@ data) from the adapter card to the on-board MCU.  `COMM/TX` is an
 optional half-duplex return path for bidirectional communication with
 the adapter card.
 
+## ECOs
+
+* Cut track to SDO U5 pin 7 at chip.  Add 2.2k pull-up to 3.3V
+on pin 7.
+* Cut track to BOOST_ENA and wire to PD5 (pin 9) of U1.
+
 ## Testing Log
+
+### 7/29/25:
+
+Add 2.2k pull-up on Digi Pot SDO.  It works!
+<br>Move `BOOST_ENA` to PD5
+
+Install U4, R17, R20 and C11, C12 as 0.1uF 100V.
+
+### 7/28/25:
+
+Started a new board, installed MCU and digi pot.
+
+Found that ISP is unreliable here too.  Cut "SDO" track from digipot.
+Now it seems to work reliably.  But Digi pot doesn't work.
+
+Notice that the data sheet says that a pull-up is *required* on SDO
+even if not used.
 
 ### 7/24/25:
 

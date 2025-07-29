@@ -46,9 +46,9 @@ int main (void)
   stdin = &usart0_str;		/* connect UART to stdin */
 
   LED_DDR |= _BV(LED_BIT);
-  BOOST_DDR |= _BV(BOOST_BIT); 
-
   LED_PORT &= ~(_BV(LED_BIT));
+
+  BOOST_DDR |= _BV(BOOST_BIT); 
   BOOST_PORT &= ~(_BV(BOOST_BIT));
 
   set_digi_pot( AD5270_WCTL | 2);    // enable wiper setting
@@ -80,6 +80,7 @@ int main (void)
       } else {
 	spi_init( iargv[1], iargv[2]);
       }
+      printf_P( PSTR("SPCR: 0x%02x  SPSR: 0x%02x\n"), SPCR, SPSR);
       break;
       
     case 'D':
@@ -100,11 +101,7 @@ int main (void)
       // write a command
       SPI_PORT &= ~(_BV(DIGI_POT_SYNC_BIT)); /* nSYNC low */
       spi_transmit( (iargv[1] >> 8) & 0xff);
-      v = spi_receive();
-      printf("%02x ", v);
       spi_transmit( iargv[1] & 0xff);
-      v = spi_receive();
-      printf("%02x\n", v);
       SPI_PORT |= _BV(DIGI_POT_SYNC_BIT); /* nSYNC high */
       break;
 
