@@ -58,6 +58,18 @@ on pin 7.
 
 ## Testing Log
 
+### 8/4/25:
+
+Issues with oscillation on output; seems like the LT3014.
+Change C11 and C12 to 1uF 100V (vs 0.1uF).  Seems better.
+Still some issues with startup.
+
+Change R3 from 140k to 75k (double the overcurrent).
+Now all seems good except for some ripple at max output.
+Change R13 to 160k to up boost output to 65V.
+
+All good so far.
+
 ### 7/29/25:
 
 Add 2.2k pull-up on Digi Pot SDO.  It works!

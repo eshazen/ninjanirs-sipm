@@ -68,8 +68,8 @@ void USART0GetString( char *buffer, int max)
 
   while( 1) {
     c = USART0ReceiveByte( NULL);
-    putchar( c);
     if( c == '\n') {
+      putchar( c);
       *p++ = '\0';
       return;
     }
@@ -77,6 +77,7 @@ void USART0GetString( char *buffer, int max)
       putchar('\b');
       --p;
     } else {
+      putchar( c);
       *p++ = c;
     }
     

@@ -45,8 +45,8 @@ $(info DUDPORT is $(DUDEPORT))
 $(info EXTRAOPT is $(EXTRAOPT))
 $(info F_OSC is $(F_OSC))
 
-
-CFLAGS = -g -Os -mmcu=$(MCU) $(EXTRAOPT) -DF_CPU=$(F_OSC) -Wl,-u,vfprintf -lprintf_min -lm -DUART_GET_STRING_USED
+# CFLAGS = -g -Os -mmcu=$(MCU) $(EXTRAOPT) -DF_CPU=$(F_OSC) -Wl,-u,vfprintf -lprintf_min -lm -DUART_GET_STRING_USED
+CFLAGS = -g -Os -mmcu=$(MCU) $(EXTRAOPT) -DF_CPU=$(F_OSC) -Wl,-u,vfprintf -lm -DUART_GET_STRING_USED
 # no-optimization settings for interrupt code
 CFLAGS_NOOPT = -g -O0 -mmcu=$(MCU) $(EXTRAOPT) -DF_CPU=$(F_OSC) -I../util -Wl,-u,vfprintf -lprintf_min
 
@@ -59,9 +59,9 @@ RFUSEOPT = -U hfuse:r:-:h -U lfuse:r:-:h -U efuse:r:-:h
 
 AVRDUDE  = avrdude $(DUDEPORT) -p $(DUDEMCU) -y -u 
 
-objects = main.o uart.o parse.o spi.o dpot.o
+objects = main.o uart.o parse.o spi.o dpot.o avr_adc.o
 
-headers = parse.h uart.h sipm_io.h spi.h dpot.h
+headers = parse.h uart.h sipm_io.h spi.h dpot.h avr_adc.h
 
 all: $(objects)  main.hex list
 

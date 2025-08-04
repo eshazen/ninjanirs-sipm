@@ -1,6 +1,5 @@
 /*
- * UART stdio example
- * note that there is no editing on input!
+ * fNIRS SiPM power supply test
  */
 
 #include <stdio.h>
@@ -14,6 +13,7 @@
 #include "parse.h"
 #include "sipm_io.h"
 #include "dpot.h"
+#include "avr_adc.h"
 
 // create a file pointer for read/write to USART0
 FILE usart0_str = FDEV_SETUP_STREAM(USART0SendByte, USART0ReceiveByte, _FDEV_SETUP_RW);
@@ -30,48 +30,106 @@ static uint8_t spi_cpol = 0;
 
 // temp variables
 uint8_t v;
+uint16_t adc;
+uint32_t iv;
 
 void error() {
   puts_P( PSTR("Error"));
+}
+
+// print a scaled integer value with 3 fractional digits as xxx.x
+// uses buff
+void pdec( uint32_t v) {
+  snprintf( buff, sizeof(buff), "%ld", v);
+  size_t s = strlen(buff);
+  buff[s-2] = buff[s-3];
+  buff[s-3] = '.';
+  buff[s-1] = '\0';
+  fputs( buff, stdout);
 }
 
 int main (void)
 {
   unsigned char c = ' ';
 
-  USART0Init();
-  spi_init(spi_cpha, spi_cpol);
-  init_digi_pot();
+  USART0Init();			/* initialize non-interrupt UART */
+  spi_init(spi_cpha, spi_cpol);	/* initialize SPI with CPHA, CPOL defaults */
+  init_digi_pot();		/* initialize I/Os for digital pot */
   stdout = &usart0_str;		/* connect UART to stdout */
   stdin = &usart0_str;		/* connect UART to stdin */
+  InitADC();			/* initialize built-in ADC */
 
-  LED_DDR |= _BV(LED_BIT);
+  LED_DDR |= _BV(LED_BIT);	/* set LED direction */
   LED_PORT &= ~(_BV(LED_BIT));
 
-  BOOST_DDR |= _BV(BOOST_BIT); 
-  BOOST_PORT &= ~(_BV(BOOST_BIT));
+  BOOST_DDR |= _BV(BOOST_BIT); 	/* set boost enable direction */
+  BOOST_PORT &= ~(_BV(BOOST_BIT)); /* default boost enable off */
+
+  VR_DDR |= _BV(VR_RESET_BIT) | _BV(VR_SHDN_BIT); /* dir for VR controls */
+
+  // set VR controls to resting values (RESET high, SHDN high)
+  VR_PORT |= _BV(VR_RESET_BIT) | _BV(VR_SHDN_BIT);
 
   set_digi_pot( AD5270_WCTL | 2);    // enable wiper setting
   set_digi_pot( AD5270_WCTL | 2);    // enable wiper setting (why twice?)
 
-  puts_P( PSTR("SIPM test 0.1\n"));
+  puts_P( PSTR("SIPM test 0.2\n"));
 
   while(1) {
     fputs(">", stdout);
     USART0GetString( buff, sizeof(buff));
     char cmd_c = toupper( *argv[0]);
+    char cmd_2 = toupper( argv[0][1]);
 
     int argc = parse( buff, argv, iargv, sizeof(argv)/sizeof(argv[0]));
 
     switch( cmd_c) {
     case 'H':
       puts_P( PSTR("H     - list commands"));
+      puts_P( PSTR("A d   - read ADC"));
       puts_P( PSTR("L d   - set LED"));
+      puts_P( PSTR("B d   - set BOOST_ENA"));
+      puts_P( PSTR("VR d  - set INA201 reset"));
+      puts_P( PSTR("VS d  - set LT3014 shutdown"));
       puts_P( PSTR("B d   - set BOOST_ENA"));
       puts_P( PSTR("P d   - set digital pot"));
       puts_P( PSTR("R d   - raw SPI write/read"));
       puts_P( PSTR("D d   - debug write/read"));
       puts_P( PSTR("S pha pol - set SPI params"));
+      break;
+
+    case 'A':
+      if( argc > 1) {
+	adc = ReadADC( iargv[1]);
+	printf_P( PSTR("%d\n"), adc);
+      } else {
+	iv = (long)MV_PER_ADC*ReadADC( 1);	/* get voltage */
+	pdec( iv);
+	fputs_P( PSTR(" V "), stdout);
+	iv = (long)NA_PER_ADC*ReadADC( 0); /* get current */
+	pdec( iv);
+	puts_P( PSTR(" uA"));
+      }
+      break;
+
+    case 'V':
+      switch( cmd_2) {
+      case 'R':
+	if( iargv[1])
+	  VR_PORT |= _BV(VR_RESET_BIT);
+	else
+	  VR_PORT &= ~_BV(VR_RESET_BIT);
+	break;
+      case 'S':
+	if( iargv[1])
+	  VR_PORT |= _BV(VR_SHDN_BIT);
+	else
+	  VR_PORT &= ~_BV(VR_SHDN_BIT);
+	break;
+      default:
+	error();
+	break;
+      }
       break;
 
     case 'S':
