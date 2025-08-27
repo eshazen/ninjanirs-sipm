@@ -12,14 +12,14 @@ import re
 # function to plot data
 # ax = axis object (xval, yval, yerr) are x, y values and y error
 # colr = color to plot
-def do_plot( ax, xval, yval):
+def do_plot( ax, xval, yval, ylab):
     colr = 'blue'
     #--- plot red ---
     ax.plot( xval, yval, 'bo')
 #    ax.errorbar( xval, yval, yerr = yerr, fmt= 'o', color = colr)
     ax.grid(True)
     ax.set_xlabel("DAC value")
-    ax.set_ylabel("HV Voltage")
+    ax.set_ylabel(ylab)
     ax.set_ylim(min(yval)*0.9,max(yval)*1.1)
 #------------------------------------------------------------
 
@@ -67,7 +67,7 @@ curr = [row[2] for row in rows_f] # Voltage is column 2
 # panel with 2 x 1 plots
 fig, ax = plt.subplots( nrows=2, ncols=1)
 
-do_plot( ax[0], dac, volt)
-do_plot( ax[1], dac, curr)
+do_plot( ax[0], dac, volt, 'Voltage')
+do_plot( ax[1], dac, curr, 'Current uA')
 
 plt.show()

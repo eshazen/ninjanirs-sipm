@@ -55,8 +55,41 @@ the adapter card.
 * Cut track to SDO U5 pin 7 at chip.  Add 2.2k pull-up to 3.3V
 on pin 7.
 * Cut track to BOOST_ENA and wire to PD5 (pin 9) of U1.
+* C39 wrong footprint on schematic/BOM (0201)
 
 ## Testing Log
+
+### 8/27/25:
+
+Looking to use [test board](https://github.com/eshazen/ninjanirs-optode/tree/main/KiCAD/test-board) as a breakout.
+
+```
+  +6.5V  -  use for +12V power
+  GND    -  ground
+  -20V   -  use for -20V for TIA negative power
+```
+
+Solder wires to J1 pins 33 (comm TX) and 34 (comm RX).
+
+
+### 8/20/25:
+
+Load resistor of 66k on outputs.  Script `ramp_plot.py` makes
+a nice set of V, I curvs vs DAC setting.
+
+Ripple with scope probe ~ 20mV pk-pk.  100MHz always present,
+20Hz (!) only when boost converter on.
+
+Install parts for detector 0:
+
+```
+   R44, C47  (1k, 0.1uF) bias filter
+   C23, C31 (0.1uF) bypass
+   R28 (15k, TI)
+   U13 (opa)
+   R36 (15 ohms) output
+   C39 (1n) feedback
+```
 
 ### 8/4/25:
 
@@ -115,6 +148,8 @@ Verified SCK, MOSI, nSYNC all look OK. <br>
 Nothing comes out MISO, POT stuck at 50%. <br>
 
 Giving up for today
+
+
 
 ## Revision log
 

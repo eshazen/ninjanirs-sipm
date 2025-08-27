@@ -4595,6 +4595,36 @@
 		)
 		(uuid "2974c1af-dc72-4a1b-b18a-9c99cd31d7ce")
 	)
+	(text "WHT"
+		(exclude_from_sim no)
+		(at 106.68 35.052 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2a85e9b9-cd9b-4120-bcaa-eaa4ef758fd0")
+	)
+	(text "RED"
+		(exclude_from_sim no)
+		(at 139.7 32.004 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "482e7836-9068-468d-9228-db55666f029a")
+	)
+	(text "BLK"
+		(exclude_from_sim no)
+		(at 139.7 34.798 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "53057912-8c41-4d4b-8a74-ec5fdcef0cdc")
+	)
 	(text "Optodes (SiPM, female)"
 		(exclude_from_sim no)
 		(at 107.442 22.098 0)
@@ -4615,6 +4645,16 @@
 			)
 		)
 		(uuid "b92e5e04-54ee-4060-935e-3335980e9a0b")
+	)
+	(text "SHD"
+		(exclude_from_sim no)
+		(at 106.426 32.004 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d2339d1c-2c1f-4b36-a39b-5811df993781")
 	)
 	(text "ISP Header (1mm)\n(same as on IMU\nfor which we have\nan adapter PCB)"
 		(exclude_from_sim no)
@@ -5864,6 +5904,16 @@
 			(type default)
 		)
 		(uuid "60738335-dac0-46c3-85e8-aa9bcd94c1ca")
+	)
+	(wire
+		(pts
+			(xy 104.14 35.56) (xy 113.03 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64297aaa-3538-494f-b442-131b8e1f487a")
 	)
 	(wire
 		(pts

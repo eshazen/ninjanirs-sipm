@@ -32,9 +32,18 @@ static uint8_t spi_cpol = 0;
 uint8_t v;
 uint16_t adc;
 uint32_t iv;
+double degC;
 
 void error() {
   puts_P( PSTR("Error"));
+}
+
+// convert ADC value to degrees C assuming thermistor
+// in 10k voltage divider with B25/85 = 3435K
+double adc_to_degC( uint32_t v) {
+  double a = v/1024.0;	/* ADC fraction */
+  double r = 10.0 / (1.0/a-1.0);
+  return (1.0 / (0.00268261 + 0.000287503*log(r) + 7.70855e-07 * pow( log(r), 3.0))) - 273.15;
 }
 
 // print a scaled integer value with 3 fractional digits as xxx.x
@@ -108,7 +117,11 @@ int main (void)
 	fputs_P( PSTR(" V "), stdout);
 	iv = (long)NA_PER_ADC*ReadADC( 0); /* get current */
 	pdec( iv);
-	puts_P( PSTR(" uA"));
+	fputs_P( PSTR(" uA " ), stdout);
+	iv = ReadADC( 2);	/* get temperature value*/
+	degC = adc_to_degC( iv);
+	pdec( (int)degC * 1000.0);
+	puts_P( PSTR(" degC"));
       }
       break;
 
