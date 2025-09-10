@@ -5,13 +5,14 @@ include <arc.scad>
 
 e = 0.1;
 mm = 25.4;
-$fn = 32;
+$fn = 128;
 
 // optode dims
 op_lg_dia = 12;
 op_lg_len = 10.5;
 op_sm_dia = 7;
 op_sm_len = 6.5;
+op_over = 0.5;			/* oversize for optode mounting holes */
 
 // box dims
 box_len = 120;
@@ -102,7 +103,7 @@ module op_bracket() {
       cube( [op_bkt_thk, op_bkt_wid, box_hgt]);
       translate( [-e, op_bkt_wid/2, box_hgt/2])
 	rotate( [0, 90, 0])
-	cylinder( d=op_lg_dia+0.2, h=op_bkt_thk+2*e);
+	cylinder( d=op_lg_dia+op_over, h=op_bkt_thk+2*e);
     }
   }
   translate( [op_off-op_sm_len+e, op_bkt_offset, 0]) {
@@ -110,7 +111,7 @@ module op_bracket() {
       cube( [op_bkt_thk, op_bkt_wid, box_hgt]);
       translate( [-e, op_bkt_wid/2, box_hgt/2])
 	rotate( [0, 90, 0])
-	cylinder( d=op_sm_dia+0.2, h=op_bkt_thk+2*e);
+	cylinder( d=op_sm_dia+op_over, h=op_bkt_thk+2*e);
     }
   }
 }
@@ -192,7 +193,7 @@ module lid() {
      }
 }
 
-// box_assembly();
+box_assembly();
 
-translate( [0, 0, box_hgt+5]) lid();
+// translate( [0, 0, box_hgt+5]) lid();
 
