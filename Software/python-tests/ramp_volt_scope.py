@@ -58,7 +58,7 @@ ser_cmd( "b 1\r")
 
 rows_f = []                     # data ends up here as a list of lists
 
-for i in range(300,50,-10):
+for i in range(350,0,-50):
     # set the voltage on the DAC
     cmd = "p %d\r" % i
     ser_cmd( cmd)
@@ -73,7 +73,7 @@ for i in range(300,50,-10):
     res = vals[0]
     volt = float(res[0])
     curr = float(res[1])
-    sipm_current = abs(float(scope)) / tir
+    sipm_current = abs(float(scope)) / tir # current in A
     print("Volts = ", volt, " curr = ", curr, " scope = ", sipm_current)
     fdat = [i,volt,curr,sipm_current]
     rows_f.append(fdat)
@@ -91,6 +91,7 @@ ser_cmd( "p 500\r")
 # # panel with 3 x 1 plots
 fig, ax = plt.subplots( nrows=1, ncols=1)
 # 
-do_plot( ax, volt, sipm_current, 'SiPm Current (A)')
+plt.yscale('log')
+do_plot( ax, volt, sipm_current, 'SiPm Current (uA)')
 
 plt.show()

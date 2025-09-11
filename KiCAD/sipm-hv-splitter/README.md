@@ -59,6 +59,13 @@ on pin 7.
 
 ## Testing Log
 
+### 9/11/25:
+
+* Change R13 to 180k to up boost output to 75V.
+* Change R17 to 2.7M to increase max voltage to 67V
+
+Confirm with VOM we get 66.5V max output or so.
+
 ### 8/27/25:
 
 Looking to use [test board](https://github.com/eshazen/ninjanirs-optode/tree/main/KiCAD/test-board) as a breakout.
