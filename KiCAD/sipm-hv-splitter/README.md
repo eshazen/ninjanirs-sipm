@@ -59,6 +59,17 @@ on pin 7.
 
 ## Testing Log
 
+### 9/12/25:
+
+Working towards readout with BZ's red and purple boards.
+
+TODO:
+
+* Install R63, remove R62 on red board.  This disables the on-board LED and repurposes `A_COMM` as an
+enable for the HV.  _Done_ (100 ohms for R63)
+* Make firmware which powers up the HV and displays status
+on the HV board LED.
+
 ### 9/11/25:
 
 * Change R13 to 180k to up boost output to 75V.

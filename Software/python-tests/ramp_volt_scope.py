@@ -40,6 +40,13 @@ def ser_cmd( cmd):
         str = str + b.decode('utf-8')
     return str
 
+step = -10
+
+if len(sys.argv) > 1:
+    step = sys.argv[1]
+
+step = -abs(int(step))
+
 port = '/dev/ttyUSB0'
 
 # open and prepare the serial port
@@ -58,7 +65,7 @@ ser_cmd( "b 1\r")
 
 rows_f = []                     # data ends up here as a list of lists
 
-for i in range(350,0,-50):
+for i in range(350,0,step):
     # set the voltage on the DAC
     cmd = "p %d\r" % i
     ser_cmd( cmd)
