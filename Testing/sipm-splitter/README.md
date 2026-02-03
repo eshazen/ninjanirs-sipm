@@ -33,3 +33,6 @@ of low-frequency ringing going on.
 Note that looking at the raw boost converter (U4-1) there is no perturbation,
 and the output of U4 (pin 5) looks the same as above (they are connected
 together through copper).
+
+So there is a perturbation on entire bias network of around 100mV peak-to-peak
+when a large signal is generated on one SiPM.
