@@ -17,16 +17,19 @@ Scope set to average 32 traces with BWL enabled.
 
 Looking at V(bias).
 
-First is bias on pulsed SiPM. 
+First is bias on pulsed SiPM. There is a drop of about 400mV which is
+likely due to the drop in the 1k series resistor feeding each SiPM.
 
 ![scope_3.png](scope_3.png)
 
-Next is main bias rail with pulser reset to 10Hz.
+Next is main bias rail with pulser reset to 10Hz.  There are some
+fairly wild excursions on the regulated bias voltage.  Obviously
+the regulator (LT3014) is not completely stable.
 
 ![scope_4.png](scope_4.png)
 
-Same thing with pulse rate reduced to 1Hz.  Obviously there is a bit
-of low-frequency ringing going on.
+Same thing with pulse rate reduced to 1Hz.  The ringing is damped and
+eventually settles down after about 300ms.
 
 ![scope_5.png](scope_5.png)
 
@@ -35,4 +38,6 @@ and the output of U4 (pin 5) looks the same as above (they are connected
 together through copper).
 
 So there is a perturbation on entire bias network of around 100mV peak-to-peak
-when a large signal is generated on one SiPM.
+when a large signal is generated on one SiPM.  This will change the SiPM
+gain by a few percent.
+
