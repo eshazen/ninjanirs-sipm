@@ -7,6 +7,7 @@
 #include <avr/io.h>
 #include <util/delay.h>
 #include <ctype.h>
+#include <math.h>    // added 1/22/26 ESH
 #include <avr/pgmspace.h>
 #include "spi.h"
 #include "uart.h"

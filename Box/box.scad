@@ -193,7 +193,7 @@ module lid() {
      }
 }
 
-box_assembly();
+// box_assembly();
 
-// translate( [0, 0, box_hgt+5]) lid();
+rotate( [180, 0, 0]) lid();
 

@@ -3145,6 +3145,16 @@
 		)
 		(uuid "69f2f120-2cf3-48ed-b9d2-7a9215c5876e")
 	)
+	(text "150k"
+		(exclude_from_sim no)
+		(at 103.124 147.574 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "822be585-2511-4ecc-b718-cae2930d08d5")
+	)
 	(text "62V BOOST CONVERTER"
 		(exclude_from_sim no)
 		(at 133.35 169.672 0)
@@ -3165,6 +3175,16 @@
 		)
 		(uuid "87508403-30c3-4c78-81d3-9b9982544f80")
 	)
+	(text "2.5M 1%"
+		(exclude_from_sim no)
+		(at 182.626 54.864 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "964f6528-f599-460d-a91e-3909f466d222")
+	)
 	(text "(optional)\nSoft start"
 		(exclude_from_sim no)
 		(at 239.014 88.646 0)
@@ -3174,6 +3194,16 @@
 			)
 		)
 		(uuid "9da8fe76-638a-4cc9-a9b1-5c806899bc66")
+	)
+	(text "140k"
+		(exclude_from_sim no)
+		(at 29.21 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e8391f2f-16e0-4cc6-9bc7-f24f50034469")
 	)
 	(junction
 		(at 87.63 71.12)
@@ -3542,6 +3572,16 @@
 			(type default)
 		)
 		(uuid "0d6f9040-09e0-4b83-b1b6-5a2861aff2a1")
+	)
+	(polyline
+		(pts
+			(xy 100.33 147.32) (xy 105.41 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0da016d6-b640-42ce-bc13-e00cb5fe9052")
 	)
 	(wire
 		(pts
@@ -4073,6 +4113,16 @@
 		)
 		(uuid "6517aba8-3916-462d-ba9c-cbba5e350ae6")
 	)
+	(polyline
+		(pts
+			(xy 177.8 54.61) (xy 186.69 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65ade9ed-c96b-45a2-9e9b-f852648ffa36")
+	)
 	(wire
 		(pts
 			(xy 121.92 35.56) (xy 113.03 35.56)
@@ -4222,6 +4272,16 @@
 			(type default)
 		)
 		(uuid "82e0902b-d0fa-45a7-9efd-5b90499ba4d4")
+	)
+	(polyline
+		(pts
+			(xy 25.908 61.976) (xy 32.258 61.976)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83e2f141-026e-4146-a431-15bac7405e5a")
 	)
 	(wire
 		(pts
@@ -5447,8 +5507,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "140k"
-			(at 34.544 60.706 0)
+		(property "Value" "75k"
+			(at 30.734 59.182 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5483,7 +5543,7 @@
 				(hide yes)
 			)
 		)
-		(property "MfgNo" "RC0603FR-07140KL"
+		(property "MfgNo" ""
 			(at 38.1 59.69 0)
 			(effects
 				(font
@@ -5492,7 +5552,7 @@
 				(hide yes)
 			)
 		)
-		(property "CatNo" "311-140KHRCT-ND"
+		(property "CatNo" "311-75KHRCT-ND"
 			(at 38.1 59.69 0)
 			(effects
 				(font
@@ -9319,7 +9379,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.50M 1%"
+		(property "Value" "2.7M 1%"
 			(at 177.8 50.7999 0)
 			(effects
 				(font
@@ -9355,7 +9415,7 @@
 				(hide yes)
 			)
 		)
-		(property "MfgNo" "RMCF0603FT2M49"
+		(property "MfgNo" ""
 			(at 175.26 49.53 0)
 			(effects
 				(font
@@ -9364,7 +9424,7 @@
 				(hide yes)
 			)
 		)
-		(property "CatNo" "RMCF0603FT2M49CT-ND"
+		(property "CatNo" "??"
 			(at 175.26 49.53 0)
 			(effects
 				(font
@@ -9888,8 +9948,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150k"
-			(at 105.41 144.7799 0)
+		(property "Value" "180k"
+			(at 105.41 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9924,7 +9984,7 @@
 				(hide yes)
 			)
 		)
-		(property "CatNo" "P150KHCT-ND"
+		(property "CatNo" "P180KHCT-ND"
 			(at 107.95 143.51 0)
 			(effects
 				(font
@@ -9933,7 +9993,7 @@
 				(hide yes)
 			)
 		)
-		(property "MfgNo" "ERJ-3EKF1503V"
+		(property "MfgNo" ""
 			(at 107.95 143.51 0)
 			(effects
 				(font

@@ -23,4 +23,5 @@
 
 // ADC calibration
 #define MV_PER_ADC 72
-#define NA_PER_ADC 2200
+// #define NA_PER_ADC 2200  // ESH: change to 22000
+#define NA_PER_ADC 20687

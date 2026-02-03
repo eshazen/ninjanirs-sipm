@@ -59,6 +59,122 @@ on pin 7.
 
 ## Testing Log
 
+### 2/3/26:
+
+Change feedback C on ch1 TIA from 1nf to 100pF.
+<br>Oscillation gone!
+
+Work plan after chat with BZ:
+
+* Try various FB C's to make sure we're in a good range
+* Change all FB C's on working board
+* Test for measurable x-talk during 1.25ms pulse on neighboring channel
+   * Shift in baseline
+   * Change in Vbias
+* Test with more SiPMs
+
+<br>Change ch 2 FB to 470pF.  No oscillation.
+<br>Change ch 1 FB back to 1000pF.  Yes oscillation (sanity check)
+<br>Change ch 1-4 FB to 470pF.
+
+### 2/2/26:
+
+Power-up sequence:
+
+    >p 170
+	>vs 0
+	>b 1
+
+Should read 57V or so.  Note dummy load needed to avoid trip.
+
+Testing S13360-3025PE.  3x3mm 25um pitch.  Vover = 5V, VBR 53+/-5
+<br>Confirm that VBR is about 53.
+
+   S13360-3025PE (gain 7e5)
+   pot = 195.  V is 56V, 170uA+/-50uA
+   100Hz pulse 100us wide 3.2V into red LED
+   Output about 420mV.
+   
+Printing another box for a 2nd SiPM.
+
+   S13360-3050PE (gain 1.7e6)
+   Output about 3.95V
+   
+Gain should be about 2.5X higher.
+
+__Oscillation:__ See 50MHz sine wave ~ 20mV pk-pk output of amp.
+<br>With only open NIRX cable (60cm) we see a square-ish wave almost 100mV pk-pk.
+
+The amp has a low-pass filter with ~10kHz cutoff.
+<br>Try 100pF in parallel with the 1nF feedback cap.  If anything, worse.
+
+### 1/22/26:
+
+See below 8/7/25 for power hookups
+
+Test board `OUT0` is pin 4 of ribbon, so SIG_0 which comes from pins 29-32 of Optodes header
+
+Boost converter producing 73V but output always tripped.  Need dummy load?
+<br>Make a optode cable with 100k.  Now it works!
+
+The current readback seems wrong, though.  57/100k = 560uA
+<br>The readout says 72.6uA
+
+ADC is reading 31.  Sense resistor is 3.00 ohms.  So the raw current signal
+should be 1.7mV across R9.  For the INA201 the gain is supposedly 50V/V
+so 84mV for 560uA.  The expected ADC reading would be 26.  Observe 31-35
+using raw `a 0` so maybe not so bad?
+
+In `sipm_io.h` constant `NA_PER_ADC` is 2200.  Hmm.
+Change to 20687.
+
+### 9/30/25:
+
+Testing board#2
+
+* Power-up and flash OK.
+* Boost output 73V
+* VR range 31.2-60.8
+
+* Change R17 to 2.7M to increase max voltage to 67V
+
+Now the VR goes up to 65.2.
+
+The current readback is jumping around from 8-20uA though.
+
+Re-flash board#1 with avr-debug
+
+Current readback similarly jumps around
+
+### 9/17/25:
+
+(all below board#1)
+
+Finally have correct (hope) ribbon between test board and adapter.
+Going to install firmware on the purple test board.
+
+Currently it has:
+
+```
+hazen@hazen-botlab CIRCUITPY $ ls -l
+total 6
+-rw-r--r-- 1 hazen hazen  103 Dec 31  2019 boot_out.txt
+-rw-r--r-- 1 hazen hazen 1608 Dec 18  2022 code.py
+-rw-r--r-- 1 hazen hazen 2671 Dec 19  2022 DetAdapterTB.py
+drwxr-xr-x 2 hazen hazen  512 Dec 31  2019 lib
+```
+
+(lib is empty).  Copying the following from BZ's ZIP:
+
+```
+-rw-rw-rw- 1 hazen hazen     889 Aug 28 00:51 code.py
+-rw-rw-rw- 1 hazen hazen    8512 Aug 28 00:47 NN22DetectorAdapterTestBoard.py
+-rw-rw-rw- 1 hazen hazen    3982 Oct 17  2024 TestFunctions.py
+```
+
+It works!  SiPM output voltage reported by python on the test board
+varies with LED current.
+
 ### 9/12/25:
 
 Working towards readout with BZ's red and purple boards.
@@ -117,7 +233,7 @@ Still some issues with startup.
 
 Change R3 from 140k to 75k (double the overcurrent).
 Now all seems good except for some ripple at max output.
-Change R13 to 160k to up boost output to 65V.
+Change R13 from 180k to 160k to up boost output to 65V.
 
 All good so far.
 
