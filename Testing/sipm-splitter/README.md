@@ -62,5 +62,4 @@ Try bypassing R17 with some C:
 * 470pF - no change
 * 4.7nF - aha!  Now a bit under-damped.
 
-![scope_7.png)(scope_7.png)
-
+![scope_7.png](scope_7.png)
