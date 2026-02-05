@@ -1,4 +1,3 @@
-
 **2026-02-03**
 
 Crosstalk tests.  Channels 1-4 change TIA feeback cap from 1000pF to
@@ -40,4 +39,28 @@ together through copper).
 So there is a perturbation on entire bias network of around 100mV peak-to-peak
 when a large signal is generated on one SiPM.  This will change the SiPM
 gain by a few percent.
+
+**2026-02-05**
+
+Investigating the bias supply issues.  Pulse producing a 5V output on the TIA.
+This implies 5V/15k = 333uA out of the SiPM.  Observe about 400mV drop on the 1k
+series R in the filter, so this is consistent.
+
+Gain supposed to be 1.7e6 @PDE=40%.  So photocurrent would be ~200pA.
+
+Looking at Vbias ringing.  Double C12 to 2uF.  No visible change.
+Add 4.7uF in parallel for total 6.7uF.  Still no change.
+
+Disconnect digital pot and jumper 10k from R20 bottom to GND.
+Still no visible change.
+
+Finally, remove C12 (and restore Digi-pot).  Still no change!
+
+Try bypassing R17 with some C:
+* 4.7pF - no change
+* 47pF - no change
+* 470pF - no change
+* 4.7nF - aha!  Now a bit under-damped.
+
+![scope_7.png)(scope_7.png)
 
