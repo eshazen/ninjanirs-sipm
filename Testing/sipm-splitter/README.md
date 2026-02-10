@@ -63,3 +63,24 @@ Try bypassing R17 with some C:
 * 4.7nF - aha!  Now a bit under-damped.
 
 ![scope_7.png](scope_7.png)
+
+**2026-02-10**
+
+Continuing testing.  Another shot with 4.7nF.  Note that stimulated SiPM is in ch 2.
+Scope probes are on ends of R43 (Vbias, SiPM#2 K).
+
+![scope_8.png](scope_8.png)
+
+Change C to 1nF.  Note change in horizontal scale.
+
+![scope_9.png](scope_9.png)
+
+Change C to 2.2nF.
+
+![scope_10.png](scope_10.png)
+
+Change C to 3.3nF
+
+![scope_12.png](scope_12.png)
+
+![scope_11.png](scope_11.png)
