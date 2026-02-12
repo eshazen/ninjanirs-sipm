@@ -1,6 +1,7 @@
 # Testing of LT3014 board
 
 The board works OK more or less as designed.
+<br>(new items added at bottom)
 
 ECOs:
 * Need to install R13, R14 as 100 ohms and C10 as 1uf for stability
@@ -59,3 +60,16 @@ for a 10V step.
 |      |      |       |            |           |         |
 
 
+## 2026-02-12
+
+Studying load regulation.  Add a little MOSFET switch
+to change the load (at 60V) from 640uA to 1.3mA.
+This is similar to a large SiPM signal.
+
+![load_reg1.png](load_reg1.png)
+
+Here's a plot of the voltage at the output.
+<br>__NOTE__ Scope AC-coupling with a time constant
+of ~15ms (according to the internet) used.
+
+![scope_13.png](scope_13.png)

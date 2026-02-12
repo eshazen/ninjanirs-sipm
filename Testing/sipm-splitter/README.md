@@ -1,3 +1,6 @@
+
+(new items added at bottom)
+
 **2026-02-03**
 
 Crosstalk tests.  Channels 1-4 change TIA feeback cap from 1000pF to
@@ -84,3 +87,7 @@ Change C to 3.3nF
 ![scope_12.png](scope_12.png)
 
 ![scope_11.png](scope_11.png)
+
+**2026-02-11**
+
+Move over to LT3014 test log for some experimentation.

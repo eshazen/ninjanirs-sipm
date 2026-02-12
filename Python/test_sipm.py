@@ -73,19 +73,21 @@ def set_dac_print(d):
 
 # dac_lo = 832
 # dac_hi = 960
-dac_lo = 300
-dac_hi = 700
+dac_lo = 10
+dac_hi = 1000
 
 delay = 100
 
-while True:
+set_dac_print( 900)
+
+#while True:
 #for i in range(1):
-    print("----")
-    for d in range( dac_lo, dac_hi+1, dac_hi-dac_lo):
-         set_dac_print(d)
-         time.sleep_ms(delay)
+    #print("----")
+    #for d in range( dac_lo, dac_hi+1, dac_hi-dac_lo):
+     #    set_dac_print(d)
+     #    time.sleep_ms(delay)
 #    set_dac_print(1023)
-    time.sleep_ms(delay)
+    #time.sleep_ms(delay)
     # time.sleep_ms(10000)
     #set_dac_print(dac_lo)
     #time.sleep_ms(delay)
