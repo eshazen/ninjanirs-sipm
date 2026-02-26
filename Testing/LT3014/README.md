@@ -73,3 +73,8 @@ Here's a plot of the voltage at the output.
 of ~15ms (according to the internet) used.
 
 ![scope_13.png](scope_13.png)
+
+## 2026-02-18
+
+Add 150 ohms in series with 680nF on output to simulate
+all the SiPM filter networks in series.

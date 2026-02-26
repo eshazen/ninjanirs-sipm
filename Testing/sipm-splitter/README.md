@@ -91,3 +91,20 @@ Change C to 3.3nF
 **2026-02-11**
 
 Move over to LT3014 test log for some experimentation.
+
+**2026-02-26**
+
+Remove C15 ("soft start") C.  Otherwise same test conditions.
+
+![scope_14.png](scope_14.png).
+
+Now the perturbation is < 10mV.  Should re-optimize the compensation C now.
+
+Remove the Cap.  Now we see about 30mV.
+
+![scope_15.png](scope_15.png).
+
+Back to 3.3nF
+
+![scope_17.png](scope_17.png)
+

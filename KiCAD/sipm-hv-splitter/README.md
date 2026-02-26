@@ -59,6 +59,16 @@ on pin 7.
 
 ## Testing Log
 
+### 2/26/26:
+
+Thinking some more about the observed issues.  On the splitter the delta-v on
+the LT3014 output is around 50mV, while on the test board with the MOSFET
+load circuit it's more like 20mV.  50mv/57V * 1.2V = 1.1mV on the ADJ pin.
+It seems not unlikely that ground bounce or capacitative coupling into the
+ADJ pin could cause this.
+
+Interesting... there is a C installed at C15 (soft start).  Try removing it.
+Much better.
 
 ### 2/3/26:
 

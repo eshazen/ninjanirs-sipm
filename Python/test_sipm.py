@@ -78,7 +78,7 @@ dac_hi = 1000
 
 delay = 100
 
-set_dac_print( 900)
+set_dac_print( 950)
 
 #while True:
 #for i in range(1):
