@@ -8,7 +8,7 @@ Stand-alone bias voltage software.
 * Power up at low voltage and check voltage and current
 * Power down
 * Wait for low on PD0
-* Power up at nominal voltage (pot=170, V=57.0V).  Check current
+* Power up at nominal voltage (pot=195, V=57.0V).  Check current
 
 ```
    Pot = 1023
@@ -17,5 +17,10 @@ Stand-alone bias voltage software.
 ```
 
 LED code:
-	Slow blink on power-up during self-checks
+	On for 1s on power-up
+	Off while waiting for start pulse
+	Short blink at 1Hz during normal operation (bias on)
+	fast continuous blink on error condition
+	
+	
 	

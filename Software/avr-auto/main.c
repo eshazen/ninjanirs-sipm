@@ -24,12 +24,11 @@
 #include "dpot.h"
 #include "avr_adc.h"
 
-// nominal voltage 170 = 57.0V
-#define DAC_DEFAULT 170
-// nominal ADC reading for operating voltage (57V)
-#define ADC_VOLT_NOM 795
+#define DAC_DEFAULT 195
+// nominal ADC reading for operating voltage (56V)
+#define ADC_VOLT_NOM 779
 // nominal ADC reading for minimum voltage (32V)
-#define ADC_VOLT_LOW 470
+#define ADC_VOLT_LOW 472
 
 // default SPI phase/polarity
 static uint8_t spi_cpha = 1;
@@ -126,6 +125,7 @@ int main (void)
 	  error();
 	}
 
+	// blink briefly at 1Hz to indicate all is well
 	LED_ON();
 	_delay_ms(100);
 	LED_OFF();
