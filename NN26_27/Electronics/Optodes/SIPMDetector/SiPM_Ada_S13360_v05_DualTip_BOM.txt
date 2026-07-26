@@ -1,0 +1,3 @@
+PD1, PD2: Hamamatsu S13360-3050PE
+R1: NTCG163JF103FT1
+TP1, TP2, TP3, TP4: DNP (wire solder pads)
