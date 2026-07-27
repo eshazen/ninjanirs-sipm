@@ -1,0 +1,219 @@
+----------------------------------------------------------------------
+Report for cell NN22Control_top.TECH
+Register bits:  538 of 7485 (7.188%)
+I/O cells:      131
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                 BB         1          100.0
+                              CCU2D       131          100.0
+                              DP8KC         4          100.0
+                            EHXPLLJ         1          100.0
+                            FD1P3AX       242          100.0
+                            FD1P3IX       113          100.0
+                            FD1S3AX       147          100.0
+                            FD1S3AY         7          100.0
+                            FD1S3IX        27          100.0
+                            FD1S3JX         2          100.0
+                            FIFO8KB         3          100.0
+                                GSR         1          100.0
+                                 IB        38          100.0
+                            L6MUX21         4          100.0
+                               LUT4       628          100.0
+                                 OB        89          100.0
+                                OBZ         3          100.0
+                              PFUMX        32          100.0
+SUB MODULES
+                   NN22Control_main         1
+                         aux_adc_rx         1
+                           ext_fifo         1
+                  ext_fifo_int_fifo         1
+                           main_pll         1
+                              ram_a         1
+                              ram_b         1
+                 spi_rxtx_with_fifo         1
+                       spi_txrx_ram         1
+                          uart_fifo         1
+                       uart_fifo_U0         1
+                        uart_rx(16)         1
+                         uart_rx(8)         1
+              uart_tx_with_fifo(16)         1
+               uart_tx_with_fifo(8)         1
+                              TOTAL      1488
+----------------------------------------------------------------------
+Report for cell NN22Control_main.v1
+Instance Path : NN22Control_main_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D       131          100.0
+                              DP8KC         4          100.0
+                            FD1P3AX       242          100.0
+                            FD1P3IX       113          100.0
+                            FD1S3AX       147          100.0
+                            FD1S3AY         7          100.0
+                            FD1S3IX        27          100.0
+                            FD1S3JX         2          100.0
+                            FIFO8KB         3          100.0
+                            L6MUX21         4          100.0
+                               LUT4       612           97.5
+                              PFUMX        24           75.0
+SUB MODULES
+                         aux_adc_rx         1
+                           ext_fifo         1
+                  ext_fifo_int_fifo         1
+                              ram_a         1
+                              ram_b         1
+                 spi_rxtx_with_fifo         1
+                       spi_txrx_ram         1
+                          uart_fifo         1
+                       uart_fifo_U0         1
+                        uart_rx(16)         1
+                         uart_rx(8)         1
+              uart_tx_with_fifo(16)         1
+               uart_tx_with_fifo(8)         1
+                              TOTAL      1329
+----------------------------------------------------------------------
+Report for cell uart_tx_with_fifo(8).v1
+Instance Path : NN22Control_main_inst.uart_to_ftdi_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3AX         7            2.9
+                            FD1P3IX         6            5.3
+                            FD1S3AX         8            5.4
+                            FD1S3AY         1           14.3
+                            FD1S3IX         3           11.1
+                            FIFO8KB         1           33.3
+                               LUT4        29            4.6
+SUB MODULES
+                          uart_fifo         1
+                              TOTAL        56
+----------------------------------------------------------------------
+Report for cell uart_fifo.v1
+Instance Path : NN22Control_main_inst.uart_to_ftdi_inst.uart_fifo_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FIFO8KB         1           33.3
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell uart_tx_with_fifo(16).v1
+Instance Path : NN22Control_main_inst.uart_to_brd_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3AX         7            2.9
+                            FD1P3IX         6            5.3
+                            FD1S3AX         5            3.4
+                            FD1S3AY         1           14.3
+                            FD1S3IX         4           14.8
+                            FIFO8KB         1           33.3
+                               LUT4        29            4.6
+SUB MODULES
+                       uart_fifo_U0         1
+                              TOTAL        54
+----------------------------------------------------------------------
+Report for cell uart_fifo_U0.v1
+Instance Path : NN22Control_main_inst.uart_to_brd_inst.uart_fifo_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FIFO8KB         1           33.3
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell uart_rx(8).v1
+Instance Path : NN22Control_main_inst.uart_from_ftdi_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3AX        11            4.5
+                            FD1S3AX        11            7.5
+                            FD1S3AY         1           14.3
+                               LUT4        23            3.7
+                              PFUMX         1            3.1
+                              TOTAL        47
+----------------------------------------------------------------------
+Report for cell uart_rx(16).v1
+Instance Path : NN22Control_main_inst.uart_from_detb_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3AX        11            4.5
+                            FD1S3AX        12            8.2
+                            FD1S3AY         1           14.3
+                               LUT4        24            3.8
+                              TOTAL        48
+----------------------------------------------------------------------
+Report for cell spi_rxtx_with_fifo.v1
+Instance Path : NN22Control_main_inst.spi_to_rpi_zero
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        26           19.8
+                              DP8KC         1           25.0
+                            FD1P3AX        18            7.4
+                            FD1P3IX        13           11.5
+                            FD1S3AX         3            2.0
+                            FD1S3AY         1           14.3
+                            FD1S3IX         1            3.7
+                               LUT4        32            5.1
+SUB MODULES
+                       spi_txrx_ram         1
+                              TOTAL        96
+----------------------------------------------------------------------
+Report for cell spi_txrx_ram.v1
+Instance Path : NN22Control_main_inst.spi_to_rpi_zero.spi_txrx_ram_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              DP8KC         1           25.0
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell ram_b.v1
+Instance Path : NN22Control_main_inst.ram_b_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              DP8KC         2           50.0
+                               LUT4        20            3.2
+                              TOTAL        22
+----------------------------------------------------------------------
+Report for cell ram_a.v1
+Instance Path : NN22Control_main_inst.ram_a_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              DP8KC         1           25.0
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell ext_fifo.v1
+Instance Path : NN22Control_main_inst.ext_fifo_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        56           42.7
+                            FD1P3AX        40           16.5
+                            FD1P3IX        58           51.3
+                            FD1S3AX        16           10.9
+                            FD1S3IX         4           14.8
+                            FD1S3JX         1           50.0
+                            FIFO8KB         1           33.3
+                               LUT4       134           21.3
+SUB MODULES
+                  ext_fifo_int_fifo         1
+                              TOTAL       311
+----------------------------------------------------------------------
+Report for cell ext_fifo_int_fifo.v1
+Instance Path : NN22Control_main_inst.ext_fifo_inst.int_fifo_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FIFO8KB         1           33.3
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell aux_adc_rx.v1
+Instance Path : NN22Control_main_inst.aux_adc_rx_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        25           19.1
+                            FD1P3AX        65           26.9
+                            FD1P3IX        14           12.4
+                            FD1S3AX        16           10.9
+                            FD1S3IX         2            7.4
+                            FD1S3JX         1           50.0
+                               LUT4        53            8.4
+                              TOTAL       176
+----------------------------------------------------------------------
+Report for cell main_pll.v1
+Instance Path : main_pll_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            EHXPLLJ         1          100.0
+                              TOTAL         1

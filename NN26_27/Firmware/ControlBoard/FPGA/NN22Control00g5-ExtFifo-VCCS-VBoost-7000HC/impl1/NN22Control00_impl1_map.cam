@@ -1,0 +1,481 @@
+[ START MERGED ]
+PllLockxS_i PllLockxS
+NN22Control_main_inst/ext_fifo_inst/SpiStatexDP_i[0] NN22Control_main_inst/ext_fifo_inst/SpiStatexDP[0]
+[ END MERGED ]
+[ START CLIPPED ]
+NN22Control_main_inst/GND
+NN22Control_main_inst/ext_fifo_inst/GND
+NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/VCC
+NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/GND
+NN22Control_main_inst/uart_from_detb_inst/GND
+NN22Control_main_inst/uart_to_brd_inst/uart_fifo_inst/VCC
+NN22Control_main_inst/uart_to_brd_inst/uart_fifo_inst/GND
+NN22Control_main_inst/uart_to_ftdi_inst/uart_fifo_inst/VCC
+NN22Control_main_inst/uart_to_ftdi_inst/uart_fifo_inst/GND
+NN22Control_main_inst/spi_to_rpi_zero/GND
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/VCC
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/GND
+NN22Control_main_inst/aux_adc_rx_inst/GND
+NN22Control_main_inst/ram_a_inst/VCC
+NN22Control_main_inst/ram_a_inst/GND
+NN22Control_main_inst/ram_b_inst/VCC
+NN22Control_main_inst/ram_b_inst/GND
+main_pll_inst/GND
+NN22Control_main_inst/ClkCntxDP_cry_0_COUT[9]
+NN22Control_main_inst/PCntAxDP_cry_0_S0[0]
+NN22Control_main_inst/N_7
+NN22Control_main_inst/PCntAxDP_s_0_S1[9]
+NN22Control_main_inst/PCntAxDP_s_0_COUT[9]
+NN22Control_main_inst/PCntBxDP_cry_0_S0[0]
+NN22Control_main_inst/N_8
+NN22Control_main_inst/PCntBxDP_s_0_S1[9]
+NN22Control_main_inst/PCntBxDP_s_0_COUT[9]
+NN22Control_main_inst/un1_ClkCntxDP_cry_0_0_S1
+NN22Control_main_inst/un1_ClkCntxDP_cry_0_0_S0
+NN22Control_main_inst/N_9
+NN22Control_main_inst/un1_ClkCntxDP_cry_1_0_S1
+NN22Control_main_inst/un1_ClkCntxDP_cry_1_0_S0
+NN22Control_main_inst/un1_ClkCntxDP_cry_3_0_S1
+NN22Control_main_inst/un1_ClkCntxDP_cry_3_0_S0
+NN22Control_main_inst/un1_ClkCntxDP_cry_5_0_S1
+NN22Control_main_inst/un1_ClkCntxDP_cry_5_0_S0
+NN22Control_main_inst/un1_ClkCntxDP_cry_7_0_S1
+NN22Control_main_inst/un1_ClkCntxDP_cry_7_0_S0
+NN22Control_main_inst/un1_ClkCntxDP_cry_9_0_S1
+NN22Control_main_inst/un1_ClkCntxDP_cry_9_0_S0
+NN22Control_main_inst/un1_ClkCntxDP_cry_10_0_S1
+NN22Control_main_inst/un1_ClkCntxDP_cry_10_0_COUT
+NN22Control_main_inst/ext_fifo_inst/ExtFIFORdAddrxDP_cry_0_S0[0]
+NN22Control_main_inst/ext_fifo_inst/N_24
+NN22Control_main_inst/ext_fifo_inst/ExtFIFORdAddrxDP_cry_0_COUT[21]
+NN22Control_main_inst/ext_fifo_inst/ExtFIFOWrAddrxDP_cry_0_S0[0]
+NN22Control_main_inst/ext_fifo_inst/N_25
+NN22Control_main_inst/ext_fifo_inst/ExtFIFOWrAddrxDP_cry_0_COUT[21]
+NN22Control_main_inst/ext_fifo_inst/ByteCntxDP_cry_0_S0[0]
+NN22Control_main_inst/ext_fifo_inst/N_26
+NN22Control_main_inst/ext_fifo_inst/ByteCntxDP_s_0_S1[9]
+NN22Control_main_inst/ext_fifo_inst/ByteCntxDP_s_0_COUT[9]
+NN22Control_main_inst/ext_fifo_inst/un2_extfifofullxsn_1_cry_0_0_S1
+NN22Control_main_inst/ext_fifo_inst/un2_extfifofullxsn_1_cry_0_0_S0
+NN22Control_main_inst/ext_fifo_inst/N_27
+NN22Control_main_inst/ext_fifo_inst/un2_extfifofullxsn_1_s_21_0_S1
+NN22Control_main_inst/ext_fifo_inst/un2_extfifofullxsn_1_s_21_0_COUT
+NN22Control_main_inst/ext_fifo_inst/extfifoemptyxs_0_I_1_0_S1
+NN22Control_main_inst/ext_fifo_inst/extfifoemptyxs_0_I_1_0_S0
+NN22Control_main_inst/ext_fifo_inst/N_28
+NN22Control_main_inst/ext_fifo_inst/extfifoemptyxs_0_I_9_0_S1
+NN22Control_main_inst/ext_fifo_inst/extfifoemptyxs_0_I_9_0_S0
+NN22Control_main_inst/ext_fifo_inst/extfifoemptyxs_0_I_21_0_S1
+NN22Control_main_inst/ext_fifo_inst/extfifoemptyxs_0_I_21_0_S0
+NN22Control_main_inst/ext_fifo_inst/extfifoemptyxs_0_I_33_0_S1
+NN22Control_main_inst/ext_fifo_inst/extfifoemptyxs_0_I_33_0_S0
+NN22Control_main_inst/ext_fifo_inst/extfifoemptyxs_0_I_45_0_S1
+NN22Control_main_inst/ext_fifo_inst/extfifoemptyxs_0_I_45_0_S0
+NN22Control_main_inst/ext_fifo_inst/extfifoemptyxs_0_I_57_0_S1
+NN22Control_main_inst/ext_fifo_inst/extfifoemptyxs_0_I_57_0_S0
+NN22Control_main_inst/ext_fifo_inst/extfifoemptyxs_0_I_69_0_S0
+NN22Control_main_inst/ext_fifo_inst/extfifoemptyxs_0_I_69_0_COUT
+NN22Control_main_inst/ext_fifo_inst/un4_extfifofullxsn_0_I_1_0_S1
+NN22Control_main_inst/ext_fifo_inst/un4_extfifofullxsn_0_I_1_0_S0
+NN22Control_main_inst/ext_fifo_inst/N_29
+NN22Control_main_inst/ext_fifo_inst/un4_extfifofullxsn_0_I_9_0_S1
+NN22Control_main_inst/ext_fifo_inst/un4_extfifofullxsn_0_I_9_0_S0
+NN22Control_main_inst/ext_fifo_inst/un4_extfifofullxsn_0_I_21_0_S1
+NN22Control_main_inst/ext_fifo_inst/un4_extfifofullxsn_0_I_21_0_S0
+NN22Control_main_inst/ext_fifo_inst/un4_extfifofullxsn_0_I_33_0_S1
+NN22Control_main_inst/ext_fifo_inst/un4_extfifofullxsn_0_I_33_0_S0
+NN22Control_main_inst/ext_fifo_inst/un4_extfifofullxsn_0_I_45_0_S1
+NN22Control_main_inst/ext_fifo_inst/un4_extfifofullxsn_0_I_45_0_S0
+NN22Control_main_inst/ext_fifo_inst/un4_extfifofullxsn_0_I_57_0_S1
+NN22Control_main_inst/ext_fifo_inst/un4_extfifofullxsn_0_I_57_0_S0
+NN22Control_main_inst/ext_fifo_inst/un4_extfifofullxsn_0_I_69_0_S0
+NN22Control_main_inst/ext_fifo_inst/un4_extfifofullxsn_0_I_69_0_COUT
+NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/AlmostFull
+NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/AlmostEmpty
+NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/do17
+NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/do16
+NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/do15
+NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/do14
+NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/do13
+NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/do12
+NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/do11
+NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/do10
+NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/do9
+NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/do8
+NN22Control_main_inst/uart_from_detb_inst/ClkCntxDP_cry_0_S0[0]
+NN22Control_main_inst/uart_from_detb_inst/N_6
+NN22Control_main_inst/uart_from_detb_inst/ClkCntxDP_cry_0_COUT[3]
+NN22Control_main_inst/uart_to_brd_inst/uart_fifo_inst/AlmostFull
+NN22Control_main_inst/uart_to_brd_inst/uart_fifo_inst/AlmostEmpty
+NN22Control_main_inst/uart_to_brd_inst/uart_fifo_inst/do17_0
+NN22Control_main_inst/uart_to_brd_inst/uart_fifo_inst/do16_0
+NN22Control_main_inst/uart_to_brd_inst/uart_fifo_inst/do15_0
+NN22Control_main_inst/uart_to_brd_inst/uart_fifo_inst/do14_0
+NN22Control_main_inst/uart_to_brd_inst/uart_fifo_inst/do13_0
+NN22Control_main_inst/uart_to_brd_inst/uart_fifo_inst/do12_0
+NN22Control_main_inst/uart_to_brd_inst/uart_fifo_inst/do11_0
+NN22Control_main_inst/uart_to_brd_inst/uart_fifo_inst/do10_0
+NN22Control_main_inst/uart_to_brd_inst/uart_fifo_inst/do9_0
+NN22Control_main_inst/uart_to_brd_inst/uart_fifo_inst/do8_0
+NN22Control_main_inst/uart_to_ftdi_inst/uart_fifo_inst/AlmostFull
+NN22Control_main_inst/uart_to_ftdi_inst/uart_fifo_inst/do17_1
+NN22Control_main_inst/uart_to_ftdi_inst/uart_fifo_inst/do16_1
+NN22Control_main_inst/uart_to_ftdi_inst/uart_fifo_inst/do15_1
+NN22Control_main_inst/uart_to_ftdi_inst/uart_fifo_inst/do14_1
+NN22Control_main_inst/uart_to_ftdi_inst/uart_fifo_inst/do13_1
+NN22Control_main_inst/uart_to_ftdi_inst/uart_fifo_inst/do12_1
+NN22Control_main_inst/uart_to_ftdi_inst/uart_fifo_inst/do11_1
+NN22Control_main_inst/uart_to_ftdi_inst/uart_fifo_inst/do10_1
+NN22Control_main_inst/uart_to_ftdi_inst/uart_fifo_inst/do9_1
+NN22Control_main_inst/uart_to_ftdi_inst/uart_fifo_inst/do8_1
+NN22Control_main_inst/spi_to_rpi_zero/FIFORdAddrxDP_cry_0_S0[0]
+NN22Control_main_inst/spi_to_rpi_zero/N_1
+NN22Control_main_inst/spi_to_rpi_zero/FIFORdAddrxDP_cry_0_COUT[11]
+NN22Control_main_inst/spi_to_rpi_zero/FIFOWrAddrxDP_cry_0_S0[0]
+NN22Control_main_inst/spi_to_rpi_zero/N_2
+NN22Control_main_inst/spi_to_rpi_zero/FIFOWrAddrxDP_cry_0_COUT[11]
+NN22Control_main_inst/spi_to_rpi_zero/FIFOBytesAvailableFullxD_cry_0_0_S1
+NN22Control_main_inst/spi_to_rpi_zero/FIFOBytesAvailableFullxD_cry_0_0_S0
+NN22Control_main_inst/spi_to_rpi_zero/N_11
+NN22Control_main_inst/spi_to_rpi_zero/FIFOBytesAvailableFullxD_cry_11_0_COUT
+NN22Control_main_inst/spi_to_rpi_zero/un6_fifofullxsn_a_4_cry_0_0_S1
+NN22Control_main_inst/spi_to_rpi_zero/un6_fifofullxsn_a_4_cry_0_0_S0
+NN22Control_main_inst/spi_to_rpi_zero/N_12
+NN22Control_main_inst/spi_to_rpi_zero/un6_fifofullxsn_a_4_cry_11_0_COUT
+NN22Control_main_inst/spi_to_rpi_zero/fifoemptyxs_0_I_1_0_S1
+NN22Control_main_inst/spi_to_rpi_zero/fifoemptyxs_0_I_1_0_S0
+NN22Control_main_inst/spi_to_rpi_zero/N_13
+NN22Control_main_inst/spi_to_rpi_zero/fifoemptyxs_0_I_27_0_S1
+NN22Control_main_inst/spi_to_rpi_zero/fifoemptyxs_0_I_27_0_S0
+NN22Control_main_inst/spi_to_rpi_zero/fifoemptyxs_0_I_21_0_S1
+NN22Control_main_inst/spi_to_rpi_zero/fifoemptyxs_0_I_21_0_S0
+NN22Control_main_inst/spi_to_rpi_zero/fifoemptyxs_0_I_9_0_S1
+NN22Control_main_inst/spi_to_rpi_zero/fifoemptyxs_0_I_9_0_S0
+NN22Control_main_inst/spi_to_rpi_zero/fifoemptyxs_0_I_39_0_S1
+NN22Control_main_inst/spi_to_rpi_zero/fifoemptyxs_0_I_39_0_COUT
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_7_0_DOB8
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_7_0_DOB7
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_7_0_DOB6
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_7_0_DOB5
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_7_0_DOB4
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_7_0_DOB3
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_7_0_DOB2
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_7_0_DOB1
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_7_0_DOA8
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_7_0_DOA7
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_7_0_DOA6
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_7_0_DOA5
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_7_0_DOA4
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_7_0_DOA3
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_7_0_DOA2
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_7_0_DOA1
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/QA_1[7]
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_6_1_DOB8
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_6_1_DOB7
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_6_1_DOB6
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_6_1_DOB5
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_6_1_DOB4
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_6_1_DOB3
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_6_1_DOB2
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_6_1_DOB1
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_6_1_DOA8
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_6_1_DOA7
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_6_1_DOA6
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_6_1_DOA5
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_6_1_DOA4
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_6_1_DOA3
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_6_1_DOA2
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_6_1_DOA1
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/QA_1[6]
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_5_2_DOB8
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_5_2_DOB7
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_5_2_DOB6
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_5_2_DOB5
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_5_2_DOB4
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_5_2_DOB3
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_5_2_DOB2
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_5_2_DOB1
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_5_2_DOA8
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_5_2_DOA7
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_5_2_DOA6
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_5_2_DOA5
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_5_2_DOA4
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_5_2_DOA3
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_5_2_DOA2
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_5_2_DOA1
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/QA_1[5]
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_4_3_DOB8
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_4_3_DOB7
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_4_3_DOB6
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_4_3_DOB5
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_4_3_DOB4
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_4_3_DOB3
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_4_3_DOB2
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_4_3_DOB1
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_4_3_DOA8
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_4_3_DOA7
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_4_3_DOA6
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_4_3_DOA5
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_4_3_DOA4
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_4_3_DOA3
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_4_3_DOA2
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_4_3_DOA1
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/QA_1[4]
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_3_4_DOB8
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_3_4_DOB7
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_3_4_DOB6
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_3_4_DOB5
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_3_4_DOB4
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_3_4_DOB3
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_3_4_DOB2
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_3_4_DOB1
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_3_4_DOA8
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_3_4_DOA7
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_3_4_DOA6
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_3_4_DOA5
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_3_4_DOA4
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_3_4_DOA3
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_3_4_DOA2
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_3_4_DOA1
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/QA_1[3]
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_2_5_DOB8
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_2_5_DOB7
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_2_5_DOB6
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_2_5_DOB5
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_2_5_DOB4
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_2_5_DOB3
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_2_5_DOB2
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_2_5_DOB1
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_2_5_DOA8
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_2_5_DOA7
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_2_5_DOA6
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_2_5_DOA5
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_2_5_DOA4
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_2_5_DOA3
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_2_5_DOA2
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_2_5_DOA1
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/QA_1[2]
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_1_6_DOB8
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_1_6_DOB7
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_1_6_DOB6
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_1_6_DOB5
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_1_6_DOB4
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_1_6_DOB3
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_1_6_DOB2
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_1_6_DOB1
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_1_6_DOA8
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_1_6_DOA7
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_1_6_DOA6
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_1_6_DOA5
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_1_6_DOA4
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_1_6_DOA3
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_1_6_DOA2
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_1_6_DOA1
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/QA_1[1]
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_0_7_DOB8
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_0_7_DOB7
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_0_7_DOB6
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_0_7_DOB5
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_0_7_DOB4
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_0_7_DOB3
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_0_7_DOB2
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_0_7_DOB1
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_0_7_DOA8
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_0_7_DOA7
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_0_7_DOA6
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_0_7_DOA5
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_0_7_DOA4
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_0_7_DOA3
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_0_7_DOA2
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_0_7_DOA1
+NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/QA_1[0]
+NN22Control_main_inst/aux_adc_rx_inst/ADCAccxDN_0_cry_0_0_S1
+NN22Control_main_inst/aux_adc_rx_inst/ADCAccxDN_0_cry_0_0_S0
+NN22Control_main_inst/aux_adc_rx_inst/N_14
+NN22Control_main_inst/aux_adc_rx_inst/ADCAccxDN_0_s_23_0_S1
+NN22Control_main_inst/aux_adc_rx_inst/ADCAccxDN_0_s_23_0_COUT
+NN22Control_main_inst/aux_adc_rx_inst/un10_adcaccxdn_cry_0_0_S1
+NN22Control_main_inst/aux_adc_rx_inst/un10_adcaccxdn_cry_0_0_S0
+NN22Control_main_inst/aux_adc_rx_inst/N_15
+NN22Control_main_inst/aux_adc_rx_inst/un10_adcaccxdn_s_23_0_S1
+NN22Control_main_inst/aux_adc_rx_inst/un10_adcaccxdn_s_23_0_COUT
+NN22Control_main_inst/ram_a_inst/QB_1[7]
+NN22Control_main_inst/ram_a_inst/QB_1[6]
+NN22Control_main_inst/ram_a_inst/QB_1[5]
+NN22Control_main_inst/ram_a_inst/QB_1[4]
+NN22Control_main_inst/ram_a_inst/QB_1[3]
+NN22Control_main_inst/ram_a_inst/QB_1[2]
+NN22Control_main_inst/ram_a_inst/QB_1[1]
+NN22Control_main_inst/ram_b_inst/QB_1[16]
+NN22Control_main_inst/ram_b_inst/QB_1[15]
+NN22Control_main_inst/ram_b_inst/QB_1[14]
+NN22Control_main_inst/ram_b_inst/QB_1[13]
+NN22Control_main_inst/ram_b_inst/QB_1[12]
+NN22Control_main_inst/ClkCntxDP_cry_0_S0_0[0]
+NN22Control_main_inst/N_6
+main_pll_inst/CLKINTFB
+main_pll_inst/DPHSRC
+main_pll_inst/PLLACK
+main_pll_inst/PLLDATO0
+main_pll_inst/PLLDATO1
+main_pll_inst/PLLDATO2
+main_pll_inst/PLLDATO3
+main_pll_inst/PLLDATO4
+main_pll_inst/PLLDATO5
+main_pll_inst/PLLDATO6
+main_pll_inst/PLLDATO7
+main_pll_inst/REFCLK
+main_pll_inst/INTLOCK
+main_pll_inst/CLKOS3
+main_pll_inst/CLKOS2
+main_pll_inst/CLKOS
+[ END CLIPPED ]
+[ START DESIGN PREFS ]
+SCHEMATIC START ;
+# map:  version Diamond (64-bit) 3.13.0.56.2 -- WARNING: Map write only section -- Sat Nov 02 22:55:35 2024
+
+SYSCONFIG SDM_PORT=DISABLE SLAVE_SPI_PORT=DISABLE I2C_PORT=DISABLE MASTER_SPI_PORT=DISABLE COMPRESS_CONFIG=ON CONFIGURATION=CFG MY_ASSP=OFF ONE_TIME_PROGRAM=OFF CONFIG_SECURE=OFF MCCLK_FREQ=2.08 JTAG_PORT=ENABLE ENABLE_TRANSFR=DISABLE SHAREDEBRINIT=DISABLE MUX_CONFIGURATION_PORTS=DISABLE BACKGROUND_RECONFIG=OFF INBUF=ON ;
+LOCATE COMP "RAM0_SIO[1]" SITE "J15" ;
+LOCATE COMP "RAM0_SIO[2]" SITE "J16" ;
+LOCATE COMP "UART_FPGA_TO_DETB[0]" SITE "R8" ;
+LOCATE COMP "OSC_CLK" SITE "C8" ;
+LOCATE COMP "V_SRC_BOOST" SITE "J14" ;
+LOCATE COMP "VN22_CLKB" SITE "M16" ;
+LOCATE COMP "VN22_CLKA" SITE "M15" ;
+LOCATE COMP "VN3P4_EN" SITE "L14" ;
+LOCATE COMP "VN22_EN" SITE "L13" ;
+LOCATE COMP "V9P0_EN" SITE "M8" ;
+LOCATE COMP "V5P1_SRC_EN" SITE "L8" ;
+LOCATE COMP "V5P1_RPI_EN" SITE "B7" ;
+LOCATE COMP "V5P1_B23_EN" SITE "J5" ;
+LOCATE COMP "V5P1_B01_EN" SITE "M7" ;
+LOCATE COMP "FP_LED[5]" SITE "J13" ;
+LOCATE COMP "FP_LED[4]" SITE "K13" ;
+LOCATE COMP "FP_LED[3]" SITE "B13" ;
+LOCATE COMP "FP_LED[2]" SITE "A14" ;
+LOCATE COMP "FP_LED[1]" SITE "B14" ;
+LOCATE COMP "FP_LED[0]" SITE "A15" ;
+LOCATE COMP "AUXIO[1]" SITE "A3" ;
+LOCATE COMP "AUXIO[0]" SITE "B3" ;
+LOCATE COMP "TRG[3]" SITE "A5" ;
+LOCATE COMP "TRG[2]" SITE "B5" ;
+LOCATE COMP "TRG[1]" SITE "A4" ;
+LOCATE COMP "TRG[0]" SITE "B4" ;
+LOCATE COMP "EXP_J303_D[3]" SITE "C7" ;
+LOCATE COMP "EXP_J303_D[2]" SITE "D7" ;
+LOCATE COMP "EXP_J303_D[1]" SITE "D6" ;
+LOCATE COMP "EXP_J303_D[0]" SITE "C5" ;
+LOCATE COMP "ACC_RUN_IND" SITE "E14" ;
+LOCATE COMP "RPFP_RUN" SITE "H12" ;
+LOCATE COMP "RPI0_RUNSIG" SITE "C11" ;
+LOCATE COMP "RPI0_SCLK" SITE "A12" ;
+LOCATE COMP "RPI0_MISO" SITE "A11" ;
+LOCATE COMP "RPI0_CE" SITE "B11" ;
+LOCATE COMP "UART_RTSN_TO_FPGA" SITE "F13" ;
+LOCATE COMP "UART_CTSN_TO_FTDI" SITE "F15" ;
+LOCATE COMP "UART_FTDI_TO_FPGA" SITE "F12" ;
+LOCATE COMP "UART_FPGA_TO_FTDI" SITE "F14" ;
+LOCATE COMP "RAM0_SIO[3]" SITE "L15" ;
+LOCATE COMP "RAM0_SIO[0]" SITE "L16" ;
+LOCATE COMP "RAM0_SCLK" SITE "K15" ;
+LOCATE COMP "RAM0_CEN" SITE "K16" ;
+LOCATE COMP "ADS_SDO[1]" SITE "C2" ;
+LOCATE COMP "ADS_SDO[0]" SITE "G5" ;
+LOCATE COMP "ADS_SCK[1]" SITE "B1" ;
+LOCATE COMP "ADS_SCK[0]" SITE "F5" ;
+LOCATE COMP "ADS_CSN[1]" SITE "C1" ;
+LOCATE COMP "ADS_CSN[0]" SITE "H5" ;
+LOCATE COMP "SRCB_STEP" SITE "P11" ;
+LOCATE COMP "SRCB_LED_EN" SITE "M9" ;
+LOCATE COMP "SRCB_RUN" SITE "M11" ;
+LOCATE COMP "SRCB_SELECT[6]" SITE "N14" ;
+LOCATE COMP "SRCB_SELECT[5]" SITE "R16" ;
+LOCATE COMP "SRCB_SELECT[4]" SITE "P15" ;
+LOCATE COMP "SRCB_SELECT[3]" SITE "T14" ;
+LOCATE COMP "SRCB_SELECT[2]" SITE "T12" ;
+LOCATE COMP "SRCB_SELECT[1]" SITE "T13" ;
+LOCATE COMP "SRCB_SELECT[0]" SITE "L10" ;
+LOCATE COMP "UART_FPGA_TO_SRCB" SITE "T11" ;
+LOCATE COMP "UART_SRCB_TO_FPGA[6]" SITE "N16" ;
+LOCATE COMP "UART_SRCB_TO_FPGA[5]" SITE "P16" ;
+LOCATE COMP "UART_SRCB_TO_FPGA[4]" SITE "R14" ;
+LOCATE COMP "UART_SRCB_TO_FPGA[3]" SITE "T15" ;
+LOCATE COMP "UART_SRCB_TO_FPGA[2]" SITE "R13" ;
+LOCATE COMP "UART_SRCB_TO_FPGA[1]" SITE "M10" ;
+LOCATE COMP "UART_SRCB_TO_FPGA[0]" SITE "P12" ;
+LOCATE COMP "DETB_END_CYC[4]" SITE "D15" ;
+LOCATE COMP "DETB_END_CYC[3]" SITE "D1" ;
+LOCATE COMP "DETB_END_CYC[2]" SITE "J1" ;
+LOCATE COMP "DETB_END_CYC[1]" SITE "P1" ;
+LOCATE COMP "DETB_END_CYC[0]" SITE "R7" ;
+LOCATE COMP "DETB_TRIGGER[3]" SITE "E2" ;
+LOCATE COMP "DETB_TRIGGER[2]" SITE "J3" ;
+LOCATE COMP "DETB_TRIGGER[1]" SITE "P2" ;
+LOCATE COMP "DETB_TRIGGER[0]" SITE "T7" ;
+LOCATE COMP "DETB_STATUS_SELECT[4]" SITE "D16" ;
+LOCATE COMP "DETB_STATUS_SELECT[3]" SITE "D2" ;
+LOCATE COMP "DETB_STATUS_SELECT[2]" SITE "J2" ;
+LOCATE COMP "DETB_STATUS_SELECT[1]" SITE "N2" ;
+LOCATE COMP "DETB_STATUS_SELECT[0]" SITE "R6" ;
+LOCATE COMP "DETB_RUN[3]" SITE "E3" ;
+LOCATE COMP "DETB_RUN[2]" SITE "K5" ;
+LOCATE COMP "DETB_RUN[1]" SITE "N3" ;
+LOCATE COMP "DETB_RUN[0]" SITE "T5" ;
+LOCATE COMP "DETB_SELECT[24]" SITE "C16" ;
+LOCATE COMP "DETB_SELECT[23]" SITE "G3" ;
+LOCATE COMP "DETB_SELECT[22]" SITE "H4" ;
+LOCATE COMP "DETB_SELECT[21]" SITE "F4" ;
+LOCATE COMP "DETB_SELECT[20]" SITE "G1" ;
+LOCATE COMP "DETB_SELECT[19]" SITE "H2" ;
+LOCATE COMP "DETB_SELECT[18]" SITE "F2" ;
+LOCATE COMP "DETB_SELECT[17]" SITE "L3" ;
+LOCATE COMP "DETB_SELECT[16]" SITE "L4" ;
+LOCATE COMP "DETB_SELECT[15]" SITE "J4" ;
+LOCATE COMP "DETB_SELECT[14]" SITE "M1" ;
+LOCATE COMP "DETB_SELECT[13]" SITE "M2" ;
+LOCATE COMP "DETB_SELECT[12]" SITE "K2" ;
+LOCATE COMP "DETB_SELECT[11]" SITE "N6" ;
+LOCATE COMP "DETB_SELECT[10]" SITE "N8" ;
+LOCATE COMP "DETB_SELECT[9]" SITE "P5" ;
+LOCATE COMP "DETB_SELECT[8]" SITE "R4" ;
+LOCATE COMP "DETB_SELECT[7]" SITE "T4" ;
+LOCATE COMP "DETB_SELECT[6]" SITE "T2" ;
+LOCATE COMP "DETB_SELECT[5]" SITE "P9" ;
+LOCATE COMP "DETB_SELECT[4]" SITE "N11" ;
+LOCATE COMP "DETB_SELECT[3]" SITE "N9" ;
+LOCATE COMP "DETB_SELECT[2]" SITE "T9" ;
+LOCATE COMP "DETB_SELECT[1]" SITE "R11" ;
+LOCATE COMP "DETB_SELECT[0]" SITE "R9" ;
+LOCATE COMP "UART_FPGA_TO_DETB[4]" SITE "C15" ;
+LOCATE COMP "UART_FPGA_TO_DETB[3]" SITE "E1" ;
+LOCATE COMP "UART_FPGA_TO_DETB[2]" SITE "K1" ;
+LOCATE COMP "UART_FPGA_TO_DETB[1]" SITE "R1" ;
+LOCATE COMP "UART_DETB_TO_FPGA[24]" SITE "B16" ;
+LOCATE COMP "UART_DETB_TO_FPGA[23]" SITE "H3" ;
+LOCATE COMP "UART_DETB_TO_FPGA[22]" SITE "F3" ;
+LOCATE COMP "UART_DETB_TO_FPGA[21]" SITE "G4" ;
+LOCATE COMP "UART_DETB_TO_FPGA[20]" SITE "H1" ;
+LOCATE COMP "UART_DETB_TO_FPGA[19]" SITE "F1" ;
+LOCATE COMP "UART_DETB_TO_FPGA[18]" SITE "G2" ;
+LOCATE COMP "UART_DETB_TO_FPGA[17]" SITE "M3" ;
+LOCATE COMP "UART_DETB_TO_FPGA[16]" SITE "K3" ;
+LOCATE COMP "UART_DETB_TO_FPGA[15]" SITE "K4" ;
+LOCATE COMP "UART_DETB_TO_FPGA[14]" SITE "N1" ;
+LOCATE COMP "UART_DETB_TO_FPGA[13]" SITE "L1" ;
+LOCATE COMP "UART_DETB_TO_FPGA[12]" SITE "L2" ;
+LOCATE COMP "UART_DETB_TO_FPGA[11]" SITE "P7" ;
+LOCATE COMP "UART_DETB_TO_FPGA[10]" SITE "P4" ;
+LOCATE COMP "UART_DETB_TO_FPGA[9]" SITE "N7" ;
+LOCATE COMP "UART_DETB_TO_FPGA[8]" SITE "R5" ;
+LOCATE COMP "UART_DETB_TO_FPGA[7]" SITE "R3" ;
+LOCATE COMP "UART_DETB_TO_FPGA[6]" SITE "T3" ;
+LOCATE COMP "UART_DETB_TO_FPGA[5]" SITE "P10" ;
+LOCATE COMP "UART_DETB_TO_FPGA[4]" SITE "P8" ;
+LOCATE COMP "UART_DETB_TO_FPGA[3]" SITE "N10" ;
+LOCATE COMP "UART_DETB_TO_FPGA[2]" SITE "T10" ;
+LOCATE COMP "UART_DETB_TO_FPGA[1]" SITE "T8" ;
+LOCATE COMP "UART_DETB_TO_FPGA[0]" SITE "R10" ;
+FREQUENCY NET "OSC_CLK_c" 48.000000 MHz ;
+FREQUENCY NET "Clk96xC" 96.000000 MHz ;
+SCHEMATIC END ;
+[ END DESIGN PREFS ]

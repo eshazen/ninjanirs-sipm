@@ -1,0 +1,10 @@
+#Start recording tcl command: 8/8/2024 20:28:35
+#Project Location: D:/Dropbox/NN2022/Lattice/NN22Control00g4-ExtFifo-VCCS-7000HC; Project name: NN22Control00
+prj_project open "D:/Dropbox/NN2022/Lattice/NN22Control00g4-ExtFifo-VCCS-7000HC/NN22Control00.ldf"
+prj_run Export -impl impl1 -task Jedecgen
+pgr_project open "D:/Dropbox/NN2022/Lattice/NN22Control00g4-ExtFifo-VCCS-7000HC/impl1/impl1.xcf"
+pgr_program run
+pgr_program run
+prj_project save
+prj_project close
+#Stop recording: 8/13/2024 18:55:42

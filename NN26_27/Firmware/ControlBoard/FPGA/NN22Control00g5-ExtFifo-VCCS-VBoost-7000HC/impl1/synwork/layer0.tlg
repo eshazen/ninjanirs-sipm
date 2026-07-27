@@ -1,0 +1,243 @@
+@N: CD231 :"C:\lscc\diamond\3.13\synpbase\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_top.vhd":14:7:14:21|Synthesizing work.nn22control_top.nn22control_top_behavior.
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\main_pll.vhd":14:7:14:14|Synthesizing work.main_pll.structure.
+@N: CD630 :"C:\lscc\diamond\3.13\cae_library\synthesis\vhdl\machxo2.vhd":2221:10:2221:16|Synthesizing work.ehxpllj.syn_black_box.
+Post processing for work.ehxpllj.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.13\cae_library\synthesis\vhdl\machxo2.vhd":1490:10:1490:12|Synthesizing work.vlo.syn_black_box.
+Post processing for work.vlo.syn_black_box
+Post processing for work.main_pll.structure
+Running optimization stage 1 on main_pll .......
+Finished optimization stage 1 on main_pll (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 98MB)
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":15:7:15:22|Synthesizing work.nn22control_main.nn22control_main_behavior.
+@N: CD231 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":87:23:87:24|Using onehot encoding for type cfgfsmstate_type. For example, enumeration sidle is mapped to "10000000".
+@N: CD231 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":152:26:152:27|Using onehot encoding for type pcnttxfsmstate_type. For example, enumeration sidle is mapped to "10000".
+@N: CD604 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":411:3:411:16|OTHERS clause is not synthesized.
+@W: CD434 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":490:38:490:51|Signal mainstatregxdp in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CG296 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":490:19:490:25|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":497:17:497:24|Referenced variable clkdivxd is not in sensitivity list.
+@N: CD604 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":588:3:588:16|OTHERS clause is not synthesized.
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\ram_b.vhd":14:7:14:11|Synthesizing work.ram_b.structure.
+@N: CD630 :"C:\lscc\diamond\3.13\cae_library\synthesis\vhdl\machxo2.vhd":1699:10:1699:14|Synthesizing work.dp8kc.syn_black_box.
+Post processing for work.dp8kc.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.13\cae_library\synthesis\vhdl\machxo2.vhd":1483:10:1483:12|Synthesizing work.vhi.syn_black_box.
+Post processing for work.vhi.syn_black_box
+Post processing for work.ram_b.structure
+Running optimization stage 1 on ram_b .......
+Finished optimization stage 1 on ram_b (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 101MB)
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\ram_a.vhd":14:7:14:11|Synthesizing work.ram_a.structure.
+Post processing for work.ram_a.structure
+Running optimization stage 1 on ram_a .......
+Finished optimization stage 1 on ram_a (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 101MB)
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\aux_adc_rx.vhd":17:7:17:16|Synthesizing work.aux_adc_rx.aux_adc_rx_behavior.
+@N: CD231 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\aux_adc_rx.vhd":49:19:49:20|Using onehot encoding for type fsmstatetype. For example, enumeration sidle is mapped to "10000000000".
+@N: CD604 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\aux_adc_rx.vhd":188:3:188:16|OTHERS clause is not synthesized.
+Post processing for work.aux_adc_rx.aux_adc_rx_behavior
+Running optimization stage 1 on aux_adc_rx .......
+Finished optimization stage 1 on aux_adc_rx (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 102MB)
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_rx.vhd":12:7:12:13|Synthesizing work.uart_rx.behavioral.
+@N: CD231 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_rx.vhd":29:19:29:20|Using onehot encoding for type fsmstatetype. For example, enumeration sidle is mapped to "10000".
+Post processing for work.uart_rx.behavioral
+Running optimization stage 1 on uart_rx .......
+Finished optimization stage 1 on uart_rx (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 102MB)
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\spi_rxtx_with_fifo.vhd":14:7:14:24|Synthesizing work.spi_rxtx_with_fifo.behavioral.
+@N: CD231 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\spi_rxtx_with_fifo.vhd":38:19:38:20|Using onehot encoding for type fsmstatetype. For example, enumeration sidle is mapped to "1000000".
+@N: CD604 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\spi_rxtx_with_fifo.vhd":239:3:239:16|OTHERS clause is not synthesized.
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\spi_txrx_ram.vhd":14:7:14:18|Synthesizing work.spi_txrx_ram.structure.
+Post processing for work.spi_txrx_ram.structure
+Running optimization stage 1 on spi_txrx_ram .......
+@W: CL168 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\spi_txrx_ram.vhd":129:4:129:17|Removing instance scuba_vhi_inst because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+Finished optimization stage 1 on spi_txrx_ram (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 104MB)
+Post processing for work.spi_rxtx_with_fifo.behavioral
+Running optimization stage 1 on spi_rxtx_with_fifo .......
+Finished optimization stage 1 on spi_rxtx_with_fifo (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_tx_with_fifo.vhd":12:7:12:23|Synthesizing work.uart_tx_with_fifo.behavioral.
+@N: CD231 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_tx_with_fifo.vhd":29:19:29:20|Using onehot encoding for type fsmstatetype. For example, enumeration sidle is mapped to "10000".
+@N: CD604 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_tx_with_fifo.vhd":118:3:118:16|OTHERS clause is not synthesized.
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_fifo.vhd":14:7:14:15|Synthesizing work.uart_fifo.structure.
+@N: CD630 :"C:\lscc\diamond\3.13\cae_library\synthesis\vhdl\machxo2.vhd":1874:10:1874:16|Synthesizing work.fifo8kb.syn_black_box.
+Post processing for work.fifo8kb.syn_black_box
+Post processing for work.uart_fifo.structure
+Running optimization stage 1 on uart_fifo .......
+Finished optimization stage 1 on uart_fifo (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+Post processing for work.uart_tx_with_fifo.behavioral
+Running optimization stage 1 on uart_tx_with_fifo .......
+Finished optimization stage 1 on uart_tx_with_fifo (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_tx_with_fifo.vhd":12:7:12:23|Synthesizing work.uart_tx_with_fifo.behavioral.
+@N: CD231 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_tx_with_fifo.vhd":29:19:29:20|Using onehot encoding for type fsmstatetype. For example, enumeration sidle is mapped to "10000".
+@N: CD604 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_tx_with_fifo.vhd":118:3:118:16|OTHERS clause is not synthesized.
+Post processing for work.uart_tx_with_fifo.behavioral
+Running optimization stage 1 on uart_tx_with_fifo .......
+Finished optimization stage 1 on uart_tx_with_fifo (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_rx.vhd":12:7:12:13|Synthesizing work.uart_rx.behavioral.
+@N: CD231 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_rx.vhd":29:19:29:20|Using onehot encoding for type fsmstatetype. For example, enumeration sidle is mapped to "10000".
+Post processing for work.uart_rx.behavioral
+Running optimization stage 1 on uart_rx .......
+Finished optimization stage 1 on uart_rx (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\ext_fifo.vhd":15:7:15:14|Synthesizing work.ext_fifo.behavioral.
+@N: CD231 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\ext_fifo.vhd":43:19:43:20|Using onehot encoding for type fsmstatetype. For example, enumeration sidle is mapped to "10000000000000000000000".
+@N: CD233 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\ext_fifo.vhd":48:22:48:23|Using sequential encoding for type spifsmstatetype.
+@N: CD604 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\ext_fifo.vhd":339:3:339:16|OTHERS clause is not synthesized.
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\ext_fifo_int_fifo.vhd":14:7:14:23|Synthesizing work.ext_fifo_int_fifo.structure.
+Post processing for work.ext_fifo_int_fifo.structure
+Running optimization stage 1 on ext_fifo_int_fifo .......
+Finished optimization stage 1 on ext_fifo_int_fifo (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+Post processing for work.ext_fifo.behavioral
+Running optimization stage 1 on ext_fifo .......
+Finished optimization stage 1 on ext_fifo (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 107MB)
+Post processing for work.nn22control_main.nn22control_main_behavior
+Running optimization stage 1 on NN22Control_main .......
+@W: CL190 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":542:2:542:3|Optimizing register bit p_pcnttx_memzing.PcntTxSRegxDP_1(2) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":542:2:542:3|Optimizing register bit p_pcnttx_memzing.PcntTxSRegxDP_1(3) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":542:2:542:3|Optimizing register bit p_pcnttx_memzing.PcntTxSRegxDP_1(4) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":542:2:542:3|Optimizing register bit p_pcnttx_memzing.PcntTxSRegxDP_1(5) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":542:2:542:3|Optimizing register bit p_pcnttx_memzing.PcntTxSRegxDP_1(6) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":542:2:542:3|Optimizing register bit p_pcnttx_memzing.PcntTxSRegxDP_1(7) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":542:2:542:3|Pruning register bits 7 to 2 of PcntTxSRegxDP_1(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 1 on NN22Control_main (CPU Time 0h:00m:00s, Memory Used current: 106MB peak: 107MB)
+Post processing for work.nn22control_top.nn22control_top_behavior
+Running optimization stage 1 on NN22Control_top .......
+Finished optimization stage 1 on NN22Control_top (CPU Time 0h:00m:00s, Memory Used current: 106MB peak: 107MB)
+Running optimization stage 2 on ext_fifo_int_fifo .......
+Finished optimization stage 2 on ext_fifo_int_fifo (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 107MB)
+Running optimization stage 2 on ext_fifo .......
+@N: CL201 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\ext_fifo.vhd":101:2:101:3|Trying to extract state machine for register SpiStatexDP.
+Extracted state machine for register SpiStatexDP
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+@N: CL201 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\ext_fifo.vhd":101:2:101:3|Trying to extract state machine for register StatexDP.
+Extracted state machine for register StatexDP
+State machine has 23 reachable states with original encodings of:
+   00000000000000000000001
+   00000000000000000000010
+   00000000000000000000100
+   00000000000000000001000
+   00000000000000000010000
+   00000000000000000100000
+   00000000000000001000000
+   00000000000000010000000
+   00000000000000100000000
+   00000000000001000000000
+   00000000000010000000000
+   00000000000100000000000
+   00000000001000000000000
+   00000000010000000000000
+   00000000100000000000000
+   00000001000000000000000
+   00000010000000000000000
+   00000100000000000000000
+   00001000000000000000000
+   00010000000000000000000
+   00100000000000000000000
+   01000000000000000000000
+   10000000000000000000000
+Finished optimization stage 2 on ext_fifo (CPU Time 0h:00m:00s, Memory Used current: 107MB peak: 108MB)
+Running optimization stage 2 on uart_rxZ0 .......
+@N: CL201 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_rx.vhd":42:2:42:3|Trying to extract state machine for register StatexDP.
+Extracted state machine for register StatexDP
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000
+Finished optimization stage 2 on uart_rxZ0 (CPU Time 0h:00m:00s, Memory Used current: 107MB peak: 108MB)
+Running optimization stage 2 on uart_tx_with_fifo_16 .......
+@N: CL201 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_tx_with_fifo.vhd":63:2:63:3|Trying to extract state machine for register StatexDP.
+Extracted state machine for register StatexDP
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000
+Finished optimization stage 2 on uart_tx_with_fifo_16 (CPU Time 0h:00m:00s, Memory Used current: 107MB peak: 108MB)
+Running optimization stage 2 on uart_fifo .......
+Finished optimization stage 2 on uart_fifo (CPU Time 0h:00m:00s, Memory Used current: 107MB peak: 108MB)
+Running optimization stage 2 on uart_tx_with_fifo_8 .......
+@N: CL201 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_tx_with_fifo.vhd":63:2:63:3|Trying to extract state machine for register StatexDP.
+Extracted state machine for register StatexDP
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000
+Finished optimization stage 2 on uart_tx_with_fifo_8 (CPU Time 0h:00m:00s, Memory Used current: 107MB peak: 108MB)
+Running optimization stage 2 on spi_txrx_ram .......
+Finished optimization stage 2 on spi_txrx_ram (CPU Time 0h:00m:00s, Memory Used current: 107MB peak: 108MB)
+Running optimization stage 2 on spi_rxtx_with_fifo .......
+@N: CL201 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\spi_rxtx_with_fifo.vhd":118:2:118:3|Trying to extract state machine for register StatexDP.
+Extracted state machine for register StatexDP
+State machine has 7 reachable states with original encodings of:
+   0000001
+   0000010
+   0000100
+   0001000
+   0010000
+   0100000
+   1000000
+Finished optimization stage 2 on spi_rxtx_with_fifo (CPU Time 0h:00m:00s, Memory Used current: 108MB peak: 112MB)
+Running optimization stage 2 on uart_rx_8 .......
+@N: CL201 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_rx.vhd":42:2:42:3|Trying to extract state machine for register StatexDP.
+Extracted state machine for register StatexDP
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000
+Finished optimization stage 2 on uart_rx_8 (CPU Time 0h:00m:00s, Memory Used current: 108MB peak: 112MB)
+Running optimization stage 2 on aux_adc_rx .......
+@N: CL201 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\aux_adc_rx.vhd":64:2:64:3|Trying to extract state machine for register StatexDP.
+Extracted state machine for register StatexDP
+State machine has 11 reachable states with original encodings of:
+   00000000001
+   00000000010
+   00000000100
+   00000001000
+   00000010000
+   00000100000
+   00001000000
+   00010000000
+   00100000000
+   01000000000
+   10000000000
+Finished optimization stage 2 on aux_adc_rx (CPU Time 0h:00m:00s, Memory Used current: 107MB peak: 112MB)
+Running optimization stage 2 on ram_a .......
+Finished optimization stage 2 on ram_a (CPU Time 0h:00m:00s, Memory Used current: 107MB peak: 112MB)
+Running optimization stage 2 on ram_b .......
+Finished optimization stage 2 on ram_b (CPU Time 0h:00m:00s, Memory Used current: 107MB peak: 112MB)
+Running optimization stage 2 on NN22Control_main .......
+@N: CL201 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":542:2:542:3|Trying to extract state machine for register PcntTxStatexDP.
+Extracted state machine for register PcntTxStatexDP
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000
+@N: CL201 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":308:2:308:3|Trying to extract state machine for register CfgStatexDP.
+Extracted state machine for register CfgStatexDP
+State machine has 8 reachable states with original encodings of:
+   00000001
+   00000010
+   00000100
+   00001000
+   00010000
+   00100000
+   01000000
+   10000000
+Finished optimization stage 2 on NN22Control_main (CPU Time 0h:00m:00s, Memory Used current: 109MB peak: 114MB)
+Running optimization stage 2 on main_pll .......
+Finished optimization stage 2 on main_pll (CPU Time 0h:00m:00s, Memory Used current: 109MB peak: 114MB)
+Running optimization stage 2 on NN22Control_top .......
+@W: CL247 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_top.vhd":43:2:43:9|Input port bit 0 of ram0_sio(3 downto 0) is unused 
+Finished optimization stage 2 on NN22Control_top (CPU Time 0h:00m:00s, Memory Used current: 109MB peak: 114MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\impl1\synwork\layer0.duruntime
+
+

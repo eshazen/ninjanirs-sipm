@@ -1,0 +1,5 @@
+
+
+-g RamCfg:Reset
+
+-path "D:/Dropbox/NN2022/Lattice/NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC"  

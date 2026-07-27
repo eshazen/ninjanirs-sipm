@@ -1,0 +1,687 @@
+PAD Specification File
+***************************
+
+PART TYPE:        LCMXO2-7000HC
+Performance Grade:      6
+PACKAGE:          FTBGA256
+Package Status:                     Final          Version 1.39
+
+Sat Nov 02 22:55:40 2024
+
+Pinout by Port Name:
++-----------------------+----------+---------------+-------+-----------+-----------+----------------------------------------------------------+
+| Port Name             | Pin/Bank | Buffer Type   | Site  | PG Enable | BC Enable | Properties                                               |
++-----------------------+----------+---------------+-------+-----------+-----------+----------------------------------------------------------+
+| ACC_RUN_IND           | E14/1    | LVCMOS33_OUT  | PR3B  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| ADS_CSN[0]            | H5/4     | LVCMOS33_OUT  | PL15C |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| ADS_CSN[1]            | C1/5     | LVCMOS33_OUT  | PL4C  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| ADS_SCK[0]            | F5/5     | LVCMOS33_OUT  | PL9C  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| ADS_SCK[1]            | B1/5     | LVCMOS33_OUT  | PL2C  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| ADS_SDO[0]            | G5/5     | LVCMOS33_IN   | PL7C  |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL                      |
+| ADS_SDO[1]            | C2/5     | LVCMOS33_IN   | PL2D  |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL                      |
+| AUXIO[0]              | B3/0     | LVCMOS33_IN   | PT9C  |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL                      |
+| AUXIO[1]              | A3/0     | LVCMOS33_IN   | PT12A |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL                      |
+| DETB_END_CYC[0]       | R7/2     | LVCMOS33_OUT  | PB13A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_END_CYC[1]       | P1/3     | LVCMOS33_OUT  | PL23D |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_END_CYC[2]       | J1/4     | LVCMOS33_OUT  | PL12A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_END_CYC[3]       | D1/5     | LVCMOS33_OUT  | PL3B  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_END_CYC[4]       | D15/1    | LVCMOS33_OUT  | PR4D  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_RUN[0]           | T5/2     | LVCMOS33_OUT  | PB9A  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_RUN[1]           | N3/3     | LVCMOS33_OUT  | PL25B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_RUN[2]           | K5/3     | LVCMOS33_OUT  | PL21C |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_RUN[3]           | E3/5     | LVCMOS33_OUT  | PL4B  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_SELECT[0]        | R9/2     | LVCMOS33_OUT  | PB26A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_SELECT[10]       | N8/2     | LVCMOS33_OUT  | PB18C |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_SELECT[11]       | N6/2     | LVCMOS33_OUT  | PB10A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_SELECT[12]       | K2/4     | LVCMOS33_OUT  | PL17B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_SELECT[13]       | M2/3     | LVCMOS33_OUT  | PL25A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_SELECT[14]       | M1/3     | LVCMOS33_OUT  | PL22B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_SELECT[15]       | J4/4     | LVCMOS33_OUT  | PL15D |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_SELECT[16]       | L4/3     | LVCMOS33_OUT  | PL21D |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_SELECT[17]       | L3/3     | LVCMOS33_OUT  | PL19B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_SELECT[18]       | F2/5     | LVCMOS33_OUT  | PL6B  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_SELECT[19]       | H2/4     | LVCMOS33_OUT  | PL10B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_SELECT[1]        | R11/2    | LVCMOS33_OUT  | PB35A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_SELECT[20]       | G1/4     | LVCMOS33_OUT  | PL10A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_SELECT[21]       | F4/5     | LVCMOS33_OUT  | PL6C  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_SELECT[22]       | H4/4     | LVCMOS33_OUT  | PL10C |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_SELECT[23]       | G3/5     | LVCMOS33_OUT  | PL9B  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_SELECT[24]       | C16/1    | LVCMOS33_OUT  | PR4C  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_SELECT[2]        | T9/2     | LVCMOS33_OUT  | PB23A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_SELECT[3]        | N9/2     | LVCMOS33_OUT  | PB21B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_SELECT[4]        | N11/2    | LVCMOS33_OUT  | PB31D |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_SELECT[5]        | P9/2     | LVCMOS33_OUT  | PB23B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_SELECT[6]        | T2/2     | LVCMOS33_OUT  | PB4C  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_SELECT[7]        | T4/2     | LVCMOS33_OUT  | PB4B  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_SELECT[8]        | R4/2     | LVCMOS33_OUT  | PB7B  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_SELECT[9]        | P5/2     | LVCMOS33_OUT  | PB6B  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_STATUS_SELECT[0] | R6/2     | LVCMOS33_OUT  | PB9B  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_STATUS_SELECT[1] | N2/3     | LVCMOS33_OUT  | PL23C |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_STATUS_SELECT[2] | J2/4     | LVCMOS33_OUT  | PL15A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_STATUS_SELECT[3] | D2/5     | LVCMOS33_OUT  | PL4D  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_STATUS_SELECT[4] | D16/1    | LVCMOS33_OUT  | PR3A  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_TRIGGER[0]       | T7/2     | LVCMOS33_OUT  | PB16A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_TRIGGER[1]       | P2/3     | LVCMOS33_OUT  | PL25D |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_TRIGGER[2]       | J3/4     | LVCMOS33_OUT  | PL12B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| DETB_TRIGGER[3]       | E2/5     | LVCMOS33_OUT  | PL4A  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| EXP_J303_D[0]         | C5/0     | LVCMOS33_OUT  | PT10B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| EXP_J303_D[1]         | D6/0     | LVCMOS33_OUT  | PT14A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| EXP_J303_D[2]         | D7/0     | LVCMOS33_OUT  | PT16B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| EXP_J303_D[3]         | C7/0     | LVCMOS33_OUT  | PT15B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| FP_LED[0]             | A15/0    | LVCMOS33_OUT  | PT36B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| FP_LED[1]             | B14/0    | LVCMOS33_OUT  | PT36A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| FP_LED[2]             | A14/0    | LVCMOS33_OUT  | PT34B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| FP_LED[3]             | B13/0    | LVCMOS33_OUT  | PT34A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| FP_LED[4]             | K13/1    | LVCMOS33_OUT  | PR19C |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| FP_LED[5]             | J13/1    | LVCMOS33_OUT  | PR16D |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| OSC_CLK               | C8/0     | LVCMOS33_IN   | PT18A |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL                      |
+| RAM0_CEN              | K16/1    | LVCMOS33_OUT  | PR16B |           |           | DRIVE:8mA PULL:UP SLEW:SLOW                              |
+| RAM0_SCLK             | K15/1    | LVCMOS33_OUT  | PR17B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| RAM0_SIO[0]           | L16/1    | LVCMOS33_OUT  | PR18A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| RAM0_SIO[1]           | J15/1    | LVCMOS33_BIDI | PR16A |           |           | DRIVE:8mA PULL:DOWN CLAMP:ON HYSTERESIS:SMALL SLEW:SLOW  |
+| RAM0_SIO[2]           | J16/1    | LVCMOS33_OUT  | PR15A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| RAM0_SIO[3]           | L15/1    | LVCMOS33_OUT  | PR21A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| RPFP_RUN              | H12/1    | LVCMOS33_OUT  | PR10D |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| RPI0_CE               | B11/0    | LVCMOS33_IN   | PT33A |           |           | PULL:UP CLAMP:ON HYSTERESIS:SMALL                        |
+| RPI0_MISO             | A11/0    | LVCMOS33_OUT  | PT28A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| RPI0_RUNSIG           | C11/0    | LVCMOS33_OUT  | PT28B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| RPI0_SCLK             | A12/0    | LVCMOS33_IN   | PT33B |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL                      |
+| SRCB_LED_EN           | M9/2     | LVCMOS33_OUT  | PB26C |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| SRCB_RUN              | M11/2    | LVCMOS33_OUT  | PB28B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| SRCB_SELECT[0]        | L10/2    | LVCMOS33_OUT  | PB26D |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| SRCB_SELECT[1]        | T13/2    | LVCMOS33_OUT  | PB37B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| SRCB_SELECT[2]        | T12/2    | LVCMOS33_OUT  | PB35B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| SRCB_SELECT[3]        | T14/2    | LVCMOS33_OUT  | PB34B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| SRCB_SELECT[4]        | P15/1    | LVCMOS33_OUT  | PR25C |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| SRCB_SELECT[5]        | R16/1    | LVCMOS33_OUT  | PR25D |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| SRCB_SELECT[6]        | N14/1    | LVCMOS33_OUT  | PR24B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| SRCB_STEP             | P11/2    | LVCMOS33_OUT  | PB31B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| TRG[0]                | B4/0     | LVCMOS33_IN   | PT12B |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL                      |
+| TRG[1]                | A4/0     | LVCMOS33_IN   | PT10A |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL                      |
+| TRG[2]                | B5/0     | LVCMOS33_IN   | PT9B  |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL                      |
+| TRG[3]                | A5/0     | LVCMOS33_IN   | PT11A |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL                      |
+| UART_CTSN_TO_FTDI     | F15/1    | LVCMOS33_OUT  | PR5B  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| UART_DETB_TO_FPGA[0]  | R10/2    | LVCMOS33_IN   | PB29B |           |           | PULL:UP CLAMP:ON HYSTERESIS:SMALL                        |
+| UART_DETB_TO_FPGA[10] | P4/2     | LVCMOS33_IN   | PB4A  |           |           | PULL:UP CLAMP:ON HYSTERESIS:SMALL                        |
+| UART_DETB_TO_FPGA[11] | P7/2     | LVCMOS33_IN   | PB13B |           |           | PULL:UP CLAMP:ON HYSTERESIS:SMALL                        |
+| UART_DETB_TO_FPGA[12] | L2/3     | LVCMOS33_IN   | PL22A |           |           | PULL:UP CLAMP:ON HYSTERESIS:SMALL                        |
+| UART_DETB_TO_FPGA[13] | L1/3     | LVCMOS33_IN   | PL19A |           |           | PULL:UP CLAMP:ON HYSTERESIS:SMALL                        |
+| UART_DETB_TO_FPGA[14] | N1/3     | LVCMOS33_IN   | PL24B |           |           | PULL:UP CLAMP:ON HYSTERESIS:SMALL                        |
+| UART_DETB_TO_FPGA[15] | K4/3     | LVCMOS33_IN   | PL19C |           |           | PULL:UP CLAMP:ON HYSTERESIS:SMALL                        |
+| UART_DETB_TO_FPGA[16] | K3/4     | LVCMOS33_IN   | PL17A |           |           | PULL:UP CLAMP:ON HYSTERESIS:SMALL                        |
+| UART_DETB_TO_FPGA[17] | M3/3     | LVCMOS33_IN   | PL24A |           |           | PULL:UP CLAMP:ON HYSTERESIS:SMALL                        |
+| UART_DETB_TO_FPGA[18] | G2/5     | LVCMOS33_IN   | PL9A  |           |           | PULL:UP CLAMP:ON HYSTERESIS:SMALL                        |
+| UART_DETB_TO_FPGA[19] | F1/5     | LVCMOS33_IN   | PL8B  |           |           | PULL:UP CLAMP:ON HYSTERESIS:SMALL                        |
+| UART_DETB_TO_FPGA[1]  | T8/2     | LVCMOS33_IN   | PB18B |           |           | PULL:UP CLAMP:ON HYSTERESIS:SMALL                        |
+| UART_DETB_TO_FPGA[20] | H1/4     | LVCMOS33_IN   | PL11B |           |           | PULL:UP CLAMP:ON HYSTERESIS:SMALL                        |
+| UART_DETB_TO_FPGA[21] | G4/5     | LVCMOS33_IN   | PL7D  |           |           | PULL:UP CLAMP:ON HYSTERESIS:SMALL                        |
+| UART_DETB_TO_FPGA[22] | F3/5     | LVCMOS33_IN   | PL8A  |           |           | PULL:UP CLAMP:ON HYSTERESIS:SMALL                        |
+| UART_DETB_TO_FPGA[23] | H3/4     | LVCMOS33_IN   | PL11A |           |           | PULL:UP CLAMP:ON HYSTERESIS:SMALL                        |
+| UART_DETB_TO_FPGA[24] | B16/1    | LVCMOS33_IN   | PR2D  |           |           | PULL:UP CLAMP:ON HYSTERESIS:SMALL                        |
+| UART_DETB_TO_FPGA[2]  | T10/2    | LVCMOS33_IN   | PB26B |           |           | PULL:UP CLAMP:ON HYSTERESIS:SMALL                        |
+| UART_DETB_TO_FPGA[3]  | N10/2    | LVCMOS33_IN   | PB28A |           |           | PULL:UP CLAMP:ON HYSTERESIS:SMALL                        |
+| UART_DETB_TO_FPGA[4]  | P8/2     | LVCMOS33_IN   | PB18A |           |           | PULL:UP CLAMP:ON HYSTERESIS:SMALL                        |
+| UART_DETB_TO_FPGA[5]  | P10/2    | LVCMOS33_IN   | PB29A |           |           | PULL:UP CLAMP:ON HYSTERESIS:SMALL                        |
+| UART_DETB_TO_FPGA[6]  | T3/2     | LVCMOS33_IN   | PB7A  |           |           | PULL:UP CLAMP:ON HYSTERESIS:SMALL                        |
+| UART_DETB_TO_FPGA[7]  | R3/2     | LVCMOS33_IN   | PB4D  |           |           | PULL:UP CLAMP:ON HYSTERESIS:SMALL                        |
+| UART_DETB_TO_FPGA[8]  | R5/2     | LVCMOS33_IN   | PB6A  |           |           | PULL:UP CLAMP:ON HYSTERESIS:SMALL                        |
+| UART_DETB_TO_FPGA[9]  | N7/2     | LVCMOS33_IN   | PB13D |           |           | PULL:UP CLAMP:ON HYSTERESIS:SMALL                        |
+| UART_FPGA_TO_DETB[0]  | R8/2     | LVCMOS33_OUT  | PB16B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| UART_FPGA_TO_DETB[1]  | R1/3     | LVCMOS33_OUT  | PL25C |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| UART_FPGA_TO_DETB[2]  | K1/4     | LVCMOS33_OUT  | PL15B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| UART_FPGA_TO_DETB[3]  | E1/5     | LVCMOS33_OUT  | PL6A  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| UART_FPGA_TO_DETB[4]  | C15/1    | LVCMOS33_OUT  | PR2C  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| UART_FPGA_TO_FTDI     | F14/1    | LVCMOS33_OUT  | PR7A  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| UART_FPGA_TO_SRCB     | T11/2    | LVCMOS33_OUT  | PB31A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| UART_FTDI_TO_FPGA     | F12/1    | LVCMOS33_IN   | PR7C  |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL                      |
+| UART_RTSN_TO_FPGA     | F13/1    | LVCMOS33_IN   | PR6C  |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL                      |
+| UART_SRCB_TO_FPGA[0]  | P12/2    | LVCMOS33_IN   | PB37A |           |           | PULL:UP CLAMP:ON HYSTERESIS:SMALL                        |
+| UART_SRCB_TO_FPGA[1]  | M10/2    | LVCMOS33_IN   | PB31C |           |           | PULL:UP CLAMP:ON HYSTERESIS:SMALL                        |
+| UART_SRCB_TO_FPGA[2]  | R13/2    | LVCMOS33_IN   | PB34A |           |           | PULL:UP CLAMP:ON HYSTERESIS:SMALL                        |
+| UART_SRCB_TO_FPGA[3]  | T15/2    | LVCMOS33_IN   | PB38C |           |           | PULL:UP CLAMP:ON HYSTERESIS:SMALL                        |
+| UART_SRCB_TO_FPGA[4]  | R14/2    | LVCMOS33_IN   | PB38D |           |           | PULL:UP CLAMP:ON HYSTERESIS:SMALL                        |
+| UART_SRCB_TO_FPGA[5]  | P16/1    | LVCMOS33_IN   | PR23D |           |           | PULL:UP CLAMP:ON HYSTERESIS:SMALL                        |
+| UART_SRCB_TO_FPGA[6]  | N16/1    | LVCMOS33_IN   | PR24A |           |           | PULL:UP CLAMP:ON HYSTERESIS:SMALL                        |
+| V5P1_B01_EN           | M7/2     | LVCMOS33_OUT  | PB13C |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| V5P1_B23_EN           | J5/4     | LVCMOS33_OUT  | PL16C |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| V5P1_RPI_EN           | B7/0     | LVCMOS33_OUT  | PT15A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| V5P1_SRC_EN           | L8/2     | LVCMOS33_OUT  | PB15B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| V9P0_EN               | M8/2     | LVCMOS33_OUT  | PB21A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| VN22_CLKA             | M15/1    | LVCMOS33_OUT  | PR23B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| VN22_CLKB             | M16/1    | LVCMOS33_OUT  | PR21B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| VN22_EN               | L13/1    | LVCMOS33_OUT  | PR21D |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| VN3P4_EN              | L14/1    | LVCMOS33_OUT  | PR18B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
+| V_SRC_BOOST           | J14/1    | LVCMOS33_OUT  | PR15B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW                            |
++-----------------------+----------+---------------+-------+-----------+-----------+----------------------------------------------------------+
+
+Vccio by Bank:
++------+-------+
+| Bank | Vccio |
++------+-------+
+| 0    | 3.3V  |
+| 1    | 3.3V  |
+| 2    | 3.3V  |
+| 3    | 3.3V  |
+| 4    | 3.3V  |
+| 5    | 3.3V  |
++------+-------+
+
+Vref by Bank:
++------+-----+-----------------+---------+
+| Vref | Pin | Bank # / Vref # | Load(s) |
++------+-----+-----------------+---------+
++------+-----+-----------------+---------+
+
+Pinout by Pin Number:
++----------+-----------------------+------------+---------------+-------+----------------+-----------+-----------+
+| Pin/Bank | Pin Info              | Preference | Buffer Type   | Site  | Dual Function  | PG Enable | BC Enable |
++----------+-----------------------+------------+---------------+-------+----------------+-----------+-----------+
+| A3/0     | AUXIO[1]              | LOCATED    | LVCMOS33_IN   | PT12A |                |           |           |
+| A4/0     | TRG[1]                | LOCATED    | LVCMOS33_IN   | PT10A |                |           |           |
+| A5/0     | TRG[3]                | LOCATED    | LVCMOS33_IN   | PT11A |                |           |           |
+| A6/0     | Reserved: sysCONFIG   |            |               | PT14D | TDI            |           |           |
+| A7/0     | Reserved: sysCONFIG   |            |               | PT17C | TCK            |           |           |
+| A8/0     |     unused, PULL:DOWN |            |               | PT18B | PCLKC0_1       |           |           |
+| A9/0     |     unused, PULL:DOWN |            |               | PT22C | SCL/PCLKT0_0   |           |           |
+| A10/0    |     unused, PULL:DOWN |            |               | PT25B |                |           |           |
+| A11/0    | RPI0_MISO             | LOCATED    | LVCMOS33_OUT  | PT28A |                |           |           |
+| A12/0    | RPI0_SCLK             | LOCATED    | LVCMOS33_IN   | PT33B |                |           |           |
+| A13/0    |     unused, PULL:DOWN |            |               | PT36C | INITN          |           |           |
+| A14/0    | FP_LED[2]             | LOCATED    | LVCMOS33_OUT  | PT34B |                |           |           |
+| A15/0    | FP_LED[0]             | LOCATED    | LVCMOS33_OUT  | PT36B |                |           |           |
+| B1/5     | ADS_SCK[1]            | LOCATED    | LVCMOS33_OUT  | PL2C  |                |           |           |
+| B3/0     | AUXIO[0]              | LOCATED    | LVCMOS33_IN   | PT9C  |                |           |           |
+| B4/0     | TRG[0]                | LOCATED    | LVCMOS33_IN   | PT12B |                |           |           |
+| B5/0     | TRG[2]                | LOCATED    | LVCMOS33_IN   | PT9B  |                |           |           |
+| B6/0     |     unused, PULL:DOWN |            |               | PT11B |                |           |           |
+| B7/0     | V5P1_RPI_EN           | LOCATED    | LVCMOS33_OUT  | PT15A |                |           |           |
+| B8/0     | Reserved: sysCONFIG   |            |               | PT17D | TMS            |           |           |
+| B9/0     |     unused, PULL:DOWN |            |               | PT25A |                |           |           |
+| B10/0    |     unused, PULL:DOWN |            |               | PT27D | PROGRAMN       |           |           |
+| B11/0    | RPI0_CE               | LOCATED    | LVCMOS33_IN   | PT33A |                |           |           |
+| B12/0    |     unused, PULL:DOWN |            |               | PT35B |                |           |           |
+| B13/0    | FP_LED[3]             | LOCATED    | LVCMOS33_OUT  | PT34A |                |           |           |
+| B14/0    | FP_LED[1]             | LOCATED    | LVCMOS33_OUT  | PT36A |                |           |           |
+| B16/1    | UART_DETB_TO_FPGA[24] | LOCATED    | LVCMOS33_IN   | PR2D  |                |           |           |
+| C1/5     | ADS_CSN[1]            | LOCATED    | LVCMOS33_OUT  | PL4C  |                |           |           |
+| C2/5     | ADS_SDO[1]            | LOCATED    | LVCMOS33_IN   | PL2D  |                |           |           |
+| C4/0     |     unused, PULL:DOWN |            |               | PT9A  |                |           |           |
+| C5/0     | EXP_J303_D[0]         | LOCATED    | LVCMOS33_OUT  | PT10B |                |           |           |
+| C6/0     | Reserved: sysCONFIG   |            |               | PT14C | TDO            |           |           |
+| C7/0     | EXP_J303_D[3]         | LOCATED    | LVCMOS33_OUT  | PT15B |                |           |           |
+| C8/0     | OSC_CLK               | LOCATED    | LVCMOS33_IN   | PT18A | PCLKT0_1       |           |           |
+| C9/0     |     unused, PULL:DOWN |            |               | PT22D | SDA/PCLKC0_0   |           |           |
+| C10/0    |     unused, PULL:DOWN |            |               | PT27C | JTAGENB        |           |           |
+| C11/0    | RPI0_RUNSIG           | LOCATED    | LVCMOS33_OUT  | PT28B |                |           |           |
+| C12/0    |     unused, PULL:DOWN |            |               | PT35A |                |           |           |
+| C13/0    |     unused, PULL:DOWN |            |               | PT36D | DONE           |           |           |
+| C15/1    | UART_FPGA_TO_DETB[4]  | LOCATED    | LVCMOS33_OUT  | PR2C  |                |           |           |
+| C16/1    | DETB_SELECT[24]       | LOCATED    | LVCMOS33_OUT  | PR4C  |                |           |           |
+| D1/5     | DETB_END_CYC[3]       | LOCATED    | LVCMOS33_OUT  | PL3B  | L_GPLLC_FB     |           |           |
+| D2/5     | DETB_STATUS_SELECT[3] | LOCATED    | LVCMOS33_OUT  | PL4D  |                |           |           |
+| D3/5     |     unused, PULL:DOWN |            |               | PL3A  | L_GPLLT_FB     |           |           |
+| D6/0     | EXP_J303_D[1]         | LOCATED    | LVCMOS33_OUT  | PT14A |                |           |           |
+| D7/0     | EXP_J303_D[2]         | LOCATED    | LVCMOS33_OUT  | PT16B |                |           |           |
+| D8/0     |     unused, PULL:DOWN |            |               | PT21A |                |           |           |
+| D9/0     |     unused, PULL:DOWN |            |               | PT22B |                |           |           |
+| D10/0    |     unused, PULL:DOWN |            |               | PT27A |                |           |           |
+| D11/0    |     unused, PULL:DOWN |            |               | PT32B |                |           |           |
+| D14/1    |     unused, PULL:DOWN |            |               | PR2A  | R_GPLLT_FB/DQ0 |           |           |
+| D15/1    | DETB_END_CYC[4]       | LOCATED    | LVCMOS33_OUT  | PR4D  |                |           |           |
+| D16/1    | DETB_STATUS_SELECT[4] | LOCATED    | LVCMOS33_OUT  | PR3A  | R_GPLLT_IN/DQ0 |           |           |
+| E1/5     | UART_FPGA_TO_DETB[3]  | LOCATED    | LVCMOS33_OUT  | PL6A  | PCLKT5_0       |           |           |
+| E2/5     | DETB_TRIGGER[3]       | LOCATED    | LVCMOS33_OUT  | PL4A  | L_GPLLT_IN     |           |           |
+| E3/5     | DETB_RUN[3]           | LOCATED    | LVCMOS33_OUT  | PL4B  | L_GPLLC_IN     |           |           |
+| E6/0     |     unused, PULL:DOWN |            |               | PT16A |                |           |           |
+| E7/0     |     unused, PULL:DOWN |            |               | PT14B |                |           |           |
+| E8/0     |     unused, PULL:DOWN |            |               | PT17B |                |           |           |
+| E9/0     |     unused, PULL:DOWN |            |               | PT21B |                |           |           |
+| E10/0    |     unused, PULL:DOWN |            |               | PT27B |                |           |           |
+| E11/0    |     unused, PULL:DOWN |            |               | PT26B |                |           |           |
+| E14/1    | ACC_RUN_IND           | LOCATED    | LVCMOS33_OUT  | PR3B  | R_GPLLC_IN/DQ0 |           |           |
+| E15/1    |     unused, PULL:DOWN |            |               | PR2B  | R_GPLLC_FB/DQ0 |           |           |
+| E16/1    |     unused, PULL:DOWN |            |               | PR5A  | DQ0            |           |           |
+| F1/5     | UART_DETB_TO_FPGA[19] | LOCATED    | LVCMOS33_IN   | PL8B  |                |           |           |
+| F2/5     | DETB_SELECT[18]       | LOCATED    | LVCMOS33_OUT  | PL6B  | PCLKC5_0       |           |           |
+| F3/5     | UART_DETB_TO_FPGA[22] | LOCATED    | LVCMOS33_IN   | PL8A  |                |           |           |
+| F4/5     | DETB_SELECT[21]       | LOCATED    | LVCMOS33_OUT  | PL6C  |                |           |           |
+| F5/5     | ADS_SCK[0]            | LOCATED    | LVCMOS33_OUT  | PL9C  |                |           |           |
+| F7/0     |     unused, PULL:DOWN |            |               | PT17A |                |           |           |
+| F8/0     |     unused, PULL:DOWN |            |               | PT22A |                |           |           |
+| F9/0     |     unused, PULL:DOWN |            |               | PT26A |                |           |           |
+| F10/0    |     unused, PULL:DOWN |            |               | PT32A |                |           |           |
+| F12/1    | UART_FTDI_TO_FPGA     | LOCATED    | LVCMOS33_IN   | PR7C  |                |           |           |
+| F13/1    | UART_RTSN_TO_FPGA     | LOCATED    | LVCMOS33_IN   | PR6C  |                |           |           |
+| F14/1    | UART_FPGA_TO_FTDI     | LOCATED    | LVCMOS33_OUT  | PR7A  | DQ0            |           |           |
+| F15/1    | UART_CTSN_TO_FTDI     | LOCATED    | LVCMOS33_OUT  | PR5B  | DQ0            |           |           |
+| F16/1    |     unused, PULL:DOWN |            |               | PR7B  | DQ0            |           |           |
+| G1/4     | DETB_SELECT[20]       | LOCATED    | LVCMOS33_OUT  | PL10A |                |           |           |
+| G2/5     | UART_DETB_TO_FPGA[18] | LOCATED    | LVCMOS33_IN   | PL9A  |                |           |           |
+| G3/5     | DETB_SELECT[23]       | LOCATED    | LVCMOS33_OUT  | PL9B  |                |           |           |
+| G4/5     | UART_DETB_TO_FPGA[21] | LOCATED    | LVCMOS33_IN   | PL7D  |                |           |           |
+| G5/5     | ADS_SDO[0]            | LOCATED    | LVCMOS33_IN   | PL7C  |                |           |           |
+| G6/5     |     unused, PULL:DOWN |            |               | PL6D  |                |           |           |
+| G11/1    |     unused, PULL:DOWN |            |               | PR10C |                |           |           |
+| G12/1    |     unused, PULL:DOWN |            |               | PR6D  |                |           |           |
+| G13/1    |     unused, PULL:DOWN |            |               | PR7D  |                |           |           |
+| G14/1    |     unused, PULL:DOWN |            |               | PR9B  | DQ0            |           |           |
+| G15/1    |     unused, PULL:DOWN |            |               | PR9A  | DQ0            |           |           |
+| G16/1    |     unused, PULL:DOWN |            |               | PR11A | DQS0           |           |           |
+| H1/4     | UART_DETB_TO_FPGA[20] | LOCATED    | LVCMOS33_IN   | PL11B |                |           |           |
+| H2/4     | DETB_SELECT[19]       | LOCATED    | LVCMOS33_OUT  | PL10B |                |           |           |
+| H3/4     | UART_DETB_TO_FPGA[23] | LOCATED    | LVCMOS33_IN   | PL11A |                |           |           |
+| H4/4     | DETB_SELECT[22]       | LOCATED    | LVCMOS33_OUT  | PL10C |                |           |           |
+| H5/4     | ADS_CSN[0]            | LOCATED    | LVCMOS33_OUT  | PL15C |                |           |           |
+| H6/5     |     unused, PULL:DOWN |            |               | PL9D  |                |           |           |
+| H11/1    |     unused, PULL:DOWN |            |               | PR16C |                |           |           |
+| H12/1    | RPFP_RUN              | LOCATED    | LVCMOS33_OUT  | PR10D |                |           |           |
+| H13/1    |     unused, PULL:DOWN |            |               | PR11C |                |           |           |
+| H14/1    |     unused, PULL:DOWN |            |               | PR12A | PCLKT1_0/DQ0   |           |           |
+| H15/1    |     unused, PULL:DOWN |            |               | PR11B | DQS0N          |           |           |
+| H16/1    |     unused, PULL:DOWN |            |               | PR12B | PCLKC1_0/DQ0   |           |           |
+| J1/4     | DETB_END_CYC[2]       | LOCATED    | LVCMOS33_OUT  | PL12A | PCLKT4_0       |           |           |
+| J2/4     | DETB_STATUS_SELECT[2] | LOCATED    | LVCMOS33_OUT  | PL15A |                |           |           |
+| J3/4     | DETB_TRIGGER[2]       | LOCATED    | LVCMOS33_OUT  | PL12B | PCLKC4_0       |           |           |
+| J4/4     | DETB_SELECT[15]       | LOCATED    | LVCMOS33_OUT  | PL15D |                |           |           |
+| J5/4     | V5P1_B23_EN           | LOCATED    | LVCMOS33_OUT  | PL16C |                |           |           |
+| J6/4     |     unused, PULL:DOWN |            |               | PL10D |                |           |           |
+| J11/1    |     unused, PULL:DOWN |            |               | PR17C |                |           |           |
+| J12/1    |     unused, PULL:DOWN |            |               | PR11D |                |           |           |
+| J13/1    | FP_LED[5]             | LOCATED    | LVCMOS33_OUT  | PR16D |                |           |           |
+| J14/1    | V_SRC_BOOST           | LOCATED    | LVCMOS33_OUT  | PR15B |                |           |           |
+| J15/1    | RAM0_SIO[1]           | LOCATED    | LVCMOS33_BIDI | PR16A | DQS1           |           |           |
+| J16/1    | RAM0_SIO[2]           | LOCATED    | LVCMOS33_OUT  | PR15A |                |           |           |
+| K1/4     | UART_FPGA_TO_DETB[2]  | LOCATED    | LVCMOS33_OUT  | PL15B |                |           |           |
+| K2/4     | DETB_SELECT[12]       | LOCATED    | LVCMOS33_OUT  | PL17B |                |           |           |
+| K3/4     | UART_DETB_TO_FPGA[16] | LOCATED    | LVCMOS33_IN   | PL17A |                |           |           |
+| K4/3     | UART_DETB_TO_FPGA[15] | LOCATED    | LVCMOS33_IN   | PL19C |                |           |           |
+| K5/3     | DETB_RUN[2]           | LOCATED    | LVCMOS33_OUT  | PL21C |                |           |           |
+| K6/4     |     unused, PULL:DOWN |            |               | PL16D |                |           |           |
+| K11/1    |     unused, PULL:DOWN |            |               | PR21C |                |           |           |
+| K12/1    |     unused, PULL:DOWN |            |               | PR19D | DQ1            |           |           |
+| K13/1    | FP_LED[4]             | LOCATED    | LVCMOS33_OUT  | PR19C | DQ1            |           |           |
+| K14/1    |     unused, PULL:DOWN |            |               | PR17A | DQ1            |           |           |
+| K15/1    | RAM0_SCLK             | LOCATED    | LVCMOS33_OUT  | PR17B | DQ1            |           |           |
+| K16/1    | RAM0_CEN              | LOCATED    | LVCMOS33_OUT  | PR16B | DQS1N          |           |           |
+| L1/3     | UART_DETB_TO_FPGA[13] | LOCATED    | LVCMOS33_IN   | PL19A |                |           |           |
+| L2/3     | UART_DETB_TO_FPGA[12] | LOCATED    | LVCMOS33_IN   | PL22A | PCLKT3_0       |           |           |
+| L3/3     | DETB_SELECT[17]       | LOCATED    | LVCMOS33_OUT  | PL19B |                |           |           |
+| L4/3     | DETB_SELECT[16]       | LOCATED    | LVCMOS33_OUT  | PL21D |                |           |           |
+| L5/3     |     unused, PULL:DOWN |            |               | PL19D |                |           |           |
+| L7/2     |     unused, PULL:DOWN |            |               | PB10B |                |           |           |
+| L8/2     | V5P1_SRC_EN           | LOCATED    | LVCMOS33_OUT  | PB15B |                |           |           |
+| L9/2     |     unused, PULL:DOWN |            |               | PB18D |                |           |           |
+| L10/2    | SRCB_SELECT[0]        | LOCATED    | LVCMOS33_OUT  | PB26D |                |           |           |
+| L12/1    |     unused, PULL:DOWN |            |               | PR17D |                |           |           |
+| L13/1    | VN22_EN               | LOCATED    | LVCMOS33_OUT  | PR21D |                |           |           |
+| L14/1    | VN3P4_EN              | LOCATED    | LVCMOS33_OUT  | PR18B | DQ1            |           |           |
+| L15/1    | RAM0_SIO[3]           | LOCATED    | LVCMOS33_OUT  | PR21A | DQ1            |           |           |
+| L16/1    | RAM0_SIO[0]           | LOCATED    | LVCMOS33_OUT  | PR18A | DQ1            |           |           |
+| M1/3     | DETB_SELECT[14]       | LOCATED    | LVCMOS33_OUT  | PL22B | PCLKC3_0       |           |           |
+| M2/3     | DETB_SELECT[13]       | LOCATED    | LVCMOS33_OUT  | PL25A |                |           |           |
+| M3/3     | UART_DETB_TO_FPGA[17] | LOCATED    | LVCMOS33_IN   | PL24A |                |           |           |
+| M6/2     |     unused, PULL:DOWN |            |               | PB15A |                |           |           |
+| M7/2     | V5P1_B01_EN           | LOCATED    | LVCMOS33_OUT  | PB13C |                |           |           |
+| M8/2     | V9P0_EN               | LOCATED    | LVCMOS33_OUT  | PB21A |                |           |           |
+| M9/2     | SRCB_LED_EN           | LOCATED    | LVCMOS33_OUT  | PB26C |                |           |           |
+| M10/2    | UART_SRCB_TO_FPGA[1]  | LOCATED    | LVCMOS33_IN   | PB31C |                |           |           |
+| M11/2    | SRCB_RUN              | LOCATED    | LVCMOS33_OUT  | PB28B |                |           |           |
+| M14/1    |     unused, PULL:DOWN |            |               | PR23A | DQ1            |           |           |
+| M15/1    | VN22_CLKA             | LOCATED    | LVCMOS33_OUT  | PR23B | DQ1            |           |           |
+| M16/1    | VN22_CLKB             | LOCATED    | LVCMOS33_OUT  | PR21B | DQ1            |           |           |
+| N1/3     | UART_DETB_TO_FPGA[14] | LOCATED    | LVCMOS33_IN   | PL24B |                |           |           |
+| N2/3     | DETB_STATUS_SELECT[1] | LOCATED    | LVCMOS33_OUT  | PL23C |                |           |           |
+| N3/3     | DETB_RUN[1]           | LOCATED    | LVCMOS33_OUT  | PL25B |                |           |           |
+| N6/2     | DETB_SELECT[11]       | LOCATED    | LVCMOS33_OUT  | PB10A |                |           |           |
+| N7/2     | UART_DETB_TO_FPGA[9]  | LOCATED    | LVCMOS33_IN   | PB13D |                |           |           |
+| N8/2     | DETB_SELECT[10]       | LOCATED    | LVCMOS33_OUT  | PB18C |                |           |           |
+| N9/2     | DETB_SELECT[3]        | LOCATED    | LVCMOS33_OUT  | PB21B |                |           |           |
+| N10/2    | UART_DETB_TO_FPGA[3]  | LOCATED    | LVCMOS33_IN   | PB28A |                |           |           |
+| N11/2    | DETB_SELECT[4]        | LOCATED    | LVCMOS33_OUT  | PB31D |                |           |           |
+| N14/1    | SRCB_SELECT[6]        | LOCATED    | LVCMOS33_OUT  | PR24B | DQ1            |           |           |
+| N15/1    |     unused, PULL:DOWN |            |               | PR23C |                |           |           |
+| N16/1    | UART_SRCB_TO_FPGA[6]  | LOCATED    | LVCMOS33_IN   | PR24A | DQ1            |           |           |
+| P1/3     | DETB_END_CYC[1]       | LOCATED    | LVCMOS33_OUT  | PL23D |                |           |           |
+| P2/3     | DETB_TRIGGER[1]       | LOCATED    | LVCMOS33_OUT  | PL25D |                |           |           |
+| P4/2     | UART_DETB_TO_FPGA[10] | LOCATED    | LVCMOS33_IN   | PB4A  |                |           |           |
+| P5/2     | DETB_SELECT[9]        | LOCATED    | LVCMOS33_OUT  | PB6B  |                |           |           |
+| P6/2     |     unused, PULL:DOWN |            |               | PB12A | MCLK/CCLK      |           |           |
+| P7/2     | UART_DETB_TO_FPGA[11] | LOCATED    | LVCMOS33_IN   | PB13B |                |           |           |
+| P8/2     | UART_DETB_TO_FPGA[4]  | LOCATED    | LVCMOS33_IN   | PB18A |                |           |           |
+| P9/2     | DETB_SELECT[5]        | LOCATED    | LVCMOS33_OUT  | PB23B | PCLKC2_1       |           |           |
+| P10/2    | UART_DETB_TO_FPGA[5]  | LOCATED    | LVCMOS33_IN   | PB29A |                |           |           |
+| P11/2    | SRCB_STEP             | LOCATED    | LVCMOS33_OUT  | PB31B |                |           |           |
+| P12/2    | UART_SRCB_TO_FPGA[0]  | LOCATED    | LVCMOS33_IN   | PB37A |                |           |           |
+| P13/2    |     unused, PULL:DOWN |            |               | PB38B | SI/SISPI       |           |           |
+| P15/1    | SRCB_SELECT[4]        | LOCATED    | LVCMOS33_OUT  | PR25C |                |           |           |
+| P16/1    | UART_SRCB_TO_FPGA[5]  | LOCATED    | LVCMOS33_IN   | PR23D |                |           |           |
+| PB6C/2   |     unused, PULL:DOWN |            |               | PB6C  |                |           |           |
+| PB6D/2   |     unused, PULL:DOWN |            |               | PB6D  |                |           |           |
+| PB7C/2   |     unused, PULL:DOWN |            |               | PB7C  |                |           |           |
+| PB7D/2   |     unused, PULL:DOWN |            |               | PB7D  |                |           |           |
+| PB9C/2   |     unused, PULL:DOWN |            |               | PB9C  |                |           |           |
+| PB9D/2   |     unused, PULL:DOWN |            |               | PB9D  |                |           |           |
+| PB10C/2  |     unused, PULL:DOWN |            |               | PB10C |                |           |           |
+| PB10D/2  |     unused, PULL:DOWN |            |               | PB10D |                |           |           |
+| PB12C/2  |     unused, PULL:DOWN |            |               | PB12C |                |           |           |
+| PB12D/2  |     unused, PULL:DOWN |            |               | PB12D |                |           |           |
+| PB15C/2  |     unused, PULL:DOWN |            |               | PB15C |                |           |           |
+| PB15D/2  |     unused, PULL:DOWN |            |               | PB15D |                |           |           |
+| PB16C/2  |     unused, PULL:DOWN |            |               | PB16C |                |           |           |
+| PB16D/2  |     unused, PULL:DOWN |            |               | PB16D |                |           |           |
+| PB21C/2  |     unused, PULL:DOWN |            |               | PB21C |                |           |           |
+| PB21D/2  |     unused, PULL:DOWN |            |               | PB21D |                |           |           |
+| PB23C/2  |     unused, PULL:DOWN |            |               | PB23C |                |           |           |
+| PB23D/2  |     unused, PULL:DOWN |            |               | PB23D |                |           |           |
+| PB28C/2  |     unused, PULL:DOWN |            |               | PB28C |                |           |           |
+| PB28D/2  |     unused, PULL:DOWN |            |               | PB28D |                |           |           |
+| PB29C/2  |     unused, PULL:DOWN |            |               | PB29C |                |           |           |
+| PB29D/2  |     unused, PULL:DOWN |            |               | PB29D |                |           |           |
+| PB32A/2  |     unused, PULL:DOWN |            |               | PB32A |                |           |           |
+| PB32B/2  |     unused, PULL:DOWN |            |               | PB32B |                |           |           |
+| PB32C/2  |     unused, PULL:DOWN |            |               | PB32C |                |           |           |
+| PB32D/2  |     unused, PULL:DOWN |            |               | PB32D |                |           |           |
+| PB34C/2  |     unused, PULL:DOWN |            |               | PB34C |                |           |           |
+| PB34D/2  |     unused, PULL:DOWN |            |               | PB34D |                |           |           |
+| PB35C/2  |     unused, PULL:DOWN |            |               | PB35C |                |           |           |
+| PB35D/2  |     unused, PULL:DOWN |            |               | PB35D |                |           |           |
+| PB37C/2  |     unused, PULL:DOWN |            |               | PB37C |                |           |           |
+| PB37D/2  |     unused, PULL:DOWN |            |               | PB37D |                |           |           |
+| PL2A/5   |     unused, PULL:DOWN |            |               | PL2A  |                |           |           |
+| PL2B/5   |     unused, PULL:DOWN |            |               | PL2B  |                |           |           |
+| PL3C/5   |     unused, PULL:DOWN |            |               | PL3C  |                |           |           |
+| PL3D/5   |     unused, PULL:DOWN |            |               | PL3D  |                |           |           |
+| PL5A/5   |     unused, PULL:DOWN |            |               | PL5A  |                |           |           |
+| PL5B/5   |     unused, PULL:DOWN |            |               | PL5B  |                |           |           |
+| PL5C/5   |     unused, PULL:DOWN |            |               | PL5C  |                |           |           |
+| PL5D/5   |     unused, PULL:DOWN |            |               | PL5D  |                |           |           |
+| PL7A/5   |     unused, PULL:DOWN |            |               | PL7A  |                |           |           |
+| PL7B/5   |     unused, PULL:DOWN |            |               | PL7B  |                |           |           |
+| PL8C/5   |     unused, PULL:DOWN |            |               | PL8C  |                |           |           |
+| PL8D/5   |     unused, PULL:DOWN |            |               | PL8D  |                |           |           |
+| PL11C/4  |     unused, PULL:DOWN |            |               | PL11C |                |           |           |
+| PL11D/4  |     unused, PULL:DOWN |            |               | PL11D |                |           |           |
+| PL12C/4  |     unused, PULL:DOWN |            |               | PL12C |                |           |           |
+| PL12D/4  |     unused, PULL:DOWN |            |               | PL12D |                |           |           |
+| PL16A/4  |     unused, PULL:DOWN |            |               | PL16A |                |           |           |
+| PL16B/4  |     unused, PULL:DOWN |            |               | PL16B |                |           |           |
+| PL17C/4  |     unused, PULL:DOWN |            |               | PL17C |                |           |           |
+| PL17D/4  |     unused, PULL:DOWN |            |               | PL17D |                |           |           |
+| PL18A/3  |     unused, PULL:DOWN |            |               | PL18A |                |           |           |
+| PL18B/3  |     unused, PULL:DOWN |            |               | PL18B |                |           |           |
+| PL18C/3  |     unused, PULL:DOWN |            |               | PL18C |                |           |           |
+| PL18D/3  |     unused, PULL:DOWN |            |               | PL18D |                |           |           |
+| PL21A/3  |     unused, PULL:DOWN |            |               | PL21A |                |           |           |
+| PL21B/3  |     unused, PULL:DOWN |            |               | PL21B |                |           |           |
+| PL22C/3  |     unused, PULL:DOWN |            |               | PL22C |                |           |           |
+| PL22D/3  |     unused, PULL:DOWN |            |               | PL22D |                |           |           |
+| PL23A/3  |     unused, PULL:DOWN |            |               | PL23A |                |           |           |
+| PL23B/3  |     unused, PULL:DOWN |            |               | PL23B |                |           |           |
+| PL24C/3  |     unused, PULL:DOWN |            |               | PL24C |                |           |           |
+| PL24D/3  |     unused, PULL:DOWN |            |               | PL24D |                |           |           |
+| PR3C/1   |     unused, PULL:DOWN |            |               | PR3C  |                |           |           |
+| PR3D/1   |     unused, PULL:DOWN |            |               | PR3D  |                |           |           |
+| PR4A/1   |     unused, PULL:DOWN |            |               | PR4A  |                |           |           |
+| PR4B/1   |     unused, PULL:DOWN |            |               | PR4B  |                |           |           |
+| PR5C/1   |     unused, PULL:DOWN |            |               | PR5C  |                |           |           |
+| PR5D/1   |     unused, PULL:DOWN |            |               | PR5D  |                |           |           |
+| PR6A/1   |     unused, PULL:DOWN |            |               | PR6A  |                |           |           |
+| PR6B/1   |     unused, PULL:DOWN |            |               | PR6B  |                |           |           |
+| PR8A/1   |     unused, PULL:DOWN |            |               | PR8A  |                |           |           |
+| PR8B/1   |     unused, PULL:DOWN |            |               | PR8B  |                |           |           |
+| PR8C/1   |     unused, PULL:DOWN |            |               | PR8C  |                |           |           |
+| PR8D/1   |     unused, PULL:DOWN |            |               | PR8D  |                |           |           |
+| PR9C/1   |     unused, PULL:DOWN |            |               | PR9C  |                |           |           |
+| PR9D/1   |     unused, PULL:DOWN |            |               | PR9D  |                |           |           |
+| PR10A/1  |     unused, PULL:DOWN |            |               | PR10A |                |           |           |
+| PR10B/1  |     unused, PULL:DOWN |            |               | PR10B |                |           |           |
+| PR12C/1  |     unused, PULL:DOWN |            |               | PR12C |                |           |           |
+| PR12D/1  |     unused, PULL:DOWN |            |               | PR12D |                |           |           |
+| PR15C/1  |     unused, PULL:DOWN |            |               | PR15C |                |           |           |
+| PR15D/1  |     unused, PULL:DOWN |            |               | PR15D |                |           |           |
+| PR18C/1  |     unused, PULL:DOWN |            |               | PR18C |                |           |           |
+| PR18D/1  |     unused, PULL:DOWN |            |               | PR18D |                |           |           |
+| PR19A/1  |     unused, PULL:DOWN |            |               | PR19A |                |           |           |
+| PR19B/1  |     unused, PULL:DOWN |            |               | PR19B |                |           |           |
+| PR22A/1  |     unused, PULL:DOWN |            |               | PR22A |                |           |           |
+| PR22B/1  |     unused, PULL:DOWN |            |               | PR22B |                |           |           |
+| PR22C/1  |     unused, PULL:DOWN |            |               | PR22C |                |           |           |
+| PR22D/1  |     unused, PULL:DOWN |            |               | PR22D |                |           |           |
+| PR24C/1  |     unused, PULL:DOWN |            |               | PR24C |                |           |           |
+| PR24D/1  |     unused, PULL:DOWN |            |               | PR24D |                |           |           |
+| PR25A/1  |     unused, PULL:DOWN |            |               | PR25A |                |           |           |
+| PR25B/1  |     unused, PULL:DOWN |            |               | PR25B |                |           |           |
+| PT9D/0   |     unused, PULL:DOWN |            |               | PT9D  |                |           |           |
+| PT10C/0  |     unused, PULL:DOWN |            |               | PT10C |                |           |           |
+| PT10D/0  |     unused, PULL:DOWN |            |               | PT10D |                |           |           |
+| PT11C/0  |     unused, PULL:DOWN |            |               | PT11C |                |           |           |
+| PT11D/0  |     unused, PULL:DOWN |            |               | PT11D |                |           |           |
+| PT12C/0  |     unused, PULL:DOWN |            |               | PT12C |                |           |           |
+| PT12D/0  |     unused, PULL:DOWN |            |               | PT12D |                |           |           |
+| PT13A/0  |     unused, PULL:DOWN |            |               | PT13A |                |           |           |
+| PT13B/0  |     unused, PULL:DOWN |            |               | PT13B |                |           |           |
+| PT13C/0  |     unused, PULL:DOWN |            |               | PT13C |                |           |           |
+| PT13D/0  |     unused, PULL:DOWN |            |               | PT13D |                |           |           |
+| PT15C/0  |     unused, PULL:DOWN |            |               | PT15C |                |           |           |
+| PT15D/0  |     unused, PULL:DOWN |            |               | PT15D |                |           |           |
+| PT16C/0  |     unused, PULL:DOWN |            |               | PT16C |                |           |           |
+| PT16D/0  |     unused, PULL:DOWN |            |               | PT16D |                |           |           |
+| PT18C/0  |     unused, PULL:DOWN |            |               | PT18C |                |           |           |
+| PT18D/0  |     unused, PULL:DOWN |            |               | PT18D |                |           |           |
+| PT21C/0  |     unused, PULL:DOWN |            |               | PT21C |                |           |           |
+| PT21D/0  |     unused, PULL:DOWN |            |               | PT21D |                |           |           |
+| PT25C/0  |     unused, PULL:DOWN |            |               | PT25C |                |           |           |
+| PT25D/0  |     unused, PULL:DOWN |            |               | PT25D |                |           |           |
+| PT26C/0  |     unused, PULL:DOWN |            |               | PT26C |                |           |           |
+| PT26D/0  |     unused, PULL:DOWN |            |               | PT26D |                |           |           |
+| PT28C/0  |     unused, PULL:DOWN |            |               | PT28C |                |           |           |
+| PT28D/0  |     unused, PULL:DOWN |            |               | PT28D |                |           |           |
+| PT32C/0  |     unused, PULL:DOWN |            |               | PT32C |                |           |           |
+| PT32D/0  |     unused, PULL:DOWN |            |               | PT32D |                |           |           |
+| PT33C/0  |     unused, PULL:DOWN |            |               | PT33C |                |           |           |
+| PT33D/0  |     unused, PULL:DOWN |            |               | PT33D |                |           |           |
+| PT34C/0  |     unused, PULL:DOWN |            |               | PT34C |                |           |           |
+| PT34D/0  |     unused, PULL:DOWN |            |               | PT34D |                |           |           |
+| PT35C/0  |     unused, PULL:DOWN |            |               | PT35C |                |           |           |
+| PT35D/0  |     unused, PULL:DOWN |            |               | PT35D |                |           |           |
+| R1/3     | UART_FPGA_TO_DETB[1]  | LOCATED    | LVCMOS33_OUT  | PL25C |                |           |           |
+| R3/2     | UART_DETB_TO_FPGA[7]  | LOCATED    | LVCMOS33_IN   | PB4D  |                |           |           |
+| R4/2     | DETB_SELECT[8]        | LOCATED    | LVCMOS33_OUT  | PB7B  |                |           |           |
+| R5/2     | UART_DETB_TO_FPGA[8]  | LOCATED    | LVCMOS33_IN   | PB6A  | CSSPIN         |           |           |
+| R6/2     | DETB_STATUS_SELECT[0] | LOCATED    | LVCMOS33_OUT  | PB9B  |                |           |           |
+| R7/2     | DETB_END_CYC[0]       | LOCATED    | LVCMOS33_OUT  | PB13A |                |           |           |
+| R8/2     | UART_FPGA_TO_DETB[0]  | LOCATED    | LVCMOS33_OUT  | PB16B | PCLKC2_0       |           |           |
+| R9/2     | DETB_SELECT[0]        | LOCATED    | LVCMOS33_OUT  | PB26A |                |           |           |
+| R10/2    | UART_DETB_TO_FPGA[0]  | LOCATED    | LVCMOS33_IN   | PB29B |                |           |           |
+| R11/2    | DETB_SELECT[1]        | LOCATED    | LVCMOS33_OUT  | PB35A |                |           |           |
+| R12/2    |     unused, PULL:DOWN |            |               | PB38A | SN             |           |           |
+| R13/2    | UART_SRCB_TO_FPGA[2]  | LOCATED    | LVCMOS33_IN   | PB34A |                |           |           |
+| R14/2    | UART_SRCB_TO_FPGA[4]  | LOCATED    | LVCMOS33_IN   | PB38D |                |           |           |
+| R16/1    | SRCB_SELECT[5]        | LOCATED    | LVCMOS33_OUT  | PR25D |                |           |           |
+| T2/2     | DETB_SELECT[6]        | LOCATED    | LVCMOS33_OUT  | PB4C  |                |           |           |
+| T3/2     | UART_DETB_TO_FPGA[6]  | LOCATED    | LVCMOS33_IN   | PB7A  |                |           |           |
+| T4/2     | DETB_SELECT[7]        | LOCATED    | LVCMOS33_OUT  | PB4B  |                |           |           |
+| T5/2     | DETB_RUN[0]           | LOCATED    | LVCMOS33_OUT  | PB9A  |                |           |           |
+| T6/2     |     unused, PULL:DOWN |            |               | PB12B | SO/SPISO       |           |           |
+| T7/2     | DETB_TRIGGER[0]       | LOCATED    | LVCMOS33_OUT  | PB16A | PCLKT2_0       |           |           |
+| T8/2     | UART_DETB_TO_FPGA[1]  | LOCATED    | LVCMOS33_IN   | PB18B |                |           |           |
+| T9/2     | DETB_SELECT[2]        | LOCATED    | LVCMOS33_OUT  | PB23A | PCLKT2_1       |           |           |
+| T10/2    | UART_DETB_TO_FPGA[2]  | LOCATED    | LVCMOS33_IN   | PB26B |                |           |           |
+| T11/2    | UART_FPGA_TO_SRCB     | LOCATED    | LVCMOS33_OUT  | PB31A |                |           |           |
+| T12/2    | SRCB_SELECT[2]        | LOCATED    | LVCMOS33_OUT  | PB35B |                |           |           |
+| T13/2    | SRCB_SELECT[1]        | LOCATED    | LVCMOS33_OUT  | PB37B |                |           |           |
+| T14/2    | SRCB_SELECT[3]        | LOCATED    | LVCMOS33_OUT  | PB34B |                |           |           |
+| T15/2    | UART_SRCB_TO_FPGA[3]  | LOCATED    | LVCMOS33_IN   | PB38C |                |           |           |
++----------+-----------------------+------------+---------------+-------+----------------+-----------+-----------+
+
+sysCONFIG Pins:
++----------+--------------------+--------------------+----------+-------------+-------------------+
+| Pad Name | sysCONFIG Pin Name | sysCONFIG Settings | Pin/Bank | Buffer Type | Config Pull Mode  |
++----------+--------------------+--------------------+----------+-------------+-------------------+
+| PT17D    | TMS                | JTAG_PORT=ENABLE   | B8/0     |             | PULLUP            |
+| PT17C    | TCK/TEST_CLK       | JTAG_PORT=ENABLE   | A7/0     |             | NO pull up/down   |
+| PT14D    | TDI/MD7            | JTAG_PORT=ENABLE   | A6/0     |             | PULLUP            |
+| PT14C    | TDO                | JTAG_PORT=ENABLE   | C6/0     |             | PULLUP            |
++----------+--------------------+--------------------+----------+-------------+-------------------+
+
+Dedicated sysCONFIG Pins:
+
+
+List of All Pins' Locate Preferences Based on Final Placement After PAR 
+to Help Users Lock Down ALL the Pins Easily (by Simply Copy & Paste): 
+
+LOCATE  COMP  "ACC_RUN_IND"  SITE  "E14";
+LOCATE  COMP  "ADS_CSN[0]"  SITE  "H5";
+LOCATE  COMP  "ADS_CSN[1]"  SITE  "C1";
+LOCATE  COMP  "ADS_SCK[0]"  SITE  "F5";
+LOCATE  COMP  "ADS_SCK[1]"  SITE  "B1";
+LOCATE  COMP  "ADS_SDO[0]"  SITE  "G5";
+LOCATE  COMP  "ADS_SDO[1]"  SITE  "C2";
+LOCATE  COMP  "AUXIO[0]"  SITE  "B3";
+LOCATE  COMP  "AUXIO[1]"  SITE  "A3";
+LOCATE  COMP  "DETB_END_CYC[0]"  SITE  "R7";
+LOCATE  COMP  "DETB_END_CYC[1]"  SITE  "P1";
+LOCATE  COMP  "DETB_END_CYC[2]"  SITE  "J1";
+LOCATE  COMP  "DETB_END_CYC[3]"  SITE  "D1";
+LOCATE  COMP  "DETB_END_CYC[4]"  SITE  "D15";
+LOCATE  COMP  "DETB_RUN[0]"  SITE  "T5";
+LOCATE  COMP  "DETB_RUN[1]"  SITE  "N3";
+LOCATE  COMP  "DETB_RUN[2]"  SITE  "K5";
+LOCATE  COMP  "DETB_RUN[3]"  SITE  "E3";
+LOCATE  COMP  "DETB_SELECT[0]"  SITE  "R9";
+LOCATE  COMP  "DETB_SELECT[10]"  SITE  "N8";
+LOCATE  COMP  "DETB_SELECT[11]"  SITE  "N6";
+LOCATE  COMP  "DETB_SELECT[12]"  SITE  "K2";
+LOCATE  COMP  "DETB_SELECT[13]"  SITE  "M2";
+LOCATE  COMP  "DETB_SELECT[14]"  SITE  "M1";
+LOCATE  COMP  "DETB_SELECT[15]"  SITE  "J4";
+LOCATE  COMP  "DETB_SELECT[16]"  SITE  "L4";
+LOCATE  COMP  "DETB_SELECT[17]"  SITE  "L3";
+LOCATE  COMP  "DETB_SELECT[18]"  SITE  "F2";
+LOCATE  COMP  "DETB_SELECT[19]"  SITE  "H2";
+LOCATE  COMP  "DETB_SELECT[1]"  SITE  "R11";
+LOCATE  COMP  "DETB_SELECT[20]"  SITE  "G1";
+LOCATE  COMP  "DETB_SELECT[21]"  SITE  "F4";
+LOCATE  COMP  "DETB_SELECT[22]"  SITE  "H4";
+LOCATE  COMP  "DETB_SELECT[23]"  SITE  "G3";
+LOCATE  COMP  "DETB_SELECT[24]"  SITE  "C16";
+LOCATE  COMP  "DETB_SELECT[2]"  SITE  "T9";
+LOCATE  COMP  "DETB_SELECT[3]"  SITE  "N9";
+LOCATE  COMP  "DETB_SELECT[4]"  SITE  "N11";
+LOCATE  COMP  "DETB_SELECT[5]"  SITE  "P9";
+LOCATE  COMP  "DETB_SELECT[6]"  SITE  "T2";
+LOCATE  COMP  "DETB_SELECT[7]"  SITE  "T4";
+LOCATE  COMP  "DETB_SELECT[8]"  SITE  "R4";
+LOCATE  COMP  "DETB_SELECT[9]"  SITE  "P5";
+LOCATE  COMP  "DETB_STATUS_SELECT[0]"  SITE  "R6";
+LOCATE  COMP  "DETB_STATUS_SELECT[1]"  SITE  "N2";
+LOCATE  COMP  "DETB_STATUS_SELECT[2]"  SITE  "J2";
+LOCATE  COMP  "DETB_STATUS_SELECT[3]"  SITE  "D2";
+LOCATE  COMP  "DETB_STATUS_SELECT[4]"  SITE  "D16";
+LOCATE  COMP  "DETB_TRIGGER[0]"  SITE  "T7";
+LOCATE  COMP  "DETB_TRIGGER[1]"  SITE  "P2";
+LOCATE  COMP  "DETB_TRIGGER[2]"  SITE  "J3";
+LOCATE  COMP  "DETB_TRIGGER[3]"  SITE  "E2";
+LOCATE  COMP  "EXP_J303_D[0]"  SITE  "C5";
+LOCATE  COMP  "EXP_J303_D[1]"  SITE  "D6";
+LOCATE  COMP  "EXP_J303_D[2]"  SITE  "D7";
+LOCATE  COMP  "EXP_J303_D[3]"  SITE  "C7";
+LOCATE  COMP  "FP_LED[0]"  SITE  "A15";
+LOCATE  COMP  "FP_LED[1]"  SITE  "B14";
+LOCATE  COMP  "FP_LED[2]"  SITE  "A14";
+LOCATE  COMP  "FP_LED[3]"  SITE  "B13";
+LOCATE  COMP  "FP_LED[4]"  SITE  "K13";
+LOCATE  COMP  "FP_LED[5]"  SITE  "J13";
+LOCATE  COMP  "OSC_CLK"  SITE  "C8";
+LOCATE  COMP  "RAM0_CEN"  SITE  "K16";
+LOCATE  COMP  "RAM0_SCLK"  SITE  "K15";
+LOCATE  COMP  "RAM0_SIO[0]"  SITE  "L16";
+LOCATE  COMP  "RAM0_SIO[1]"  SITE  "J15";
+LOCATE  COMP  "RAM0_SIO[2]"  SITE  "J16";
+LOCATE  COMP  "RAM0_SIO[3]"  SITE  "L15";
+LOCATE  COMP  "RPFP_RUN"  SITE  "H12";
+LOCATE  COMP  "RPI0_CE"  SITE  "B11";
+LOCATE  COMP  "RPI0_MISO"  SITE  "A11";
+LOCATE  COMP  "RPI0_RUNSIG"  SITE  "C11";
+LOCATE  COMP  "RPI0_SCLK"  SITE  "A12";
+LOCATE  COMP  "SRCB_LED_EN"  SITE  "M9";
+LOCATE  COMP  "SRCB_RUN"  SITE  "M11";
+LOCATE  COMP  "SRCB_SELECT[0]"  SITE  "L10";
+LOCATE  COMP  "SRCB_SELECT[1]"  SITE  "T13";
+LOCATE  COMP  "SRCB_SELECT[2]"  SITE  "T12";
+LOCATE  COMP  "SRCB_SELECT[3]"  SITE  "T14";
+LOCATE  COMP  "SRCB_SELECT[4]"  SITE  "P15";
+LOCATE  COMP  "SRCB_SELECT[5]"  SITE  "R16";
+LOCATE  COMP  "SRCB_SELECT[6]"  SITE  "N14";
+LOCATE  COMP  "SRCB_STEP"  SITE  "P11";
+LOCATE  COMP  "TRG[0]"  SITE  "B4";
+LOCATE  COMP  "TRG[1]"  SITE  "A4";
+LOCATE  COMP  "TRG[2]"  SITE  "B5";
+LOCATE  COMP  "TRG[3]"  SITE  "A5";
+LOCATE  COMP  "UART_CTSN_TO_FTDI"  SITE  "F15";
+LOCATE  COMP  "UART_DETB_TO_FPGA[0]"  SITE  "R10";
+LOCATE  COMP  "UART_DETB_TO_FPGA[10]"  SITE  "P4";
+LOCATE  COMP  "UART_DETB_TO_FPGA[11]"  SITE  "P7";
+LOCATE  COMP  "UART_DETB_TO_FPGA[12]"  SITE  "L2";
+LOCATE  COMP  "UART_DETB_TO_FPGA[13]"  SITE  "L1";
+LOCATE  COMP  "UART_DETB_TO_FPGA[14]"  SITE  "N1";
+LOCATE  COMP  "UART_DETB_TO_FPGA[15]"  SITE  "K4";
+LOCATE  COMP  "UART_DETB_TO_FPGA[16]"  SITE  "K3";
+LOCATE  COMP  "UART_DETB_TO_FPGA[17]"  SITE  "M3";
+LOCATE  COMP  "UART_DETB_TO_FPGA[18]"  SITE  "G2";
+LOCATE  COMP  "UART_DETB_TO_FPGA[19]"  SITE  "F1";
+LOCATE  COMP  "UART_DETB_TO_FPGA[1]"  SITE  "T8";
+LOCATE  COMP  "UART_DETB_TO_FPGA[20]"  SITE  "H1";
+LOCATE  COMP  "UART_DETB_TO_FPGA[21]"  SITE  "G4";
+LOCATE  COMP  "UART_DETB_TO_FPGA[22]"  SITE  "F3";
+LOCATE  COMP  "UART_DETB_TO_FPGA[23]"  SITE  "H3";
+LOCATE  COMP  "UART_DETB_TO_FPGA[24]"  SITE  "B16";
+LOCATE  COMP  "UART_DETB_TO_FPGA[2]"  SITE  "T10";
+LOCATE  COMP  "UART_DETB_TO_FPGA[3]"  SITE  "N10";
+LOCATE  COMP  "UART_DETB_TO_FPGA[4]"  SITE  "P8";
+LOCATE  COMP  "UART_DETB_TO_FPGA[5]"  SITE  "P10";
+LOCATE  COMP  "UART_DETB_TO_FPGA[6]"  SITE  "T3";
+LOCATE  COMP  "UART_DETB_TO_FPGA[7]"  SITE  "R3";
+LOCATE  COMP  "UART_DETB_TO_FPGA[8]"  SITE  "R5";
+LOCATE  COMP  "UART_DETB_TO_FPGA[9]"  SITE  "N7";
+LOCATE  COMP  "UART_FPGA_TO_DETB[0]"  SITE  "R8";
+LOCATE  COMP  "UART_FPGA_TO_DETB[1]"  SITE  "R1";
+LOCATE  COMP  "UART_FPGA_TO_DETB[2]"  SITE  "K1";
+LOCATE  COMP  "UART_FPGA_TO_DETB[3]"  SITE  "E1";
+LOCATE  COMP  "UART_FPGA_TO_DETB[4]"  SITE  "C15";
+LOCATE  COMP  "UART_FPGA_TO_FTDI"  SITE  "F14";
+LOCATE  COMP  "UART_FPGA_TO_SRCB"  SITE  "T11";
+LOCATE  COMP  "UART_FTDI_TO_FPGA"  SITE  "F12";
+LOCATE  COMP  "UART_RTSN_TO_FPGA"  SITE  "F13";
+LOCATE  COMP  "UART_SRCB_TO_FPGA[0]"  SITE  "P12";
+LOCATE  COMP  "UART_SRCB_TO_FPGA[1]"  SITE  "M10";
+LOCATE  COMP  "UART_SRCB_TO_FPGA[2]"  SITE  "R13";
+LOCATE  COMP  "UART_SRCB_TO_FPGA[3]"  SITE  "T15";
+LOCATE  COMP  "UART_SRCB_TO_FPGA[4]"  SITE  "R14";
+LOCATE  COMP  "UART_SRCB_TO_FPGA[5]"  SITE  "P16";
+LOCATE  COMP  "UART_SRCB_TO_FPGA[6]"  SITE  "N16";
+LOCATE  COMP  "V5P1_B01_EN"  SITE  "M7";
+LOCATE  COMP  "V5P1_B23_EN"  SITE  "J5";
+LOCATE  COMP  "V5P1_RPI_EN"  SITE  "B7";
+LOCATE  COMP  "V5P1_SRC_EN"  SITE  "L8";
+LOCATE  COMP  "V9P0_EN"  SITE  "M8";
+LOCATE  COMP  "VN22_CLKA"  SITE  "M15";
+LOCATE  COMP  "VN22_CLKB"  SITE  "M16";
+LOCATE  COMP  "VN22_EN"  SITE  "L13";
+LOCATE  COMP  "VN3P4_EN"  SITE  "L14";
+LOCATE  COMP  "V_SRC_BOOST"  SITE  "J14";
+
+#PLL
+LOCATE  COMP  "main_pll_inst/PLLInst_0"  SITE  "LPLL" ;
+
+
+
+
+PAR: Place And Route Diamond (64-bit) 3.13.0.56.2.
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
+Sat Nov 02 22:55:44 2024
+

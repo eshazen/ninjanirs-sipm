@@ -1,0 +1,21 @@
+#
+# Logical Preferences generated for Lattice by Synplify map202303lat, Build 132R.
+#
+
+# Period Constraints 
+#FREQUENCY NET "main_pll_inst/Clk96xC" 100.0 MHz;
+
+
+# Output Constraints 
+
+# Input Constraints 
+
+# Point-to-point Delay Constraints 
+
+
+
+# Block Path Constraints 
+
+BLOCK ASYNCPATHS;
+
+# End of generated Logical Preferences.

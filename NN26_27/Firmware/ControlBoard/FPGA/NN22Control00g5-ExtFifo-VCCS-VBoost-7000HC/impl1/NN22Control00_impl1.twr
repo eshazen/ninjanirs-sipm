@@ -1,0 +1,1154 @@
+
+Loading design for application trce from file nn22control00_impl1.ncd.
+Design name: NN22Control_top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-1200UHC
+Package:     FTBGA256
+Performance: 5
+Loading device for application trce from file 'xo2c2000.nph' in environment: C:/lscc/diamond/3.12/ispfpga.
+Package Status:                     Final          Version 1.44.
+Performance Hardware Data Status:   Final          Version 34.4.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.12.1.454
+Thu Aug 17 03:43:39 2023
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 5 -sphld m -o NN22Control00_impl1.twr -gui -msgset C:/Users/Bernhard/Dropbox/NN2022/Lattice/NN22Control00g3-ExtFifo/promote.xml NN22Control00_impl1.ncd NN22Control00_impl1.prf 
+Design file:     nn22control00_impl1.ncd
+Preference file: nn22control00_impl1.prf
+Device,speed:    LCMXO2-1200UHC,5
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+Derating parameters
+-------------------
+VCCIO Voltage:
+                   3.300 V (Bank 0, defined by PAR)
+                   3.300 V (Bank 1, defined by PAR)
+                   3.300 V (Bank 2, defined by PAR)
+                   3.300 V (Bank 3, defined by PAR)
+                   3.300 V (Bank 4, defined by PAR)
+                   3.300 V (Bank 5, defined by PAR)
+
+
+
+================================================================================
+Preference: FREQUENCY NET "OSC_CLK_c" 48.000000 MHz ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+================================================================================
+Preference: FREQUENCY NET "Clk96xC" 96.000000 MHz ;
+            4096 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.841ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              NN22Control_main_inst/spi_to_rpi_zero/FIFORdAddrxDP[9]  (from Clk96xC +)
+   Destination:    FF         Data in        NN22Control_main_inst/spi_to_rpi_zero/FIFOWrAddrxDP[9]  (to Clk96xC +)
+
+   Delay:               9.326ns  (33.1% logic, 66.9% route), 6 logic levels.
+
+ Constraint Details:
+
+      9.326ns physical path delay NN22Control_main_inst/spi_to_rpi_zero/SLICE_53 to NN22Control_main_inst/spi_to_rpi_zero/SLICE_47 meets
+     10.417ns delay constraint less
+      0.000ns skew and
+      0.250ns CE_SET requirement (totaling 10.167ns) by 0.841ns
+
+ Physical Path Details:
+
+      Data path NN22Control_main_inst/spi_to_rpi_zero/SLICE_53 to NN22Control_main_inst/spi_to_rpi_zero/SLICE_47:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.411    R11C24B.CLK to     R11C24B.Q0 NN22Control_main_inst/spi_to_rpi_zero/SLICE_53 (from Clk96xC)
+ROUTE         5     1.318     R11C24B.Q0 to      R9C22C.D1 NN22Control_main_inst/spi_to_rpi_zero/FIFORdAddrxDP[9]
+CTOF_DEL    ---     0.454      R9C22C.D1 to      R9C22C.F1 NN22Control_main_inst/SLICE_350
+ROUTE         1     1.601      R9C22C.F1 to     R13C24B.A0 NN22Control_main_inst/spi_to_rpi_zero/FIFORdAddrxDP_i[9]
+CTOF_DEL    ---     0.454     R13C24B.A0 to     R13C24B.F0 NN22Control_main_inst/spi_to_rpi_zero/SLICE_35
+ROUTE         1     0.960     R13C24B.F0 to     R12C23C.C1 NN22Control_main_inst/spi_to_rpi_zero/un4_fifofullxs_a_4[9]
+C1TOFCO_DE  ---     0.790     R12C23C.C1 to    R12C23C.FCO NN22Control_main_inst/spi_to_rpi_zero/SLICE_28
+ROUTE         1     0.000    R12C23C.FCO to    R12C23D.FCI NN22Control_main_inst/spi_to_rpi_zero/un4_fifofullxs_0_I_27_cry
+FCITOF0_DE  ---     0.520    R12C23D.FCI to     R12C23D.F0 NN22Control_main_inst/spi_to_rpi_zero/SLICE_27
+ROUTE         1     1.034     R12C23D.F0 to      R9C22B.D0 NN22Control_main_inst/spi_to_rpi_zero/un4_fifofullxs_0_data_tmp_i[4]
+CTOF_DEL    ---     0.454      R9C22B.D0 to      R9C22B.F0 NN22Control_main_inst/SLICE_460
+ROUTE         6     1.330      R9C22B.F0 to     R12C25B.CE NN22Control_main_inst/spi_to_rpi_zero/un1_fifowraddrxdn_i (to Clk96xC)
+                  --------
+                    9.326   (33.1% logic, 66.9% route), 6 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path main_pll_inst/PLLInst_0 to NN22Control_main_inst/spi_to_rpi_zero/SLICE_53:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       332     1.537     LPLL.CLKOP to    R11C24B.CLK Clk96xC
+                  --------
+                    1.537   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path main_pll_inst/PLLInst_0 to NN22Control_main_inst/spi_to_rpi_zero/SLICE_47:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       332     1.537     LPLL.CLKOP to    R12C25B.CLK Clk96xC
+                  --------
+                    1.537   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.841ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              NN22Control_main_inst/spi_to_rpi_zero/FIFORdAddrxDP[9]  (from Clk96xC +)
+   Destination:    FF         Data in        NN22Control_main_inst/spi_to_rpi_zero/FIFOWrAddrxDP[8]  (to Clk96xC +)
+                   FF                        NN22Control_main_inst/spi_to_rpi_zero/FIFOWrAddrxDP[7]
+
+   Delay:               9.326ns  (33.1% logic, 66.9% route), 6 logic levels.
+
+ Constraint Details:
+
+      9.326ns physical path delay NN22Control_main_inst/spi_to_rpi_zero/SLICE_53 to NN22Control_main_inst/spi_to_rpi_zero/SLICE_48 meets
+     10.417ns delay constraint less
+      0.000ns skew and
+      0.250ns CE_SET requirement (totaling 10.167ns) by 0.841ns
+
+ Physical Path Details:
+
+      Data path NN22Control_main_inst/spi_to_rpi_zero/SLICE_53 to NN22Control_main_inst/spi_to_rpi_zero/SLICE_48:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.411    R11C24B.CLK to     R11C24B.Q0 NN22Control_main_inst/spi_to_rpi_zero/SLICE_53 (from Clk96xC)
+ROUTE         5     1.318     R11C24B.Q0 to      R9C22C.D1 NN22Control_main_inst/spi_to_rpi_zero/FIFORdAddrxDP[9]
+CTOF_DEL    ---     0.454      R9C22C.D1 to      R9C22C.F1 NN22Control_main_inst/SLICE_350
+ROUTE         1     1.601      R9C22C.F1 to     R13C24B.A0 NN22Control_main_inst/spi_to_rpi_zero/FIFORdAddrxDP_i[9]
+CTOF_DEL    ---     0.454     R13C24B.A0 to     R13C24B.F0 NN22Control_main_inst/spi_to_rpi_zero/SLICE_35
+ROUTE         1     0.960     R13C24B.F0 to     R12C23C.C1 NN22Control_main_inst/spi_to_rpi_zero/un4_fifofullxs_a_4[9]
+C1TOFCO_DE  ---     0.790     R12C23C.C1 to    R12C23C.FCO NN22Control_main_inst/spi_to_rpi_zero/SLICE_28
+ROUTE         1     0.000    R12C23C.FCO to    R12C23D.FCI NN22Control_main_inst/spi_to_rpi_zero/un4_fifofullxs_0_I_27_cry
+FCITOF0_DE  ---     0.520    R12C23D.FCI to     R12C23D.F0 NN22Control_main_inst/spi_to_rpi_zero/SLICE_27
+ROUTE         1     1.034     R12C23D.F0 to      R9C22B.D0 NN22Control_main_inst/spi_to_rpi_zero/un4_fifofullxs_0_data_tmp_i[4]
+CTOF_DEL    ---     0.454      R9C22B.D0 to      R9C22B.F0 NN22Control_main_inst/SLICE_460
+ROUTE         6     1.330      R9C22B.F0 to     R12C25A.CE NN22Control_main_inst/spi_to_rpi_zero/un1_fifowraddrxdn_i (to Clk96xC)
+                  --------
+                    9.326   (33.1% logic, 66.9% route), 6 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path main_pll_inst/PLLInst_0 to NN22Control_main_inst/spi_to_rpi_zero/SLICE_53:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       332     1.537     LPLL.CLKOP to    R11C24B.CLK Clk96xC
+                  --------
+                    1.537   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path main_pll_inst/PLLInst_0 to NN22Control_main_inst/spi_to_rpi_zero/SLICE_48:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       332     1.537     LPLL.CLKOP to    R12C25A.CLK Clk96xC
+                  --------
+                    1.537   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 1.096ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FIFO8KB    Port           NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/ext_fifo_int_fifo_0_0(ASIC)  (from Clk96xC +)
+   Destination:    FF         Data in        NN22Control_main_inst/ext_fifo_inst/SpiSRegxDP[1]  (to Clk96xC +)
+
+   Delay:               9.017ns  (68.3% logic, 31.7% route), 4 logic levels.
+
+ Constraint Details:
+
+      9.017ns physical path delay NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/ext_fifo_int_fifo_0_0 to NN22Control_main_inst/ext_fifo_inst/SLICE_230 meets
+     10.417ns delay constraint less
+      0.154ns skew and
+      0.150ns DIN_SET requirement (totaling 10.113ns) by 1.096ns
+
+ Physical Path Details:
+
+      Data path NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/ext_fifo_int_fifo_0_0 to NN22Control_main_inst/ext_fifo_inst/SLICE_230:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+C2Q_DEL     ---     4.795 EBR_R8C18.CLKR to  EBR_R8C18.DO1 NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/ext_fifo_int_fifo_0_0 (from Clk96xC)
+ROUTE         1     1.108  EBR_R8C18.DO1 to      R9C20C.D0 NN22Control_main_inst/ext_fifo_inst/IntFIFODataOutxD[1]
+CTOF_DEL    ---     0.454      R9C20C.D0 to      R9C20C.F0 NN22Control_main_inst/ext_fifo_inst/SLICE_450
+ROUTE         1     0.908      R9C20C.F0 to      R7C21C.D0 NN22Control_main_inst/ext_fifo_inst/N_203
+CTOF_DEL    ---     0.454      R7C21C.D0 to      R7C21C.F0 NN22Control_main_inst/ext_fifo_inst/SLICE_413
+ROUTE         1     0.844      R7C21C.F0 to      R7C23A.D1 NN22Control_main_inst/ext_fifo_inst/N_204
+CTOF_DEL    ---     0.454      R7C23A.D1 to      R7C23A.F1 NN22Control_main_inst/ext_fifo_inst/SLICE_230
+ROUTE         1     0.000      R7C23A.F1 to     R7C23A.DI1 NN22Control_main_inst/ext_fifo_inst/N_205 (to Clk96xC)
+                  --------
+                    9.017   (68.3% logic, 31.7% route), 4 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path main_pll_inst/PLLInst_0 to NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/ext_fifo_int_fifo_0_0:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       332     1.691     LPLL.CLKOP to EBR_R8C18.CLKR Clk96xC
+                  --------
+                    1.691   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path main_pll_inst/PLLInst_0 to NN22Control_main_inst/ext_fifo_inst/SLICE_230:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       332     1.537     LPLL.CLKOP to     R7C23A.CLK Clk96xC
+                  --------
+                    1.537   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 1.098ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              NN22Control_main_inst/spi_to_rpi_zero/FIFORdAddrxDP[9]  (from Clk96xC +)
+   Destination:    FF         Data in        NN22Control_main_inst/spi_to_rpi_zero/FIFOWrAddrxDP[0]  (to Clk96xC +)
+
+   Delay:               9.069ns  (34.0% logic, 66.0% route), 6 logic levels.
+
+ Constraint Details:
+
+      9.069ns physical path delay NN22Control_main_inst/spi_to_rpi_zero/SLICE_53 to NN22Control_main_inst/spi_to_rpi_zero/SLICE_52 meets
+     10.417ns delay constraint less
+      0.000ns skew and
+      0.250ns CE_SET requirement (totaling 10.167ns) by 1.098ns
+
+ Physical Path Details:
+
+      Data path NN22Control_main_inst/spi_to_rpi_zero/SLICE_53 to NN22Control_main_inst/spi_to_rpi_zero/SLICE_52:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.411    R11C24B.CLK to     R11C24B.Q0 NN22Control_main_inst/spi_to_rpi_zero/SLICE_53 (from Clk96xC)
+ROUTE         5     1.318     R11C24B.Q0 to      R9C22C.D1 NN22Control_main_inst/spi_to_rpi_zero/FIFORdAddrxDP[9]
+CTOF_DEL    ---     0.454      R9C22C.D1 to      R9C22C.F1 NN22Control_main_inst/SLICE_350
+ROUTE         1     1.601      R9C22C.F1 to     R13C24B.A0 NN22Control_main_inst/spi_to_rpi_zero/FIFORdAddrxDP_i[9]
+CTOF_DEL    ---     0.454     R13C24B.A0 to     R13C24B.F0 NN22Control_main_inst/spi_to_rpi_zero/SLICE_35
+ROUTE         1     0.960     R13C24B.F0 to     R12C23C.C1 NN22Control_main_inst/spi_to_rpi_zero/un4_fifofullxs_a_4[9]
+C1TOFCO_DE  ---     0.790     R12C23C.C1 to    R12C23C.FCO NN22Control_main_inst/spi_to_rpi_zero/SLICE_28
+ROUTE         1     0.000    R12C23C.FCO to    R12C23D.FCI NN22Control_main_inst/spi_to_rpi_zero/un4_fifofullxs_0_I_27_cry
+FCITOF0_DE  ---     0.520    R12C23D.FCI to     R12C23D.F0 NN22Control_main_inst/spi_to_rpi_zero/SLICE_27
+ROUTE         1     1.034     R12C23D.F0 to      R9C22B.D0 NN22Control_main_inst/spi_to_rpi_zero/un4_fifofullxs_0_data_tmp_i[4]
+CTOF_DEL    ---     0.454      R9C22B.D0 to      R9C22B.F0 NN22Control_main_inst/SLICE_460
+ROUTE         6     1.073      R9C22B.F0 to     R12C24A.CE NN22Control_main_inst/spi_to_rpi_zero/un1_fifowraddrxdn_i (to Clk96xC)
+                  --------
+                    9.069   (34.0% logic, 66.0% route), 6 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path main_pll_inst/PLLInst_0 to NN22Control_main_inst/spi_to_rpi_zero/SLICE_53:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       332     1.537     LPLL.CLKOP to    R11C24B.CLK Clk96xC
+                  --------
+                    1.537   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path main_pll_inst/PLLInst_0 to NN22Control_main_inst/spi_to_rpi_zero/SLICE_52:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       332     1.537     LPLL.CLKOP to    R12C24A.CLK Clk96xC
+                  --------
+                    1.537   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 1.098ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              NN22Control_main_inst/spi_to_rpi_zero/FIFORdAddrxDP[9]  (from Clk96xC +)
+   Destination:    FF         Data in        NN22Control_main_inst/spi_to_rpi_zero/FIFOWrAddrxDP[4]  (to Clk96xC +)
+                   FF                        NN22Control_main_inst/spi_to_rpi_zero/FIFOWrAddrxDP[3]
+
+   Delay:               9.069ns  (34.0% logic, 66.0% route), 6 logic levels.
+
+ Constraint Details:
+
+      9.069ns physical path delay NN22Control_main_inst/spi_to_rpi_zero/SLICE_53 to NN22Control_main_inst/spi_to_rpi_zero/SLICE_50 meets
+     10.417ns delay constraint less
+      0.000ns skew and
+      0.250ns CE_SET requirement (totaling 10.167ns) by 1.098ns
+
+ Physical Path Details:
+
+      Data path NN22Control_main_inst/spi_to_rpi_zero/SLICE_53 to NN22Control_main_inst/spi_to_rpi_zero/SLICE_50:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.411    R11C24B.CLK to     R11C24B.Q0 NN22Control_main_inst/spi_to_rpi_zero/SLICE_53 (from Clk96xC)
+ROUTE         5     1.318     R11C24B.Q0 to      R9C22C.D1 NN22Control_main_inst/spi_to_rpi_zero/FIFORdAddrxDP[9]
+CTOF_DEL    ---     0.454      R9C22C.D1 to      R9C22C.F1 NN22Control_main_inst/SLICE_350
+ROUTE         1     1.601      R9C22C.F1 to     R13C24B.A0 NN22Control_main_inst/spi_to_rpi_zero/FIFORdAddrxDP_i[9]
+CTOF_DEL    ---     0.454     R13C24B.A0 to     R13C24B.F0 NN22Control_main_inst/spi_to_rpi_zero/SLICE_35
+ROUTE         1     0.960     R13C24B.F0 to     R12C23C.C1 NN22Control_main_inst/spi_to_rpi_zero/un4_fifofullxs_a_4[9]
+C1TOFCO_DE  ---     0.790     R12C23C.C1 to    R12C23C.FCO NN22Control_main_inst/spi_to_rpi_zero/SLICE_28
+ROUTE         1     0.000    R12C23C.FCO to    R12C23D.FCI NN22Control_main_inst/spi_to_rpi_zero/un4_fifofullxs_0_I_27_cry
+FCITOF0_DE  ---     0.520    R12C23D.FCI to     R12C23D.F0 NN22Control_main_inst/spi_to_rpi_zero/SLICE_27
+ROUTE         1     1.034     R12C23D.F0 to      R9C22B.D0 NN22Control_main_inst/spi_to_rpi_zero/un4_fifofullxs_0_data_tmp_i[4]
+CTOF_DEL    ---     0.454      R9C22B.D0 to      R9C22B.F0 NN22Control_main_inst/SLICE_460
+ROUTE         6     1.073      R9C22B.F0 to     R12C24C.CE NN22Control_main_inst/spi_to_rpi_zero/un1_fifowraddrxdn_i (to Clk96xC)
+                  --------
+                    9.069   (34.0% logic, 66.0% route), 6 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path main_pll_inst/PLLInst_0 to NN22Control_main_inst/spi_to_rpi_zero/SLICE_53:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       332     1.537     LPLL.CLKOP to    R11C24B.CLK Clk96xC
+                  --------
+                    1.537   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path main_pll_inst/PLLInst_0 to NN22Control_main_inst/spi_to_rpi_zero/SLICE_50:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       332     1.537     LPLL.CLKOP to    R12C24C.CLK Clk96xC
+                  --------
+                    1.537   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 1.098ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              NN22Control_main_inst/spi_to_rpi_zero/FIFORdAddrxDP[9]  (from Clk96xC +)
+   Destination:    FF         Data in        NN22Control_main_inst/spi_to_rpi_zero/FIFOWrAddrxDP[6]  (to Clk96xC +)
+                   FF                        NN22Control_main_inst/spi_to_rpi_zero/FIFOWrAddrxDP[5]
+
+   Delay:               9.069ns  (34.0% logic, 66.0% route), 6 logic levels.
+
+ Constraint Details:
+
+      9.069ns physical path delay NN22Control_main_inst/spi_to_rpi_zero/SLICE_53 to NN22Control_main_inst/spi_to_rpi_zero/SLICE_49 meets
+     10.417ns delay constraint less
+      0.000ns skew and
+      0.250ns CE_SET requirement (totaling 10.167ns) by 1.098ns
+
+ Physical Path Details:
+
+      Data path NN22Control_main_inst/spi_to_rpi_zero/SLICE_53 to NN22Control_main_inst/spi_to_rpi_zero/SLICE_49:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.411    R11C24B.CLK to     R11C24B.Q0 NN22Control_main_inst/spi_to_rpi_zero/SLICE_53 (from Clk96xC)
+ROUTE         5     1.318     R11C24B.Q0 to      R9C22C.D1 NN22Control_main_inst/spi_to_rpi_zero/FIFORdAddrxDP[9]
+CTOF_DEL    ---     0.454      R9C22C.D1 to      R9C22C.F1 NN22Control_main_inst/SLICE_350
+ROUTE         1     1.601      R9C22C.F1 to     R13C24B.A0 NN22Control_main_inst/spi_to_rpi_zero/FIFORdAddrxDP_i[9]
+CTOF_DEL    ---     0.454     R13C24B.A0 to     R13C24B.F0 NN22Control_main_inst/spi_to_rpi_zero/SLICE_35
+ROUTE         1     0.960     R13C24B.F0 to     R12C23C.C1 NN22Control_main_inst/spi_to_rpi_zero/un4_fifofullxs_a_4[9]
+C1TOFCO_DE  ---     0.790     R12C23C.C1 to    R12C23C.FCO NN22Control_main_inst/spi_to_rpi_zero/SLICE_28
+ROUTE         1     0.000    R12C23C.FCO to    R12C23D.FCI NN22Control_main_inst/spi_to_rpi_zero/un4_fifofullxs_0_I_27_cry
+FCITOF0_DE  ---     0.520    R12C23D.FCI to     R12C23D.F0 NN22Control_main_inst/spi_to_rpi_zero/SLICE_27
+ROUTE         1     1.034     R12C23D.F0 to      R9C22B.D0 NN22Control_main_inst/spi_to_rpi_zero/un4_fifofullxs_0_data_tmp_i[4]
+CTOF_DEL    ---     0.454      R9C22B.D0 to      R9C22B.F0 NN22Control_main_inst/SLICE_460
+ROUTE         6     1.073      R9C22B.F0 to     R12C24D.CE NN22Control_main_inst/spi_to_rpi_zero/un1_fifowraddrxdn_i (to Clk96xC)
+                  --------
+                    9.069   (34.0% logic, 66.0% route), 6 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path main_pll_inst/PLLInst_0 to NN22Control_main_inst/spi_to_rpi_zero/SLICE_53:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       332     1.537     LPLL.CLKOP to    R11C24B.CLK Clk96xC
+                  --------
+                    1.537   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path main_pll_inst/PLLInst_0 to NN22Control_main_inst/spi_to_rpi_zero/SLICE_49:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       332     1.537     LPLL.CLKOP to    R12C24D.CLK Clk96xC
+                  --------
+                    1.537   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 1.098ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              NN22Control_main_inst/spi_to_rpi_zero/FIFORdAddrxDP[9]  (from Clk96xC +)
+   Destination:    FF         Data in        NN22Control_main_inst/spi_to_rpi_zero/FIFOWrAddrxDP[2]  (to Clk96xC +)
+                   FF                        NN22Control_main_inst/spi_to_rpi_zero/FIFOWrAddrxDP[1]
+
+   Delay:               9.069ns  (34.0% logic, 66.0% route), 6 logic levels.
+
+ Constraint Details:
+
+      9.069ns physical path delay NN22Control_main_inst/spi_to_rpi_zero/SLICE_53 to NN22Control_main_inst/spi_to_rpi_zero/SLICE_51 meets
+     10.417ns delay constraint less
+      0.000ns skew and
+      0.250ns CE_SET requirement (totaling 10.167ns) by 1.098ns
+
+ Physical Path Details:
+
+      Data path NN22Control_main_inst/spi_to_rpi_zero/SLICE_53 to NN22Control_main_inst/spi_to_rpi_zero/SLICE_51:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.411    R11C24B.CLK to     R11C24B.Q0 NN22Control_main_inst/spi_to_rpi_zero/SLICE_53 (from Clk96xC)
+ROUTE         5     1.318     R11C24B.Q0 to      R9C22C.D1 NN22Control_main_inst/spi_to_rpi_zero/FIFORdAddrxDP[9]
+CTOF_DEL    ---     0.454      R9C22C.D1 to      R9C22C.F1 NN22Control_main_inst/SLICE_350
+ROUTE         1     1.601      R9C22C.F1 to     R13C24B.A0 NN22Control_main_inst/spi_to_rpi_zero/FIFORdAddrxDP_i[9]
+CTOF_DEL    ---     0.454     R13C24B.A0 to     R13C24B.F0 NN22Control_main_inst/spi_to_rpi_zero/SLICE_35
+ROUTE         1     0.960     R13C24B.F0 to     R12C23C.C1 NN22Control_main_inst/spi_to_rpi_zero/un4_fifofullxs_a_4[9]
+C1TOFCO_DE  ---     0.790     R12C23C.C1 to    R12C23C.FCO NN22Control_main_inst/spi_to_rpi_zero/SLICE_28
+ROUTE         1     0.000    R12C23C.FCO to    R12C23D.FCI NN22Control_main_inst/spi_to_rpi_zero/un4_fifofullxs_0_I_27_cry
+FCITOF0_DE  ---     0.520    R12C23D.FCI to     R12C23D.F0 NN22Control_main_inst/spi_to_rpi_zero/SLICE_27
+ROUTE         1     1.034     R12C23D.F0 to      R9C22B.D0 NN22Control_main_inst/spi_to_rpi_zero/un4_fifofullxs_0_data_tmp_i[4]
+CTOF_DEL    ---     0.454      R9C22B.D0 to      R9C22B.F0 NN22Control_main_inst/SLICE_460
+ROUTE         6     1.073      R9C22B.F0 to     R12C24B.CE NN22Control_main_inst/spi_to_rpi_zero/un1_fifowraddrxdn_i (to Clk96xC)
+                  --------
+                    9.069   (34.0% logic, 66.0% route), 6 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path main_pll_inst/PLLInst_0 to NN22Control_main_inst/spi_to_rpi_zero/SLICE_53:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       332     1.537     LPLL.CLKOP to    R11C24B.CLK Clk96xC
+                  --------
+                    1.537   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path main_pll_inst/PLLInst_0 to NN22Control_main_inst/spi_to_rpi_zero/SLICE_51:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       332     1.537     LPLL.CLKOP to    R12C24B.CLK Clk96xC
+                  --------
+                    1.537   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 1.117ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         DP8KC      Port           NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_0_0(ASIC)  (from Clk96xC +)
+   Destination:    FF         Data in        NN22Control_main_inst_spi_to_rpi_zero_TxSRegxDPio[7]  (to Clk96xC +)
+
+   Delay:               9.161ns  (62.3% logic, 37.7% route), 3 logic levels.
+
+ Constraint Details:
+
+      9.161ns physical path delay NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_0_0 to RPI0_MISO_MGIOL meets
+     10.417ns delay constraint less
+      0.000ns skew and
+      0.139ns DO_SET requirement (totaling 10.278ns) by 1.117ns
+
+ Physical Path Details:
+
+      Data path NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_0_0 to RPI0_MISO_MGIOL:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+C2Q_DEL     ---     4.795 EBR_R8C21.CLKB to EBR_R8C21.DOB7 NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_0_0 (from Clk96xC)
+ROUTE         1     1.103 EBR_R8C21.DOB7 to     R10C22C.D0 NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/FIFOOutDataxD[7]
+CTOF_DEL    ---     0.454     R10C22C.D0 to     R10C22C.F0 NN22Control_main_inst/spi_to_rpi_zero/SLICE_396
+ROUTE         1     0.547     R10C22C.F0 to     R10C22A.D0 NN22Control_main_inst/spi_to_rpi_zero/N_217
+CTOF_DEL    ---     0.454     R10C22A.D0 to     R10C22A.F0 NN22Control_main_inst/spi_to_rpi_zero/SLICE_397
+ROUTE         1     1.808     R10C22A.F0 to  IOL_T21A.OPOS NN22Control_main_inst.spi_to_rpi_zero.N_71_i (to Clk96xC)
+                  --------
+                    9.161   (62.3% logic, 37.7% route), 3 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path main_pll_inst/PLLInst_0 to NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_0_0:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       332     1.691     LPLL.CLKOP to EBR_R8C21.CLKB Clk96xC
+                  --------
+                    1.691   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path main_pll_inst/PLLInst_0 to RPI0_MISO_MGIOL:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       332     1.691     LPLL.CLKOP to   IOL_T21A.CLK Clk96xC
+                  --------
+                    1.691   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 1.421ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              NN22Control_main_inst/spi_to_rpi_zero/FIFORdAddrxDP_fast[4]  (from Clk96xC +)
+   Destination:    FF         Data in        NN22Control_main_inst/spi_to_rpi_zero/FIFOWrAddrxDP[8]  (to Clk96xC +)
+                   FF                        NN22Control_main_inst/spi_to_rpi_zero/FIFOWrAddrxDP[7]
+
+   Delay:               8.746ns  (42.9% logic, 57.1% route), 7 logic levels.
+
+ Constraint Details:
+
+      8.746ns physical path delay NN22Control_main_inst/spi_to_rpi_zero/SLICE_56 to NN22Control_main_inst/spi_to_rpi_zero/SLICE_48 meets
+     10.417ns delay constraint less
+      0.000ns skew and
+      0.250ns CE_SET requirement (totaling 10.167ns) by 1.421ns
+
+ Physical Path Details:
+
+      Data path NN22Control_main_inst/spi_to_rpi_zero/SLICE_56 to NN22Control_main_inst/spi_to_rpi_zero/SLICE_48:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.411    R11C23C.CLK to     R11C23C.Q1 NN22Control_main_inst/spi_to_rpi_zero/SLICE_56 (from Clk96xC)
+ROUTE         1     1.568     R11C23C.Q1 to     R13C23C.B1 NN22Control_main_inst/spi_to_rpi_zero/FIFORdAddrxDP_fast[4]
+C1TOFCO_DE  ---     0.790     R13C23C.B1 to    R13C23C.FCO NN22Control_main_inst/spi_to_rpi_zero/SLICE_38
+ROUTE         1     0.000    R13C23C.FCO to    R13C23D.FCI NN22Control_main_inst/spi_to_rpi_zero/un4_fifofullxs_a_4_cry_4
+FCITOFCO_D  ---     0.146    R13C23D.FCI to    R13C23D.FCO NN22Control_main_inst/spi_to_rpi_zero/SLICE_37
+ROUTE         1     0.000    R13C23D.FCO to    R13C24A.FCI NN22Control_main_inst/spi_to_rpi_zero/un4_fifofullxs_a_4_cry_6
+FCITOF0_DE  ---     0.520    R13C24A.FCI to     R13C24A.F0 NN22Control_main_inst/spi_to_rpi_zero/SLICE_36
+ROUTE         1     1.063     R13C24A.F0 to     R12C23C.C0 NN22Control_main_inst/spi_to_rpi_zero/un4_fifofullxs_a_4[7]
+C0TOFCO_DE  ---     0.910     R12C23C.C0 to    R12C23C.FCO NN22Control_main_inst/spi_to_rpi_zero/SLICE_28
+ROUTE         1     0.000    R12C23C.FCO to    R12C23D.FCI NN22Control_main_inst/spi_to_rpi_zero/un4_fifofullxs_0_I_27_cry
+FCITOF0_DE  ---     0.520    R12C23D.FCI to     R12C23D.F0 NN22Control_main_inst/spi_to_rpi_zero/SLICE_27
+ROUTE         1     1.034     R12C23D.F0 to      R9C22B.D0 NN22Control_main_inst/spi_to_rpi_zero/un4_fifofullxs_0_data_tmp_i[4]
+CTOF_DEL    ---     0.454      R9C22B.D0 to      R9C22B.F0 NN22Control_main_inst/SLICE_460
+ROUTE         6     1.330      R9C22B.F0 to     R12C25A.CE NN22Control_main_inst/spi_to_rpi_zero/un1_fifowraddrxdn_i (to Clk96xC)
+                  --------
+                    8.746   (42.9% logic, 57.1% route), 7 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path main_pll_inst/PLLInst_0 to NN22Control_main_inst/spi_to_rpi_zero/SLICE_56:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       332     1.537     LPLL.CLKOP to    R11C23C.CLK Clk96xC
+                  --------
+                    1.537   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path main_pll_inst/PLLInst_0 to NN22Control_main_inst/spi_to_rpi_zero/SLICE_48:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       332     1.537     LPLL.CLKOP to    R12C25A.CLK Clk96xC
+                  --------
+                    1.537   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 1.421ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              NN22Control_main_inst/spi_to_rpi_zero/FIFORdAddrxDP_fast[4]  (from Clk96xC +)
+   Destination:    FF         Data in        NN22Control_main_inst/spi_to_rpi_zero/FIFOWrAddrxDP[9]  (to Clk96xC +)
+
+   Delay:               8.746ns  (42.9% logic, 57.1% route), 7 logic levels.
+
+ Constraint Details:
+
+      8.746ns physical path delay NN22Control_main_inst/spi_to_rpi_zero/SLICE_56 to NN22Control_main_inst/spi_to_rpi_zero/SLICE_47 meets
+     10.417ns delay constraint less
+      0.000ns skew and
+      0.250ns CE_SET requirement (totaling 10.167ns) by 1.421ns
+
+ Physical Path Details:
+
+      Data path NN22Control_main_inst/spi_to_rpi_zero/SLICE_56 to NN22Control_main_inst/spi_to_rpi_zero/SLICE_47:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.411    R11C23C.CLK to     R11C23C.Q1 NN22Control_main_inst/spi_to_rpi_zero/SLICE_56 (from Clk96xC)
+ROUTE         1     1.568     R11C23C.Q1 to     R13C23C.B1 NN22Control_main_inst/spi_to_rpi_zero/FIFORdAddrxDP_fast[4]
+C1TOFCO_DE  ---     0.790     R13C23C.B1 to    R13C23C.FCO NN22Control_main_inst/spi_to_rpi_zero/SLICE_38
+ROUTE         1     0.000    R13C23C.FCO to    R13C23D.FCI NN22Control_main_inst/spi_to_rpi_zero/un4_fifofullxs_a_4_cry_4
+FCITOFCO_D  ---     0.146    R13C23D.FCI to    R13C23D.FCO NN22Control_main_inst/spi_to_rpi_zero/SLICE_37
+ROUTE         1     0.000    R13C23D.FCO to    R13C24A.FCI NN22Control_main_inst/spi_to_rpi_zero/un4_fifofullxs_a_4_cry_6
+FCITOF0_DE  ---     0.520    R13C24A.FCI to     R13C24A.F0 NN22Control_main_inst/spi_to_rpi_zero/SLICE_36
+ROUTE         1     1.063     R13C24A.F0 to     R12C23C.C0 NN22Control_main_inst/spi_to_rpi_zero/un4_fifofullxs_a_4[7]
+C0TOFCO_DE  ---     0.910     R12C23C.C0 to    R12C23C.FCO NN22Control_main_inst/spi_to_rpi_zero/SLICE_28
+ROUTE         1     0.000    R12C23C.FCO to    R12C23D.FCI NN22Control_main_inst/spi_to_rpi_zero/un4_fifofullxs_0_I_27_cry
+FCITOF0_DE  ---     0.520    R12C23D.FCI to     R12C23D.F0 NN22Control_main_inst/spi_to_rpi_zero/SLICE_27
+ROUTE         1     1.034     R12C23D.F0 to      R9C22B.D0 NN22Control_main_inst/spi_to_rpi_zero/un4_fifofullxs_0_data_tmp_i[4]
+CTOF_DEL    ---     0.454      R9C22B.D0 to      R9C22B.F0 NN22Control_main_inst/SLICE_460
+ROUTE         6     1.330      R9C22B.F0 to     R12C25B.CE NN22Control_main_inst/spi_to_rpi_zero/un1_fifowraddrxdn_i (to Clk96xC)
+                  --------
+                    8.746   (42.9% logic, 57.1% route), 7 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path main_pll_inst/PLLInst_0 to NN22Control_main_inst/spi_to_rpi_zero/SLICE_56:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       332     1.537     LPLL.CLKOP to    R11C23C.CLK Clk96xC
+                  --------
+                    1.537   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path main_pll_inst/PLLInst_0 to NN22Control_main_inst/spi_to_rpi_zero/SLICE_47:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       332     1.537     LPLL.CLKOP to    R12C25B.CLK Clk96xC
+                  --------
+                    1.537   (0.0% logic, 100.0% route), 0 logic levels.
+
+Report:  104.428MHz is the maximum frequency for this preference.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference                              |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "OSC_CLK_c" 48.000000 MHz |             |             |
+;                                       |            -|            -|   0  
+                                        |             |             |
+FREQUENCY NET "Clk96xC" 96.000000 MHz ; |   96.000 MHz|  104.428 MHz|   6  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+Clock Domains Analysis
+------------------------
+
+Found 2 clocks:
+
+Clock Domain: OSC_CLK_c   Source: OSC_CLK.PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: Clk96xC   Source: main_pll_inst/PLLInst_0.CLKOP   Loads: 332
+   Covered under: FREQUENCY NET "Clk96xC" 96.000000 MHz ;
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 9025 paths, 2 nets, and 3602 connections (95.65% coverage)
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.12.1.454
+Thu Aug 17 03:43:39 2023
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 5 -sphld m -o NN22Control00_impl1.twr -gui -msgset C:/Users/Bernhard/Dropbox/NN2022/Lattice/NN22Control00g3-ExtFifo/promote.xml NN22Control00_impl1.ncd NN22Control00_impl1.prf 
+Design file:     nn22control00_impl1.ncd
+Preference file: nn22control00_impl1.prf
+Device,speed:    LCMXO2-1200UHC,m
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+Derating parameters
+-------------------
+VCCIO Voltage:
+                   3.300 V (Bank 0, defined by PAR)
+                   3.300 V (Bank 1, defined by PAR)
+                   3.300 V (Bank 2, defined by PAR)
+                   3.300 V (Bank 3, defined by PAR)
+                   3.300 V (Bank 4, defined by PAR)
+                   3.300 V (Bank 5, defined by PAR)
+
+
+
+================================================================================
+Preference: FREQUENCY NET "OSC_CLK_c" 48.000000 MHz ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+================================================================================
+Preference: FREQUENCY NET "Clk96xC" 96.000000 MHz ;
+            4096 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.195ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              NN22Control_main_inst/p_cfg_memzing.CfgFSMSRegxDP_0[2]  (from Clk96xC +)
+   Destination:    DP8KC      Port           NN22Control_main_inst/ram_b_inst/ram_b_0_1_0(ASIC)  (to Clk96xC +)
+
+   Delay:               0.300ns  (43.7% logic, 56.3% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.300ns physical path delay NN22Control_main_inst/SLICE_118 to NN22Control_main_inst/ram_b_inst/ram_b_0_1_0 meets
+      0.052ns ADDR_HLD and
+      0.000ns delay constraint less
+     -0.053ns skew requirement (totaling 0.105ns) by 0.195ns
+
+ Physical Path Details:
+
+      Data path NN22Control_main_inst/SLICE_118 to NN22Control_main_inst/ram_b_inst/ram_b_0_1_0:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.131      R7C7C.CLK to       R7C7C.Q0 NN22Control_main_inst/SLICE_118 (from Clk96xC)
+ROUTE         6     0.169       R7C7C.Q0 to  EBR_R8C5.ADA5 NN22Control_main_inst/CfgFSMSRegxDP_0[2] (to Clk96xC)
+                  --------
+                    0.300   (43.7% logic, 56.3% route), 1 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path main_pll_inst/PLLInst_0 to NN22Control_main_inst/SLICE_118:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       332     0.630     LPLL.CLKOP to      R7C7C.CLK Clk96xC
+                  --------
+                    0.630   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path main_pll_inst/PLLInst_0 to NN22Control_main_inst/ram_b_inst/ram_b_0_1_0:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       332     0.683     LPLL.CLKOP to  EBR_R8C5.CLKA Clk96xC
+                  --------
+                    0.683   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.197ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              NN22Control_main_inst/p_cfg_memzing.CfgFSMSRegxDP_0[4]  (from Clk96xC +)
+   Destination:    DP8KC      Port           NN22Control_main_inst/ram_b_inst/ram_b_0_1_0(ASIC)  (to Clk96xC +)
+
+   Delay:               0.302ns  (43.4% logic, 56.6% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.302ns physical path delay NN22Control_main_inst/SLICE_123 to NN22Control_main_inst/ram_b_inst/ram_b_0_1_0 meets
+      0.052ns ADDR_HLD and
+      0.000ns delay constraint less
+     -0.053ns skew requirement (totaling 0.105ns) by 0.197ns
+
+ Physical Path Details:
+
+      Data path NN22Control_main_inst/SLICE_123 to NN22Control_main_inst/ram_b_inst/ram_b_0_1_0:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.131      R7C6B.CLK to       R7C6B.Q0 NN22Control_main_inst/SLICE_123 (from Clk96xC)
+ROUTE         6     0.171       R7C6B.Q0 to  EBR_R8C5.ADA7 NN22Control_main_inst/CfgFSMSRegxDP_0[4] (to Clk96xC)
+                  --------
+                    0.302   (43.4% logic, 56.6% route), 1 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path main_pll_inst/PLLInst_0 to NN22Control_main_inst/SLICE_123:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       332     0.630     LPLL.CLKOP to      R7C6B.CLK Clk96xC
+                  --------
+                    0.630   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path main_pll_inst/PLLInst_0 to NN22Control_main_inst/ram_b_inst/ram_b_0_1_0:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       332     0.683     LPLL.CLKOP to  EBR_R8C5.CLKA Clk96xC
+                  --------
+                    0.683   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.198ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              NN22Control_main_inst/p_cfg_memzing.CfgFSMSRegxDP_2[7]  (from Clk96xC +)
+   Destination:    DP8KC      Port           NN22Control_main_inst/ram_a_inst/ram_a_0_0_2(ASIC)  (to Clk96xC +)
+
+   Delay:               0.302ns  (43.4% logic, 56.6% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.302ns physical path delay NN22Control_main_inst/SLICE_161 to NN22Control_main_inst/ram_a_inst/ram_a_0_0_2 meets
+      0.051ns DATA_HLD and
+      0.000ns delay constraint less
+     -0.053ns skew requirement (totaling 0.104ns) by 0.198ns
+
+ Physical Path Details:
+
+      Data path NN22Control_main_inst/SLICE_161 to NN22Control_main_inst/ram_a_inst/ram_a_0_0_2:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.131     R7C10D.CLK to      R7C10D.Q0 NN22Control_main_inst/SLICE_161 (from Clk96xC)
+ROUTE         4     0.171      R7C10D.Q0 to  EBR_R8C8.DIA7 NN22Control_main_inst/CfgFSMSRegxDP_2[7] (to Clk96xC)
+                  --------
+                    0.302   (43.4% logic, 56.6% route), 1 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path main_pll_inst/PLLInst_0 to NN22Control_main_inst/SLICE_161:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       332     0.630     LPLL.CLKOP to     R7C10D.CLK Clk96xC
+                  --------
+                    0.630   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path main_pll_inst/PLLInst_0 to NN22Control_main_inst/ram_a_inst/ram_a_0_0_2:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       332     0.683     LPLL.CLKOP to  EBR_R8C8.CLKA Clk96xC
+                  --------
+                    0.683   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.198ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              NN22Control_main_inst/PCntBxDP[7]  (from Clk96xC +)
+   Destination:    DP8KC      Port           NN22Control_main_inst/ram_b_inst/ram_b_0_1_0(ASIC)  (to Clk96xC +)
+
+   Delay:               0.322ns  (40.7% logic, 59.3% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.322ns physical path delay NN22Control_main_inst/SLICE_214 to NN22Control_main_inst/ram_b_inst/ram_b_0_1_0 meets
+      0.071ns ADDR_HLD and
+      0.000ns delay constraint less
+     -0.053ns skew requirement (totaling 0.124ns) by 0.198ns
+
+ Physical Path Details:
+
+      Data path NN22Control_main_inst/SLICE_214 to NN22Control_main_inst/ram_b_inst/ram_b_0_1_0:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.131      R9C6C.CLK to       R9C6C.Q1 NN22Control_main_inst/SLICE_214 (from Clk96xC)
+ROUTE         5     0.191       R9C6C.Q1 to EBR_R8C5.ADB10 NN22Control_main_inst/PCntBxDP[7] (to Clk96xC)
+                  --------
+                    0.322   (40.7% logic, 59.3% route), 1 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path main_pll_inst/PLLInst_0 to NN22Control_main_inst/SLICE_214:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       332     0.630     LPLL.CLKOP to      R9C6C.CLK Clk96xC
+                  --------
+                    0.630   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path main_pll_inst/PLLInst_0 to NN22Control_main_inst/ram_b_inst/ram_b_0_1_0:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       332     0.683     LPLL.CLKOP to  EBR_R8C5.CLKB Clk96xC
+                  --------
+                    0.683   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.213ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              NN22Control_main_inst/PCntBxDP[0]  (from Clk96xC +)
+   Destination:    DP8KC      Port           NN22Control_main_inst/ram_b_inst/ram_b_0_0_1(ASIC)  (to Clk96xC +)
+
+   Delay:               0.337ns  (38.9% logic, 61.1% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.337ns physical path delay NN22Control_main_inst/SLICE_211 to NN22Control_main_inst/ram_b_inst/ram_b_0_0_1 meets
+      0.071ns ADDR_HLD and
+      0.000ns delay constraint less
+     -0.053ns skew requirement (totaling 0.124ns) by 0.213ns
+
+ Physical Path Details:
+
+      Data path NN22Control_main_inst/SLICE_211 to NN22Control_main_inst/ram_b_inst/ram_b_0_0_1:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.131      R9C4C.CLK to       R9C4C.Q0 NN22Control_main_inst/SLICE_211 (from Clk96xC)
+ROUTE         5     0.206       R9C4C.Q0 to  EBR_R8C2.ADB3 NN22Control_main_inst/PCntBxDP[0] (to Clk96xC)
+                  --------
+                    0.337   (38.9% logic, 61.1% route), 1 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path main_pll_inst/PLLInst_0 to NN22Control_main_inst/SLICE_211:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       332     0.630     LPLL.CLKOP to      R9C4C.CLK Clk96xC
+                  --------
+                    0.630   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path main_pll_inst/PLLInst_0 to NN22Control_main_inst/ram_b_inst/ram_b_0_0_1:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       332     0.683     LPLL.CLKOP to  EBR_R8C2.CLKB Clk96xC
+                  --------
+                    0.683   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.214ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              NN22Control_main_inst/PCntBxDP[8]  (from Clk96xC +)
+   Destination:    DP8KC      Port           NN22Control_main_inst/ram_b_inst/ram_b_0_1_0(ASIC)  (to Clk96xC +)
+
+   Delay:               0.338ns  (38.8% logic, 61.2% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.338ns physical path delay NN22Control_main_inst/SLICE_215 to NN22Control_main_inst/ram_b_inst/ram_b_0_1_0 meets
+      0.071ns ADDR_HLD and
+      0.000ns delay constraint less
+     -0.053ns skew requirement (totaling 0.124ns) by 0.214ns
+
+ Physical Path Details:
+
+      Data path NN22Control_main_inst/SLICE_215 to NN22Control_main_inst/ram_b_inst/ram_b_0_1_0:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.131      R9C6D.CLK to       R9C6D.Q0 NN22Control_main_inst/SLICE_215 (from Clk96xC)
+ROUTE         5     0.207       R9C6D.Q0 to EBR_R8C5.ADB11 NN22Control_main_inst/PCntBxDP[8] (to Clk96xC)
+                  --------
+                    0.338   (38.8% logic, 61.2% route), 1 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path main_pll_inst/PLLInst_0 to NN22Control_main_inst/SLICE_215:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       332     0.630     LPLL.CLKOP to      R9C6D.CLK Clk96xC
+                  --------
+                    0.630   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path main_pll_inst/PLLInst_0 to NN22Control_main_inst/ram_b_inst/ram_b_0_1_0:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       332     0.683     LPLL.CLKOP to  EBR_R8C5.CLKB Clk96xC
+                  --------
+                    0.683   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.217ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              NN22Control_main_inst/p_cfg_memzing.CfgFSMSRegxDP_2[0]  (from Clk96xC +)
+   Destination:    DP8KC      Port           NN22Control_main_inst/ram_a_inst/ram_a_0_0_2(ASIC)  (to Clk96xC +)
+
+   Delay:               0.321ns  (40.8% logic, 59.2% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.321ns physical path delay NN22Control_main_inst/SLICE_154 to NN22Control_main_inst/ram_a_inst/ram_a_0_0_2 meets
+      0.051ns DATA_HLD and
+      0.000ns delay constraint less
+     -0.053ns skew requirement (totaling 0.104ns) by 0.217ns
+
+ Physical Path Details:
+
+      Data path NN22Control_main_inst/SLICE_154 to NN22Control_main_inst/ram_a_inst/ram_a_0_0_2:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.131     R9C10A.CLK to      R9C10A.Q0 NN22Control_main_inst/SLICE_154 (from Clk96xC)
+ROUTE         4     0.190      R9C10A.Q0 to  EBR_R8C8.DIA0 NN22Control_main_inst/CfgFSMSRegxDP_2[0] (to Clk96xC)
+                  --------
+                    0.321   (40.8% logic, 59.2% route), 1 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path main_pll_inst/PLLInst_0 to NN22Control_main_inst/SLICE_154:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       332     0.630     LPLL.CLKOP to     R9C10A.CLK Clk96xC
+                  --------
+                    0.630   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path main_pll_inst/PLLInst_0 to NN22Control_main_inst/ram_a_inst/ram_a_0_0_2:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       332     0.683     LPLL.CLKOP to  EBR_R8C8.CLKA Clk96xC
+                  --------
+                    0.683   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.233ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              NN22Control_main_inst/p_cfg_memzing.CfgFSMSRegxDP_5[0]  (from Clk96xC +)
+   Destination:    DP8KC      Port           NN22Control_main_inst/ram_a_inst/ram_a_0_2_0(ASIC)  (to Clk96xC +)
+
+   Delay:               0.337ns  (38.9% logic, 61.1% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.337ns physical path delay NN22Control_main_inst/SLICE_178 to NN22Control_main_inst/ram_a_inst/ram_a_0_2_0 meets
+      0.051ns DATA_HLD and
+      0.000ns delay constraint less
+     -0.053ns skew requirement (totaling 0.104ns) by 0.233ns
+
+ Physical Path Details:
+
+      Data path NN22Control_main_inst/SLICE_178 to NN22Control_main_inst/ram_a_inst/ram_a_0_2_0:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.131    R10C13C.CLK to     R10C13C.Q0 NN22Control_main_inst/SLICE_178 (from Clk96xC)
+ROUTE         3     0.206     R10C13C.Q0 to EBR_R8C11.DIA6 NN22Control_main_inst/CfgFSMSRegxDP_5[0] (to Clk96xC)
+                  --------
+                    0.337   (38.9% logic, 61.1% route), 1 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path main_pll_inst/PLLInst_0 to NN22Control_main_inst/SLICE_178:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       332     0.630     LPLL.CLKOP to    R10C13C.CLK Clk96xC
+                  --------
+                    0.630   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path main_pll_inst/PLLInst_0 to NN22Control_main_inst/ram_a_inst/ram_a_0_2_0:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       332     0.683     LPLL.CLKOP to EBR_R8C11.CLKA Clk96xC
+                  --------
+                    0.683   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.233ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              NN22Control_main_inst/p_cfg_memzing.CfgFSMSRegxDP_4[2]  (from Clk96xC +)
+   Destination:    DP8KC      Port           NN22Control_main_inst/ram_a_inst/ram_a_0_2_0(ASIC)  (to Clk96xC +)
+
+   Delay:               0.337ns  (38.9% logic, 61.1% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.337ns physical path delay NN22Control_main_inst/SLICE_172 to NN22Control_main_inst/ram_a_inst/ram_a_0_2_0 meets
+      0.051ns DATA_HLD and
+      0.000ns delay constraint less
+     -0.053ns skew requirement (totaling 0.104ns) by 0.233ns
+
+ Physical Path Details:
+
+      Data path NN22Control_main_inst/SLICE_172 to NN22Control_main_inst/ram_a_inst/ram_a_0_2_0:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.131     R7C13B.CLK to      R7C13B.Q0 NN22Control_main_inst/SLICE_172 (from Clk96xC)
+ROUTE         4     0.206      R7C13B.Q0 to EBR_R8C11.DIA0 NN22Control_main_inst/CfgFSMSRegxDP_4[2] (to Clk96xC)
+                  --------
+                    0.337   (38.9% logic, 61.1% route), 1 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path main_pll_inst/PLLInst_0 to NN22Control_main_inst/SLICE_172:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       332     0.630     LPLL.CLKOP to     R7C13B.CLK Clk96xC
+                  --------
+                    0.630   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path main_pll_inst/PLLInst_0 to NN22Control_main_inst/ram_a_inst/ram_a_0_2_0:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       332     0.683     LPLL.CLKOP to EBR_R8C11.CLKA Clk96xC
+                  --------
+                    0.683   (0.0% logic, 100.0% route), 0 logic levels.
+
+
+Passed: The following path meets requirements by 0.280ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              NN22Control_main_inst/p_cfg_memzing.CfgFSMSRegxDP_2[5]  (from Clk96xC +)
+   Destination:    DP8KC      Port           NN22Control_main_inst/ram_a_inst/ram_a_0_0_2(ASIC)  (to Clk96xC +)
+
+   Delay:               0.384ns  (34.1% logic, 65.9% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.384ns physical path delay NN22Control_main_inst/SLICE_159 to NN22Control_main_inst/ram_a_inst/ram_a_0_0_2 meets
+      0.051ns DATA_HLD and
+      0.000ns delay constraint less
+     -0.053ns skew requirement (totaling 0.104ns) by 0.280ns
+
+ Physical Path Details:
+
+      Data path NN22Control_main_inst/SLICE_159 to NN22Control_main_inst/ram_a_inst/ram_a_0_0_2:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.131      R7C8A.CLK to       R7C8A.Q0 NN22Control_main_inst/SLICE_159 (from Clk96xC)
+ROUTE         4     0.253       R7C8A.Q0 to  EBR_R8C8.DIA5 NN22Control_main_inst/CfgFSMSRegxDP_2[5] (to Clk96xC)
+                  --------
+                    0.384   (34.1% logic, 65.9% route), 1 logic levels.
+
+ Clock Skew Details: 
+
+      Source Clock Path main_pll_inst/PLLInst_0 to NN22Control_main_inst/SLICE_159:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       332     0.630     LPLL.CLKOP to      R7C8A.CLK Clk96xC
+                  --------
+                    0.630   (0.0% logic, 100.0% route), 0 logic levels.
+
+      Destination Clock Path main_pll_inst/PLLInst_0 to NN22Control_main_inst/ram_a_inst/ram_a_0_0_2:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+ROUTE       332     0.683     LPLL.CLKOP to  EBR_R8C8.CLKA Clk96xC
+                  --------
+                    0.683   (0.0% logic, 100.0% route), 0 logic levels.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference(MIN Delays)                  |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "OSC_CLK_c" 48.000000 MHz |             |             |
+;                                       |            -|            -|   0  
+                                        |             |             |
+FREQUENCY NET "Clk96xC" 96.000000 MHz ; |     0.000 ns|     0.195 ns|   1  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+Clock Domains Analysis
+------------------------
+
+Found 2 clocks:
+
+Clock Domain: OSC_CLK_c   Source: OSC_CLK.PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: Clk96xC   Source: main_pll_inst/PLLInst_0.CLKOP   Loads: 332
+   Covered under: FREQUENCY NET "Clk96xC" 96.000000 MHz ;
+
+
+Timing summary (Hold):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 9025 paths, 2 nets, and 3602 connections (95.65% coverage)
+
+
+
+Timing summary (Setup and Hold):
+---------------
+
+Timing errors: 0 (setup), 0 (hold)
+Score: 0 (setup), 0 (hold)
+Cumulative negative slack: 0 (0+0)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+

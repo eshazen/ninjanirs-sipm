@@ -1,0 +1,45 @@
+Runtime Summary:
+================
+
+	The following design units have negligible CPU times:
+	=====================================================
+		*Library: work, Entity: ext_fifo_int_fifo, Architecture: structure
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: ext_fifo, Architecture: behavioral
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: uart_rxZ0, Architecture: behavioral
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: uart_tx_with_fifo_16, Architecture: behavioral
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: uart_fifo, Architecture: structure
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: uart_tx_with_fifo_8, Architecture: behavioral
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: spi_txrx_ram, Architecture: structure
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: spi_rxtx_with_fifo, Architecture: behavioral
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: uart_rx_8, Architecture: behavioral
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: aux_adc_rx, Architecture: aux_adc_rx_behavior
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: ram_a, Architecture: structure
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: ram_b, Architecture: structure
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: NN22Control_main, Architecture: nn22control_main_behavior
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: main_pll, Architecture: structure
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: NN22Control_top, Architecture: nn22control_top_behavior
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: fifo8kb, Architecture: syn_black_box
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: VHI, Architecture: syn_black_box
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: DP8KC, Architecture: syn_black_box
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: VLO, Architecture: syn_black_box
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: EHXPLLJ, Architecture: syn_black_box
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time

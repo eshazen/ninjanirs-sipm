@@ -1,0 +1,30 @@
+Results of NGD DRC are available in NN22Control_top_drc.log.
+Loading NGL library 'C:/lscc/diamond/3.13/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.13/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.13/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.13/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+WARNING - synthesis: logical net 'UART_SRCB_TO_FPGA[6]' has no load.
+WARNING - synthesis: input pad net 'UART_SRCB_TO_FPGA[6]' has no legal load.
+WARNING - synthesis: logical net 'UART_SRCB_TO_FPGA[5]' has no load.
+WARNING - synthesis: input pad net 'UART_SRCB_TO_FPGA[5]' has no legal load.
+WARNING - synthesis: logical net 'UART_SRCB_TO_FPGA[4]' has no load.
+WARNING - synthesis: input pad net 'UART_SRCB_TO_FPGA[4]' has no legal load.
+WARNING - synthesis: logical net 'UART_SRCB_TO_FPGA[3]' has no load.
+WARNING - synthesis: input pad net 'UART_SRCB_TO_FPGA[3]' has no legal load.
+WARNING - synthesis: logical net 'UART_SRCB_TO_FPGA[2]' has no load.
+WARNING - synthesis: input pad net 'UART_SRCB_TO_FPGA[2]' has no legal load.
+WARNING - synthesis: logical net 'UART_SRCB_TO_FPGA[1]' has no load.
+WARNING - synthesis: input pad net 'UART_SRCB_TO_FPGA[1]' has no legal load.
+WARNING - synthesis: logical net 'UART_SRCB_TO_FPGA[0]' has no load.
+WARNING - synthesis: input pad net 'UART_SRCB_TO_FPGA[0]' has no legal load.
+WARNING - synthesis: DRC complete with 14 warnings.
+
+Design Results:
+   1476 blocks expanded
+completed the first expansion
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file NN22Control00_impl1.ngd.

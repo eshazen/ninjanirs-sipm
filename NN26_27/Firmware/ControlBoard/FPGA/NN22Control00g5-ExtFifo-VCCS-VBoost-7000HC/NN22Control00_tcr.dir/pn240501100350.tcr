@@ -1,0 +1,9 @@
+#Start recording tcl command: 5/1/2024 10:01:32
+#Project Location: D:/Dropbox/NN2022/Lattice/NN22Control00g3-ExtFifo-7000HC; Project name: NN22Control00
+D:/Dropbox/NN2022/FirmwareForGitHub/Control-Card/FPGA
+NN22Control00
+#Start recording tcl command: 5/1/2024 10:03:50
+#Project Location: D:/Dropbox/NN2022/FirmwareForGitHub/Control-Card/FPGA; Project name: NN22Control00
+prj_project open "D:/Dropbox/NN2022/Lattice/NN22Control00g3-ExtFifo-7000HC/NN22Control00.ldf"
+prj_project saveas -name "NN22Control00" -dir "D:/Dropbox/NN2022/FirmwareForGitHub/Control-Card/FPGA"
+#Stop recording: 5/1/2024 10:03:50

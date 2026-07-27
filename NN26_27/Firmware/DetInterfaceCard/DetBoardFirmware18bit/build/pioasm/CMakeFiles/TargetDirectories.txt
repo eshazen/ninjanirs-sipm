@@ -1,0 +1,3 @@
+/home/pi/NN2022Code/DetBoardFirmware18bit/build/pioasm/CMakeFiles/pioasm.dir
+/home/pi/NN2022Code/DetBoardFirmware18bit/build/pioasm/CMakeFiles/edit_cache.dir
+/home/pi/NN2022Code/DetBoardFirmware18bit/build/pioasm/CMakeFiles/rebuild_cache.dir

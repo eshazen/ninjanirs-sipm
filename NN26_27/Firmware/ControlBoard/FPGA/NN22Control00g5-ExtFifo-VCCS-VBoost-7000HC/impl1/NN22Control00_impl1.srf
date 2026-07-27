@@ -1,0 +1,1291 @@
+#Build: Synplify Pro (R) U-2023.03L-SP1, Build 153R, Aug 10 2023
+#install: C:\lscc\diamond\3.13\synpbase
+#OS: Windows 10 or later
+#Hostname: LEGIONNB
+
+# Sat Nov  2 22:55:08 2024
+
+#Implementation: impl1
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03L-SP1
+Install: C:\lscc\diamond\3.13\synpbase
+OS: Windows 10 or later
+Hostname: LEGIONNB
+
+Implementation : impl1
+Synopsys HDL Compiler, Version comp202303synp1, Build 155R, Built Aug 10 2023 09:42:17, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03L-SP1
+Install: C:\lscc\diamond\3.13\synpbase
+OS: Windows 10 or later
+Hostname: LEGIONNB
+
+Implementation : impl1
+Synopsys VHDL Compiler, Version comp202303synp1, Build 173R, Built Aug 31 2023 03:59:48, @
+
+@N|Running in 64-bit mode
+Location map warning "C:\lscc\diamond\3.13\synpbase\lib\vhd2008\location.map":55 - Attempted redefinition of package mach.components
+@N:"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_top.vhd":14:7:14:21|Top entity is set to NN22Control_top.
+Options changed - recompiling
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\lscc\diamond\3.13\cae_library\synthesis\vhdl\machxo2.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_rx.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\aux_adc_rx.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\ram_a.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\ram_b.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_fifo.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_tx_with_fifo.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\spi_txrx_ram.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\spi_rxtx_with_fifo.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\ext_fifo_int_fifo.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\ext_fifo.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\main_pll.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_top.vhd'.
+VHDL syntax check successful!
+Options changed - recompiling
+@N: CD231 :"C:\lscc\diamond\3.13\synpbase\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_top.vhd":14:7:14:21|Synthesizing work.nn22control_top.nn22control_top_behavior.
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\main_pll.vhd":14:7:14:14|Synthesizing work.main_pll.structure.
+@N: CD630 :"C:\lscc\diamond\3.13\cae_library\synthesis\vhdl\machxo2.vhd":2221:10:2221:16|Synthesizing work.ehxpllj.syn_black_box.
+Post processing for work.ehxpllj.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.13\cae_library\synthesis\vhdl\machxo2.vhd":1490:10:1490:12|Synthesizing work.vlo.syn_black_box.
+Post processing for work.vlo.syn_black_box
+Post processing for work.main_pll.structure
+Running optimization stage 1 on main_pll .......
+Finished optimization stage 1 on main_pll (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 98MB)
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":15:7:15:22|Synthesizing work.nn22control_main.nn22control_main_behavior.
+@N: CD231 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":87:23:87:24|Using onehot encoding for type cfgfsmstate_type. For example, enumeration sidle is mapped to "10000000".
+@N: CD231 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":152:26:152:27|Using onehot encoding for type pcnttxfsmstate_type. For example, enumeration sidle is mapped to "10000".
+@N: CD604 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":411:3:411:16|OTHERS clause is not synthesized.
+@W: CD434 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":490:38:490:51|Signal mainstatregxdp in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CG296 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":490:19:490:25|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":497:17:497:24|Referenced variable clkdivxd is not in sensitivity list.
+@N: CD604 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":588:3:588:16|OTHERS clause is not synthesized.
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\ram_b.vhd":14:7:14:11|Synthesizing work.ram_b.structure.
+@N: CD630 :"C:\lscc\diamond\3.13\cae_library\synthesis\vhdl\machxo2.vhd":1699:10:1699:14|Synthesizing work.dp8kc.syn_black_box.
+Post processing for work.dp8kc.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.13\cae_library\synthesis\vhdl\machxo2.vhd":1483:10:1483:12|Synthesizing work.vhi.syn_black_box.
+Post processing for work.vhi.syn_black_box
+Post processing for work.ram_b.structure
+Running optimization stage 1 on ram_b .......
+Finished optimization stage 1 on ram_b (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 101MB)
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\ram_a.vhd":14:7:14:11|Synthesizing work.ram_a.structure.
+Post processing for work.ram_a.structure
+Running optimization stage 1 on ram_a .......
+Finished optimization stage 1 on ram_a (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 101MB)
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\aux_adc_rx.vhd":17:7:17:16|Synthesizing work.aux_adc_rx.aux_adc_rx_behavior.
+@N: CD231 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\aux_adc_rx.vhd":49:19:49:20|Using onehot encoding for type fsmstatetype. For example, enumeration sidle is mapped to "10000000000".
+@N: CD604 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\aux_adc_rx.vhd":188:3:188:16|OTHERS clause is not synthesized.
+Post processing for work.aux_adc_rx.aux_adc_rx_behavior
+Running optimization stage 1 on aux_adc_rx .......
+Finished optimization stage 1 on aux_adc_rx (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 102MB)
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_rx.vhd":12:7:12:13|Synthesizing work.uart_rx.behavioral.
+@N: CD231 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_rx.vhd":29:19:29:20|Using onehot encoding for type fsmstatetype. For example, enumeration sidle is mapped to "10000".
+Post processing for work.uart_rx.behavioral
+Running optimization stage 1 on uart_rx .......
+Finished optimization stage 1 on uart_rx (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 102MB)
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\spi_rxtx_with_fifo.vhd":14:7:14:24|Synthesizing work.spi_rxtx_with_fifo.behavioral.
+@N: CD231 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\spi_rxtx_with_fifo.vhd":38:19:38:20|Using onehot encoding for type fsmstatetype. For example, enumeration sidle is mapped to "1000000".
+@N: CD604 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\spi_rxtx_with_fifo.vhd":239:3:239:16|OTHERS clause is not synthesized.
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\spi_txrx_ram.vhd":14:7:14:18|Synthesizing work.spi_txrx_ram.structure.
+Post processing for work.spi_txrx_ram.structure
+Running optimization stage 1 on spi_txrx_ram .......
+@W: CL168 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\spi_txrx_ram.vhd":129:4:129:17|Removing instance scuba_vhi_inst because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+Finished optimization stage 1 on spi_txrx_ram (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 104MB)
+Post processing for work.spi_rxtx_with_fifo.behavioral
+Running optimization stage 1 on spi_rxtx_with_fifo .......
+Finished optimization stage 1 on spi_rxtx_with_fifo (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_tx_with_fifo.vhd":12:7:12:23|Synthesizing work.uart_tx_with_fifo.behavioral.
+@N: CD231 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_tx_with_fifo.vhd":29:19:29:20|Using onehot encoding for type fsmstatetype. For example, enumeration sidle is mapped to "10000".
+@N: CD604 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_tx_with_fifo.vhd":118:3:118:16|OTHERS clause is not synthesized.
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_fifo.vhd":14:7:14:15|Synthesizing work.uart_fifo.structure.
+@N: CD630 :"C:\lscc\diamond\3.13\cae_library\synthesis\vhdl\machxo2.vhd":1874:10:1874:16|Synthesizing work.fifo8kb.syn_black_box.
+Post processing for work.fifo8kb.syn_black_box
+Post processing for work.uart_fifo.structure
+Running optimization stage 1 on uart_fifo .......
+Finished optimization stage 1 on uart_fifo (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+Post processing for work.uart_tx_with_fifo.behavioral
+Running optimization stage 1 on uart_tx_with_fifo .......
+Finished optimization stage 1 on uart_tx_with_fifo (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_tx_with_fifo.vhd":12:7:12:23|Synthesizing work.uart_tx_with_fifo.behavioral.
+@N: CD231 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_tx_with_fifo.vhd":29:19:29:20|Using onehot encoding for type fsmstatetype. For example, enumeration sidle is mapped to "10000".
+@N: CD604 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_tx_with_fifo.vhd":118:3:118:16|OTHERS clause is not synthesized.
+Post processing for work.uart_tx_with_fifo.behavioral
+Running optimization stage 1 on uart_tx_with_fifo .......
+Finished optimization stage 1 on uart_tx_with_fifo (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_rx.vhd":12:7:12:13|Synthesizing work.uart_rx.behavioral.
+@N: CD231 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_rx.vhd":29:19:29:20|Using onehot encoding for type fsmstatetype. For example, enumeration sidle is mapped to "10000".
+Post processing for work.uart_rx.behavioral
+Running optimization stage 1 on uart_rx .......
+Finished optimization stage 1 on uart_rx (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\ext_fifo.vhd":15:7:15:14|Synthesizing work.ext_fifo.behavioral.
+@N: CD231 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\ext_fifo.vhd":43:19:43:20|Using onehot encoding for type fsmstatetype. For example, enumeration sidle is mapped to "10000000000000000000000".
+@N: CD233 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\ext_fifo.vhd":48:22:48:23|Using sequential encoding for type spifsmstatetype.
+@N: CD604 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\ext_fifo.vhd":339:3:339:16|OTHERS clause is not synthesized.
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\ext_fifo_int_fifo.vhd":14:7:14:23|Synthesizing work.ext_fifo_int_fifo.structure.
+Post processing for work.ext_fifo_int_fifo.structure
+Running optimization stage 1 on ext_fifo_int_fifo .......
+Finished optimization stage 1 on ext_fifo_int_fifo (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 105MB)
+Post processing for work.ext_fifo.behavioral
+Running optimization stage 1 on ext_fifo .......
+Finished optimization stage 1 on ext_fifo (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 107MB)
+Post processing for work.nn22control_main.nn22control_main_behavior
+Running optimization stage 1 on NN22Control_main .......
+@W: CL190 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":542:2:542:3|Optimizing register bit p_pcnttx_memzing.PcntTxSRegxDP_1(2) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":542:2:542:3|Optimizing register bit p_pcnttx_memzing.PcntTxSRegxDP_1(3) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":542:2:542:3|Optimizing register bit p_pcnttx_memzing.PcntTxSRegxDP_1(4) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":542:2:542:3|Optimizing register bit p_pcnttx_memzing.PcntTxSRegxDP_1(5) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":542:2:542:3|Optimizing register bit p_pcnttx_memzing.PcntTxSRegxDP_1(6) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":542:2:542:3|Optimizing register bit p_pcnttx_memzing.PcntTxSRegxDP_1(7) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":542:2:542:3|Pruning register bits 7 to 2 of PcntTxSRegxDP_1(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 1 on NN22Control_main (CPU Time 0h:00m:00s, Memory Used current: 106MB peak: 107MB)
+Post processing for work.nn22control_top.nn22control_top_behavior
+Running optimization stage 1 on NN22Control_top .......
+Finished optimization stage 1 on NN22Control_top (CPU Time 0h:00m:00s, Memory Used current: 106MB peak: 107MB)
+Running optimization stage 2 on ext_fifo_int_fifo .......
+Finished optimization stage 2 on ext_fifo_int_fifo (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 107MB)
+Running optimization stage 2 on ext_fifo .......
+@N: CL201 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\ext_fifo.vhd":101:2:101:3|Trying to extract state machine for register SpiStatexDP.
+Extracted state machine for register SpiStatexDP
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+@N: CL201 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\ext_fifo.vhd":101:2:101:3|Trying to extract state machine for register StatexDP.
+Extracted state machine for register StatexDP
+State machine has 23 reachable states with original encodings of:
+   00000000000000000000001
+   00000000000000000000010
+   00000000000000000000100
+   00000000000000000001000
+   00000000000000000010000
+   00000000000000000100000
+   00000000000000001000000
+   00000000000000010000000
+   00000000000000100000000
+   00000000000001000000000
+   00000000000010000000000
+   00000000000100000000000
+   00000000001000000000000
+   00000000010000000000000
+   00000000100000000000000
+   00000001000000000000000
+   00000010000000000000000
+   00000100000000000000000
+   00001000000000000000000
+   00010000000000000000000
+   00100000000000000000000
+   01000000000000000000000
+   10000000000000000000000
+Finished optimization stage 2 on ext_fifo (CPU Time 0h:00m:00s, Memory Used current: 107MB peak: 108MB)
+Running optimization stage 2 on uart_rxZ0 .......
+@N: CL201 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_rx.vhd":42:2:42:3|Trying to extract state machine for register StatexDP.
+Extracted state machine for register StatexDP
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000
+Finished optimization stage 2 on uart_rxZ0 (CPU Time 0h:00m:00s, Memory Used current: 107MB peak: 108MB)
+Running optimization stage 2 on uart_tx_with_fifo_16 .......
+@N: CL201 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_tx_with_fifo.vhd":63:2:63:3|Trying to extract state machine for register StatexDP.
+Extracted state machine for register StatexDP
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000
+Finished optimization stage 2 on uart_tx_with_fifo_16 (CPU Time 0h:00m:00s, Memory Used current: 107MB peak: 108MB)
+Running optimization stage 2 on uart_fifo .......
+Finished optimization stage 2 on uart_fifo (CPU Time 0h:00m:00s, Memory Used current: 107MB peak: 108MB)
+Running optimization stage 2 on uart_tx_with_fifo_8 .......
+@N: CL201 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_tx_with_fifo.vhd":63:2:63:3|Trying to extract state machine for register StatexDP.
+Extracted state machine for register StatexDP
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000
+Finished optimization stage 2 on uart_tx_with_fifo_8 (CPU Time 0h:00m:00s, Memory Used current: 107MB peak: 108MB)
+Running optimization stage 2 on spi_txrx_ram .......
+Finished optimization stage 2 on spi_txrx_ram (CPU Time 0h:00m:00s, Memory Used current: 107MB peak: 108MB)
+Running optimization stage 2 on spi_rxtx_with_fifo .......
+@N: CL201 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\spi_rxtx_with_fifo.vhd":118:2:118:3|Trying to extract state machine for register StatexDP.
+Extracted state machine for register StatexDP
+State machine has 7 reachable states with original encodings of:
+   0000001
+   0000010
+   0000100
+   0001000
+   0010000
+   0100000
+   1000000
+Finished optimization stage 2 on spi_rxtx_with_fifo (CPU Time 0h:00m:00s, Memory Used current: 108MB peak: 112MB)
+Running optimization stage 2 on uart_rx_8 .......
+@N: CL201 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_rx.vhd":42:2:42:3|Trying to extract state machine for register StatexDP.
+Extracted state machine for register StatexDP
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000
+Finished optimization stage 2 on uart_rx_8 (CPU Time 0h:00m:00s, Memory Used current: 108MB peak: 112MB)
+Running optimization stage 2 on aux_adc_rx .......
+@N: CL201 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\aux_adc_rx.vhd":64:2:64:3|Trying to extract state machine for register StatexDP.
+Extracted state machine for register StatexDP
+State machine has 11 reachable states with original encodings of:
+   00000000001
+   00000000010
+   00000000100
+   00000001000
+   00000010000
+   00000100000
+   00001000000
+   00010000000
+   00100000000
+   01000000000
+   10000000000
+Finished optimization stage 2 on aux_adc_rx (CPU Time 0h:00m:00s, Memory Used current: 107MB peak: 112MB)
+Running optimization stage 2 on ram_a .......
+Finished optimization stage 2 on ram_a (CPU Time 0h:00m:00s, Memory Used current: 107MB peak: 112MB)
+Running optimization stage 2 on ram_b .......
+Finished optimization stage 2 on ram_b (CPU Time 0h:00m:00s, Memory Used current: 107MB peak: 112MB)
+Running optimization stage 2 on NN22Control_main .......
+@N: CL201 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":542:2:542:3|Trying to extract state machine for register PcntTxStatexDP.
+Extracted state machine for register PcntTxStatexDP
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000
+@N: CL201 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":308:2:308:3|Trying to extract state machine for register CfgStatexDP.
+Extracted state machine for register CfgStatexDP
+State machine has 8 reachable states with original encodings of:
+   00000001
+   00000010
+   00000100
+   00001000
+   00010000
+   00100000
+   01000000
+   10000000
+Finished optimization stage 2 on NN22Control_main (CPU Time 0h:00m:00s, Memory Used current: 109MB peak: 114MB)
+Running optimization stage 2 on main_pll .......
+Finished optimization stage 2 on main_pll (CPU Time 0h:00m:00s, Memory Used current: 109MB peak: 114MB)
+Running optimization stage 2 on NN22Control_top .......
+@W: CL247 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_top.vhd":43:2:43:9|Input port bit 0 of ram0_sio(3 downto 0) is unused 
+Finished optimization stage 2 on NN22Control_top (CPU Time 0h:00m:00s, Memory Used current: 109MB peak: 114MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\impl1\synwork\layer0.duruntime
+
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:03s; Memory used current: 109MB peak: 114MB)
+
+Process took 0h:00m:07s realtime, 0h:00m:03s cputime
+
+Process completed successfully.
+# Sat Nov  2 22:55:16 2024
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03L-SP1
+Install: C:\lscc\diamond\3.13\synpbase
+OS: Windows 10 or later
+Hostname: LEGIONNB
+
+Implementation : impl1
+Synopsys Synopsys Netlist Linker, Version comp202303synp1, Build 155R, Built Aug 10 2023 09:42:17, @
+
+@N|Running in 64-bit mode
+File D:\Dropbox\NN2022\Lattice\NN22Control00g4-ExtFifo-VCCS-ZeroRun-7000HC\impl1\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 93MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Nov  2 22:55:16 2024
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\impl1\synwork\NN22Control00_impl1_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:03s; Memory used current: 30MB peak: 31MB)
+
+Process took 0h:00m:08s realtime, 0h:00m:03s cputime
+
+Process completed successfully.
+# Sat Nov  2 22:55:16 2024
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03L-SP1
+Install: C:\lscc\diamond\3.13\synpbase
+OS: Windows 10 or later
+Hostname: LEGIONNB
+
+Implementation : impl1
+Synopsys Synopsys Netlist Linker, Version comp202303synp1, Build 155R, Built Aug 10 2023 09:42:17, @
+
+@N|Running in 64-bit mode
+File D:\Dropbox\NN2022\Lattice\NN22Control00g4-ExtFifo-VCCS-ZeroRun-7000HC\impl1\synwork\NN22Control00_impl1_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 93MB peak: 93MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Nov  2 22:55:17 2024
+
+###########################################################]
+# Sat Nov  2 22:55:18 2024
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03L-SP1
+Install: C:\lscc\diamond\3.13\synpbase
+OS: Windows 10 or later
+Hostname: LEGIONNB
+
+Implementation : impl1
+Synopsys Lattice Technology Pre-mapping, Version map202303lat, Build 132R, Built Aug 31 2023 04:16:35, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 123MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 137MB)
+
+@A: MF827 |No constraint file specified.
+@L: D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\impl1\NN22Control00_impl1_scck.rpt 
+See clock summary report "D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\impl1\NN22Control00_impl1_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 137MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 137MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 146MB peak: 146MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 146MB peak: 148MB)
+
+NConnInternalConnection caching is on
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 197MB peak: 197MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 197MB peak: 198MB)
+
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 197MB peak: 198MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 197MB peak: 198MB)
+
+@N: BN362 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\spi_rxtx_with_fifo.vhd":118:2:118:3|Removing sequential instance FIFOAlmostEmptyxSP (in view: work.spi_rxtx_with_fifo(behavioral)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+Encoding state machine StatexDP[0:22] (in view: work.ext_fifo(behavioral))
+original code -> new code
+   00000000000000000000001 -> 00000000000000000000001
+   00000000000000000000010 -> 00000000000000000000010
+   00000000000000000000100 -> 00000000000000000000100
+   00000000000000000001000 -> 00000000000000000001000
+   00000000000000000010000 -> 00000000000000000010000
+   00000000000000000100000 -> 00000000000000000100000
+   00000000000000001000000 -> 00000000000000001000000
+   00000000000000010000000 -> 00000000000000010000000
+   00000000000000100000000 -> 00000000000000100000000
+   00000000000001000000000 -> 00000000000001000000000
+   00000000000010000000000 -> 00000000000010000000000
+   00000000000100000000000 -> 00000000000100000000000
+   00000000001000000000000 -> 00000000001000000000000
+   00000000010000000000000 -> 00000000010000000000000
+   00000000100000000000000 -> 00000000100000000000000
+   00000001000000000000000 -> 00000001000000000000000
+   00000010000000000000000 -> 00000010000000000000000
+   00000100000000000000000 -> 00000100000000000000000
+   00001000000000000000000 -> 00001000000000000000000
+   00010000000000000000000 -> 00010000000000000000000
+   00100000000000000000000 -> 00100000000000000000000
+   01000000000000000000000 -> 01000000000000000000000
+   10000000000000000000000 -> 10000000000000000000000
+Encoding state machine SpiStatexDP[0:2] (in view: work.ext_fifo(behavioral))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine StatexDP[0:4] (in view: work.uart_rxZ0(behavioral))
+original code -> new code
+   00001 -> 00001
+   00010 -> 00010
+   00100 -> 00100
+   01000 -> 01000
+   10000 -> 10000
+Encoding state machine StatexDP[0:4] (in view: work.uart_tx_with_fifo_16(behavioral))
+original code -> new code
+   00001 -> 00001
+   00010 -> 00010
+   00100 -> 00100
+   01000 -> 01000
+   10000 -> 10000
+Encoding state machine StatexDP[0:4] (in view: work.uart_tx_with_fifo_8(behavioral))
+original code -> new code
+   00001 -> 00001
+   00010 -> 00010
+   00100 -> 00100
+   01000 -> 01000
+   10000 -> 10000
+Encoding state machine StatexDP[0:6] (in view: work.spi_rxtx_with_fifo(behavioral))
+original code -> new code
+   0000001 -> 0000001
+   0000010 -> 0000010
+   0000100 -> 0000100
+   0001000 -> 0001000
+   0010000 -> 0010000
+   0100000 -> 0100000
+   1000000 -> 1000000
+Encoding state machine StatexDP[0:4] (in view: work.uart_rx_8(behavioral))
+original code -> new code
+   00001 -> 00001
+   00010 -> 00010
+   00100 -> 00100
+   01000 -> 01000
+   10000 -> 10000
+Encoding state machine StatexDP[0:10] (in view: work.aux_adc_rx(aux_adc_rx_behavior))
+original code -> new code
+   00000000001 -> 00000000001
+   00000000010 -> 00000000010
+   00000000100 -> 00000000100
+   00000001000 -> 00000001000
+   00000010000 -> 00000010000
+   00000100000 -> 00000100000
+   00001000000 -> 00001000000
+   00010000000 -> 00010000000
+   00100000000 -> 00100000000
+   01000000000 -> 01000000000
+   10000000000 -> 10000000000
+Encoding state machine PcntTxStatexDP[0:4] (in view: work.NN22Control_main(nn22control_main_behavior))
+original code -> new code
+   00001 -> 00001
+   00010 -> 00010
+   00100 -> 00100
+   01000 -> 01000
+   10000 -> 10000
+Encoding state machine CfgStatexDP[0:7] (in view: work.NN22Control_main(nn22control_main_behavior))
+original code -> new code
+   00000001 -> 00000001
+   00000010 -> 00000010
+   00000100 -> 00000100
+   00001000 -> 00001000
+   00010000 -> 00010000
+   00100000 -> 00100000
+   01000000 -> 01000000
+   10000000 -> 10000000
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 204MB peak: 204MB)
+
+
+mixed edge conversion for GCC is OFF
+@W: MO197 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\spi_rxtx_with_fifo.vhd":118:2:118:3|Removing FSM register StatexDP[0] (in view view:work.spi_rxtx_with_fifo(behavioral)) because its output is a constant.
+
+Finished clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 204MB peak: 205MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 205MB peak: 206MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 205MB peak: 206MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=26 on top level netlist NN22Control_top 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 205MB peak: 206MB)
+
+
+
+Clock Summary
+******************
+
+          Start                             Requested     Requested     Clock        Clock               Clock
+Level     Clock                             Frequency     Period        Type         Group               Load 
+--------------------------------------------------------------------------------------------------------------
+0 -       System                            100.0 MHz     10.000        system       system_clkgroup     0    
+                                                                                                              
+0 -       main_pll|CLKOP_inferred_clock     100.0 MHz     10.000        inferred     (multiple)          594  
+==============================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                  Clock     Source                                     Clock Pin                                          Non-clock Pin     Non-clock Pin
+Clock                             Load      Pin                                        Seq Example                                        Seq Example       Comb Example 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                            0         -                                          -                                                  -                 -            
+                                                                                                                                                                         
+main_pll|CLKOP_inferred_clock     594       main_pll_inst.PLLInst_0.CLKOP(EHXPLLJ)     NN22Control_main_inst.UartSrcBtoFPGAxDP[6:0].C     -                 -            
+=========================================================================================================================================================================
+
+@W: MT529 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\ext_fifo.vhd":101:2:101:3|Found inferred clock main_pll|CLKOP_inferred_clock which controls 594 sequential elements including NN22Control_main_inst.ext_fifo_inst.SpiStatexDP[1]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 594 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+============================================= Non-Gated/Non-Generated Clocks =============================================
+Clock Tree ID     Driving Element                   Drive Element Type     Fanout     Sample Instance                     
+--------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_0       main_pll_inst.PLLInst_0.CLKOP     EHXPLLJ                594        NN22Control_main_inst.CfgStatexDP[0]
+==========================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+
+Summary of user generated gated clocks:
+0 user generated gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 205MB peak: 206MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 206MB peak: 207MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 207MB peak: 207MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 119MB peak: 208MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+# Sat Nov  2 22:55:20 2024
+
+###########################################################]
+# Sat Nov  2 22:55:21 2024
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03L-SP1
+Install: C:\lscc\diamond\3.13\synpbase
+OS: Windows 10 or later
+Hostname: LEGIONNB
+
+Implementation : impl1
+Synopsys Lattice Technology Mapper, Version map202303lat, Build 132R, Built Aug 31 2023 04:16:35, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 123MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 137MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 137MB)
+
+Problem in opening file "D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\impl1\synlog\report\NN22Control00_impl1_fpga_mapper_runstatus.xml" for writing. To create this file, try by reducing the length of file name
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 139MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 196MB peak: 196MB)
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 200MB peak: 200MB)
+
+@N: MO231 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\nn22control00_main.vhd":475:2:475:3|Found counter in view:work.NN22Control_main(nn22control_main_behavior) instance PCntBxDP[9:0] 
+@N: MO231 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\nn22control00_main.vhd":475:2:475:3|Found counter in view:work.NN22Control_main(nn22control_main_behavior) instance PCntAxDP[9:0] 
+@N: MO231 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\nn22control00_main.vhd":475:2:475:3|Found counter in view:work.NN22Control_main(nn22control_main_behavior) instance ClkCntxDP[10:0] 
+@N: MO231 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\ext_fifo.vhd":101:2:101:3|Found counter in view:work.ext_fifo(behavioral) instance ByteCntxDP[9:0] 
+@N: MO231 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\ext_fifo.vhd":101:2:101:3|Found counter in view:work.ext_fifo(behavioral) instance ExtFIFOWrAddrxDP[22:0] 
+@N: MO231 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\ext_fifo.vhd":101:2:101:3|Found counter in view:work.ext_fifo(behavioral) instance ExtFIFORdAddrxDP[22:0] 
+@N: MF179 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\ext_fifo.vhd":94:29:94:66|Found 23 by 23 bit equality operator ('==') un4_extfifofullxsn (in view: work.ext_fifo(behavioral))
+@N: MF179 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\ext_fifo.vhd":93:28:93:62|Found 23 by 23 bit equality operator ('==') extfifoemptyxs (in view: work.ext_fifo(behavioral))
+@W: BN132 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\ext_fifo.vhd":101:2:101:3|Removing instance NN22Control_main_inst.ext_fifo_inst.RamSCKxSP because it is equivalent to instance NN22Control_main_inst.ext_fifo_inst.SpiStatexDP[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MO231 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\uart_rx.vhd":42:2:42:3|Found counter in view:work.uart_rxZ0(behavioral) instance ClkCntxDP[4:0] 
+@N: MO231 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\uart_tx_with_fifo.vhd":63:2:63:3|Found counter in view:work.uart_tx_with_fifo_16(behavioral) instance BitCntxDP[3:0] 
+@W: MO129 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\uart_tx_with_fifo.vhd":63:2:63:3|Sequential instance NN22Control_main_inst.uart_to_brd_inst.CTSnSRegxDP[2] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\uart_tx_with_fifo.vhd":63:2:63:3|Sequential instance NN22Control_main_inst.uart_to_brd_inst.CTSnSRegxDP[0] is reduced to a combinational gate by constant propagation.
+@N: MO231 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\uart_tx_with_fifo.vhd":63:2:63:3|Found counter in view:work.uart_tx_with_fifo_8(behavioral) instance BitCntxDP[3:0] 
+@N: MO231 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\spi_rxtx_with_fifo.vhd":118:2:118:3|Found counter in view:work.spi_rxtx_with_fifo(behavioral) instance FIFOWrAddrxDP[12:0] 
+@N: MO231 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\spi_rxtx_with_fifo.vhd":118:2:118:3|Found counter in view:work.spi_rxtx_with_fifo(behavioral) instance FIFORdAddrxDP[12:0] 
+@N: MF179 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\spi_rxtx_with_fifo.vhd":83:25:83:53|Found 13 by 13 bit equality operator ('==') fifoemptyxs (in view: work.spi_rxtx_with_fifo(behavioral))
+@N: BN362 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\spi_rxtx_with_fifo.vhd":118:2:118:3|Removing sequential instance RxSRegxDP[0] (in view: work.spi_rxtx_with_fifo(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\spi_rxtx_with_fifo.vhd":118:2:118:3|Removing sequential instance RxSRegxDP[1] (in view: work.spi_rxtx_with_fifo(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\spi_rxtx_with_fifo.vhd":118:2:118:3|Removing sequential instance RxSRegxDP[2] (in view: work.spi_rxtx_with_fifo(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\spi_rxtx_with_fifo.vhd":118:2:118:3|Removing sequential instance RxSRegxDP[3] (in view: work.spi_rxtx_with_fifo(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\spi_rxtx_with_fifo.vhd":118:2:118:3|Removing sequential instance RxSRegxDP[4] (in view: work.spi_rxtx_with_fifo(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\spi_rxtx_with_fifo.vhd":118:2:118:3|Removing sequential instance RxSRegxDP[5] (in view: work.spi_rxtx_with_fifo(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\spi_rxtx_with_fifo.vhd":118:2:118:3|Removing sequential instance RxSRegxDP[6] (in view: work.spi_rxtx_with_fifo(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\spi_rxtx_with_fifo.vhd":118:2:118:3|Removing sequential instance RxSRegxDP[7] (in view: work.spi_rxtx_with_fifo(behavioral)) because it does not drive other instances.
+@N: MO231 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\aux_adc_rx.vhd":64:2:64:3|Found counter in view:work.aux_adc_rx(aux_adc_rx_behavior) instance BitCntxDP[3:0] 
+@N: BN362 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\aux_adc_rx.vhd":64:2:64:3|Removing sequential instance DigAuxxDP[7] (in view: work.aux_adc_rx(aux_adc_rx_behavior)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@A: BN291 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\aux_adc_rx.vhd":64:2:64:3|Boundary register DigAuxxDP[7] (in view: work.aux_adc_rx(aux_adc_rx_behavior)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@W: MO129 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\aux_adc_rx.vhd":64:2:64:3|Sequential instance NN22Control_main_inst.aux_adc_rx_inst.DigAuxxDP[6] is reduced to a combinational gate by constant propagation.
+
+Starting factoring (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:01s; Memory used current: 203MB peak: 203MB)
+
+@W: BN132 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\aux_adc_rx.vhd":64:2:64:3|Removing instance NN22Control_main_inst.aux_adc_rx_inst.DigAuxxDP[0] because it is equivalent to instance NN22Control_main_inst.RemoteStopSigSRegxDP[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\spi_rxtx_with_fifo.vhd":118:2:118:3|Removing sequential instance spi_to_rpi_zero.StatexDP[4] (in view: work.NN22Control_main(nn22control_main_behavior)) because it does not drive other instances.
+
+Finished factoring (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:01s; Memory used current: 210MB peak: 210MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:02s; Memory used current: 211MB peak: 212MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:02s; Memory used current: 212MB peak: 213MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:02s; Memory used current: 212MB peak: 213MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:02s; Memory used current: 212MB peak: 214MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:02s; Memory used current: 213MB peak: 214MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:02s; Memory used current: 224MB peak: 224MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		     0.52ns		 623 /       556
+   2		0h:00m:02s		     0.52ns		 622 /       556
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:02s; Memory used current: 224MB peak: 226MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:02s; Memory used current: 225MB peak: 226MB)
+
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:02s; Memory used current: 225MB peak: 226MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:02s; Memory used current: 225MB peak: 226MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:03s; Memory used current: 165MB peak: 226MB)
+
+Writing Analyst data base D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\impl1\synwork\NN22Control00_impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:03s; Memory used current: 224MB peak: 226MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\impl1\NN22Control00_impl1.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:03s; Memory used current: 232MB peak: 232MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:03s; Memory used current: 232MB peak: 234MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:03s; Memory used current: 228MB peak: 234MB)
+
+@W: MT246 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\main_pll.vhd":104:4:104:12|Blackbox EHXPLLJ is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\uart_fifo.vhd":89:4:89:16|Blackbox fifo8kb is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock main_pll|CLKOP_inferred_clock with period 10.00ns. Please declare a user-defined clock on net main_pll_inst.Clk96xC.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Sat Nov  2 22:55:32 2024
+#
+
+
+Top view:               NN22Control_top
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        3
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -0.046
+
+                                  Requested     Estimated     Requested     Estimated                Clock        Clock          
+Starting Clock                    Frequency     Frequency     Period        Period        Slack      Type         Group          
+---------------------------------------------------------------------------------------------------------------------------------
+main_pll|CLKOP_inferred_clock     100.0 MHz     99.5 MHz      10.000        10.046        -0.046     inferred     (multiple)     
+System                            100.0 MHz     624.4 MHz     10.000        1.602         8.398      system       system_clkgroup
+=================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                        |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                       Ending                         |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+System                         System                         |  10.000      8.398   |  No paths    -      |  No paths    -      |  No paths    -    
+System                         main_pll|CLKOP_inferred_clock  |  10.000      7.204   |  No paths    -      |  No paths    -      |  No paths    -    
+main_pll|CLKOP_inferred_clock  System                         |  10.000      4.977   |  No paths    -      |  No paths    -      |  No paths    -    
+main_pll|CLKOP_inferred_clock  main_pll|CLKOP_inferred_clock  |  10.000      -0.046  |  No paths    -      |  No paths    -      |  No paths    -    
+=====================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: main_pll|CLKOP_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                             Starting                                                                     Arrival           
+Instance                                     Reference                         Type        Pin     Net                    Time        Slack 
+                                             Clock                                                                                          
+--------------------------------------------------------------------------------------------------------------------------------------------
+NN22Control_main_inst.ClkCntxDP[0]           main_pll|CLKOP_inferred_clock     FD1S3AX     Q       ClkCntxDP[0]           1.044       -0.046
+NN22Control_main_inst.ClkCntxDP[1]           main_pll|CLKOP_inferred_clock     FD1S3AX     Q       ClkCntxDP[1]           1.044       0.096 
+NN22Control_main_inst.ClkCntxDP[2]           main_pll|CLKOP_inferred_clock     FD1S3AX     Q       ClkCntxDP[2]           1.044       0.096 
+NN22Control_main_inst.ClkCntxDP[3]           main_pll|CLKOP_inferred_clock     FD1S3AX     Q       ClkCntxDP[3]           1.044       0.239 
+NN22Control_main_inst.ClkCntxDP[4]           main_pll|CLKOP_inferred_clock     FD1S3AX     Q       ClkCntxDP[4]           1.044       0.239 
+NN22Control_main_inst.MainStatRegxDP[10]     main_pll|CLKOP_inferred_clock     FD1P3AX     Q       MainStatRegxDP[10]     1.044       0.239 
+NN22Control_main_inst.MainStatRegxDP[11]     main_pll|CLKOP_inferred_clock     FD1P3AX     Q       MainStatRegxDP[11]     1.044       0.239 
+NN22Control_main_inst.ClkCntxDP[5]           main_pll|CLKOP_inferred_clock     FD1S3AX     Q       ClkCntxDP[5]           1.044       0.382 
+NN22Control_main_inst.ClkCntxDP[6]           main_pll|CLKOP_inferred_clock     FD1S3AX     Q       ClkCntxDP[6]           1.044       0.382 
+NN22Control_main_inst.MainStatRegxDP[12]     main_pll|CLKOP_inferred_clock     FD1P3AX     Q       MainStatRegxDP[12]     1.044       0.382 
+============================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                        Starting                                                                  Required           
+Instance                                Reference                         Type        Pin     Net                 Time         Slack 
+                                        Clock                                                                                        
+-------------------------------------------------------------------------------------------------------------------------------------
+NN22Control_main_inst.ClkCntxDP[9]      main_pll|CLKOP_inferred_clock     FD1S3AX     D       ClkCntxDP_s[9]      9.894        -0.046
+NN22Control_main_inst.ClkCntxDP[10]     main_pll|CLKOP_inferred_clock     FD1S3AX     D       ClkCntxDP_s[10]     9.894        -0.046
+NN22Control_main_inst.ClkCntxDP[7]      main_pll|CLKOP_inferred_clock     FD1S3AX     D       ClkCntxDP_s[7]      9.894        0.096 
+NN22Control_main_inst.ClkCntxDP[8]      main_pll|CLKOP_inferred_clock     FD1S3AX     D       ClkCntxDP_s[8]      9.894        0.096 
+NN22Control_main_inst.ClkCntxDP[5]      main_pll|CLKOP_inferred_clock     FD1S3AX     D       ClkCntxDP_s[5]      9.894        0.239 
+NN22Control_main_inst.ClkCntxDP[6]      main_pll|CLKOP_inferred_clock     FD1S3AX     D       ClkCntxDP_s[6]      9.894        0.239 
+NN22Control_main_inst.ClkCntxDP[3]      main_pll|CLKOP_inferred_clock     FD1S3AX     D       ClkCntxDP_s[3]      9.894        0.382 
+NN22Control_main_inst.ClkCntxDP[4]      main_pll|CLKOP_inferred_clock     FD1S3AX     D       ClkCntxDP_s[4]      9.894        0.382 
+NN22Control_main_inst.ClkCntxDP[1]      main_pll|CLKOP_inferred_clock     FD1S3AX     D       ClkCntxDP_s[1]      9.894        0.525 
+NN22Control_main_inst.ClkCntxDP[2]      main_pll|CLKOP_inferred_clock     FD1S3AX     D       ClkCntxDP_s[2]      9.894        0.525 
+=====================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.894
+
+    - Propagation time:                      9.941
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.046
+
+    Number of logic level(s):                14
+    Starting point:                          NN22Control_main_inst.ClkCntxDP[0] / Q
+    Ending point:                            NN22Control_main_inst.ClkCntxDP[10] / D
+    The start point is clocked by            main_pll|CLKOP_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CK
+    The end   point is clocked by            main_pll|CLKOP_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CK
+
+Instance / Net                                                                          Pin      Pin               Arrival     No. of    
+Name                                                                       Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------------
+NN22Control_main_inst.ClkCntxDP[0]                                         FD1S3AX      Q        Out     1.044     1.044 r     -         
+ClkCntxDP[0]                                                               Net          -        -       -         -           2         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_0_0               CCU2D        A1       In      0.000     1.044 r     -         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_0_0               CCU2D        COUT     Out     1.544     2.588 r     -         
+un1_ClkCntxDP_cry_0                                                        Net          -        -       -         -           1         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_1_0               CCU2D        CIN      In      0.000     2.588 r     -         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_1_0               CCU2D        COUT     Out     0.143     2.731 r     -         
+un1_ClkCntxDP_cry_2                                                        Net          -        -       -         -           1         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_3_0               CCU2D        CIN      In      0.000     2.731 r     -         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_3_0               CCU2D        COUT     Out     0.143     2.874 r     -         
+un1_ClkCntxDP_cry_4                                                        Net          -        -       -         -           1         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_5_0               CCU2D        CIN      In      0.000     2.874 r     -         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_5_0               CCU2D        COUT     Out     0.143     3.017 r     -         
+un1_ClkCntxDP_cry_6                                                        Net          -        -       -         -           1         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_7_0               CCU2D        CIN      In      0.000     3.017 r     -         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_7_0               CCU2D        COUT     Out     0.143     3.159 r     -         
+un1_ClkCntxDP_cry_8                                                        Net          -        -       -         -           1         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_9_0               CCU2D        CIN      In      0.000     3.159 r     -         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_9_0               CCU2D        COUT     Out     0.143     3.302 r     -         
+un1_ClkCntxDP_cry_10_cry                                                   Net          -        -       -         -           1         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_10_0              CCU2D        CIN      In      0.000     3.302 r     -         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_10_0              CCU2D        S0       Out     1.685     4.987 r     -         
+un1_ClkCntxDP                                                              Net          -        -       -         -           3         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_10_0_RNIJI3A4     ORCALUT4     A        In      0.000     4.987 r     -         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_10_0_RNIJI3A4     ORCALUT4     Z        Out     1.289     6.276 r     -         
+ClkCntxDP                                                                  Net          -        -       -         -           12        
+NN22Control_main_inst.ClkCntxDP_cry_0[0]                                   CCU2D        A1       In      0.000     6.276 r     -         
+NN22Control_main_inst.ClkCntxDP_cry_0[0]                                   CCU2D        COUT     Out     1.544     7.821 r     -         
+ClkCntxDP_cry[0]                                                           Net          -        -       -         -           1         
+NN22Control_main_inst.ClkCntxDP_cry_0[1]                                   CCU2D        CIN      In      0.000     7.821 r     -         
+NN22Control_main_inst.ClkCntxDP_cry_0[1]                                   CCU2D        COUT     Out     0.143     7.963 r     -         
+ClkCntxDP_cry[2]                                                           Net          -        -       -         -           1         
+NN22Control_main_inst.ClkCntxDP_cry_0[3]                                   CCU2D        CIN      In      0.000     7.963 r     -         
+NN22Control_main_inst.ClkCntxDP_cry_0[3]                                   CCU2D        COUT     Out     0.143     8.106 r     -         
+ClkCntxDP_cry[4]                                                           Net          -        -       -         -           1         
+NN22Control_main_inst.ClkCntxDP_cry_0[5]                                   CCU2D        CIN      In      0.000     8.106 r     -         
+NN22Control_main_inst.ClkCntxDP_cry_0[5]                                   CCU2D        COUT     Out     0.143     8.249 r     -         
+ClkCntxDP_cry[6]                                                           Net          -        -       -         -           1         
+NN22Control_main_inst.ClkCntxDP_cry_0[7]                                   CCU2D        CIN      In      0.000     8.249 r     -         
+NN22Control_main_inst.ClkCntxDP_cry_0[7]                                   CCU2D        COUT     Out     0.143     8.392 r     -         
+ClkCntxDP_cry[8]                                                           Net          -        -       -         -           1         
+NN22Control_main_inst.ClkCntxDP_cry_0[9]                                   CCU2D        CIN      In      0.000     8.392 r     -         
+NN22Control_main_inst.ClkCntxDP_cry_0[9]                                   CCU2D        S1       Out     1.549     9.941 r     -         
+ClkCntxDP_s[10]                                                            Net          -        -       -         -           1         
+NN22Control_main_inst.ClkCntxDP[10]                                        FD1S3AX      D        In      0.000     9.941 r     -         
+=========================================================================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.894
+
+    - Propagation time:                      9.941
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.046
+
+    Number of logic level(s):                14
+    Starting point:                          NN22Control_main_inst.ClkCntxDP[0] / Q
+    Ending point:                            NN22Control_main_inst.ClkCntxDP[10] / D
+    The start point is clocked by            main_pll|CLKOP_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CK
+    The end   point is clocked by            main_pll|CLKOP_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CK
+
+Instance / Net                                                                          Pin      Pin               Arrival     No. of    
+Name                                                                       Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------------
+NN22Control_main_inst.ClkCntxDP[0]                                         FD1S3AX      Q        Out     1.044     1.044 r     -         
+ClkCntxDP[0]                                                               Net          -        -       -         -           2         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_0_0               CCU2D        A1       In      0.000     1.044 r     -         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_0_0               CCU2D        COUT     Out     1.544     2.588 r     -         
+un1_ClkCntxDP_cry_0                                                        Net          -        -       -         -           1         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_1_0               CCU2D        CIN      In      0.000     2.588 r     -         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_1_0               CCU2D        COUT     Out     0.143     2.731 r     -         
+un1_ClkCntxDP_cry_2                                                        Net          -        -       -         -           1         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_3_0               CCU2D        CIN      In      0.000     2.731 r     -         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_3_0               CCU2D        COUT     Out     0.143     2.874 r     -         
+un1_ClkCntxDP_cry_4                                                        Net          -        -       -         -           1         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_5_0               CCU2D        CIN      In      0.000     2.874 r     -         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_5_0               CCU2D        COUT     Out     0.143     3.017 r     -         
+un1_ClkCntxDP_cry_6                                                        Net          -        -       -         -           1         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_7_0               CCU2D        CIN      In      0.000     3.017 r     -         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_7_0               CCU2D        COUT     Out     0.143     3.159 r     -         
+un1_ClkCntxDP_cry_8                                                        Net          -        -       -         -           1         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_9_0               CCU2D        CIN      In      0.000     3.159 r     -         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_9_0               CCU2D        COUT     Out     0.143     3.302 r     -         
+un1_ClkCntxDP_cry_10_cry                                                   Net          -        -       -         -           1         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_10_0              CCU2D        CIN      In      0.000     3.302 r     -         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_10_0              CCU2D        S0       Out     1.685     4.987 r     -         
+un1_ClkCntxDP                                                              Net          -        -       -         -           3         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_10_0_RNIJI3A4     ORCALUT4     A        In      0.000     4.987 r     -         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_10_0_RNIJI3A4     ORCALUT4     Z        Out     1.289     6.276 r     -         
+ClkCntxDP                                                                  Net          -        -       -         -           12        
+NN22Control_main_inst.ClkCntxDP_cry_0[0]                                   CCU2D        B0       In      0.000     6.276 r     -         
+NN22Control_main_inst.ClkCntxDP_cry_0[0]                                   CCU2D        COUT     Out     1.544     7.821 r     -         
+ClkCntxDP_cry[0]                                                           Net          -        -       -         -           1         
+NN22Control_main_inst.ClkCntxDP_cry_0[1]                                   CCU2D        CIN      In      0.000     7.821 r     -         
+NN22Control_main_inst.ClkCntxDP_cry_0[1]                                   CCU2D        COUT     Out     0.143     7.963 r     -         
+ClkCntxDP_cry[2]                                                           Net          -        -       -         -           1         
+NN22Control_main_inst.ClkCntxDP_cry_0[3]                                   CCU2D        CIN      In      0.000     7.963 r     -         
+NN22Control_main_inst.ClkCntxDP_cry_0[3]                                   CCU2D        COUT     Out     0.143     8.106 r     -         
+ClkCntxDP_cry[4]                                                           Net          -        -       -         -           1         
+NN22Control_main_inst.ClkCntxDP_cry_0[5]                                   CCU2D        CIN      In      0.000     8.106 r     -         
+NN22Control_main_inst.ClkCntxDP_cry_0[5]                                   CCU2D        COUT     Out     0.143     8.249 r     -         
+ClkCntxDP_cry[6]                                                           Net          -        -       -         -           1         
+NN22Control_main_inst.ClkCntxDP_cry_0[7]                                   CCU2D        CIN      In      0.000     8.249 r     -         
+NN22Control_main_inst.ClkCntxDP_cry_0[7]                                   CCU2D        COUT     Out     0.143     8.392 r     -         
+ClkCntxDP_cry[8]                                                           Net          -        -       -         -           1         
+NN22Control_main_inst.ClkCntxDP_cry_0[9]                                   CCU2D        CIN      In      0.000     8.392 r     -         
+NN22Control_main_inst.ClkCntxDP_cry_0[9]                                   CCU2D        S1       Out     1.549     9.941 r     -         
+ClkCntxDP_s[10]                                                            Net          -        -       -         -           1         
+NN22Control_main_inst.ClkCntxDP[10]                                        FD1S3AX      D        In      0.000     9.941 r     -         
+=========================================================================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.894
+
+    - Propagation time:                      9.941
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.046
+
+    Number of logic level(s):                14
+    Starting point:                          NN22Control_main_inst.ClkCntxDP[0] / Q
+    Ending point:                            NN22Control_main_inst.ClkCntxDP[9] / D
+    The start point is clocked by            main_pll|CLKOP_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CK
+    The end   point is clocked by            main_pll|CLKOP_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CK
+
+Instance / Net                                                                          Pin      Pin               Arrival     No. of    
+Name                                                                       Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------------
+NN22Control_main_inst.ClkCntxDP[0]                                         FD1S3AX      Q        Out     1.044     1.044 r     -         
+ClkCntxDP[0]                                                               Net          -        -       -         -           2         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_0_0               CCU2D        A1       In      0.000     1.044 r     -         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_0_0               CCU2D        COUT     Out     1.544     2.588 r     -         
+un1_ClkCntxDP_cry_0                                                        Net          -        -       -         -           1         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_1_0               CCU2D        CIN      In      0.000     2.588 r     -         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_1_0               CCU2D        COUT     Out     0.143     2.731 r     -         
+un1_ClkCntxDP_cry_2                                                        Net          -        -       -         -           1         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_3_0               CCU2D        CIN      In      0.000     2.731 r     -         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_3_0               CCU2D        COUT     Out     0.143     2.874 r     -         
+un1_ClkCntxDP_cry_4                                                        Net          -        -       -         -           1         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_5_0               CCU2D        CIN      In      0.000     2.874 r     -         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_5_0               CCU2D        COUT     Out     0.143     3.017 r     -         
+un1_ClkCntxDP_cry_6                                                        Net          -        -       -         -           1         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_7_0               CCU2D        CIN      In      0.000     3.017 r     -         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_7_0               CCU2D        COUT     Out     0.143     3.159 r     -         
+un1_ClkCntxDP_cry_8                                                        Net          -        -       -         -           1         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_9_0               CCU2D        CIN      In      0.000     3.159 r     -         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_9_0               CCU2D        COUT     Out     0.143     3.302 r     -         
+un1_ClkCntxDP_cry_10_cry                                                   Net          -        -       -         -           1         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_10_0              CCU2D        CIN      In      0.000     3.302 r     -         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_10_0              CCU2D        S0       Out     1.685     4.987 r     -         
+un1_ClkCntxDP                                                              Net          -        -       -         -           3         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_10_0_RNIJI3A4     ORCALUT4     A        In      0.000     4.987 r     -         
+NN22Control_main_inst.p_pcnts_memless\.un1_ClkCntxDP_cry_10_0_RNIJI3A4     ORCALUT4     Z        Out     1.289     6.276 r     -         
+ClkCntxDP                                                                  Net          -        -       -         -           12        
+NN22Control_main_inst.ClkCntxDP_cry_0[0]                                   CCU2D        A1       In      0.000     6.276 r     -         
+NN22Control_main_inst.ClkCntxDP_cry_0[0]                                   CCU2D        COUT     Out     1.544     7.821 r     -         
+ClkCntxDP_cry[0]                                                           Net          -        -       -         -           1         
+NN22Control_main_inst.ClkCntxDP_cry_0[1]                                   CCU2D        CIN      In      0.000     7.821 r     -         
+NN22Control_main_inst.ClkCntxDP_cry_0[1]                                   CCU2D        COUT     Out     0.143     7.963 r     -         
+ClkCntxDP_cry[2]                                                           Net          -        -       -         -           1         
+NN22Control_main_inst.ClkCntxDP_cry_0[3]                                   CCU2D        CIN      In      0.000     7.963 r     -         
+NN22Control_main_inst.ClkCntxDP_cry_0[3]                                   CCU2D        COUT     Out     0.143     8.106 r     -         
+ClkCntxDP_cry[4]                                                           Net          -        -       -         -           1         
+NN22Control_main_inst.ClkCntxDP_cry_0[5]                                   CCU2D        CIN      In      0.000     8.106 r     -         
+NN22Control_main_inst.ClkCntxDP_cry_0[5]                                   CCU2D        COUT     Out     0.143     8.249 r     -         
+ClkCntxDP_cry[6]                                                           Net          -        -       -         -           1         
+NN22Control_main_inst.ClkCntxDP_cry_0[7]                                   CCU2D        CIN      In      0.000     8.249 r     -         
+NN22Control_main_inst.ClkCntxDP_cry_0[7]                                   CCU2D        COUT     Out     0.143     8.392 r     -         
+ClkCntxDP_cry[8]                                                           Net          -        -       -         -           1         
+NN22Control_main_inst.ClkCntxDP_cry_0[9]                                   CCU2D        CIN      In      0.000     8.392 r     -         
+NN22Control_main_inst.ClkCntxDP_cry_0[9]                                   CCU2D        S0       Out     1.549     9.941 r     -         
+ClkCntxDP_s[9]                                                             Net          -        -       -         -           1         
+NN22Control_main_inst.ClkCntxDP[9]                                         FD1S3AX      D        In      0.000     9.941 r     -         
+=========================================================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                            Starting                                                  Arrival          
+Instance                                                                    Reference     Type        Pin     Net                     Time        Slack
+                                                                            Clock                                                                      
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+NN22Control_main_inst.uart_to_ftdi_inst.uart_fifo_inst.uart_fifo_0_0        System        fifo8kb     aef     UartBuffEmptyxS         0.000       7.204
+NN22Control_main_inst.ext_fifo_inst.int_fifo_inst.ext_fifo_int_fifo_0_0     System        fifo8kb     ef      IntFIFOEmptyxS          0.000       7.268
+NN22Control_main_inst.uart_to_ftdi_inst.uart_fifo_inst.uart_fifo_0_0        System        fifo8kb     ff      UartBuffFullxS          0.000       8.383
+NN22Control_main_inst.ext_fifo_inst.int_fifo_inst.ext_fifo_int_fifo_0_0     System        fifo8kb     do0     IntFIFODataOutxD[0]     0.000       8.455
+NN22Control_main_inst.ext_fifo_inst.int_fifo_inst.ext_fifo_int_fifo_0_0     System        fifo8kb     do1     IntFIFODataOutxD[1]     0.000       8.455
+NN22Control_main_inst.ext_fifo_inst.int_fifo_inst.ext_fifo_int_fifo_0_0     System        fifo8kb     do2     IntFIFODataOutxD[2]     0.000       8.455
+NN22Control_main_inst.ext_fifo_inst.int_fifo_inst.ext_fifo_int_fifo_0_0     System        fifo8kb     do3     IntFIFODataOutxD[3]     0.000       8.455
+NN22Control_main_inst.ext_fifo_inst.int_fifo_inst.ext_fifo_int_fifo_0_0     System        fifo8kb     do4     IntFIFODataOutxD[4]     0.000       8.455
+NN22Control_main_inst.ext_fifo_inst.int_fifo_inst.ext_fifo_int_fifo_0_0     System        fifo8kb     do5     IntFIFODataOutxD[5]     0.000       8.455
+NN22Control_main_inst.ext_fifo_inst.int_fifo_inst.ext_fifo_int_fifo_0_0     System        fifo8kb     do6     IntFIFODataOutxD[6]     0.000       8.455
+=======================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                            Starting                                                                             Required          
+Instance                                                                    Reference     Type         Pin     Net                                               Time         Slack
+                                                                            Clock                                                                                                  
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+NN22Control_main_inst_ext_fifo_inst_RamCSnxSPio                             System        OFS1P3DX     D       NN22Control_main_inst.ext_fifo_inst.RamCSnxSN     9.894        7.204
+NN22Control_main_inst.ext_fifo_inst.StatexDP[22]                            System        FD1S3AY      D       StatexDP_ns[0]                                    10.089       7.230
+NN22Control_main_inst.ext_fifo_inst.StatexDP[12]                            System        FD1S3AX      D       StatexDP_ns[10]                                   10.089       7.302
+NN22Control_main_inst.ext_fifo_inst.StatexDP[6]                             System        FD1S3AX      D       N_191_i                                           10.089       8.319
+NN22Control_main_inst.ext_fifo_inst.StatexDP[8]                             System        FD1S3AX      D       StatexDP_ns[14]                                   10.089       8.319
+NN22Control_main_inst.ext_fifo_inst.StatexDP[21]                            System        FD1S3AX      D       StatexDP_ns[1]                                    10.089       8.319
+NN22Control_main_inst.ext_fifo_inst.StatexDP[14]                            System        FD1S3AX      D       N_177_i                                           10.089       8.383
+NN22Control_main_inst.ext_fifo_inst.StatexDP[16]                            System        FD1S3AX      D       StatexDP_ns[6]                                    10.089       8.383
+NN22Control_main_inst.ext_fifo_inst.int_fifo_inst.ext_fifo_int_fifo_0_0     System        fifo8kb      ore     IntFIFORdEnxS                                     10.000       8.398
+NN22Control_main_inst.ext_fifo_inst.int_fifo_inst.ext_fifo_int_fifo_0_0     System        fifo8kb      re      IntFIFORdEnxS                                     10.000       8.398
+===================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.894
+
+    - Propagation time:                      2.690
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 7.204
+
+    Number of logic level(s):                3
+    Starting point:                          NN22Control_main_inst.uart_to_ftdi_inst.uart_fifo_inst.uart_fifo_0_0 / aef
+    Ending point:                            NN22Control_main_inst_ext_fifo_inst_RamCSnxSPio / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            main_pll|CLKOP_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin SCLK
+
+Instance / Net                                                                        Pin      Pin               Arrival     No. of    
+Name                                                                     Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------
+NN22Control_main_inst.uart_to_ftdi_inst.uart_fifo_inst.uart_fifo_0_0     fifo8kb      aef      Out     0.000     0.000 r     -         
+UartBuffEmptyxS                                                          Net          -        -       -         -           1         
+NN22Control_main_inst.ext_fifo_inst.StatexDP_ns_o2_i_o3[0]               ORCALUT4     A        In      0.000     0.000 r     -         
+NN22Control_main_inst.ext_fifo_inst.StatexDP_ns_o2_i_o3[0]               ORCALUT4     Z        Out     1.153     1.153 f     -         
+N_448                                                                    Net          -        -       -         -           3         
+NN22Control_main_inst.ext_fifo_inst.RamCSnxSN_0_a9_1                     ORCALUT4     B        In      0.000     1.153 f     -         
+NN22Control_main_inst.ext_fifo_inst.RamCSnxSN_0_a9_1                     ORCALUT4     Z        Out     1.089     2.242 f     -         
+N_53                                                                     Net          -        -       -         -           2         
+NN22Control_main_inst.ext_fifo_inst.RamCSnxSN_0                          ORCALUT4     B        In      0.000     2.242 f     -         
+NN22Control_main_inst.ext_fifo_inst.RamCSnxSN_0                          ORCALUT4     Z        Out     0.449     2.690 f     -         
+RamCSnxSN                                                                Net          -        -       -         -           1         
+NN22Control_main_inst_ext_fifo_inst_RamCSnxSPio                          OFS1P3DX     D        In      0.000     2.690 f     -         
+=======================================================================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            -0.089
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.089
+
+    - Propagation time:                      2.858
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 7.230
+
+    Number of logic level(s):                3
+    Starting point:                          NN22Control_main_inst.uart_to_ftdi_inst.uart_fifo_inst.uart_fifo_0_0 / aef
+    Ending point:                            NN22Control_main_inst.ext_fifo_inst.StatexDP[22] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            main_pll|CLKOP_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CK
+
+Instance / Net                                                                        Pin      Pin               Arrival     No. of    
+Name                                                                     Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------
+NN22Control_main_inst.uart_to_ftdi_inst.uart_fifo_inst.uart_fifo_0_0     fifo8kb      aef      Out     0.000     0.000 r     -         
+UartBuffEmptyxS                                                          Net          -        -       -         -           1         
+NN22Control_main_inst.ext_fifo_inst.StatexDP_ns_o2_i_o3[0]               ORCALUT4     A        In      0.000     0.000 r     -         
+NN22Control_main_inst.ext_fifo_inst.StatexDP_ns_o2_i_o3[0]               ORCALUT4     Z        Out     1.153     1.153 f     -         
+N_448                                                                    Net          -        -       -         -           3         
+NN22Control_main_inst.ext_fifo_inst.RamCSnxSN_0_a9_1                     ORCALUT4     B        In      0.000     1.153 f     -         
+NN22Control_main_inst.ext_fifo_inst.RamCSnxSN_0_a9_1                     ORCALUT4     Z        Out     1.089     2.242 f     -         
+N_53                                                                     Net          -        -       -         -           2         
+NN22Control_main_inst.ext_fifo_inst.StatexDP_ns[0]                       ORCALUT4     A        In      0.000     2.242 f     -         
+NN22Control_main_inst.ext_fifo_inst.StatexDP_ns[0]                       ORCALUT4     Z        Out     0.617     2.858 f     -         
+StatexDP_ns[0]                                                           Net          -        -       -         -           1         
+NN22Control_main_inst.ext_fifo_inst.StatexDP[22]                         FD1S3AY      D        In      0.000     2.858 f     -         
+=======================================================================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.894
+
+    - Propagation time:                      2.626
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 7.268
+
+    Number of logic level(s):                3
+    Starting point:                          NN22Control_main_inst.ext_fifo_inst.int_fifo_inst.ext_fifo_int_fifo_0_0 / ef
+    Ending point:                            NN22Control_main_inst_ext_fifo_inst_RamCSnxSPio / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            main_pll|CLKOP_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin SCLK
+
+Instance / Net                                                                           Pin      Pin               Arrival     No. of    
+Name                                                                        Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------------------
+NN22Control_main_inst.ext_fifo_inst.int_fifo_inst.ext_fifo_int_fifo_0_0     fifo8kb      ef       Out     0.000     0.000 r     -         
+IntFIFOEmptyxS                                                              Net          -        -       -         -           5         
+NN22Control_main_inst.ext_fifo_inst.p_memless_main\.un1_intfifoemptyxs      ORCALUT4     B        In      0.000     0.000 r     -         
+NN22Control_main_inst.ext_fifo_inst.p_memless_main\.un1_intfifoemptyxs      ORCALUT4     Z        Out     1.089     1.089 f     -         
+un1_intfifoemptyxs                                                          Net          -        -       -         -           2         
+NN22Control_main_inst.ext_fifo_inst.RamCSnxSN_0_a9_1                        ORCALUT4     D        In      0.000     1.089 f     -         
+NN22Control_main_inst.ext_fifo_inst.RamCSnxSN_0_a9_1                        ORCALUT4     Z        Out     1.089     2.178 r     -         
+N_53                                                                        Net          -        -       -         -           2         
+NN22Control_main_inst.ext_fifo_inst.RamCSnxSN_0                             ORCALUT4     B        In      0.000     2.178 r     -         
+NN22Control_main_inst.ext_fifo_inst.RamCSnxSN_0                             ORCALUT4     Z        Out     0.449     2.626 r     -         
+RamCSnxSN                                                                   Net          -        -       -         -           1         
+NN22Control_main_inst_ext_fifo_inst_RamCSnxSPio                             OFS1P3DX     D        In      0.000     2.626 r     -         
+==========================================================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:03s; Memory used current: 229MB peak: 234MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:03s; Memory used current: 229MB peak: 234MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo2_7000hc-6
+
+Register bits: 556 of 6864 (8%)
+PIC Latch:       0
+I/O cells:       140
+Block Rams : 11 of 26 (42%)
+
+
+Details:
+BB:             1
+CCU2D:          143
+DP8KC:          11
+EHXPLLJ:        1
+FD1P3AX:        355
+FD1S3AX:        104
+FD1S3AY:        10
+FD1S3IX:        9
+GSR:            1
+IB:             45
+IFS1P3BX:       1
+IFS1P3DX:       43
+INV:            25
+L6MUX21:        3
+OB:             91
+OBZ:            3
+OFS1P3DX:       34
+ORCALUT4:       604
+PFUMX:          17
+PUR:            1
+VHI:            16
+VLO:            16
+FIFO8KB:        3
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:03s; Memory used current: 76MB peak: 234MB)
+
+Process took 0h:00m:11s realtime, 0h:00m:03s cputime
+# Sat Nov  2 22:55:32 2024
+
+###########################################################]

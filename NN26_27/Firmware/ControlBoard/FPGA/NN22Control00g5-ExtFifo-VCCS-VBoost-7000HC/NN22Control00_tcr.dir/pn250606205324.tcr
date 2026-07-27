@@ -1,0 +1,5 @@
+#Start recording tcl command: 6/6/2025 10:00:07
+#Project Location: D:/Dropbox/NN2022/Lattice/NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC; Project name: NN22Control00
+prj_project open "D:/Dropbox/NN2022/Lattice/NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC/NN22Control00.ldf"
+prj_project close
+#Stop recording: 6/6/2025 20:53:24

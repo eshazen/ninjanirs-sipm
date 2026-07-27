@@ -1,0 +1,273 @@
+----------------------------------------------------------------------
+Report for cell NN22Control_top.nn22control_top_behavior
+
+Register bits: 556 of 6864 (8%)
+PIC Latch:       0
+I/O cells:       140
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                 BB        1       100.0
+                              CCU2D      143       100.0
+                              DP8KC       11       100.0
+                            EHXPLLJ        1       100.0
+                            FD1P3AX      355       100.0
+                            FD1S3AX      104       100.0
+                            FD1S3AY       10       100.0
+                            FD1S3IX        9       100.0
+                                GSR        1       100.0
+                                 IB       45       100.0
+                           IFS1P3BX        1       100.0
+                           IFS1P3DX       43       100.0
+                                INV       25       100.0
+                            L6MUX21        3       100.0
+                                 OB       91       100.0
+                                OBZ        3       100.0
+                           OFS1P3DX       34       100.0
+                           ORCALUT4      604       100.0
+                              PFUMX       17       100.0
+                                PUR        1       100.0
+                                VHI       16       100.0
+                                VLO       16       100.0
+                            fifo8kb        3       100.0
+SUB MODULES 
+                   NN22Control_main        1       100.0
+                         aux_adc_rx        1       100.0
+                           ext_fifo        1       100.0
+                  ext_fifo_int_fifo        1       100.0
+                           main_pll        1       100.0
+                              ram_a        1       100.0
+                              ram_b        1       100.0
+                 spi_rxtx_with_fifo        1       100.0
+                       spi_txrx_ram        1       100.0
+                        uart_fifo_0        1       100.0
+                        uart_fifo_1        1       100.0
+                          uart_rxZ0        1       100.0
+                          uart_rx_8        1       100.0
+               uart_tx_with_fifo_16        1       100.0
+                uart_tx_with_fifo_8        1       100.0
+                            
+                         TOTAL          1552           
+----------------------------------------------------------------------
+Report for cell main_pll.netlist
+     Instance path:  main_pll_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            EHXPLLJ        1       100.0
+                                INV        1         4.0
+                                VHI        1         6.2
+                                VLO        1         6.2
+                            
+                         TOTAL             4           
+----------------------------------------------------------------------
+Report for cell NN22Control_main.netlist
+     Instance path:  NN22Control_main_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D      143       100.0
+                              DP8KC       11       100.0
+                            FD1P3AX      355       100.0
+                            FD1S3AX      104       100.0
+                            FD1S3AY       10       100.0
+                            FD1S3IX        9       100.0
+                                INV       24        96.0
+                            L6MUX21        3       100.0
+                           ORCALUT4      604       100.0
+                              PFUMX       17       100.0
+                                VHI       14        87.5
+                                VLO       14        87.5
+                            fifo8kb        3       100.0
+SUB MODULES 
+                         aux_adc_rx        1       100.0
+                           ext_fifo        1       100.0
+                  ext_fifo_int_fifo        1       100.0
+                              ram_a        1       100.0
+                              ram_b        1       100.0
+                 spi_rxtx_with_fifo        1       100.0
+                       spi_txrx_ram        1       100.0
+                        uart_fifo_0        1       100.0
+                        uart_fifo_1        1       100.0
+                          uart_rxZ0        1       100.0
+                          uart_rx_8        1       100.0
+               uart_tx_with_fifo_16        1       100.0
+                uart_tx_with_fifo_8        1       100.0
+                            
+                         TOTAL          1324           
+----------------------------------------------------------------------
+Report for cell ram_b.netlist
+     Instance path:  NN22Control_main_inst.ram_b_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              DP8KC        2        18.2
+                                VHI        1         6.2
+                                VLO        1         6.2
+                            
+                         TOTAL             4           
+----------------------------------------------------------------------
+Report for cell ram_a.netlist
+     Instance path:  NN22Control_main_inst.ram_a_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              DP8KC        1         9.1
+                                INV        1         4.0
+                                VHI        1         6.2
+                                VLO        1         6.2
+                            
+                         TOTAL             4           
+----------------------------------------------------------------------
+Report for cell aux_adc_rx.netlist
+     Instance path:  NN22Control_main_inst.aux_adc_rx_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       26        18.2
+                            FD1P3AX       75        21.1
+                            FD1S3AX       13        12.5
+                            FD1S3AY        1        10.0
+                           ORCALUT4      209        34.6
+                              PFUMX        8        47.1
+                                VHI        1         6.2
+                                VLO        1         6.2
+                            
+                         TOTAL           334           
+----------------------------------------------------------------------
+Report for cell uart_rx_8.netlist
+     Instance path:  NN22Control_main_inst.uart_from_ftdi_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3AX        8         2.3
+                            FD1S3AX       13        12.5
+                            FD1S3AY        1        10.0
+                           ORCALUT4       17         2.8
+                                VHI        1         6.2
+                                VLO        1         6.2
+                            
+                         TOTAL            41           
+----------------------------------------------------------------------
+Report for cell spi_rxtx_with_fifo.netlist
+     Instance path:  NN22Control_main_inst.spi_to_rpi_zero
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       33        23.1
+                              DP8KC        8        72.7
+                            FD1P3AX       34         9.6
+                            FD1S3AX        6         5.8
+                            FD1S3AY        1        10.0
+                            FD1S3IX        3        33.3
+                                INV       12        48.0
+                           ORCALUT4       46         7.6
+                                VHI        2        12.5
+                                VLO        2        12.5
+SUB MODULES 
+                       spi_txrx_ram        1       100.0
+                            
+                         TOTAL           148           
+----------------------------------------------------------------------
+Report for cell spi_txrx_ram.netlist
+     Instance path:  NN22Control_main_inst.spi_to_rpi_zero.spi_txrx_ram_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              DP8KC        8        72.7
+                                VHI        1         6.2
+                                VLO        1         6.2
+                            
+                         TOTAL            10           
+----------------------------------------------------------------------
+Report for cell uart_tx_with_fifo_8.netlist
+     Instance path:  NN22Control_main_inst.uart_to_ftdi_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3AX       13         3.7
+                            FD1S3AX        7         6.7
+                            FD1S3AY        1        10.0
+                            FD1S3IX        3        33.3
+                                INV        1         4.0
+                           ORCALUT4       32         5.3
+                                VHI        2        12.5
+                                VLO        2        12.5
+                            fifo8kb        1        33.3
+SUB MODULES 
+                        uart_fifo_1        1       100.0
+                            
+                         TOTAL            63           
+----------------------------------------------------------------------
+Report for cell uart_fifo_1.netlist
+  Original Cell name uart_fifo
+     Instance path:  NN22Control_main_inst.uart_to_ftdi_inst.uart_fifo_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                VHI        1         6.2
+                                VLO        1         6.2
+                            fifo8kb        1        33.3
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell uart_tx_with_fifo_16.netlist
+     Instance path:  NN22Control_main_inst.uart_to_brd_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3AX       13         3.7
+                            FD1S3AX        8         7.7
+                            FD1S3AY        1        10.0
+                           ORCALUT4       34         5.6
+                                VHI        2        12.5
+                                VLO        2        12.5
+                            fifo8kb        1        33.3
+SUB MODULES 
+                        uart_fifo_0        1       100.0
+                            
+                         TOTAL            62           
+----------------------------------------------------------------------
+Report for cell uart_fifo_0.netlist
+  Original Cell name uart_fifo
+     Instance path:  NN22Control_main_inst.uart_to_brd_inst.uart_fifo_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                VHI        1         6.2
+                                VLO        1         6.2
+                            fifo8kb        1        33.3
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell uart_rxZ0.netlist
+     Instance path:  NN22Control_main_inst.uart_from_detb_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D        3         2.1
+                            FD1P3AX        8         2.3
+                            FD1S3AX       15        14.4
+                            FD1S3AY        1        10.0
+                                INV        1         4.0
+                           ORCALUT4       15         2.5
+                                VHI        1         6.2
+                                VLO        1         6.2
+                            
+                         TOTAL            45           
+----------------------------------------------------------------------
+Report for cell ext_fifo.netlist
+     Instance path:  NN22Control_main_inst.ext_fifo_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       56        39.2
+                            FD1P3AX       95        26.8
+                            FD1S3AX       17        16.3
+                            FD1S3AY        2        20.0
+                            FD1S3IX        3        33.3
+                                INV        2         8.0
+                           ORCALUT4      131        21.7
+                              PFUMX        1         5.9
+                                VHI        2        12.5
+                                VLO        2        12.5
+                            fifo8kb        1        33.3
+SUB MODULES 
+                  ext_fifo_int_fifo        1       100.0
+                            
+                         TOTAL           313           
+----------------------------------------------------------------------
+Report for cell ext_fifo_int_fifo.netlist
+     Instance path:  NN22Control_main_inst.ext_fifo_inst.int_fifo_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                VHI        1         6.2
+                                VLO        1         6.2
+                            fifo8kb        1        33.3
+                            
+                         TOTAL             3           

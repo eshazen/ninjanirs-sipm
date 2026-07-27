@@ -1,0 +1,228 @@
+<HTML>
+<HEAD><TITLE>I/O Timing Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Top"></A><B><U><big>I/O Timing Report</big></U></B>
+Loading design for application iotiming from file nn22control00_impl1.ncd.
+Design name: NN22Control_top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-1200UHC
+Package:     FTBGA256
+Performance: 6
+Package Status:                     Final          Version 1.44.
+Performance Hardware Data Status:   Final          Version 34.4.
+Loading design for application iotiming from file nn22control00_impl1.ncd.
+Design name: NN22Control_top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-1200UHC
+Package:     FTBGA256
+Performance: M
+Package Status:                     Final          Version 1.44.
+Performance Hardware Data Status:   Final          Version 34.4.
+// Design: NN22Control_top
+// Package: FTBGA256
+// ncd File: nn22control00_impl1.ncd
+// Version: Diamond (64-bit) 3.12.1.454
+// Written on Thu Aug 17 19:31:10 2023
+// M: Minimum Performance Grade
+// iotiming NN22Control00_impl1.ncd NN22Control00_impl1.prf -gui -msgset C:/Users/Bernhard/Dropbox/NN2022/Lattice/NN22Control00g3-ExtFifo/promote.xml
+
+I/O Timing Report (All units are in ns)
+
+Worst Case Results across Performance Grades (M, 6, 5):
+
+// Input Setup and Hold Times
+
+Port                  Clock   Edge  Setup Performance_Grade  Hold Performance_Grade
+----------------------------------------------------------------------
+ADS_SDO[0]            OSC_CLK R     0.275      M       0.772     5
+ADS_SDO[1]            OSC_CLK R     0.275      M       0.772     5
+AUXIO[0]              OSC_CLK R     0.306      M       0.659     5
+AUXIO[1]              OSC_CLK R     0.306      M       0.659     5
+RAM0_SIO[1]           OSC_CLK R     2.476      5      -0.522     M
+RPI0_CE               OSC_CLK R     0.306      M       0.659     5
+RPI0_SCLK             OSC_CLK R     0.306      M       0.659     5
+TRG[0]                OSC_CLK R     0.306      M       0.659     5
+TRG[1]                OSC_CLK R     0.306      M       0.659     5
+TRG[2]                OSC_CLK R     0.306      M       0.659     5
+TRG[3]                OSC_CLK R     0.306      M       0.659     5
+UART_DETB_TO_FPGA[0]  OSC_CLK R     0.257      M       0.834     5
+UART_DETB_TO_FPGA[10] OSC_CLK R     0.257      M       0.834     5
+UART_DETB_TO_FPGA[11] OSC_CLK R     0.257      M       0.834     5
+UART_DETB_TO_FPGA[12] OSC_CLK R     0.253      M       0.851     5
+UART_DETB_TO_FPGA[13] OSC_CLK R     0.253      M       0.851     5
+UART_DETB_TO_FPGA[14] OSC_CLK R     0.253      M       0.851     5
+UART_DETB_TO_FPGA[15] OSC_CLK R     0.253      M       0.851     5
+UART_DETB_TO_FPGA[16] OSC_CLK R     0.256      M       0.822     5
+UART_DETB_TO_FPGA[17] OSC_CLK R     0.253      M       0.851     5
+UART_DETB_TO_FPGA[18] OSC_CLK R     0.275      M       0.772     5
+UART_DETB_TO_FPGA[19] OSC_CLK R     0.275      M       0.772     5
+UART_DETB_TO_FPGA[1]  OSC_CLK R     0.257      M       0.834     5
+UART_DETB_TO_FPGA[20] OSC_CLK R     0.256      M       0.822     5
+UART_DETB_TO_FPGA[21] OSC_CLK R     0.275      M       0.772     5
+UART_DETB_TO_FPGA[22] OSC_CLK R     0.275      M       0.772     5
+UART_DETB_TO_FPGA[23] OSC_CLK R     0.256      M       0.822     5
+UART_DETB_TO_FPGA[24] OSC_CLK R     0.279      M       0.761     5
+UART_DETB_TO_FPGA[2]  OSC_CLK R     0.257      M       0.834     5
+UART_DETB_TO_FPGA[3]  OSC_CLK R     0.257      M       0.834     5
+UART_DETB_TO_FPGA[4]  OSC_CLK R     0.257      M       0.834     5
+UART_DETB_TO_FPGA[5]  OSC_CLK R     0.257      M       0.834     5
+UART_DETB_TO_FPGA[6]  OSC_CLK R     0.257      M       0.834     5
+UART_DETB_TO_FPGA[7]  OSC_CLK R     0.257      M       0.834     5
+UART_DETB_TO_FPGA[8]  OSC_CLK R     0.257      M       0.834     5
+UART_DETB_TO_FPGA[9]  OSC_CLK R     0.257      M       0.834     5
+UART_FTDI_TO_FPGA     OSC_CLK R     0.279      M       0.761     5
+UART_RTSN_TO_FPGA     OSC_CLK R     0.279      M       0.761     5
+
+
+// Clock to Output Delay
+
+Port                  Clock   Edge  Max_Delay Performance_Grade  Min_Delay Performance_Grade
+------------------------------------------------------------------------
+ACC_RUN_IND           OSC_CLK R     8.789         5        2.606          M
+ADS_CSN[0]            OSC_CLK R    10.557         5        2.791          M
+ADS_CSN[1]            OSC_CLK R    10.068         5        2.604          M
+ADS_SCK[0]            OSC_CLK R     9.483         5        2.671          M
+ADS_SCK[1]            OSC_CLK R     8.657         5        2.431          M
+DETB_END_CYC[0]       OSC_CLK R     9.726         5        2.933          M
+DETB_END_CYC[1]       OSC_CLK R     8.889         5        2.687          M
+DETB_END_CYC[2]       OSC_CLK R     8.001         5        2.428          M
+DETB_END_CYC[3]       OSC_CLK R     8.068         5        2.416          M
+DETB_END_CYC[4]       OSC_CLK R     9.032         5        2.729          M
+DETB_RUN[0]           OSC_CLK R     9.056         5        2.640          M
+DETB_RUN[1]           OSC_CLK R     8.498         5        2.472          M
+DETB_RUN[2]           OSC_CLK R     8.916         5        2.627          M
+DETB_RUN[3]           OSC_CLK R     9.692         5        2.786          M
+DETB_SELECT[0]        OSC_CLK R     5.429         5        1.715          M
+DETB_SELECT[10]       OSC_CLK R     5.429         5        1.715          M
+DETB_SELECT[11]       OSC_CLK R     5.429         5        1.715          M
+DETB_SELECT[12]       OSC_CLK R     5.429         5        1.717          M
+DETB_SELECT[13]       OSC_CLK R     5.417         5        1.709          M
+DETB_SELECT[14]       OSC_CLK R     5.417         5        1.709          M
+DETB_SELECT[15]       OSC_CLK R     5.429         5        1.717          M
+DETB_SELECT[16]       OSC_CLK R     5.417         5        1.709          M
+DETB_SELECT[17]       OSC_CLK R     5.417         5        1.709          M
+DETB_SELECT[18]       OSC_CLK R     5.504         5        1.708          M
+DETB_SELECT[19]       OSC_CLK R     5.429         5        1.717          M
+DETB_SELECT[1]        OSC_CLK R     5.429         5        1.715          M
+DETB_SELECT[20]       OSC_CLK R     5.429         5        1.717          M
+DETB_SELECT[21]       OSC_CLK R     5.504         5        1.708          M
+DETB_SELECT[22]       OSC_CLK R     5.429         5        1.717          M
+DETB_SELECT[23]       OSC_CLK R     5.504         5        1.708          M
+DETB_SELECT[24]       OSC_CLK R     5.515         5        1.713          M
+DETB_SELECT[2]        OSC_CLK R     5.429         5        1.715          M
+DETB_SELECT[3]        OSC_CLK R     5.429         5        1.715          M
+DETB_SELECT[4]        OSC_CLK R     5.429         5        1.715          M
+DETB_SELECT[5]        OSC_CLK R     5.429         5        1.715          M
+DETB_SELECT[6]        OSC_CLK R     5.429         5        1.715          M
+DETB_SELECT[7]        OSC_CLK R     5.429         5        1.715          M
+DETB_SELECT[8]        OSC_CLK R     5.429         5        1.715          M
+DETB_SELECT[9]        OSC_CLK R     5.429         5        1.715          M
+DETB_STATUS_SELECT[0] OSC_CLK R    11.110         5        3.346          M
+DETB_STATUS_SELECT[1] OSC_CLK R    10.273         5        3.100          M
+DETB_STATUS_SELECT[2] OSC_CLK R     9.833         5        2.976          M
+DETB_STATUS_SELECT[3] OSC_CLK R     8.512         5        2.554          M
+DETB_STATUS_SELECT[4] OSC_CLK R     8.550         5        2.596          M
+DETB_TRIGGER[0]       OSC_CLK R     7.972         5        2.440          M
+DETB_TRIGGER[1]       OSC_CLK R     8.342         5        2.537          M
+DETB_TRIGGER[2]       OSC_CLK R     7.506         5        2.298          M
+DETB_TRIGGER[3]       OSC_CLK R     8.085         5        2.451          M
+EXP_J303_D[1]         OSC_CLK R     7.790         5        2.366          M
+EXP_J303_D[3]         OSC_CLK R     7.765         5        2.329          M
+FP_LED[0]             OSC_CLK R     8.503         5        2.552          M
+RAM0_CEN              OSC_CLK R     5.440         5        1.720          M
+RAM0_SCLK             OSC_CLK R     7.661         5        2.315          M
+RAM0_SIO[0]           OSC_CLK R     7.181         5        2.174          M
+RPI0_MISO             OSC_CLK R     9.497         5        1.762          M
+SRC_COL[0]            OSC_CLK R     8.477         5        2.602          M
+SRC_COL[10]           OSC_CLK R     8.032         5        2.465          M
+SRC_COL[11]           OSC_CLK R     8.301         5        2.544          M
+SRC_COL[12]           OSC_CLK R     8.032         5        2.465          M
+SRC_COL[13]           OSC_CLK R     7.496         5        2.295          M
+SRC_COL[1]            OSC_CLK R     8.477         5        2.602          M
+SRC_COL[2]            OSC_CLK R     8.469         5        2.599          M
+SRC_COL[3]            OSC_CLK R     8.921         5        2.739          M
+SRC_COL[4]            OSC_CLK R     8.518         5        2.586          M
+SRC_COL[5]            OSC_CLK R     8.405         5        2.562          M
+SRC_COL[6]            OSC_CLK R     8.032         5        2.465          M
+SRC_COL[7]            OSC_CLK R     8.477         5        2.602          M
+SRC_COL[8]            OSC_CLK R     8.413         5        2.565          M
+SRC_COL[9]            OSC_CLK R     8.463         5        2.555          M
+SRC_PWR[0]            OSC_CLK R    10.911         5        2.719          M
+SRC_PWR[1]            OSC_CLK R    10.079         5        2.563          M
+SRC_PWR[2]            OSC_CLK R    10.870         5        2.719          M
+SRC_ROW[0]            OSC_CLK R     7.949         5        2.435          M
+SRC_ROW[1]            OSC_CLK R     8.053         5        2.456          M
+SRC_ROW[2]            OSC_CLK R     8.477         5        2.602          M
+TP301_NET             OSC_CLK R     6.627         5        2.012          M
+UART_FPGA_TO_FTDI     OSC_CLK R     7.215         5        2.140          M
+V5P1_B01_EN           OSC_CLK R     6.555         5        1.981          M
+V5P1_RPI_EN           OSC_CLK R    10.385         5        3.036          M
+V5P1_SRC_EN           OSC_CLK R     6.788         5        2.062          M
+V9P0_EN               OSC_CLK R     7.065         5        2.148          M
+VN22_EN               OSC_CLK R     6.639         5        2.003          M
+VN3P4_EN              OSC_CLK R     7.949         5        2.366          M
+WARNING: you must also run trce with hold speed: 5
+WARNING: you must also run trce with setup speed: M
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

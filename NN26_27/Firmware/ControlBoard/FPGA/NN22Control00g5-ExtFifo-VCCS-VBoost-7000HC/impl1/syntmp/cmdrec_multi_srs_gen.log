@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.13\synpbase\bin64\syn_nfilter.exe  -link  -top  NN22Control_top  -multisrs  D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\impl1\synwork\NN22Control00_impl1_comp.srs  -osyn  D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\impl1\synwork\NN22Control00_impl1_mult.srs  -log  D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\impl1\synlog\NN22Control00_impl1_multi_srs_gen.srr 
+relcom:C:\lscc\diamond\3.13\synpbase\bin64\syn_nfilter.exe -link -top NN22Control_top -multisrs ..\synwork\NN22Control00_impl1_comp.srs -osyn ..\synwork\NN22Control00_impl1_mult.srs -log ..\synlog\NN22Control00_impl1_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\nn22control00_impl1_comp.srs|io:i|time:1730613316|size:69636|exec:0|csum:FDB26D26355D8F99FCDFEEB51EA67233
+file:..\synwork\nn22control00_impl1_mult.srs|io:o|time:1730613317|size:6053|exec:0|csum:
+file:..\synlog\nn22control00_impl1_multi_srs_gen.srr|io:o|time:1730613317|size:1181|exec:0|csum:
+file:c:\lscc\diamond\3.13\synpbase\bin64\syn_nfilter.exe|io:i|time:1691690056|size:10600960|exec:1|csum:6BAEBE966B12EE4A1CCC452B6603E0B1

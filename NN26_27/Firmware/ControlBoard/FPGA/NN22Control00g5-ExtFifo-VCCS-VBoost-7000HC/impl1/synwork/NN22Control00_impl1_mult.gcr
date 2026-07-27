@@ -1,0 +1,11 @@
+i main_pll_inst.CLKOP_i
+m 0 0
+u 160 594
+p {t:main_pll_inst.PLLInst_0.CLKOP}{t:main_pll_inst.CLKOP_inferred_clock.I[0]}{t:main_pll_inst.CLKOP_inferred_clock.OUT[0]}{p:main_pll_inst.CLKOP}{t:main_pll_inst.CLKOP}{t:NN22Control_main_inst.ClkxCI}{p:NN22Control_main_inst.ClkxCI}{t:NN22Control_main_inst.CfgStatexDP[0].C}
+e ckid0_0 {t:NN22Control_main_inst.CfgStatexDP[0].C} dffr
+c ckid0_0 {t:main_pll_inst.PLLInst_0.CLKOP} EHXPLLJ Unsupported/too complex instance on clock path
+i main_pll_inst.LOCK
+m 0 0
+u 0 0
+l 0 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

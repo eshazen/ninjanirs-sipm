@@ -1,0 +1,7 @@
+@E: CL219 :"C:\Users\Bernhard\Dropbox\NN2022\Lattice\NN22Control00g3-ExtFifo\ext_fifo.vhd":21:2:21:10|Multiple non-tristate drivers for net RamSCKxSO in ext_fifo
+@E: CL219 :"C:\Users\Bernhard\Dropbox\NN2022\Lattice\NN22Control00g3-ExtFifo\ext_fifo.vhd":20:2:20:11|Multiple non-tristate drivers for net RamMOSIxDO in ext_fifo
+@E: CL229 :"C:\Users\Bernhard\Dropbox\NN2022\Lattice\NN22Control00g3-ExtFifo\ext_fifo.vhd":20:2:20:11|Unresolved tristate drivers for net RamMOSIxDO in ext_fifo
+@E: CL229 :"C:\Users\Bernhard\Dropbox\NN2022\Lattice\NN22Control00g3-ExtFifo\ext_fifo.vhd":21:2:21:10|Unresolved tristate drivers for net RamSCKxSO in ext_fifo
+@E: Could not find specified top level NN22Control_top (library: work, cell: NN22Control_top)
+@E::Error while linking, aborting.
+

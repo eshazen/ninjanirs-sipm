@@ -1,0 +1,194 @@
+
+fsm_encoding {1910121012} onehot
+
+fsm_state_encoding {1910121012} sidle {00000000000000000000001}
+
+fsm_state_encoding {1910121012} sreadcmd {00000000000000000000010}
+
+fsm_state_encoding {1910121012} sreadaddr3 {00000000000000000000100}
+
+fsm_state_encoding {1910121012} sreadaddr2 {00000000000000000001000}
+
+fsm_state_encoding {1910121012} sreadaddr1 {00000000000000000010000}
+
+fsm_state_encoding {1910121012} sreadwait {00000000000000000100000}
+
+fsm_state_encoding {1910121012} sreaddata {00000000000000001000000}
+
+fsm_state_encoding {1910121012} sreaddone {00000000000000010000000}
+
+fsm_state_encoding {1910121012} snewcmd {00000000000000100000000}
+
+fsm_state_encoding {1910121012} snewcmd2 {00000000000001000000000}
+
+fsm_state_encoding {1910121012} swritecmd {00000000000010000000000}
+
+fsm_state_encoding {1910121012} swriteaddr3 {00000000000100000000000}
+
+fsm_state_encoding {1910121012} swriteaddr2 {00000000001000000000000}
+
+fsm_state_encoding {1910121012} swriteaddr1 {00000000010000000000000}
+
+fsm_state_encoding {1910121012} swritedata {00000000100000000000000}
+
+fsm_state_encoding {1910121012} swritedone {00000001000000000000000}
+
+fsm_state_encoding {1910121012} spreidle {00000010000000000000000}
+
+fsm_state_encoding {1910121012} sresetencmd {00000100000000000000000}
+
+fsm_state_encoding {1910121012} sresetendone1 {00001000000000000000000}
+
+fsm_state_encoding {1910121012} sresetendone2 {00010000000000000000000}
+
+fsm_state_encoding {1910121012} sresetendone3 {00100000000000000000000}
+
+fsm_state_encoding {1910121012} sresetcmd {01000000000000000000000}
+
+fsm_state_encoding {1910121012} sresetdone {10000000000000000000000}
+
+fsm_registers {1910121012} {StatexDP[0]}  {StatexDP[1]}  {StatexDP[2]}  {StatexDP[3]}  {StatexDP[4]}  {StatexDP[5]}  {StatexDP[6]}  {StatexDP[7]}  {StatexDP[8]}  {StatexDP[9]}  {StatexDP[10]}  {StatexDP[11]}  {StatexDP[12]}  {StatexDP[13]}  {StatexDP[14]}  {StatexDP[15]}  {StatexDP[16]}  {StatexDP[17]}  {StatexDP[18]}  {StatexDP[19]}  {StatexDP[20]}  {StatexDP[21]}  {StatexDP[22]} 
+
+fsm_encoding {1910121011} sequential
+
+fsm_state_encoding {1910121011} sidle {00}
+
+fsm_state_encoding {1910121011} sclklow {01}
+
+fsm_state_encoding {1910121011} sclkhigh {10}
+
+fsm_registers {1910121011} {SpiStatexDP[1]}  {SpiStatexDP[0]} 
+
+fsm_encoding {10422423} onehot
+
+fsm_state_encoding {10422423} sidle {00001}
+
+fsm_state_encoding {10422423} sstart {00010}
+
+fsm_state_encoding {10422423} sread {00100}
+
+fsm_state_encoding {10422423} spdrdy {01000}
+
+fsm_state_encoding {10422423} sstop {10000}
+
+fsm_registers {10422423} {StatexDP[0]}  {StatexDP[1]}  {StatexDP[2]}  {StatexDP[3]}  {StatexDP[4]} 
+
+fsm_encoding {15632634} onehot
+
+fsm_state_encoding {15632634} sidle {00001}
+
+fsm_state_encoding {15632634} sload {00010}
+
+fsm_state_encoding {15632634} sread {00100}
+
+fsm_state_encoding {15632634} stxbits {01000}
+
+fsm_state_encoding {15632634} stxstop {10000}
+
+fsm_registers {15632634} {StatexDP[0]}  {StatexDP[1]}  {StatexDP[2]}  {StatexDP[3]}  {StatexDP[4]} 
+
+fsm_encoding {15632635} onehot
+
+fsm_state_encoding {15632635} sidle {00001}
+
+fsm_state_encoding {15632635} sload {00010}
+
+fsm_state_encoding {15632635} sread {00100}
+
+fsm_state_encoding {15632635} stxbits {01000}
+
+fsm_state_encoding {15632635} stxstop {10000}
+
+fsm_registers {15632635} {StatexDP[0]}  {StatexDP[1]}  {StatexDP[2]}  {StatexDP[3]}  {StatexDP[4]} 
+
+fsm_encoding {1711821186} onehot
+
+fsm_state_encoding {1711821186} sidle {0000001}
+
+fsm_state_encoding {1711821186} sfirstbyte {0000010}
+
+fsm_state_encoding {1711821186} sfirstbyterdy {0000100}
+
+fsm_state_encoding {1711821186} srxdata {0001000}
+
+fsm_state_encoding {1711821186} srxdatardy {0010000}
+
+fsm_state_encoding {1711821186} stxdata {0100000}
+
+fsm_state_encoding {1711821186} srstfifo {1000000}
+
+fsm_registers {1711821186} {StatexDP[0]}  {StatexDP[1]}  {StatexDP[2]}  {StatexDP[3]}  {StatexDP[4]}  {StatexDP[5]}  {StatexDP[6]} 
+
+fsm_encoding {10422427} onehot
+
+fsm_state_encoding {10422427} sidle {00001}
+
+fsm_state_encoding {10422427} sstart {00010}
+
+fsm_state_encoding {10422427} sread {00100}
+
+fsm_state_encoding {10422427} spdrdy {01000}
+
+fsm_state_encoding {10422427} sstop {10000}
+
+fsm_registers {10422427} {StatexDP[0]}  {StatexDP[1]}  {StatexDP[2]}  {StatexDP[3]}  {StatexDP[4]} 
+
+fsm_encoding {11642648} onehot
+
+fsm_state_encoding {11642648} sidle {00000000001}
+
+fsm_state_encoding {11642648} sacqcslow {00000000010}
+
+fsm_state_encoding {11642648} sacqcslow2 {00000000100}
+
+fsm_state_encoding {11642648} sacqscklow {00000001000}
+
+fsm_state_encoding {11642648} sacqshiftin {00000010000}
+
+fsm_state_encoding {11642648} sacqsckhigh {00000100000}
+
+fsm_state_encoding {11642648} sacqcomplete {00001000000}
+
+fsm_state_encoding {11642648} stxheader {00010000000}
+
+fsm_state_encoding {11642648} stxdigitalinputs {00100000000}
+
+fsm_state_encoding {11642648} stxdata {01000000000}
+
+fsm_state_encoding {11642648} stxshiftout {10000000000}
+
+fsm_registers {11642648} {StatexDP[0]}  {StatexDP[1]}  {StatexDP[2]}  {StatexDP[3]}  {StatexDP[4]}  {StatexDP[5]}  {StatexDP[6]}  {StatexDP[7]}  {StatexDP[8]}  {StatexDP[9]}  {StatexDP[10]} 
+
+fsm_encoding {2054225429} onehot
+
+fsm_state_encoding {2054225429} sidle {00001}
+
+fsm_state_encoding {2054225429} stxheader {00010}
+
+fsm_state_encoding {2054225429} stxb1 {00100}
+
+fsm_state_encoding {2054225429} stxb0 {01000}
+
+fsm_state_encoding {2054225429} swait {10000}
+
+fsm_registers {2054225429} {PcntTxStatexDP[0]}  {PcntTxStatexDP[1]}  {PcntTxStatexDP[2]}  {PcntTxStatexDP[3]}  {PcntTxStatexDP[4]} 
+
+fsm_encoding {20308230810} onehot
+
+fsm_state_encoding {20308230810} sidle {00000001}
+
+fsm_state_encoding {20308230810} srxbytes {00000010}
+
+fsm_state_encoding {20308230810} sdecodecmd {00000100}
+
+fsm_state_encoding {20308230810} stxheader {00001000}
+
+fsm_state_encoding {20308230810} sloadbytes {00010000}
+
+fsm_state_encoding {20308230810} stxbytes {00100000}
+
+fsm_state_encoding {20308230810} stxheadertobrd {01000000}
+
+fsm_state_encoding {20308230810} stxbytestobrd {10000000}
+
+fsm_registers {20308230810} {CfgStatexDP[0]}  {CfgStatexDP[1]}  {CfgStatexDP[2]}  {CfgStatexDP[3]}  {CfgStatexDP[4]}  {CfgStatexDP[5]}  {CfgStatexDP[6]}  {CfgStatexDP[7]} 

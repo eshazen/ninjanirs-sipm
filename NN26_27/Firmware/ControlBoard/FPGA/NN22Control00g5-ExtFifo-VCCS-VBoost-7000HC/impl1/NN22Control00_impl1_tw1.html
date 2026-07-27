@@ -1,0 +1,333 @@
+<HTML>
+<HEAD><TITLE>Lattice Map TRACE Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Map_Twr"></A><B><U><big>Map TRACE Report</big></U></B>
+
+Loading design for application trce from file nn22control00_impl1_map.ncd.
+Design name: NN22Control_top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-1200UHC
+Package:     FTBGA256
+Performance: 5
+Loading device for application trce from file 'xo2c2000.nph' in environment: C:/lscc/diamond/3.12/ispfpga.
+Package Status:                     Final          Version 1.44.
+Performance Hardware Data Status:   Final          Version 34.4.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+<A name="Map_Twr_setup"></A><B><U><big>Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.12.1.454</big></U></B>
+Thu Aug 17 03:03:10 2023
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+
+<A name="mtw1_set_ri"></A><B><U><big>Report Information</big></U></B>
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o NN22Control00_impl1.tw1 -gui -msgset C:/Users/Bernhard/Dropbox/NN2022/Lattice/NN22Control00g3-ExtFifo/promote.xml NN22Control00_impl1_map.ncd NN22Control00_impl1.prf 
+Design file:     nn22control00_impl1_map.ncd
+Preference file: nn22control00_impl1.prf
+Device,speed:    LCMXO2-1200UHC,5
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+<A name="mtw1_set_ps"></A><B><U><big>Preference Summary</big></U></B>
+
+<LI><A href='#map_twr_pref_0_0' Target='right'>FREQUENCY NET "OSC_CLK_c" 48.000000 MHz (0 errors)</A></LI>            0 items scored, 0 timing errors detected.
+
+<LI><A href='#map_twr_pref_0_1' Target='right'>FREQUENCY NET "Clk96xC" 96.000000 MHz (0 errors)</A></LI>            4096 items scored, 0 timing errors detected.
+Report:   97.532MHz is the maximum frequency for this preference.
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+Derating parameters
+-------------------
+VCCIO Voltage:
+                   3.300 V (Bank 0, defined by PAR)
+                   3.300 V (Bank 1, defined by PAR)
+                   3.300 V (Bank 2, defined by PAR)
+                   3.300 V (Bank 3, defined by PAR)
+                   3.300 V (Bank 4, defined by PAR)
+                   3.300 V (Bank 5, defined by PAR)
+
+
+
+================================================================================
+<A name="map_twr_pref_0_0"></A>Preference: FREQUENCY NET "OSC_CLK_c" 48.000000 MHz ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+================================================================================
+<A name="map_twr_pref_0_1"></A>Preference: FREQUENCY NET "Clk96xC" 96.000000 MHz ;
+            4096 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.164ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FIFO8KB    Port           NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/ext_fifo_int_fifo_0_0(ASIC)  (from Clk96xC +)
+   Destination:    FF         Data in        NN22Control_main_inst/ext_fifo_inst/SpiSRegxDP[7]  (to Clk96xC +)
+
+   Delay:              10.103ns  (65.4% logic, 34.6% route), 5 logic levels.
+
+ Constraint Details:
+
+     10.103ns physical path delay NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/ext_fifo_int_fifo_0_0 to NN22Control_main_inst/ext_fifo_inst/SLICE_334 meets
+     10.417ns delay constraint less
+      0.150ns DIN_SET requirement (totaling 10.267ns) by 0.164ns
+
+ Physical Path Details:
+
+      Data path NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/ext_fifo_int_fifo_0_0 to NN22Control_main_inst/ext_fifo_inst/SLICE_334:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+C2Q_DEL     ---     4.795 *fifo_0_0.CLKR to *_fifo_0_0.DO7 NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/ext_fifo_int_fifo_0_0 (from Clk96xC)
+ROUTE         1   e 1.030 *_fifo_0_0.DO7 to */SLICE_437.A0 NN22Control_main_inst/ext_fifo_inst/IntFIFODataOutxD[7]
+CTOF_DEL    ---     0.454 */SLICE_437.A0 to */SLICE_437.F0 NN22Control_main_inst/ext_fifo_inst/SLICE_437
+ROUTE         1   e 1.030 */SLICE_437.F0 to */SLICE_349.C1 NN22Control_main_inst/ext_fifo_inst/IntFIFODataOutxD_m[7]
+CTOF_DEL    ---     0.454 */SLICE_349.C1 to */SLICE_349.F1 NN22Control_main_inst/ext_fifo_inst/SLICE_349
+ROUTE         1   e 0.401 */SLICE_349.F1 to */SLICE_349.D0 NN22Control_main_inst/ext_fifo_inst/SpiSRegxDN_0_iv_1[7]
+CTOF_DEL    ---     0.454 */SLICE_349.D0 to */SLICE_349.F0 NN22Control_main_inst/ext_fifo_inst/SLICE_349
+ROUTE         1   e 1.030 */SLICE_349.F0 to */SLICE_334.C0 NN22Control_main_inst/ext_fifo_inst/SpiSRegxDN_0_iv_3[7]
+CTOF_DEL    ---     0.454 */SLICE_334.C0 to */SLICE_334.F0 NN22Control_main_inst/ext_fifo_inst/SLICE_334
+ROUTE         1   e 0.001 */SLICE_334.F0 to *SLICE_334.DI0 NN22Control_main_inst/ext_fifo_inst/SpiSRegxDN[7] (to Clk96xC)
+                  --------
+                   10.103   (65.4% logic, 34.6% route), 5 logic levels.
+
+Report:   97.532MHz is the maximum frequency for this preference.
+
+<A name="mtw1_set_rs"></A><B><U><big>Report Summary</big></U></B>
+--------------
+----------------------------------------------------------------------------
+Preference                              |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "OSC_CLK_c" 48.000000 MHz |             |             |
+;                                       |            -|            -|   0  
+                                        |             |             |
+FREQUENCY NET "Clk96xC" 96.000000 MHz ; |   96.000 MHz|   97.532 MHz|   5  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+<A name="mtw1_set_clkda"></A><B><U><big>Clock Domains Analysis</big></U></B>
+------------------------
+
+Found 2 clocks:
+
+Clock Domain: OSC_CLK_c   Source: OSC_CLK.PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: Clk96xC   Source: main_pll_inst/PLLInst_0.CLKOP   Loads: 321
+   Covered under: FREQUENCY NET "Clk96xC" 96.000000 MHz ;
+
+
+<A name="mtw1_set_ts"></A><B><U><big>Timing summary (Setup):</big></U></B>
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 9034 paths, 2 nets, and 3529 connections (93.73% coverage)
+
+--------------------------------------------------------------------------------
+<A name="Map_Twr_hold"></A><B><U><big>Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.12.1.454</big></U></B>
+Thu Aug 17 03:03:10 2023
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+
+<A name="mtw1_hold_ri"></A><B><U><big>Report Information</big></U></B>
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o NN22Control00_impl1.tw1 -gui -msgset C:/Users/Bernhard/Dropbox/NN2022/Lattice/NN22Control00g3-ExtFifo/promote.xml NN22Control00_impl1_map.ncd NN22Control00_impl1.prf 
+Design file:     nn22control00_impl1_map.ncd
+Preference file: nn22control00_impl1.prf
+Device,speed:    LCMXO2-1200UHC,M
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+<A name="mtw1_hold_ps"></A><B><U><big>Preference Summary</big></U></B>
+
+<LI><A href='#map_twr_pref_1_0' Target='right'>FREQUENCY NET "OSC_CLK_c" 48.000000 MHz (0 errors)</A></LI>            0 items scored, 0 timing errors detected.
+
+<LI><A href='#map_twr_pref_1_1' Target='right'>FREQUENCY NET "Clk96xC" 96.000000 MHz (0 errors)</A></LI>            4096 items scored, 0 timing errors detected.
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+Derating parameters
+-------------------
+VCCIO Voltage:
+                   3.300 V (Bank 0, defined by PAR)
+                   3.300 V (Bank 1, defined by PAR)
+                   3.300 V (Bank 2, defined by PAR)
+                   3.300 V (Bank 3, defined by PAR)
+                   3.300 V (Bank 4, defined by PAR)
+                   3.300 V (Bank 5, defined by PAR)
+
+
+
+================================================================================
+<A name="map_twr_pref_1_0"></A>Preference: FREQUENCY NET "OSC_CLK_c" 48.000000 MHz ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+================================================================================
+<A name="map_twr_pref_1_1"></A>Preference: FREQUENCY NET "Clk96xC" 96.000000 MHz ;
+            4096 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.349ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              NN22Control_main_inst/uart_from_ftdi_inst/InSRegxDP[1]  (from Clk96xC +)
+   Destination:    FF         Data in        NN22Control_main_inst/uart_from_ftdi_inst/InSRegxDP[0]  (to Clk96xC +)
+
+   Delay:               0.330ns  (39.7% logic, 60.3% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.330ns physical path delay NN22Control_main_inst/SLICE_318 to NN22Control_main_inst/SLICE_318 meets
+     -0.019ns M_HLD and
+      0.000ns delay constraint requirement (totaling -0.019ns) by 0.349ns
+
+ Physical Path Details:
+
+      Data path NN22Control_main_inst/SLICE_318 to NN22Control_main_inst/SLICE_318:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.131 *SLICE_318.CLK to */SLICE_318.Q1 NN22Control_main_inst/SLICE_318 (from Clk96xC)
+ROUTE         1   e 0.199 */SLICE_318.Q1 to */SLICE_318.M0 NN22Control_main_inst/uart_from_ftdi_inst/InSRegxDP[1] (to Clk96xC)
+                  --------
+                    0.330   (39.7% logic, 60.3% route), 1 logic levels.
+
+<A name="mtw1_hold_rs"></A><B><U><big>Report Summary</big></U></B>
+--------------
+----------------------------------------------------------------------------
+Preference(MIN Delays)                  |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "OSC_CLK_c" 48.000000 MHz |             |             |
+;                                       |            -|            -|   0  
+                                        |             |             |
+FREQUENCY NET "Clk96xC" 96.000000 MHz ; |     0.000 ns|     0.349 ns|   1  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+<A name="mtw1_hold_clkda"></A><B><U><big>Clock Domains Analysis</big></U></B>
+------------------------
+
+Found 2 clocks:
+
+Clock Domain: OSC_CLK_c   Source: OSC_CLK.PAD   Loads: 1
+   No transfer within this clock domain is found
+
+Clock Domain: Clk96xC   Source: main_pll_inst/PLLInst_0.CLKOP   Loads: 321
+   Covered under: FREQUENCY NET "Clk96xC" 96.000000 MHz ;
+
+
+<A name="mtw1_hold_ts"></A><B><U><big>Timing summary (Hold):</big></U></B>
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 9034 paths, 2 nets, and 3601 connections (95.64% coverage)
+
+
+
+<A name="mtw1_ts"></A><B><U><big>Timing summary (Setup and Hold):</big></U></B>
+---------------
+
+Timing errors: 0 (setup), 0 (hold)
+Score: 0 (setup), 0 (hold)
+Cumulative negative slack: 0 (0+0)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

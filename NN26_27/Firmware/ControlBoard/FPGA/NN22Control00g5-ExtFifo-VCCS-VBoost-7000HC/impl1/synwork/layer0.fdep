@@ -1,0 +1,110 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\Dropbox\\NN2022\\Lattice\\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\\impl1\\synwork\\NN22Control00_impl1_comp.srs|-top|NN22Control_top|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-lattice|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-work_is_curlib|0|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.13\\synpbase\\bin64\\c_vhdl.exe":1693510890
+#CUR:"C:\\lscc\\diamond\\3.13\\synpbase\\lib\\vhd2008\\location.map":1693440002
+#CUR:"C:\\lscc\\diamond\\3.13\\synpbase\\lib\\vhd2008\\std.vhd":1691688732
+#CUR:"C:\\lscc\\diamond\\3.13\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1691688732
+#CUR:"C:\\lscc\\diamond\\3.13\\synpbase\\lib\\vhd2008\\std1164.vhd":1691688732
+#CUR:"C:\\lscc\\diamond\\3.13\\synpbase\\lib\\vhd2008\\std_textio.vhd":1691688732
+#CUR:"C:\\lscc\\diamond\\3.13\\synpbase\\lib\\vhd2008\\numeric.vhd":1691690124
+#CUR:"C:\\lscc\\diamond\\3.13\\synpbase\\lib\\vhd\\umr_capim.vhd":1691688732
+#CUR:"C:\\lscc\\diamond\\3.13\\synpbase\\lib\\vhd2008\\arith.vhd":1691688732
+#CUR:"C:\\lscc\\diamond\\3.13\\synpbase\\lib\\vhd2008\\unsigned.vhd":1691688732
+#CUR:"C:\\lscc\\diamond\\3.13\\synpbase\\lib\\vhd\\hyperents.vhd":1691688732
+#CUR:"C:\\lscc\\diamond\\3.13\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1614242296
+#CUR:"D:\\Dropbox\\NN2022\\Lattice\\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\\uart_rx.vhd":1692077381
+#CUR:"D:\\Dropbox\\NN2022\\Lattice\\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\\aux_adc_rx.vhd":1679710527
+#CUR:"D:\\Dropbox\\NN2022\\Lattice\\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\\ram_a.vhd":1721162338
+#CUR:"D:\\Dropbox\\NN2022\\Lattice\\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\\ram_b.vhd":1672350039
+#CUR:"D:\\Dropbox\\NN2022\\Lattice\\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\\uart_fifo.vhd":1692082384
+#CUR:"D:\\Dropbox\\NN2022\\Lattice\\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\\uart_tx_with_fifo.vhd":1692309818
+#CUR:"D:\\Dropbox\\NN2022\\Lattice\\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\\spi_txrx_ram.vhd":1729152553
+#CUR:"D:\\Dropbox\\NN2022\\Lattice\\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\\spi_rxtx_with_fifo.vhd":1729152530
+#CUR:"D:\\Dropbox\\NN2022\\Lattice\\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\\ext_fifo_int_fifo.vhd":1691960657
+#CUR:"D:\\Dropbox\\NN2022\\Lattice\\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\\ext_fifo.vhd":1721630399
+#CUR:"D:\\Dropbox\\NN2022\\Lattice\\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\\NN22Control00_main.vhd":1730613219
+#CUR:"D:\\Dropbox\\NN2022\\Lattice\\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\\main_pll.vhd":1692315370
+#CUR:"D:\\Dropbox\\NN2022\\Lattice\\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\\NN22Control00_top.vhd":1730613305
+0 "C:\lscc\diamond\3.13\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_rx.vhd" vhdl
+2 "D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\aux_adc_rx.vhd" vhdl
+3 "D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\ram_a.vhd" vhdl
+4 "D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\ram_b.vhd" vhdl
+5 "D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_fifo.vhd" vhdl
+6 "D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_tx_with_fifo.vhd" vhdl
+7 "D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\spi_txrx_ram.vhd" vhdl
+8 "D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\spi_rxtx_with_fifo.vhd" vhdl
+9 "D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\ext_fifo_int_fifo.vhd" vhdl
+10 "D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\ext_fifo.vhd" vhdl
+11 "D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd" vhdl
+12 "D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\main_pll.vhd" vhdl
+13 "D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_top.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 0 
+4 0 
+5 0 
+6 5 
+7 0 
+8 7 
+9 0 
+10 9 
+11 10 1 6 8 2 3 4 
+12 0 
+13 11 12 
+
+# Dependency Lists (Users Of)
+0 12 9 7 5 4 3 
+1 11 
+2 11 
+3 11 
+4 11 
+5 6 
+6 11 
+7 8 
+8 11 
+9 10 
+10 11 
+11 13 
+12 13 
+13 -1
+
+# Design Unit to File Association
+arch work uart_rx behavioral 1
+module work uart_rx 1
+arch work aux_adc_rx aux_adc_rx_behavior 2
+module work aux_adc_rx 2
+config work structure_con 3
+arch work ram_a structure 3
+module work ram_a 3
+config work structure_con 4
+arch work ram_b structure 4
+module work ram_b 4
+config work structure_con 5
+arch work uart_fifo structure 5
+module work uart_fifo 5
+arch work uart_tx_with_fifo behavioral 6
+module work uart_tx_with_fifo 6
+config work structure_con 7
+arch work spi_txrx_ram structure 7
+module work spi_txrx_ram 7
+arch work spi_rxtx_with_fifo behavioral 8
+module work spi_rxtx_with_fifo 8
+config work structure_con 9
+arch work ext_fifo_int_fifo structure 9
+module work ext_fifo_int_fifo 9
+arch work ext_fifo behavioral 10
+module work ext_fifo 10
+arch work nn22control_main nn22control_main_behavior 11
+module work nn22control_main 11
+config work structure_con 12
+arch work main_pll structure 12
+module work main_pll 12
+arch work nn22control_top nn22control_top_behavior 13
+module work nn22control_top 13
+
+
+# Configuration files used

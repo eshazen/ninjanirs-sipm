@@ -1,0 +1,7 @@
+#Start recording tcl command: 9/6/2023 11:23:06
+#Project Location: C:/Users/Bernhard/Dropbox/NN2022/Lattice/NN22Control00g3-ExtFifo; Project name: NN22Control00
+prj_project open "C:/Users/Bernhard/Dropbox/NN2022/Lattice/NN22Control00g3-ExtFifo/NN22Control00.ldf"
+pgr_project open "C:/Users/Bernhard/Dropbox/NN2022/Lattice/NN22Control00g3-ExtFifo/impl1/impl1.xcf"
+pgr_program run
+prj_project close
+#Stop recording: 9/6/2023 16:21:22

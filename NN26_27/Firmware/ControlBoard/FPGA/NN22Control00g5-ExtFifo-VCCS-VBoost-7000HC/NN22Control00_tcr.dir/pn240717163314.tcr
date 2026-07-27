@@ -1,0 +1,9 @@
+#Start recording tcl command: 7/11/2024 08:07:53
+#Project Location: D:/Dropbox/NN2022/Lattice/NN22Control00g4-ExtFifo-VCCS-7000HC; Project name: NN22Control00
+prj_project open "D:/Dropbox/NN2022/Lattice/NN22Control00g4-ExtFifo-VCCS-7000HC/NN22Control00.ldf"
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1 -forceOne
+prj_run Synthesis -impl impl1 -forceOne
+prj_project save
+prj_project close
+#Stop recording: 7/17/2024 16:33:14

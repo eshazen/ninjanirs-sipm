@@ -1,0 +1,6 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: BN362 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\spi_rxtx_with_fifo.vhd":118:2:118:3|Removing sequential instance FIFOAlmostEmptyxSP (in view: work.spi_rxtx_with_fifo(behavioral)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: FX1184 |Applying syn_allowed_resources blockrams=26 on top level netlist NN22Control_top 
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.

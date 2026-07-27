@@ -1,0 +1,3 @@
+/home/pi/NN2022Code/CtrlBoardFirmware/build/pioasm/CMakeFiles/pioasm.dir
+/home/pi/NN2022Code/CtrlBoardFirmware/build/pioasm/CMakeFiles/edit_cache.dir
+/home/pi/NN2022Code/CtrlBoardFirmware/build/pioasm/CMakeFiles/rebuild_cache.dir

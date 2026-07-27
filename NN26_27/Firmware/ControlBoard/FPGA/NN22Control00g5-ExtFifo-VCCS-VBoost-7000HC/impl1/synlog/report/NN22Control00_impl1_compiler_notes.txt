@@ -1,0 +1,67 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_top.vhd":14:7:14:21|Top entity is set to NN22Control_top.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\lscc\diamond\3.13\cae_library\synthesis\vhdl\machxo2.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_rx.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\aux_adc_rx.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\ram_a.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\ram_b.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_fifo.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_tx_with_fifo.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\spi_txrx_ram.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\spi_rxtx_with_fifo.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\ext_fifo_int_fifo.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\ext_fifo.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\main_pll.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_top.vhd'.
+@N: CD231 :"C:\lscc\diamond\3.13\synpbase\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_top.vhd":14:7:14:21|Synthesizing work.nn22control_top.nn22control_top_behavior.
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\main_pll.vhd":14:7:14:14|Synthesizing work.main_pll.structure.
+@N: CD630 :"C:\lscc\diamond\3.13\cae_library\synthesis\vhdl\machxo2.vhd":2221:10:2221:16|Synthesizing work.ehxpllj.syn_black_box.
+@N: CD630 :"C:\lscc\diamond\3.13\cae_library\synthesis\vhdl\machxo2.vhd":1490:10:1490:12|Synthesizing work.vlo.syn_black_box.
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":15:7:15:22|Synthesizing work.nn22control_main.nn22control_main_behavior.
+@N: CD231 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":87:23:87:24|Using onehot encoding for type cfgfsmstate_type. For example, enumeration sidle is mapped to "10000000".
+@N: CD231 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":152:26:152:27|Using onehot encoding for type pcnttxfsmstate_type. For example, enumeration sidle is mapped to "10000".
+@N: CD604 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":411:3:411:16|OTHERS clause is not synthesized.
+@N: CD604 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":588:3:588:16|OTHERS clause is not synthesized.
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\ram_b.vhd":14:7:14:11|Synthesizing work.ram_b.structure.
+@N: CD630 :"C:\lscc\diamond\3.13\cae_library\synthesis\vhdl\machxo2.vhd":1699:10:1699:14|Synthesizing work.dp8kc.syn_black_box.
+@N: CD630 :"C:\lscc\diamond\3.13\cae_library\synthesis\vhdl\machxo2.vhd":1483:10:1483:12|Synthesizing work.vhi.syn_black_box.
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\ram_a.vhd":14:7:14:11|Synthesizing work.ram_a.structure.
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\aux_adc_rx.vhd":17:7:17:16|Synthesizing work.aux_adc_rx.aux_adc_rx_behavior.
+@N: CD231 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\aux_adc_rx.vhd":49:19:49:20|Using onehot encoding for type fsmstatetype. For example, enumeration sidle is mapped to "10000000000".
+@N: CD604 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\aux_adc_rx.vhd":188:3:188:16|OTHERS clause is not synthesized.
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_rx.vhd":12:7:12:13|Synthesizing work.uart_rx.behavioral.
+@N: CD231 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_rx.vhd":29:19:29:20|Using onehot encoding for type fsmstatetype. For example, enumeration sidle is mapped to "10000".
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\spi_rxtx_with_fifo.vhd":14:7:14:24|Synthesizing work.spi_rxtx_with_fifo.behavioral.
+@N: CD231 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\spi_rxtx_with_fifo.vhd":38:19:38:20|Using onehot encoding for type fsmstatetype. For example, enumeration sidle is mapped to "1000000".
+@N: CD604 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\spi_rxtx_with_fifo.vhd":239:3:239:16|OTHERS clause is not synthesized.
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\spi_txrx_ram.vhd":14:7:14:18|Synthesizing work.spi_txrx_ram.structure.
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_tx_with_fifo.vhd":12:7:12:23|Synthesizing work.uart_tx_with_fifo.behavioral.
+@N: CD231 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_tx_with_fifo.vhd":29:19:29:20|Using onehot encoding for type fsmstatetype. For example, enumeration sidle is mapped to "10000".
+@N: CD604 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_tx_with_fifo.vhd":118:3:118:16|OTHERS clause is not synthesized.
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_fifo.vhd":14:7:14:15|Synthesizing work.uart_fifo.structure.
+@N: CD630 :"C:\lscc\diamond\3.13\cae_library\synthesis\vhdl\machxo2.vhd":1874:10:1874:16|Synthesizing work.fifo8kb.syn_black_box.
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_tx_with_fifo.vhd":12:7:12:23|Synthesizing work.uart_tx_with_fifo.behavioral.
+@N: CD231 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_tx_with_fifo.vhd":29:19:29:20|Using onehot encoding for type fsmstatetype. For example, enumeration sidle is mapped to "10000".
+@N: CD604 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_tx_with_fifo.vhd":118:3:118:16|OTHERS clause is not synthesized.
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_rx.vhd":12:7:12:13|Synthesizing work.uart_rx.behavioral.
+@N: CD231 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_rx.vhd":29:19:29:20|Using onehot encoding for type fsmstatetype. For example, enumeration sidle is mapped to "10000".
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\ext_fifo.vhd":15:7:15:14|Synthesizing work.ext_fifo.behavioral.
+@N: CD231 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\ext_fifo.vhd":43:19:43:20|Using onehot encoding for type fsmstatetype. For example, enumeration sidle is mapped to "10000000000000000000000".
+@N: CD233 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\ext_fifo.vhd":48:22:48:23|Using sequential encoding for type spifsmstatetype.
+@N: CD604 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\ext_fifo.vhd":339:3:339:16|OTHERS clause is not synthesized.
+@N: CD630 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\ext_fifo_int_fifo.vhd":14:7:14:23|Synthesizing work.ext_fifo_int_fifo.structure.
+@N: CL201 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\ext_fifo.vhd":101:2:101:3|Trying to extract state machine for register SpiStatexDP.
+@N: CL201 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\ext_fifo.vhd":101:2:101:3|Trying to extract state machine for register StatexDP.
+@N: CL201 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_rx.vhd":42:2:42:3|Trying to extract state machine for register StatexDP.
+@N: CL201 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_tx_with_fifo.vhd":63:2:63:3|Trying to extract state machine for register StatexDP.
+@N: CL201 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_tx_with_fifo.vhd":63:2:63:3|Trying to extract state machine for register StatexDP.
+@N: CL201 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\spi_rxtx_with_fifo.vhd":118:2:118:3|Trying to extract state machine for register StatexDP.
+@N: CL201 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\uart_rx.vhd":42:2:42:3|Trying to extract state machine for register StatexDP.
+@N: CL201 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\aux_adc_rx.vhd":64:2:64:3|Trying to extract state machine for register StatexDP.
+@N: CL201 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":542:2:542:3|Trying to extract state machine for register PcntTxStatexDP.
+@N: CL201 :"D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\NN22Control00_main.vhd":308:2:308:3|Trying to extract state machine for register CfgStatexDP.
+@N|Running in 64-bit mode
+

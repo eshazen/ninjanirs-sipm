@@ -1,0 +1,161 @@
+--------------------------------------------------------------------------------
+Lattice Synthesis Timing Report, Version  
+Wed Jul 17 16:46:56 2024
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Design:     NN22Control_top
+Constraint file:  
+Report level:    verbose report, limited to 3 items per constraint
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Constraint: create_clock -period 10.000000 -name clk0 [get_nets Clk96xC]
+            615 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 0.736ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3IX    CK             \NN22Control_main_inst/PCntBxDP_1476__i0  (from Clk96xC +)
+   Destination:    FD1P3AX    SP             \NN22Control_main_inst/PCntAxDP_1477__i9  (to Clk96xC +)
+
+   Delay:                   9.028ns  (31.2% logic, 68.8% route), 7 logic levels.
+
+ Constraint Details:
+
+      9.028ns data_path \NN22Control_main_inst/PCntBxDP_1476__i0 to \NN22Control_main_inst/PCntAxDP_1477__i9 meets
+     10.000ns delay constraint less
+      0.236ns LCE_S requirement (totaling 9.764ns) by 0.736ns
+
+ Path Details: \NN22Control_main_inst/PCntBxDP_1476__i0 to \NN22Control_main_inst/PCntAxDP_1477__i9
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.367             CK to Q              \NN22Control_main_inst/PCntBxDP_1476__i0 (from Clk96xC)
+Route         5   e 1.021                                  \NN22Control_main_inst/PCntBxDP[0]
+LUT4        ---     0.408              B to Z              \NN22Control_main_inst/i3_2_lut
+Route         1   e 0.660                                  \NN22Control_main_inst/n24
+LUT4        ---     0.408              C to Z              \NN22Control_main_inst/i17_4_lut
+Route         1   e 0.660                                  \NN22Control_main_inst/n38
+LUT4        ---     0.408              B to Z              \NN22Control_main_inst/i19_4_lut
+Route         1   e 0.660                                  \NN22Control_main_inst/n40
+LUT4        ---     0.408              B to Z              \NN22Control_main_inst/i20_4_lut
+Route         2   e 0.798                                  \NN22Control_main_inst/n6851
+LUT4        ---     0.408              B to Z              \NN22Control_main_inst/i4456_2_lut
+Route        11   e 1.139                                  \NN22Control_main_inst/p_pcnts_memless.PCntBAdvancexS
+LUT4        ---     0.408              A to Z              \NN22Control_main_inst/i3420_4_lut
+Route        20   e 1.275                                  \NN22Control_main_inst/p_pcnts_memless.PCntAAdvancexS
+                  --------
+                    9.028  (31.2% logic, 68.8% route), 7 logic levels.
+
+
+Passed:  The following path meets requirements by 0.736ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3IX    CK             \NN22Control_main_inst/PCntBxDP_1476__i0  (from Clk96xC +)
+   Destination:    FD1P3AX    SP             \NN22Control_main_inst/PCntAxDP_1477__i8  (to Clk96xC +)
+
+   Delay:                   9.028ns  (31.2% logic, 68.8% route), 7 logic levels.
+
+ Constraint Details:
+
+      9.028ns data_path \NN22Control_main_inst/PCntBxDP_1476__i0 to \NN22Control_main_inst/PCntAxDP_1477__i8 meets
+     10.000ns delay constraint less
+      0.236ns LCE_S requirement (totaling 9.764ns) by 0.736ns
+
+ Path Details: \NN22Control_main_inst/PCntBxDP_1476__i0 to \NN22Control_main_inst/PCntAxDP_1477__i8
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.367             CK to Q              \NN22Control_main_inst/PCntBxDP_1476__i0 (from Clk96xC)
+Route         5   e 1.021                                  \NN22Control_main_inst/PCntBxDP[0]
+LUT4        ---     0.408              B to Z              \NN22Control_main_inst/i3_2_lut
+Route         1   e 0.660                                  \NN22Control_main_inst/n24
+LUT4        ---     0.408              C to Z              \NN22Control_main_inst/i17_4_lut
+Route         1   e 0.660                                  \NN22Control_main_inst/n38
+LUT4        ---     0.408              B to Z              \NN22Control_main_inst/i19_4_lut
+Route         1   e 0.660                                  \NN22Control_main_inst/n40
+LUT4        ---     0.408              B to Z              \NN22Control_main_inst/i20_4_lut
+Route         2   e 0.798                                  \NN22Control_main_inst/n6851
+LUT4        ---     0.408              B to Z              \NN22Control_main_inst/i4456_2_lut
+Route        11   e 1.139                                  \NN22Control_main_inst/p_pcnts_memless.PCntBAdvancexS
+LUT4        ---     0.408              A to Z              \NN22Control_main_inst/i3420_4_lut
+Route        20   e 1.275                                  \NN22Control_main_inst/p_pcnts_memless.PCntAAdvancexS
+                  --------
+                    9.028  (31.2% logic, 68.8% route), 7 logic levels.
+
+
+Passed:  The following path meets requirements by 0.736ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3IX    CK             \NN22Control_main_inst/PCntBxDP_1476__i0  (from Clk96xC +)
+   Destination:    FD1P3AX    SP             \NN22Control_main_inst/PCntAxDP_1477__i7  (to Clk96xC +)
+
+   Delay:                   9.028ns  (31.2% logic, 68.8% route), 7 logic levels.
+
+ Constraint Details:
+
+      9.028ns data_path \NN22Control_main_inst/PCntBxDP_1476__i0 to \NN22Control_main_inst/PCntAxDP_1477__i7 meets
+     10.000ns delay constraint less
+      0.236ns LCE_S requirement (totaling 9.764ns) by 0.736ns
+
+ Path Details: \NN22Control_main_inst/PCntBxDP_1476__i0 to \NN22Control_main_inst/PCntAxDP_1477__i7
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.367             CK to Q              \NN22Control_main_inst/PCntBxDP_1476__i0 (from Clk96xC)
+Route         5   e 1.021                                  \NN22Control_main_inst/PCntBxDP[0]
+LUT4        ---     0.408              B to Z              \NN22Control_main_inst/i3_2_lut
+Route         1   e 0.660                                  \NN22Control_main_inst/n24
+LUT4        ---     0.408              C to Z              \NN22Control_main_inst/i17_4_lut
+Route         1   e 0.660                                  \NN22Control_main_inst/n38
+LUT4        ---     0.408              B to Z              \NN22Control_main_inst/i19_4_lut
+Route         1   e 0.660                                  \NN22Control_main_inst/n40
+LUT4        ---     0.408              B to Z              \NN22Control_main_inst/i20_4_lut
+Route         2   e 0.798                                  \NN22Control_main_inst/n6851
+LUT4        ---     0.408              B to Z              \NN22Control_main_inst/i4456_2_lut
+Route        11   e 1.139                                  \NN22Control_main_inst/p_pcnts_memless.PCntBAdvancexS
+LUT4        ---     0.408              A to Z              \NN22Control_main_inst/i3420_4_lut
+Route        20   e 1.275                                  \NN22Control_main_inst/p_pcnts_memless.PCntAAdvancexS
+                  --------
+                    9.028  (31.2% logic, 68.8% route), 7 logic levels.
+
+Report: 9.264 ns is the maximum delay for this constraint.
+
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 10.000000 -name    |             |             |
+clk0 [get_nets Clk96xC]                 |    10.000 ns|     9.264 ns|     7  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover  11026 paths, 1438 nets, and 3591 connections (79.0% coverage)
+
+
+Peak memory: 125661184 bytes, TRCE: 4411392 bytes, DLYMAN: 327680 bytes
+CPU_TIME_REPORT: 0 secs 

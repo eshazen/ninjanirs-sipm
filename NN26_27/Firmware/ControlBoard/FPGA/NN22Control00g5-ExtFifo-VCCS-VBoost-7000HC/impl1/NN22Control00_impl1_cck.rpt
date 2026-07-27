@@ -1,0 +1,215 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: U-2023.03L-SP1
+Install: C:\lscc\diamond\3.13\synpbase
+OS: Windows 10 or later
+Hostname: LEGIONNB
+
+Implementation : impl1
+
+# Written on Sat Nov  2 22:55:20 2024
+
+##### DESIGN INFO #######################################################
+
+Top View:                "NN22Control_top"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                          Ending                            |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                            System                            |     10.000           |     No paths         |     No paths         |     No paths                         
+System                            main_pll|CLKOP_inferred_clock     |     10.000           |     No paths         |     No paths         |     No paths                         
+main_pll|CLKOP_inferred_clock     System                            |     10.000           |     No paths         |     No paths         |     No paths                         
+main_pll|CLKOP_inferred_clock     main_pll|CLKOP_inferred_clock     |     10.000           |     No paths         |     No paths         |     No paths                         
+===============================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:ACC_RUN_IND
+p:ADS_CSN[0]
+p:ADS_CSN[1]
+p:ADS_SCK[0]
+p:ADS_SCK[1]
+p:ADS_SDO[0]
+p:ADS_SDO[1]
+p:AUXIO[0]
+p:AUXIO[1]
+p:DETB_END_CYC[0]
+p:DETB_END_CYC[1]
+p:DETB_END_CYC[2]
+p:DETB_END_CYC[3]
+p:DETB_END_CYC[4]
+p:DETB_RUN[0]
+p:DETB_RUN[1]
+p:DETB_RUN[2]
+p:DETB_RUN[3]
+p:DETB_SELECT[0]
+p:DETB_SELECT[1]
+p:DETB_SELECT[2]
+p:DETB_SELECT[3]
+p:DETB_SELECT[4]
+p:DETB_SELECT[5]
+p:DETB_SELECT[6]
+p:DETB_SELECT[7]
+p:DETB_SELECT[8]
+p:DETB_SELECT[9]
+p:DETB_SELECT[10]
+p:DETB_SELECT[11]
+p:DETB_SELECT[12]
+p:DETB_SELECT[13]
+p:DETB_SELECT[14]
+p:DETB_SELECT[15]
+p:DETB_SELECT[16]
+p:DETB_SELECT[17]
+p:DETB_SELECT[18]
+p:DETB_SELECT[19]
+p:DETB_SELECT[20]
+p:DETB_SELECT[21]
+p:DETB_SELECT[22]
+p:DETB_SELECT[23]
+p:DETB_SELECT[24]
+p:DETB_STATUS_SELECT[0]
+p:DETB_STATUS_SELECT[1]
+p:DETB_STATUS_SELECT[2]
+p:DETB_STATUS_SELECT[3]
+p:DETB_STATUS_SELECT[4]
+p:DETB_TRIGGER[0]
+p:DETB_TRIGGER[1]
+p:DETB_TRIGGER[2]
+p:DETB_TRIGGER[3]
+p:EXP_J303_D[0]
+p:EXP_J303_D[1]
+p:EXP_J303_D[2]
+p:EXP_J303_D[3]
+p:FP_LED[0]
+p:FP_LED[1]
+p:FP_LED[2]
+p:FP_LED[3]
+p:FP_LED[4]
+p:FP_LED[5]
+p:OSC_CLK
+p:RAM0_CEN
+p:RAM0_SCLK
+p:RAM0_SIO[0]
+p:RAM0_SIO[1]
+p:RAM0_SIO[2]
+p:RAM0_SIO[3]
+p:RPFP_RUN
+p:RPI0_CE
+p:RPI0_MISO
+p:RPI0_RUNSIG
+p:RPI0_SCLK
+p:SRCB_LED_EN
+p:SRCB_RUN
+p:SRCB_SELECT[0]
+p:SRCB_SELECT[1]
+p:SRCB_SELECT[2]
+p:SRCB_SELECT[3]
+p:SRCB_SELECT[4]
+p:SRCB_SELECT[5]
+p:SRCB_SELECT[6]
+p:SRCB_STEP
+p:TRG[0]
+p:TRG[1]
+p:TRG[2]
+p:TRG[3]
+p:UART_CTSN_TO_FTDI
+p:UART_DETB_TO_FPGA[0]
+p:UART_DETB_TO_FPGA[1]
+p:UART_DETB_TO_FPGA[2]
+p:UART_DETB_TO_FPGA[3]
+p:UART_DETB_TO_FPGA[4]
+p:UART_DETB_TO_FPGA[5]
+p:UART_DETB_TO_FPGA[6]
+p:UART_DETB_TO_FPGA[7]
+p:UART_DETB_TO_FPGA[8]
+p:UART_DETB_TO_FPGA[9]
+p:UART_DETB_TO_FPGA[10]
+p:UART_DETB_TO_FPGA[11]
+p:UART_DETB_TO_FPGA[12]
+p:UART_DETB_TO_FPGA[13]
+p:UART_DETB_TO_FPGA[14]
+p:UART_DETB_TO_FPGA[15]
+p:UART_DETB_TO_FPGA[16]
+p:UART_DETB_TO_FPGA[17]
+p:UART_DETB_TO_FPGA[18]
+p:UART_DETB_TO_FPGA[19]
+p:UART_DETB_TO_FPGA[20]
+p:UART_DETB_TO_FPGA[21]
+p:UART_DETB_TO_FPGA[22]
+p:UART_DETB_TO_FPGA[23]
+p:UART_DETB_TO_FPGA[24]
+p:UART_FPGA_TO_DETB[0]
+p:UART_FPGA_TO_DETB[1]
+p:UART_FPGA_TO_DETB[2]
+p:UART_FPGA_TO_DETB[3]
+p:UART_FPGA_TO_DETB[4]
+p:UART_FPGA_TO_FTDI
+p:UART_FPGA_TO_SRCB
+p:UART_FTDI_TO_FPGA
+p:UART_RTSN_TO_FPGA
+p:UART_SRCB_TO_FPGA[0]
+p:UART_SRCB_TO_FPGA[1]
+p:UART_SRCB_TO_FPGA[2]
+p:UART_SRCB_TO_FPGA[3]
+p:UART_SRCB_TO_FPGA[4]
+p:UART_SRCB_TO_FPGA[5]
+p:UART_SRCB_TO_FPGA[6]
+p:V5P1_B01_EN
+p:V5P1_B23_EN
+p:V5P1_RPI_EN
+p:V5P1_SRC_EN
+p:V9P0_EN
+p:VN3P4_EN
+p:VN22_CLKA
+p:VN22_CLKB
+p:VN22_EN
+p:V_SRC_BOOST
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

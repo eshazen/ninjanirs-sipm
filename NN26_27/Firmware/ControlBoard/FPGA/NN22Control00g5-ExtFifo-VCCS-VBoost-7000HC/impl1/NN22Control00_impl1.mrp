@@ -1,0 +1,1722 @@
+
+       Lattice Mapping Report File for Design Module 'NN22Control_top'
+
+
+Design Information
+------------------
+
+Command line:   map -a MachXO2 -p LCMXO2-7000HC -t FTBGA256 -s 6 -oc Commercial
+     NN22Control00_impl1.ngd -o NN22Control00_impl1_map.ncd -pr
+     NN22Control00_impl1.prf -mp NN22Control00_impl1.mrp -lpf D:/Dropbox/NN2022/
+     Lattice/NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC/impl1/NN22Control00_impl
+     1_synplify.lpf -lpf D:/Dropbox/NN2022/Lattice/NN22Control00g5-ExtFifo-VCCS-
+     VBoost-7000HC/NN22Control00.lpf -c 0 -gui -msgset D:/Dropbox/NN2022/Lattice
+     /NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-7000HCFTBGA256
+Target Performance:   6
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.13.0.56.2
+Mapped on:  11/02/24  22:55:35
+
+Design Summary
+--------------
+
+   Number of registers:    556 out of  7485 (7%)
+      PFU registers:          478 out of  6864 (7%)
+      PIO registers:           78 out of   621 (13%)
+   Number of SLICEs:       458 out of  3432 (13%)
+      SLICEs as Logic/ROM:    458 out of  3432 (13%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:        143 out of  3432 (4%)
+   Number of LUT4s:        915 out of  6864 (13%)
+      Number used as logic LUTs:        629
+      Number used as distributed RAM:     0
+      Number used as ripple logic:      286
+      Number used as shift registers:     0
+   Number of PIO sites used: 140 + 4(JTAG) out of 207 (70%)
+   Number of block RAMs:  14 out of 26 (54%)
+   Number of GSRs:        1 out of 1 (100%)
+   EFB used :        No
+   JTAG used :       No
+   Readback used :   No
+   Oscillator used : No
+   Startup used :    No
+   POR :             On
+   Bandgap :         On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  1 out of 2 (50%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  2
+     Net OSC_CLK_c: 1 loads, 1 rising, 0 falling (Driver: PIO OSC_CLK )
+
+                                    Page 1
+
+
+
+
+Design:  NN22Control_top                               Date:  11/02/24  22:55:35
+
+Design Summary (cont)
+---------------------
+     Net Clk96xC: 373 loads, 373 rising, 0 falling (Driver:
+     main_pll_inst/PLLInst_0 )
+   Number of Clock Enables:  39
+     Net NN22Control_main_inst/CfgFSMSRegxDP_1_RNISQU51[7]: 14 loads, 14 LSLICEs
+     
+     Net NN22Control_main_inst/PcntTxStatexDP[4]: 1 loads, 1 LSLICEs
+     Net NN22Control_main_inst/un1_PcntTxStatexDP_4_0_0: 4 loads, 4 LSLICEs
+     Net NN22Control_main_inst/un1_CfgOutRdyxDP_2_i: 1 loads, 0 LSLICEs
+     Net NN22Control_main_inst/aux_adc_rx_inst/N_358_i: 1 loads, 1 LSLICEs
+     Net NN22Control_main_inst/N_75_i: 1 loads, 1 LSLICEs
+     Net NN22Control_main_inst.aux_adc_rx_inst.ADCSregxDN_0_0_sqmuxa: 13 loads,
+     11 LSLICEs
+     Net NN22Control_main_inst/aux_adc_rx_inst/N_109_i: 26 loads, 26 LSLICEs
+     Net NN22Control_main_inst/aux_adc_rx_inst/un1_StatexDP_8_i: 2 loads, 2
+     LSLICEs
+     Net NN22Control_main_inst/N_343_i: 6 loads, 6 LSLICEs
+     Net NN22Control_main_inst/N_344_i: 6 loads, 6 LSLICEs
+     Net NN22Control_main_inst/un1_CfgStatexDP_4_sn: 10 loads, 10 LSLICEs
+     Net NN22Control_main_inst/un1_CfgStatexDP_8_i: 8 loads, 8 LSLICEs
+     Net NN22Control_main_inst/un1_CfgStatexDP_6_0: 2 loads, 2 LSLICEs
+     Net NN22Control_main_inst/N_178_i: 1 loads, 0 LSLICEs
+     Net NN22Control_main_inst/un4_uartbrdrxdatrdyxsn: 1 loads, 1 LSLICEs
+     Net NN22Control_main_inst/un1_CfgStatexDP_7: 4 loads, 4 LSLICEs
+     Net NN22Control_main_inst/uart_from_ftdi_inst/N_21_i: 4 loads, 4 LSLICEs
+     Net NN22Control_main_inst/spi_to_rpi_zero/un1_StatexDP_11_i: 4 loads, 4
+     LSLICEs
+     Net NN22Control_main_inst/spi_to_rpi_zero/un2_fifowraddrxdn_i: 7 loads, 7
+     LSLICEs
+     Net NN22Control_main_inst/spi_to_rpi_zero/un1_StatexDP_9_i: 7 loads, 7
+     LSLICEs
+     Net NN22Control_main_inst/UartTxDatRdyxS: 1 loads, 0 LSLICEs
+     Net NN22Control_main_inst/uart_to_ftdi_inst/StatexDP[3]: 2 loads, 0 LSLICEs
+     
+     Net NN22Control_main_inst/uart_to_ftdi_inst/StatexDP[2]: 1 loads, 1 LSLICEs
+     
+     Net NN22Control_main_inst/uart_to_ftdi_inst/N_55_i: 4 loads, 4 LSLICEs
+     Net NN22Control_main_inst/uart_to_ftdi_inst/N_61_i: 2 loads, 2 LSLICEs
+     Net NN22Control_main_inst/uart_to_brd_inst/StatexDP[3]: 2 loads, 0 LSLICEs
+     Net NN22Control_main_inst/uart_to_brd_inst/BitCntxDPe: 2 loads, 2 LSLICEs
+     Net NN22Control_main_inst/uart_to_brd_inst/StatexDP[2]: 1 loads, 1 LSLICEs
+     Net NN22Control_main_inst/uart_to_brd_inst/N_61_i: 4 loads, 4 LSLICEs
+     Net NN22Control_main_inst/uart_from_detb_inst/N_17_i: 4 loads, 4 LSLICEs
+     Net NN22Control_main_inst/ext_fifo_inst/IntFIFORdEnxS: 2 loads, 0 LSLICEs
+     Net NN22Control_main_inst/ext_fifo_inst/SpiDonexS_0_sqmuxa: 4 loads, 4
+     LSLICEs
+     Net NN22Control_main_inst/ext_fifo_inst/ExtFIFORdAddrxDPe: 12 loads, 12
+     LSLICEs
+     Net NN22Control_main_inst/ext_fifo_inst/ExtFIFOWrAddrxDPe: 12 loads, 12
+     LSLICEs
+     Net NN22Control_main_inst/ext_fifo_inst/N_204_i: 12 loads, 12 LSLICEs
+     Net NN22Control_main_inst/ext_fifo_inst/SpiStatexDP[0]: 5 loads, 5 LSLICEs
+     Net NN22Control_main_inst/ext_fifo_inst/un1_StatexDP_12_i: 6 loads, 6
+     LSLICEs
+     Net NN22Control_main_inst/un1_remotestopsigxs: 1 loads, 1 LSLICEs
+   Number of LSRs:  4
+     Net PllLockxS: 28 loads, 0 LSLICEs
+
+                                    Page 2
+
+
+
+
+Design:  NN22Control_top                               Date:  11/02/24  22:55:35
+
+Design Summary (cont)
+---------------------
+     Net NN22Control_main_inst/spi_to_rpi_zero/un1_StatexDP_8: 2 loads, 2
+     LSLICEs
+     Net NN22Control_main_inst/uart_to_ftdi_inst/StatexDP[2]: 2 loads, 2 LSLICEs
+     
+     Net NN22Control_main_inst/ext_fifo_inst/SpiStatexDP_d[2]: 2 loads, 2
+     LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net NN22Control_main_inst/aux_adc_rx_inst/StatexDP[4]: 52 loads
+     Net NN22Control_main_inst/ext_fifo_inst/StatexDP_i[0]: 48 loads
+     Net NN22Control_main_inst/CfgStatexDP[3]: 40 loads
+     Net NN22Control_main_inst/CfgStatexDP[0]: 36 loads
+     Net NN22Control_main_inst/BrdSelectIxD[0]: 32 loads
+     Net NN22Control_main_inst/N_170: 32 loads
+     Net NN22Control_main_inst/BrdSelectIxD[2]: 31 loads
+     Net PllLockxS: 29 loads
+     Net NN22Control_main_inst/ext_fifo_inst/StatexDP[12]: 28 loads
+     Net NN22Control_main_inst/ext_fifo_inst/un1_StatexDP_2_i_a2: 27 loads
+
+
+
+
+   Number of warnings:  0
+   Number of errors:    0
+     
+
+Design Errors/Warnings
+----------------------
+
+   No errors or warnings present.
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| RAM0_SIO[1]         | BIDIR     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| RAM0_SIO[2]         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| UART_FPGA_TO_DETB[0]| OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| OSC_CLK             | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| V_SRC_BOOST         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| VN22_CLKB           | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| VN22_CLKA           | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| VN3P4_EN            | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| VN22_EN             | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+
+                                    Page 3
+
+
+
+
+Design:  NN22Control_top                               Date:  11/02/24  22:55:35
+
+IO (PIO) Attributes (cont)
+--------------------------
+| V9P0_EN             | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| V5P1_SRC_EN         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| V5P1_RPI_EN         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| V5P1_B23_EN         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| V5P1_B01_EN         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| FP_LED[5]           | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| FP_LED[4]           | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| FP_LED[3]           | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| FP_LED[2]           | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| FP_LED[1]           | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| FP_LED[0]           | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| AUXIO[1]            | INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| AUXIO[0]            | INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| TRG[3]              | INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| TRG[2]              | INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| TRG[1]              | INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| TRG[0]              | INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| EXP_J303_D[3]       | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| EXP_J303_D[2]       | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| EXP_J303_D[1]       | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| EXP_J303_D[0]       | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| ACC_RUN_IND         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| RPFP_RUN            | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| RPI0_RUNSIG         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| RPI0_SCLK           | INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| RPI0_MISO           | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| RPI0_CE             | INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| UART_RTSN_TO_FPGA   | INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+
+                                    Page 4
+
+
+
+
+Design:  NN22Control_top                               Date:  11/02/24  22:55:35
+
+IO (PIO) Attributes (cont)
+--------------------------
+| UART_CTSN_TO_FTDI   | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| UART_FTDI_TO_FPGA   | INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| UART_FPGA_TO_FTDI   | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| RAM0_SIO[3]         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| RAM0_SIO[0]         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| RAM0_SCLK           | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| RAM0_CEN            | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| ADS_SDO[1]          | INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| ADS_SDO[0]          | INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| ADS_SCK[1]          | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| ADS_SCK[0]          | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| ADS_CSN[1]          | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| ADS_CSN[0]          | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SRCB_STEP           | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SRCB_LED_EN         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SRCB_RUN            | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| SRCB_SELECT[6]      | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| SRCB_SELECT[5]      | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| SRCB_SELECT[4]      | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| SRCB_SELECT[3]      | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| SRCB_SELECT[2]      | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| SRCB_SELECT[1]      | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| SRCB_SELECT[0]      | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| UART_FPGA_TO_SRCB   | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| UART_SRCB_TO_FPGA[6]| INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| UART_SRCB_TO_FPGA[5]| INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| UART_SRCB_TO_FPGA[4]| INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| UART_SRCB_TO_FPGA[3]| INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+
+                                    Page 5
+
+
+
+
+Design:  NN22Control_top                               Date:  11/02/24  22:55:35
+
+IO (PIO) Attributes (cont)
+--------------------------
+| UART_SRCB_TO_FPGA[2]| INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| UART_SRCB_TO_FPGA[1]| INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| UART_SRCB_TO_FPGA[0]| INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| DETB_END_CYC[4]     | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| DETB_END_CYC[3]     | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| DETB_END_CYC[2]     | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| DETB_END_CYC[1]     | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| DETB_END_CYC[0]     | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| DETB_TRIGGER[3]     | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| DETB_TRIGGER[2]     | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| DETB_TRIGGER[1]     | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| DETB_TRIGGER[0]     | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| DETB_STATUS_SELECT[4]| OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| DETB_STATUS_SELECT[3]| OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| DETB_STATUS_SELECT[2]| OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| DETB_STATUS_SELECT[1]| OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| DETB_STATUS_SELECT[0]| OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| DETB_RUN[3]         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| DETB_RUN[2]         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| DETB_RUN[1]         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| DETB_RUN[0]         | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| DETB_SELECT[24]     | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| DETB_SELECT[23]     | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| DETB_SELECT[22]     | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| DETB_SELECT[21]     | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| DETB_SELECT[20]     | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| DETB_SELECT[19]     | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| DETB_SELECT[18]     | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+
+                                    Page 6
+
+
+
+
+Design:  NN22Control_top                               Date:  11/02/24  22:55:35
+
+IO (PIO) Attributes (cont)
+--------------------------
+| DETB_SELECT[17]     | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| DETB_SELECT[16]     | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| DETB_SELECT[15]     | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| DETB_SELECT[14]     | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| DETB_SELECT[13]     | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| DETB_SELECT[12]     | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| DETB_SELECT[11]     | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| DETB_SELECT[10]     | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| DETB_SELECT[9]      | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| DETB_SELECT[8]      | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| DETB_SELECT[7]      | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| DETB_SELECT[6]      | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| DETB_SELECT[5]      | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| DETB_SELECT[4]      | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| DETB_SELECT[3]      | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| DETB_SELECT[2]      | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| DETB_SELECT[1]      | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| DETB_SELECT[0]      | OUTPUT    | LVCMOS33  | OUT        |
++---------------------+-----------+-----------+------------+
+| UART_FPGA_TO_DETB[4]| OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| UART_FPGA_TO_DETB[3]| OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| UART_FPGA_TO_DETB[2]| OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| UART_FPGA_TO_DETB[1]| OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| UART_DETB_TO_FPGA[24]| INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| UART_DETB_TO_FPGA[23]| INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| UART_DETB_TO_FPGA[22]| INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| UART_DETB_TO_FPGA[21]| INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| UART_DETB_TO_FPGA[20]| INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| UART_DETB_TO_FPGA[19]| INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+
+                                    Page 7
+
+
+
+
+Design:  NN22Control_top                               Date:  11/02/24  22:55:35
+
+IO (PIO) Attributes (cont)
+--------------------------
+| UART_DETB_TO_FPGA[18]| INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| UART_DETB_TO_FPGA[17]| INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| UART_DETB_TO_FPGA[16]| INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| UART_DETB_TO_FPGA[15]| INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| UART_DETB_TO_FPGA[14]| INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| UART_DETB_TO_FPGA[13]| INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| UART_DETB_TO_FPGA[12]| INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| UART_DETB_TO_FPGA[11]| INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| UART_DETB_TO_FPGA[10]| INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| UART_DETB_TO_FPGA[9]| INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| UART_DETB_TO_FPGA[8]| INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| UART_DETB_TO_FPGA[7]| INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| UART_DETB_TO_FPGA[6]| INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| UART_DETB_TO_FPGA[5]| INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| UART_DETB_TO_FPGA[4]| INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| UART_DETB_TO_FPGA[3]| INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| UART_DETB_TO_FPGA[2]| INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| UART_DETB_TO_FPGA[1]| INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+| UART_DETB_TO_FPGA[0]| INPUT     | LVCMOS33  | IN         |
++---------------------+-----------+-----------+------------+
+
+Removed logic
+-------------
+
+Block NN22Control_main_inst/uart_from_detb_inst/VCC undriven or does not drive
+     anything - clipped.
+Block NN22Control_main_inst/uart_to_brd_inst/VCC undriven or does not drive
+     anything - clipped.
+Block NN22Control_main_inst/uart_to_brd_inst/GND undriven or does not drive
+     anything - clipped.
+Block NN22Control_main_inst/uart_to_ftdi_inst/VCC undriven or does not drive
+     anything - clipped.
+Block NN22Control_main_inst/uart_to_ftdi_inst/GND undriven or does not drive
+     anything - clipped.
+Block NN22Control_main_inst/uart_from_ftdi_inst/VCC undriven or does not drive
+     anything - clipped.
+Block NN22Control_main_inst/uart_from_ftdi_inst/GND undriven or does not drive
+     anything - clipped.
+
+                                    Page 8
+
+
+
+
+Design:  NN22Control_top                               Date:  11/02/24  22:55:35
+
+Removed logic (cont)
+--------------------
+Block NN22Control_main_inst/aux_adc_rx_inst/VCC undriven or does not drive
+     anything - clipped.
+Block main_pll_inst/VCC undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/SpiStatexDP_i[0] was merged into
+     signal NN22Control_main_inst/ext_fifo_inst/SpiStatexDP[0]
+Signal PllLockxS_i was merged into signal PllLockxS
+Signal NN22Control_main_inst/GND undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/GND undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/VCC undriven or does
+     not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/GND undriven or does
+     not drive anything - clipped.
+Signal NN22Control_main_inst/uart_from_detb_inst/GND undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/uart_to_brd_inst/uart_fifo_inst/VCC undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/uart_to_brd_inst/uart_fifo_inst/GND undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/uart_to_ftdi_inst/uart_fifo_inst/VCC undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/uart_to_ftdi_inst/uart_fifo_inst/GND undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/GND undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/VCC undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/GND undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/aux_adc_rx_inst/GND undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/ram_a_inst/VCC undriven or does not drive anything
+     - clipped.
+Signal NN22Control_main_inst/ram_a_inst/GND undriven or does not drive anything
+     - clipped.
+Signal NN22Control_main_inst/ram_b_inst/VCC undriven or does not drive anything
+     - clipped.
+Signal NN22Control_main_inst/ram_b_inst/GND undriven or does not drive anything
+     - clipped.
+Signal main_pll_inst/GND undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/ClkCntxDP_cry_0_COUT[9] undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/PCntAxDP_cry_0_S0[0] undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/N_7 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/PCntAxDP_s_0_S1[9] undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/PCntAxDP_s_0_COUT[9] undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/PCntBxDP_cry_0_S0[0] undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/N_8 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/PCntBxDP_s_0_S1[9] undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/PCntBxDP_s_0_COUT[9] undriven or does not drive
+     anything - clipped.
+
+                                    Page 9
+
+
+
+
+Design:  NN22Control_top                               Date:  11/02/24  22:55:35
+
+Removed logic (cont)
+--------------------
+Signal NN22Control_main_inst/un1_ClkCntxDP_cry_0_0_S1 undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/un1_ClkCntxDP_cry_0_0_S0 undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/N_9 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/un1_ClkCntxDP_cry_1_0_S1 undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/un1_ClkCntxDP_cry_1_0_S0 undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/un1_ClkCntxDP_cry_3_0_S1 undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/un1_ClkCntxDP_cry_3_0_S0 undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/un1_ClkCntxDP_cry_5_0_S1 undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/un1_ClkCntxDP_cry_5_0_S0 undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/un1_ClkCntxDP_cry_7_0_S1 undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/un1_ClkCntxDP_cry_7_0_S0 undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/un1_ClkCntxDP_cry_9_0_S1 undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/un1_ClkCntxDP_cry_9_0_S0 undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/un1_ClkCntxDP_cry_10_0_S1 undriven or does not
+     drive anything - clipped.
+Signal NN22Control_main_inst/un1_ClkCntxDP_cry_10_0_COUT undriven or does not
+     drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/ExtFIFORdAddrxDP_cry_0_S0[0] undriven
+     or does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/N_24 undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/ExtFIFORdAddrxDP_cry_0_COUT[21]
+     undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/ExtFIFOWrAddrxDP_cry_0_S0[0] undriven
+     or does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/N_25 undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/ExtFIFOWrAddrxDP_cry_0_COUT[21]
+     undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/ByteCntxDP_cry_0_S0[0] undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/N_26 undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/ByteCntxDP_s_0_S1[9] undriven or does
+     not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/ByteCntxDP_s_0_COUT[9] undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/un2_extfifofullxsn_1_cry_0_0_S1
+     undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/un2_extfifofullxsn_1_cry_0_0_S0
+     undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/N_27 undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/un2_extfifofullxsn_1_s_21_0_S1
+
+                                   Page 10
+
+
+
+
+Design:  NN22Control_top                               Date:  11/02/24  22:55:35
+
+Removed logic (cont)
+--------------------
+     undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/un2_extfifofullxsn_1_s_21_0_COUT
+     undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/extfifoemptyxs_0_I_1_0_S1 undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/extfifoemptyxs_0_I_1_0_S0 undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/N_28 undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/extfifoemptyxs_0_I_9_0_S1 undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/extfifoemptyxs_0_I_9_0_S0 undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/extfifoemptyxs_0_I_21_0_S1 undriven
+     or does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/extfifoemptyxs_0_I_21_0_S0 undriven
+     or does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/extfifoemptyxs_0_I_33_0_S1 undriven
+     or does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/extfifoemptyxs_0_I_33_0_S0 undriven
+     or does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/extfifoemptyxs_0_I_45_0_S1 undriven
+     or does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/extfifoemptyxs_0_I_45_0_S0 undriven
+     or does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/extfifoemptyxs_0_I_57_0_S1 undriven
+     or does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/extfifoemptyxs_0_I_57_0_S0 undriven
+     or does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/extfifoemptyxs_0_I_69_0_S0 undriven
+     or does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/extfifoemptyxs_0_I_69_0_COUT undriven
+     or does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/un4_extfifofullxsn_0_I_1_0_S1
+     undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/un4_extfifofullxsn_0_I_1_0_S0
+     undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/N_29 undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/un4_extfifofullxsn_0_I_9_0_S1
+     undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/un4_extfifofullxsn_0_I_9_0_S0
+     undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/un4_extfifofullxsn_0_I_21_0_S1
+     undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/un4_extfifofullxsn_0_I_21_0_S0
+     undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/un4_extfifofullxsn_0_I_33_0_S1
+     undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/un4_extfifofullxsn_0_I_33_0_S0
+     undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/un4_extfifofullxsn_0_I_45_0_S1
+     undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/un4_extfifofullxsn_0_I_45_0_S0
+     undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/un4_extfifofullxsn_0_I_57_0_S1
+
+                                   Page 11
+
+
+
+
+Design:  NN22Control_top                               Date:  11/02/24  22:55:35
+
+Removed logic (cont)
+--------------------
+     undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/un4_extfifofullxsn_0_I_57_0_S0
+     undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/un4_extfifofullxsn_0_I_69_0_S0
+     undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/un4_extfifofullxsn_0_I_69_0_COUT
+     undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/AlmostFull undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/AlmostEmpty undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/do17 undriven or does
+     not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/do16 undriven or does
+     not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/do15 undriven or does
+     not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/do14 undriven or does
+     not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/do13 undriven or does
+     not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/do12 undriven or does
+     not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/do11 undriven or does
+     not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/do10 undriven or does
+     not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/do9 undriven or does
+     not drive anything - clipped.
+Signal NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/do8 undriven or does
+     not drive anything - clipped.
+Signal NN22Control_main_inst/uart_from_detb_inst/ClkCntxDP_cry_0_S0[0] undriven
+     or does not drive anything - clipped.
+Signal NN22Control_main_inst/uart_from_detb_inst/N_6 undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/uart_from_detb_inst/ClkCntxDP_cry_0_COUT[3]
+     undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/uart_to_brd_inst/uart_fifo_inst/AlmostFull undriven
+     or does not drive anything - clipped.
+Signal NN22Control_main_inst/uart_to_brd_inst/uart_fifo_inst/AlmostEmpty
+     undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/uart_to_brd_inst/uart_fifo_inst/do17_0 undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/uart_to_brd_inst/uart_fifo_inst/do16_0 undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/uart_to_brd_inst/uart_fifo_inst/do15_0 undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/uart_to_brd_inst/uart_fifo_inst/do14_0 undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/uart_to_brd_inst/uart_fifo_inst/do13_0 undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/uart_to_brd_inst/uart_fifo_inst/do12_0 undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/uart_to_brd_inst/uart_fifo_inst/do11_0 undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/uart_to_brd_inst/uart_fifo_inst/do10_0 undriven or
+
+                                   Page 12
+
+
+
+
+Design:  NN22Control_top                               Date:  11/02/24  22:55:35
+
+Removed logic (cont)
+--------------------
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/uart_to_brd_inst/uart_fifo_inst/do9_0 undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/uart_to_brd_inst/uart_fifo_inst/do8_0 undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/uart_to_ftdi_inst/uart_fifo_inst/AlmostFull
+     undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/uart_to_ftdi_inst/uart_fifo_inst/do17_1 undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/uart_to_ftdi_inst/uart_fifo_inst/do16_1 undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/uart_to_ftdi_inst/uart_fifo_inst/do15_1 undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/uart_to_ftdi_inst/uart_fifo_inst/do14_1 undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/uart_to_ftdi_inst/uart_fifo_inst/do13_1 undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/uart_to_ftdi_inst/uart_fifo_inst/do12_1 undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/uart_to_ftdi_inst/uart_fifo_inst/do11_1 undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/uart_to_ftdi_inst/uart_fifo_inst/do10_1 undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/uart_to_ftdi_inst/uart_fifo_inst/do9_1 undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/uart_to_ftdi_inst/uart_fifo_inst/do8_1 undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/FIFORdAddrxDP_cry_0_S0[0] undriven
+     or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/N_1 undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/FIFORdAddrxDP_cry_0_COUT[11]
+     undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/FIFOWrAddrxDP_cry_0_S0[0] undriven
+     or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/N_2 undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/FIFOWrAddrxDP_cry_0_COUT[11]
+     undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/FIFOBytesAvailableFullxD_cry_0_0_S1
+     undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/FIFOBytesAvailableFullxD_cry_0_0_S0
+     undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/N_11 undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/FIFOBytesAvailableFullxD_cry_11_0_C
+     OUT undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/un6_fifofullxsn_a_4_cry_0_0_S1
+     undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/un6_fifofullxsn_a_4_cry_0_0_S0
+     undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/N_12 undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/un6_fifofullxsn_a_4_cry_11_0_COUT
+     undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/fifoemptyxs_0_I_1_0_S1 undriven or
+
+                                   Page 13
+
+
+
+
+Design:  NN22Control_top                               Date:  11/02/24  22:55:35
+
+Removed logic (cont)
+--------------------
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/fifoemptyxs_0_I_1_0_S0 undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/N_13 undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/fifoemptyxs_0_I_27_0_S1 undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/fifoemptyxs_0_I_27_0_S0 undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/fifoemptyxs_0_I_21_0_S1 undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/fifoemptyxs_0_I_21_0_S0 undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/fifoemptyxs_0_I_9_0_S1 undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/fifoemptyxs_0_I_9_0_S0 undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/fifoemptyxs_0_I_39_0_S1 undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/fifoemptyxs_0_I_39_0_COUT undriven
+     or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_7_
+     0_DOB8 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_7_
+     0_DOB7 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_7_
+     0_DOB6 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_7_
+     0_DOB5 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_7_
+     0_DOB4 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_7_
+     0_DOB3 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_7_
+     0_DOB2 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_7_
+     0_DOB1 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_7_
+     0_DOA8 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_7_
+     0_DOA7 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_7_
+     0_DOA6 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_7_
+     0_DOA5 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_7_
+     0_DOA4 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_7_
+     0_DOA3 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_7_
+     0_DOA2 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_7_
+     0_DOA1 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/QA_1[7] undriven
+     or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_6_
+
+                                   Page 14
+
+
+
+
+Design:  NN22Control_top                               Date:  11/02/24  22:55:35
+
+Removed logic (cont)
+--------------------
+     1_DOB8 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_6_
+     1_DOB7 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_6_
+     1_DOB6 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_6_
+     1_DOB5 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_6_
+     1_DOB4 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_6_
+     1_DOB3 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_6_
+     1_DOB2 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_6_
+     1_DOB1 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_6_
+     1_DOA8 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_6_
+     1_DOA7 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_6_
+     1_DOA6 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_6_
+     1_DOA5 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_6_
+     1_DOA4 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_6_
+     1_DOA3 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_6_
+     1_DOA2 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_6_
+     1_DOA1 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/QA_1[6] undriven
+     or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_5_
+     2_DOB8 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_5_
+     2_DOB7 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_5_
+     2_DOB6 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_5_
+     2_DOB5 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_5_
+     2_DOB4 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_5_
+     2_DOB3 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_5_
+     2_DOB2 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_5_
+     2_DOB1 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_5_
+     2_DOA8 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_5_
+     2_DOA7 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_5_
+     2_DOA6 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_5_
+
+                                   Page 15
+
+
+
+
+Design:  NN22Control_top                               Date:  11/02/24  22:55:35
+
+Removed logic (cont)
+--------------------
+     2_DOA5 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_5_
+     2_DOA4 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_5_
+     2_DOA3 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_5_
+     2_DOA2 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_5_
+     2_DOA1 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/QA_1[5] undriven
+     or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_4_
+     3_DOB8 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_4_
+     3_DOB7 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_4_
+     3_DOB6 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_4_
+     3_DOB5 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_4_
+     3_DOB4 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_4_
+     3_DOB3 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_4_
+     3_DOB2 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_4_
+     3_DOB1 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_4_
+     3_DOA8 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_4_
+     3_DOA7 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_4_
+     3_DOA6 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_4_
+     3_DOA5 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_4_
+     3_DOA4 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_4_
+     3_DOA3 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_4_
+     3_DOA2 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_4_
+     3_DOA1 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/QA_1[4] undriven
+     or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_3_
+     4_DOB8 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_3_
+     4_DOB7 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_3_
+     4_DOB6 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_3_
+     4_DOB5 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_3_
+     4_DOB4 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_3_
+
+                                   Page 16
+
+
+
+
+Design:  NN22Control_top                               Date:  11/02/24  22:55:35
+
+Removed logic (cont)
+--------------------
+     4_DOB3 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_3_
+     4_DOB2 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_3_
+     4_DOB1 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_3_
+     4_DOA8 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_3_
+     4_DOA7 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_3_
+     4_DOA6 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_3_
+     4_DOA5 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_3_
+     4_DOA4 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_3_
+     4_DOA3 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_3_
+     4_DOA2 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_3_
+     4_DOA1 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/QA_1[3] undriven
+     or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_2_
+     5_DOB8 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_2_
+     5_DOB7 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_2_
+     5_DOB6 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_2_
+     5_DOB5 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_2_
+     5_DOB4 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_2_
+     5_DOB3 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_2_
+     5_DOB2 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_2_
+     5_DOB1 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_2_
+     5_DOA8 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_2_
+     5_DOA7 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_2_
+     5_DOA6 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_2_
+     5_DOA5 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_2_
+     5_DOA4 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_2_
+     5_DOA3 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_2_
+     5_DOA2 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_2_
+     5_DOA1 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/QA_1[2] undriven
+
+                                   Page 17
+
+
+
+
+Design:  NN22Control_top                               Date:  11/02/24  22:55:35
+
+Removed logic (cont)
+--------------------
+     or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_1_
+     6_DOB8 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_1_
+     6_DOB7 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_1_
+     6_DOB6 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_1_
+     6_DOB5 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_1_
+     6_DOB4 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_1_
+     6_DOB3 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_1_
+     6_DOB2 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_1_
+     6_DOB1 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_1_
+     6_DOA8 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_1_
+     6_DOA7 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_1_
+     6_DOA6 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_1_
+     6_DOA5 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_1_
+     6_DOA4 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_1_
+     6_DOA3 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_1_
+     6_DOA2 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_1_
+     6_DOA1 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/QA_1[1] undriven
+     or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_0_
+     7_DOB8 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_0_
+     7_DOB7 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_0_
+     7_DOB6 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_0_
+     7_DOB5 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_0_
+     7_DOB4 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_0_
+     7_DOB3 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_0_
+     7_DOB2 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_0_
+     7_DOB1 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_0_
+     7_DOA8 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_0_
+     7_DOA7 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_0_
+
+                                   Page 18
+
+
+
+
+Design:  NN22Control_top                               Date:  11/02/24  22:55:35
+
+Removed logic (cont)
+--------------------
+     7_DOA6 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_0_
+     7_DOA5 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_0_
+     7_DOA4 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_0_
+     7_DOA3 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_0_
+     7_DOA2 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_0_
+     7_DOA1 undriven or does not drive anything - clipped.
+Signal NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/QA_1[0] undriven
+     or does not drive anything - clipped.
+Signal NN22Control_main_inst/aux_adc_rx_inst/ADCAccxDN_0_cry_0_0_S1 undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/aux_adc_rx_inst/ADCAccxDN_0_cry_0_0_S0 undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/aux_adc_rx_inst/N_14 undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/aux_adc_rx_inst/ADCAccxDN_0_s_23_0_S1 undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/aux_adc_rx_inst/ADCAccxDN_0_s_23_0_COUT undriven or
+     does not drive anything - clipped.
+Signal NN22Control_main_inst/aux_adc_rx_inst/un10_adcaccxdn_cry_0_0_S1 undriven
+     or does not drive anything - clipped.
+Signal NN22Control_main_inst/aux_adc_rx_inst/un10_adcaccxdn_cry_0_0_S0 undriven
+     or does not drive anything - clipped.
+Signal NN22Control_main_inst/aux_adc_rx_inst/N_15 undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/aux_adc_rx_inst/un10_adcaccxdn_s_23_0_S1 undriven
+     or does not drive anything - clipped.
+Signal NN22Control_main_inst/aux_adc_rx_inst/un10_adcaccxdn_s_23_0_COUT undriven
+     or does not drive anything - clipped.
+Signal NN22Control_main_inst/ram_a_inst/QB_1[7] undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/ram_a_inst/QB_1[6] undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/ram_a_inst/QB_1[5] undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/ram_a_inst/QB_1[4] undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/ram_a_inst/QB_1[3] undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/ram_a_inst/QB_1[2] undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/ram_a_inst/QB_1[1] undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/ram_b_inst/QB_1[16] undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/ram_b_inst/QB_1[15] undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/ram_b_inst/QB_1[14] undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/ram_b_inst/QB_1[13] undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/ram_b_inst/QB_1[12] undriven or does not drive
+
+                                   Page 19
+
+
+
+
+Design:  NN22Control_top                               Date:  11/02/24  22:55:35
+
+Removed logic (cont)
+--------------------
+     anything - clipped.
+Signal NN22Control_main_inst/ClkCntxDP_cry_0_S0_0[0] undriven or does not drive
+     anything - clipped.
+Signal NN22Control_main_inst/N_6 undriven or does not drive anything - clipped.
+Signal main_pll_inst/CLKINTFB undriven or does not drive anything - clipped.
+Signal main_pll_inst/DPHSRC undriven or does not drive anything - clipped.
+Signal main_pll_inst/PLLACK undriven or does not drive anything - clipped.
+Signal main_pll_inst/PLLDATO0 undriven or does not drive anything - clipped.
+Signal main_pll_inst/PLLDATO1 undriven or does not drive anything - clipped.
+Signal main_pll_inst/PLLDATO2 undriven or does not drive anything - clipped.
+Signal main_pll_inst/PLLDATO3 undriven or does not drive anything - clipped.
+Signal main_pll_inst/PLLDATO4 undriven or does not drive anything - clipped.
+Signal main_pll_inst/PLLDATO5 undriven or does not drive anything - clipped.
+Signal main_pll_inst/PLLDATO6 undriven or does not drive anything - clipped.
+Signal main_pll_inst/PLLDATO7 undriven or does not drive anything - clipped.
+Signal main_pll_inst/REFCLK undriven or does not drive anything - clipped.
+Signal main_pll_inst/INTLOCK undriven or does not drive anything - clipped.
+Signal main_pll_inst/CLKOS3 undriven or does not drive anything - clipped.
+Signal main_pll_inst/CLKOS2 undriven or does not drive anything - clipped.
+Signal main_pll_inst/CLKOS undriven or does not drive anything - clipped.
+Block NN22Control_main_inst/ext_fifo_inst/SpiStatexDP_RNIGD8B[0] was optimized
+     away.
+Block main_pll_inst/PLLInst_0_RNICF36 was optimized away.
+Block NN22Control_main_inst/GND was optimized away.
+Block NN22Control_main_inst/ext_fifo_inst/GND was optimized away.
+Block NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/VCC was optimized away.
+Block NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/GND was optimized away.
+Block NN22Control_main_inst/uart_from_detb_inst/GND was optimized away.
+Block NN22Control_main_inst/uart_to_brd_inst/uart_fifo_inst/VCC was optimized
+     away.
+Block NN22Control_main_inst/uart_to_brd_inst/uart_fifo_inst/GND was optimized
+     away.
+Block NN22Control_main_inst/uart_to_ftdi_inst/uart_fifo_inst/VCC was optimized
+     away.
+Block NN22Control_main_inst/uart_to_ftdi_inst/uart_fifo_inst/GND was optimized
+     away.
+Block NN22Control_main_inst/spi_to_rpi_zero/GND was optimized away.
+Block NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/VCC was optimized
+     away.
+Block NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/GND was optimized
+     away.
+Block NN22Control_main_inst/aux_adc_rx_inst/GND was optimized away.
+Block NN22Control_main_inst/ram_a_inst/VCC was optimized away.
+Block NN22Control_main_inst/ram_a_inst/GND was optimized away.
+Block NN22Control_main_inst/ram_b_inst/VCC was optimized away.
+Block NN22Control_main_inst/ram_b_inst/GND was optimized away.
+Block main_pll_inst/GND was optimized away.
+
+Memory Usage
+------------
+
+    
+         
+    INFO: Design contains EBR with GSR enabled. The GSR is only applicable for
+         output registers except FIFO. 
+    /NN22Control_main_inst/ext_fifo_inst/int_fifo_inst:
+
+                                   Page 20
+
+
+
+
+Design:  NN22Control_top                               Date:  11/02/24  22:55:35
+
+Memory Usage (cont)
+-------------------
+    EBRs: 1
+    RAM SLICEs: 0
+    Logic SLICEs: 0
+    PFU Registers: 0
+    -Contains EBR ext_fifo_int_fifo_0_0:  TYPE= FIFO8KB,  REGMODE= NOREG,
+         RESETMODE= ASYNC,  ASYNC_RESET_RELEASE= SYNC,  GSR= DISABLED
+/NN22Control_main_inst/ram_a_inst:
+    EBRs: 1
+    RAM SLICEs: 0
+    Logic SLICEs: 0
+    PFU Registers: 0
+    -Contains EBR ram_a_0_0_0:  TYPE= DP8KC,  Width_A= 9,  Width_B= 2,  Depth_A=
+         1024,  Depth_B= 1024,  REGMODE_A= NOREG,  REGMODE_B= OUTREG,
+         RESETMODE= SYNC,  ASYNC_RESET_RELEASE= SYNC,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= ENABLED,  MEM_INIT_FILE= INIT_ALL_0s,
+         MEM_LPC_FILE= ram_a.lpc
+/NN22Control_main_inst/ram_b_inst:
+    EBRs: 2
+    RAM SLICEs: 0
+    Logic SLICEs: 0
+    PFU Registers: 0
+    -Contains EBR ram_b_0_0_1:  TYPE= DP8KC,  Width_A= 9,  Width_B= 9,  Depth_A=
+         1024,  Depth_B= 1024,  REGMODE_A= NOREG,  REGMODE_B= OUTREG,
+         RESETMODE= SYNC,  ASYNC_RESET_RELEASE= SYNC,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= ENABLED,  MEM_INIT_FILE= INIT_ALL_0s,
+         MEM_LPC_FILE= ram_b.lpc
+    -Contains EBR ram_b_0_1_0:  TYPE= DP8KC,  Width_A= 9,  Width_B= 4,  Depth_A=
+         1024,  Depth_B= 1024,  REGMODE_A= NOREG,  REGMODE_B= OUTREG,
+         RESETMODE= SYNC,  ASYNC_RESET_RELEASE= SYNC,  WRITEMODE_A= NORMAL,
+         WRITEMODE_B= NORMAL,  GSR= ENABLED,  MEM_INIT_FILE= INIT_ALL_0s,
+         MEM_LPC_FILE= ram_b.lpc
+/NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst:
+    EBRs: 8
+    RAM SLICEs: 0
+    Logic SLICEs: 0
+    PFU Registers: 0
+    -Contains EBR spi_txrx_ram_0_0_7:  TYPE= DP8KC,  Width_B= 1,  Depth_A= 8192,
+         Depth_B= 8192,  REGMODE_A= NOREG,  REGMODE_B= NOREG,  RESETMODE= ASYNC,
+         ASYNC_RESET_RELEASE= SYNC,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= ENABLED,  MEM_INIT_FILE= INIT_ALL_0s,  MEM_LPC_FILE=
+         spi_txrx_ram.lpc
+    -Contains EBR spi_txrx_ram_0_1_6:  TYPE= DP8KC,  Width_B= 1,  Depth_A= 8192,
+         Depth_B= 8192,  REGMODE_A= NOREG,  REGMODE_B= NOREG,  RESETMODE= ASYNC,
+         ASYNC_RESET_RELEASE= SYNC,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= ENABLED,  MEM_INIT_FILE= INIT_ALL_0s,  MEM_LPC_FILE=
+         spi_txrx_ram.lpc
+    -Contains EBR spi_txrx_ram_0_2_5:  TYPE= DP8KC,  Width_B= 1,  Depth_A= 8192,
+         Depth_B= 8192,  REGMODE_A= NOREG,  REGMODE_B= NOREG,  RESETMODE= ASYNC,
+         ASYNC_RESET_RELEASE= SYNC,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= ENABLED,  MEM_INIT_FILE= INIT_ALL_0s,  MEM_LPC_FILE=
+         spi_txrx_ram.lpc
+    -Contains EBR spi_txrx_ram_0_3_4:  TYPE= DP8KC,  Width_B= 1,  Depth_A= 8192,
+         Depth_B= 8192,  REGMODE_A= NOREG,  REGMODE_B= NOREG,  RESETMODE= ASYNC,
+         ASYNC_RESET_RELEASE= SYNC,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= ENABLED,  MEM_INIT_FILE= INIT_ALL_0s,  MEM_LPC_FILE=
+         spi_txrx_ram.lpc
+
+                                   Page 21
+
+
+
+
+Design:  NN22Control_top                               Date:  11/02/24  22:55:35
+
+Memory Usage (cont)
+-------------------
+    -Contains EBR spi_txrx_ram_0_4_3:  TYPE= DP8KC,  Width_B= 1,  Depth_A= 8192,
+         Depth_B= 8192,  REGMODE_A= NOREG,  REGMODE_B= NOREG,  RESETMODE= ASYNC,
+         ASYNC_RESET_RELEASE= SYNC,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= ENABLED,  MEM_INIT_FILE= INIT_ALL_0s,  MEM_LPC_FILE=
+         spi_txrx_ram.lpc
+    -Contains EBR spi_txrx_ram_0_5_2:  TYPE= DP8KC,  Width_B= 1,  Depth_A= 8192,
+         Depth_B= 8192,  REGMODE_A= NOREG,  REGMODE_B= NOREG,  RESETMODE= ASYNC,
+         ASYNC_RESET_RELEASE= SYNC,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= ENABLED,  MEM_INIT_FILE= INIT_ALL_0s,  MEM_LPC_FILE=
+         spi_txrx_ram.lpc
+    -Contains EBR spi_txrx_ram_0_6_1:  TYPE= DP8KC,  Width_B= 1,  Depth_A= 8192,
+         Depth_B= 8192,  REGMODE_A= NOREG,  REGMODE_B= NOREG,  RESETMODE= ASYNC,
+         ASYNC_RESET_RELEASE= SYNC,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= ENABLED,  MEM_INIT_FILE= INIT_ALL_0s,  MEM_LPC_FILE=
+         spi_txrx_ram.lpc
+    -Contains EBR spi_txrx_ram_0_7_0:  TYPE= DP8KC,  Width_B= 1,  Depth_A= 8192,
+         Depth_B= 8192,  REGMODE_A= NOREG,  REGMODE_B= NOREG,  RESETMODE= ASYNC,
+         ASYNC_RESET_RELEASE= SYNC,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= ENABLED,  MEM_INIT_FILE= INIT_ALL_0s,  MEM_LPC_FILE=
+         spi_txrx_ram.lpc
+/NN22Control_main_inst/uart_to_brd_inst/uart_fifo_inst:
+    EBRs: 1
+    RAM SLICEs: 0
+    Logic SLICEs: 0
+    PFU Registers: 0
+    -Contains EBR uart_fifo_0_0:  TYPE= FIFO8KB,  REGMODE= NOREG,  RESETMODE=
+         ASYNC,  ASYNC_RESET_RELEASE= SYNC,  GSR= DISABLED
+/NN22Control_main_inst/uart_to_ftdi_inst/uart_fifo_inst:
+    EBRs: 1
+    RAM SLICEs: 0
+    Logic SLICEs: 0
+    PFU Registers: 0
+    -Contains EBR uart_fifo_0_0:  TYPE= FIFO8KB,  REGMODE= NOREG,  RESETMODE=
+         ASYNC,  ASYNC_RESET_RELEASE= SYNC,  GSR= DISABLED
+
+     
+
+PLL/DLL Summary
+---------------
+
+PLL 1:                                     Pin/Node Value
+  PLL Instance Name:                                main_pll_inst/PLLInst_0
+  PLL Type:                                         EHXPLLJ
+  Input Clock:                             PIN      OSC_CLK_c
+  Output Clock(P):                         NODE     Clk96xC
+  Output Clock(S):                                  NONE
+  Output Clock(S2):                                 NONE
+  Output Clock(S3):                                 NONE
+  Feedback Signal:                         NODE     Clk96xC
+  Reset Signal:                                     NONE
+  M Divider Reset Signal:                           NONE
+  C Divider Reset Signal:                           NONE
+  D Divider Reset Signal:                           NONE
+  Standby Signal:                                   NONE
+  PLL LOCK signal:                         NODE     PllLockxS
+  PLL Data bus CLK Signal:                          NONE
+
+                                   Page 22
+
+
+
+
+Design:  NN22Control_top                               Date:  11/02/24  22:55:35
+
+PLL/DLL Summary (cont)
+----------------------
+  PLL Data bus Strobe Signal:                       NONE
+  PLL Data bus Reset Signal:                        NONE
+  PLL Data bus Write Enable Signal:                 NONE
+  PLL Data bus Address0:                            NONE
+  PLL Data bus Address1:                            NONE
+  PLL Data bus Address2:                            NONE
+  PLL Data bus Address3:                            NONE
+  PLL Data bus Address4:                            NONE
+  PLL Data In bus Data0:                            NONE
+  PLL Data In bus Data1:                            NONE
+  PLL Data In bus Data2:                            NONE
+  PLL Data In bus Data3:                            NONE
+  PLL Data In bus Data4:                            NONE
+  PLL Data In bus Data5:                            NONE
+  PLL Data In bus Data6:                            NONE
+  PLL Data In bus Data7:                            NONE
+  PLL Data bus Acknowledge:                         NONE
+  PLL Data Out bus Data0:                           NONE
+  PLL Data Out bus Data1:                           NONE
+  PLL Data Out bus Data2:                           NONE
+  PLL Data Out bus Data3:                           NONE
+  PLL Data Out bus Data4:                           NONE
+  PLL Data Out bus Data5:                           NONE
+  PLL Data Out bus Data6:                           NONE
+  PLL Data Out bus Data7:                           NONE
+  Input Clock Frequency (MHz):                      48.0000
+  Output Clock(P) Frequency (MHz):                  96.0000
+  Output Clock(S) Frequency (MHz):                  NA
+  Output Clock(S2) Frequency (MHz):                 NA
+  Output Clock(S3) Frequency (MHz):                 NA
+  CLKOP Post Divider A Input:                       DIVA
+  CLKOS Post Divider B Input:                       DIVB
+  CLKOS2 Post Divider C Input:                      DIVC
+  CLKOS3 Post Divider D Input:                      DIVD
+  Pre Divider A Input:                              VCO_PHASE
+  Pre Divider B Input:                              VCO_PHASE
+  Pre Divider C Input:                              VCO_PHASE
+  Pre Divider D Input:                              VCO_PHASE
+  VCO Bypass A Input:                               VCO_PHASE
+  VCO Bypass B Input:                               VCO_PHASE
+  VCO Bypass C Input:                               VCO_PHASE
+  VCO Bypass D Input:                               VCO_PHASE
+  FB_MODE:                                          CLKOP
+  CLKI Divider:                                     1
+  CLKFB Divider:                                    2
+  CLKOP Divider:                                    5
+  CLKOS Divider:                                    1
+  CLKOS2 Divider:                                   1
+  CLKOS3 Divider:                                   1
+  Fractional N Divider:                             0
+  CLKOP Desired Phase Shift(degree):                0
+  CLKOP Trim Option Rising/Falling:                 RISING
+  CLKOP Trim Option Delay:                          0
+  CLKOS Desired Phase Shift(degree):                0
+  CLKOS Trim Option Rising/Falling:                 FALLING
+  CLKOS Trim Option Delay:                          0
+
+                                   Page 23
+
+
+
+
+Design:  NN22Control_top                               Date:  11/02/24  22:55:35
+
+PLL/DLL Summary (cont)
+----------------------
+  CLKOS2 Desired Phase Shift(degree):               0
+  CLKOS3 Desired Phase Shift(degree):               0
+
+ASIC Components
+---------------
+
+Instance Name: main_pll_inst/PLLInst_0
+         Type: EHXPLLJ
+Instance Name: NN22Control_main_inst/ram_b_inst/ram_b_0_0_1
+         Type: DP8KC
+Instance Name: NN22Control_main_inst/ram_b_inst/ram_b_0_1_0
+         Type: DP8KC
+Instance Name: NN22Control_main_inst/ram_a_inst/ram_a_0_0_0
+         Type: DP8KC
+Instance Name:
+     NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_0_7
+         Type: DP8KC
+Instance Name:
+     NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_1_6
+         Type: DP8KC
+Instance Name:
+     NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_2_5
+         Type: DP8KC
+Instance Name:
+     NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_3_4
+         Type: DP8KC
+Instance Name:
+     NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_4_3
+         Type: DP8KC
+Instance Name:
+     NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_5_2
+         Type: DP8KC
+Instance Name:
+     NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_6_1
+         Type: DP8KC
+Instance Name:
+     NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_0_7_0
+         Type: DP8KC
+Instance Name:
+     NN22Control_main_inst/uart_to_ftdi_inst/uart_fifo_inst/uart_fifo_0_0
+         Type: FIFO8KB
+Instance Name:
+     NN22Control_main_inst/uart_to_brd_inst/uart_fifo_inst/uart_fifo_0_0
+         Type: FIFO8KB
+Instance Name:
+     NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/ext_fifo_int_fifo_0_0
+         Type: FIFO8KB
+
+GSR Usage
+---------
+
+GSR Component:
+   The Global Set Reset (GSR) resource has been used to implement a global reset
+        of the design. The reset signal used for GSR control is 'PllLockxS'.
+        
+
+
+                                   Page 24
+
+
+
+
+Design:  NN22Control_top                               Date:  11/02/24  22:55:35
+
+GSR Usage (cont)
+----------------
+     GSR Property:
+   The design components with GSR property set to ENABLED will respond to global
+        set reset while the components with GSR property set to DISABLED will
+        not.
+        
+
+     Components with disabled GSR Property
+-------------------------------------
+
+     These components have the GSR property set to DISABLED. The components will
+     not respond to the reset signal 'PllLockxS' via the GSR component.
+
+     Type and number of components of the type: 
+   FIFO8KB = 3
+
+     Type and instance name of component: 
+   FIFO8KB :
+        NN22Control_main_inst/uart_to_ftdi_inst/uart_fifo_inst/uart_fifo_0_0
+   FIFO8KB : NN22Control_main_inst/uart_to_brd_inst/uart_fifo_inst/uart_fifo_0_0
+        
+   FIFO8KB :
+        NN22Control_main_inst/ext_fifo_inst/int_fifo_inst/ext_fifo_int_fifo_0_0
+
+     Components with synchronous local reset also reset by asynchronous GSR
+----------------------------------------------------------------------
+
+     These components have the GSR property set to ENABLED and the local reset
+     is synchronous. The components will respond to the synchronous local reset
+     and to the unrelated asynchronous reset signal 'PllLockxS' via the GSR
+     component.
+
+     Type and number of components of the type: 
+   Register = 9 
+   DP8KC = 3
+
+     Type and instance name of component: 
+   Register : NN22Control_main_inst/spi_to_rpi_zero/BitCntxDP[0]
+   Register : NN22Control_main_inst/spi_to_rpi_zero/BitCntxDP[1]
+   Register : NN22Control_main_inst/spi_to_rpi_zero/BitCntxDP[2]
+   Register : NN22Control_main_inst/uart_to_ftdi_inst/ClkCntxDP[2]
+   Register : NN22Control_main_inst/uart_to_ftdi_inst/ClkCntxDP[1]
+   Register : NN22Control_main_inst/uart_to_ftdi_inst/ClkCntxDP[0]
+   Register : NN22Control_main_inst/ext_fifo_inst/BitCntxDP[0]
+   Register : NN22Control_main_inst/ext_fifo_inst/BitCntxDP[2]
+   Register : NN22Control_main_inst/ext_fifo_inst/BitCntxDP[1]
+   DP8KC : NN22Control_main_inst/ram_b_inst/ram_b_0_0_1
+   DP8KC : NN22Control_main_inst/ram_b_inst/ram_b_0_1_0
+   DP8KC : NN22Control_main_inst/ram_a_inst/ram_a_0_0_0
+
+     EBR components with enabled GSR
+-------------------------------
+
+     These EBR components have the GSR property set to ENABLED. The components
+     will respond to the asynchronous reset signal 'PllLockxS' via the GSR
+     component.
+
+
+                                   Page 25
+
+
+
+
+Design:  NN22Control_top                               Date:  11/02/24  22:55:35
+
+GSR Usage (cont)
+----------------
+     Type and number of components of the type: 
+   DP8KC = 11
+
+     Type and instance name of component: 
+   DP8KC : NN22Control_main_inst/ram_b_inst/ram_b_0_0_1
+   DP8KC : NN22Control_main_inst/ram_b_inst/ram_b_0_1_0
+   DP8KC : NN22Control_main_inst/ram_a_inst/ram_a_0_0_0
+   DP8KC : NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_
+        0_0_7
+   DP8KC : NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_
+        0_1_6
+   DP8KC : NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_
+        0_2_5
+   DP8KC : NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_
+        0_3_4
+   DP8KC : NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_
+        0_4_3
+   DP8KC : NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_
+        0_5_2
+   DP8KC : NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_
+        0_6_1
+   DP8KC : NN22Control_main_inst/spi_to_rpi_zero/spi_txrx_ram_inst/spi_txrx_ram_
+        0_7_0
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 0 secs  
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 70 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   Page 26
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights
+     reserved.

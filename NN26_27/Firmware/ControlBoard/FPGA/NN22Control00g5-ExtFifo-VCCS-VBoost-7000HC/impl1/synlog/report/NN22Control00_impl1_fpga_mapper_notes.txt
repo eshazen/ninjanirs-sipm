@@ -1,0 +1,33 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MO231 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\nn22control00_main.vhd":475:2:475:3|Found counter in view:work.NN22Control_main(nn22control_main_behavior) instance PCntBxDP[9:0] 
+@N: MO231 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\nn22control00_main.vhd":475:2:475:3|Found counter in view:work.NN22Control_main(nn22control_main_behavior) instance PCntAxDP[9:0] 
+@N: MO231 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\nn22control00_main.vhd":475:2:475:3|Found counter in view:work.NN22Control_main(nn22control_main_behavior) instance ClkCntxDP[10:0] 
+@N: MO231 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\ext_fifo.vhd":101:2:101:3|Found counter in view:work.ext_fifo(behavioral) instance ByteCntxDP[9:0] 
+@N: MO231 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\ext_fifo.vhd":101:2:101:3|Found counter in view:work.ext_fifo(behavioral) instance ExtFIFOWrAddrxDP[22:0] 
+@N: MO231 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\ext_fifo.vhd":101:2:101:3|Found counter in view:work.ext_fifo(behavioral) instance ExtFIFORdAddrxDP[22:0] 
+@N: MF179 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\ext_fifo.vhd":94:29:94:66|Found 23 by 23 bit equality operator ('==') un4_extfifofullxsn (in view: work.ext_fifo(behavioral))
+@N: MF179 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\ext_fifo.vhd":93:28:93:62|Found 23 by 23 bit equality operator ('==') extfifoemptyxs (in view: work.ext_fifo(behavioral))
+@N: MO231 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\uart_rx.vhd":42:2:42:3|Found counter in view:work.uart_rxZ0(behavioral) instance ClkCntxDP[4:0] 
+@N: MO231 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\uart_tx_with_fifo.vhd":63:2:63:3|Found counter in view:work.uart_tx_with_fifo_16(behavioral) instance BitCntxDP[3:0] 
+@N: MO231 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\uart_tx_with_fifo.vhd":63:2:63:3|Found counter in view:work.uart_tx_with_fifo_8(behavioral) instance BitCntxDP[3:0] 
+@N: MO231 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\spi_rxtx_with_fifo.vhd":118:2:118:3|Found counter in view:work.spi_rxtx_with_fifo(behavioral) instance FIFOWrAddrxDP[12:0] 
+@N: MO231 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\spi_rxtx_with_fifo.vhd":118:2:118:3|Found counter in view:work.spi_rxtx_with_fifo(behavioral) instance FIFORdAddrxDP[12:0] 
+@N: MF179 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\spi_rxtx_with_fifo.vhd":83:25:83:53|Found 13 by 13 bit equality operator ('==') fifoemptyxs (in view: work.spi_rxtx_with_fifo(behavioral))
+@N: BN362 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\spi_rxtx_with_fifo.vhd":118:2:118:3|Removing sequential instance RxSRegxDP[0] (in view: work.spi_rxtx_with_fifo(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\spi_rxtx_with_fifo.vhd":118:2:118:3|Removing sequential instance RxSRegxDP[1] (in view: work.spi_rxtx_with_fifo(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\spi_rxtx_with_fifo.vhd":118:2:118:3|Removing sequential instance RxSRegxDP[2] (in view: work.spi_rxtx_with_fifo(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\spi_rxtx_with_fifo.vhd":118:2:118:3|Removing sequential instance RxSRegxDP[3] (in view: work.spi_rxtx_with_fifo(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\spi_rxtx_with_fifo.vhd":118:2:118:3|Removing sequential instance RxSRegxDP[4] (in view: work.spi_rxtx_with_fifo(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\spi_rxtx_with_fifo.vhd":118:2:118:3|Removing sequential instance RxSRegxDP[5] (in view: work.spi_rxtx_with_fifo(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\spi_rxtx_with_fifo.vhd":118:2:118:3|Removing sequential instance RxSRegxDP[6] (in view: work.spi_rxtx_with_fifo(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\spi_rxtx_with_fifo.vhd":118:2:118:3|Removing sequential instance RxSRegxDP[7] (in view: work.spi_rxtx_with_fifo(behavioral)) because it does not drive other instances.
+@N: MO231 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\aux_adc_rx.vhd":64:2:64:3|Found counter in view:work.aux_adc_rx(aux_adc_rx_behavior) instance BitCntxDP[3:0] 
+@N: BN362 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\aux_adc_rx.vhd":64:2:64:3|Removing sequential instance DigAuxxDP[7] (in view: work.aux_adc_rx(aux_adc_rx_behavior)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\dropbox\nn2022\lattice\nn22control00g5-extfifo-vccs-vboost-7000hc\spi_rxtx_with_fifo.vhd":118:2:118:3|Removing sequential instance spi_to_rpi_zero.StatexDP[4] (in view: work.NN22Control_main(nn22control_main_behavior)) because it does not drive other instances.
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: FX1056 |Writing EDF file: D:\Dropbox\NN2022\Lattice\NN22Control00g5-ExtFifo-VCCS-VBoost-7000HC\impl1\NN22Control00_impl1.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
