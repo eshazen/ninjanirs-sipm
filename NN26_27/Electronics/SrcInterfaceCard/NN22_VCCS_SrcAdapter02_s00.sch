@@ -6289,9 +6289,9 @@ R9: 1 Ohm
 R13: 2.2 Ohm
 C12: 0.22 uF
 R8: 1.5 Ohm
-R30: 56k Ohm (better would be ~59k)
+R30: 59 kOhm
 F1: 0ZCH0110AF2E
-R2: 12k Ohm</text>
+R2: 12 kOhm</text>
 </plain>
 <instances>
 <instance part="U3" gate="G$1" x="111.76" y="109.22"/>
@@ -7678,9 +7678,9 @@ R9: 1 Ohm
 R13: 2.2 Ohm
 C12: 0.22 uF
 R8: 1.5 Ohm
-R30: 56k Ohm (better would be ~59k)
+R30: 59 kOhm
 F1: 0ZCH0110AF2E
-R2: 12k Ohm</text>
+R2: 12 kOhm</text>
 </plain>
 <instances>
 <instance part="U7" gate="G$1" x="104.14" y="53.34"/>
