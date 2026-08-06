@@ -12,6 +12,9 @@
  * on any error flash LED fast and wait for reset
  */
 
+// turn on without any external input
+#define AUTO_TURN_ON
+
 #include <stdio.h>
 #include <string.h>
 #include <avr/io.h>
@@ -102,7 +105,12 @@ int main (void)
   // wait for turn-on command
   while(1) {
 
+#ifdef AUTO_TURN_ON
+    _delay_ms(100);
+    if( 1) {
+#else      
     if( !(CMD_PIN & CMD_MASK)) {
+#endif
       // turn on LED
       LED_ON();
 
