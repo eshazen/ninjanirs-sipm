@@ -1,0 +1,10259 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "1172433f-1d1c-4060-93c6-d2c1916494d1")
+	(paper "User" 457.2 304.9524)
+	(lib_symbols
+		(symbol "NN22_RPi_DetAdapter03_s00-eagle-import:AD7380"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -2.54 3.048 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 12.7 -43.18 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "NN22_RPi_DetAdapter03_s00:LFCSP16"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "ADC Dual Simultaneous Sampling 16-Bit/14-Bit 4 MSPS SAR Differential Inputs"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AD7380_1_0"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy 22.86 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -40.64) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.86 2.54) (xy 22.86 -40.64)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.86 -40.64) (xy -2.54 -40.64)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -7.62 -35.56 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 -5.08 0)
+					(length 5.08)
+					(name "VLOGIC"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 -30.48 0)
+					(length 5.08)
+					(name "REGCAP"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 -2.54 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -20.32 0)
+					(length 5.08)
+					(name "AINB-"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -17.78 0)
+					(length 5.08)
+					(name "AINB+"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -12.7 0)
+					(length 5.08)
+					(name "AINA-"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -10.16 0)
+					(length 5.08)
+					(name "AINA+"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 -27.94 0)
+					(length 5.08)
+					(name "REFCAP"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 -35.56 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 -25.4 0)
+					(length 5.08)
+					(name "REFIO"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 27.94 -15.24 180)
+					(length 5.08)
+					(name "/CS"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 27.94 -2.54 180)
+					(length 5.08)
+					(name "SDOA"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 27.94 -5.08 180)
+					(length 5.08)
+					(name "SDOB"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 27.94 -12.7 180)
+					(length 5.08)
+					(name "SDI"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 27.94 -10.16 180)
+					(length 5.08)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 -35.56 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "EP"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "NN22_RPi_DetAdapter03_s00-eagle-import:ADA4940-2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -2.54 3.302 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "NN22_RPi_DetAdapter03_s00:LFCSP24"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "ADC Driver Fully Differential, Ultralow Power, Low Distortion 260 MHz"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ADA4940-2_1_0"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -10.16) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -10.16) (xy 0 -10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -15.24) (xy -2.54 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -30.48) (xy -2.54 -15.24)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -10.16) (xy 0 -12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -12.7) (xy 5.08 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -5.08) (xy 1.778 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -10.16) (xy 1.778 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -4.572) (xy 1.27 -5.588)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 10.16 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -10.16) (xy 10.16 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -10.16) (xy 10.16 -10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.096 -5.08)
+					(radius 0.508)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 12.7 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -10.16) (xy 10.16 -15.24)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -10.16) (xy 12.7 -10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -15.24) (xy -2.54 -15.24)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 12.7 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -5.08) (xy 12.7 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -10.16) (xy 12.7 -30.48)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -30.48) (xy -2.54 -30.48)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 -10.16 0)
+					(length 2.54)
+					(name "-IN"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -5.08 -15.24 0)
+					(length 2.54)
+					(name "+FB"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -20.32 0)
+					(length 2.54)
+					(name "+VS"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -20.32 0)
+					(length 2.54)
+					(name "+VS"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -22.86 0)
+					(length 2.54)
+					(name "VOCM"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -10.16 180)
+					(length 2.54)
+					(name "+OUT"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -5.08 180)
+					(length 2.54)
+					(name "-OUT"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -25.4 0)
+					(length 2.54)
+					(name "/DISABLE"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -27.94 0)
+					(length 2.54)
+					(name "-VS"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -27.94 0)
+					(length 2.54)
+					(name "-VS"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "-FB"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "+IN"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ADA4940-2_2_0"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -10.16) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -10.16) (xy 0 -10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -15.24) (xy -2.54 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -30.48) (xy -2.54 -15.24)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -10.16) (xy 0 -12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -12.7) (xy 5.08 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -5.08) (xy 1.778 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -10.16) (xy 1.778 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -4.572) (xy 1.27 -5.588)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 10.16 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -10.16) (xy 10.16 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -10.16) (xy 10.16 -10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.096 -5.08)
+					(radius 0.508)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 12.7 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -10.16) (xy 10.16 -15.24)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -10.16) (xy 12.7 -10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -15.24) (xy -2.54 -15.24)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 12.7 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -5.08) (xy 12.7 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -10.16) (xy 12.7 -30.48)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -30.48) (xy -2.54 -30.48)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin output line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "-FB"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "+IN"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -10.16 0)
+					(length 2.54)
+					(name "-IN"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -5.08 -15.24 0)
+					(length 2.54)
+					(name "+FB"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -20.32 0)
+					(length 2.54)
+					(name "+VS"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -20.32 0)
+					(length 2.54)
+					(name "+VS"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -22.86 0)
+					(length 2.54)
+					(name "VOCM"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -10.16 180)
+					(length 2.54)
+					(name "+OUT"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -5.08 180)
+					(length 2.54)
+					(name "-OUT"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -25.4 0)
+					(length 2.54)
+					(name "/DISABLE"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -27.94 0)
+					(length 2.54)
+					(name "-VS"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -27.94 0)
+					(length 2.54)
+					(name "-VS"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ADA4940-2_3_0"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.6096)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "EP"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "NN22_RPi_DetAdapter03_s00-eagle-import:CAP0402-CAP"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 1.524 2.921 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 1.524 -2.159 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "NN22_RPi_DetAdapter03_s00:0402-CAP"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Capacitor Standard 0603 ceramic capacitor, and 0.1\" leaded capacitor."
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CAP0402-CAP_1_0"
+				(rectangle
+					(start -2.032 1.524)
+					(end 2.032 2.032)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.032 0.508)
+					(end 2.032 1.016)
+					(stroke
+						(width -0.0001)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "NN22_RPi_DetAdapter03_s00-eagle-import:GND"
+			(power global)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#GND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SUPPLY SYMBOL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_1_0"
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "NN22_RPi_DetAdapter03_s00-eagle-import:RESISTOR0402-RES"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at -3.81 1.4986 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -3.81 -3.302 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "NN22_RPi_DetAdapter03_s00:0402-RES"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor Basic schematic elements and footprints for 0603, 1206, and PTH resistors."
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RESISTOR0402-RES_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.159 1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.159 1.016) (xy -1.524 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -1.016) (xy -0.889 1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -1.016) (xy 0.381 1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.016) (xy 1.651 1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.651 1.016) (xy 2.286 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.016) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "NN22_RPi_DetAdapter03_s00-eagle-import:TESTPOINT_ROUND"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 1.524 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "NN22_RPi_DetAdapter03_s00:TESTPAD_ROUND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TESTPOINT_ROUND_1_0"
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "P$1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "P$1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(polyline
+		(pts
+			(xy 433.07 21.59) (xy 433.07 280.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "193d3988-c3c1-4fb9-acae-6f51ca1bd09a")
+	)
+	(polyline
+		(pts
+			(xy 70.1675 280.67) (xy 70.1675 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "232cf2f6-dba3-4f3e-8ff2-fe291231ef7e")
+	)
+	(polyline
+		(pts
+			(xy 174.9425 17.78) (xy 174.9425 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "2d8d4cc1-6b96-42b5-bb27-a004bbe61b2c")
+	)
+	(polyline
+		(pts
+			(xy 17.78 177.8) (xy 21.59 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "2e2d3404-1f20-47c3-9023-735444303949")
+	)
+	(polyline
+		(pts
+			(xy 279.7175 280.67) (xy 279.7175 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "4f6ac656-4d14-4338-91e5-50e5dfe39dbe")
+	)
+	(polyline
+		(pts
+			(xy 433.07 177.8) (xy 436.88 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "571034fd-e824-4348-b6fa-df16c2909852")
+	)
+	(polyline
+		(pts
+			(xy 17.78 231.14) (xy 21.59 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "600a5dd4-339f-4e92-9f16-24ad8d2ee311")
+	)
+	(polyline
+		(pts
+			(xy 122.555 17.78) (xy 122.555 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "6033b5b0-713a-4f18-aac0-2e1b99344f1a")
+	)
+	(polyline
+		(pts
+			(xy 70.1675 17.78) (xy 70.1675 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "629a0c56-fb48-46c9-88e5-3a8fb6968cf4")
+	)
+	(polyline
+		(pts
+			(xy 384.4925 280.67) (xy 384.4925 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "649bcb46-76ea-4385-96b4-f6668d362111")
+	)
+	(polyline
+		(pts
+			(xy 227.33 280.67) (xy 227.33 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "71105bf3-ca15-4849-98fe-f39f01467b09")
+	)
+	(polyline
+		(pts
+			(xy 17.78 17.78) (xy 436.88 17.78) (xy 436.88 284.48) (xy 17.78 284.48) (xy 17.78 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "790f7633-2c41-4f35-92db-bcba81624439")
+	)
+	(polyline
+		(pts
+			(xy 433.07 280.67) (xy 21.59 280.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "a1dd3eca-5c54-497f-a911-3e799c1bb9b8")
+	)
+	(polyline
+		(pts
+			(xy 227.33 17.78) (xy 227.33 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "ae411d32-aeb4-42ac-93ad-4505de1e9764")
+	)
+	(polyline
+		(pts
+			(xy 122.555 280.67) (xy 122.555 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "af26f801-dead-4ca9-9b06-5b3beb186be2")
+	)
+	(polyline
+		(pts
+			(xy 433.07 231.14) (xy 436.88 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "b59a172a-a208-4829-aefe-78bf20ea7a0c")
+	)
+	(polyline
+		(pts
+			(xy 279.7175 17.78) (xy 279.7175 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "bcd01e78-66c9-43f4-944e-65c8cfd205de")
+	)
+	(polyline
+		(pts
+			(xy 21.59 21.59) (xy 21.59 280.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c0a4f382-9544-4b98-949c-5266b093fa6d")
+	)
+	(polyline
+		(pts
+			(xy 433.07 21.59) (xy 21.59 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c1c4f7d2-087f-4647-9249-8bc9567e7692")
+	)
+	(polyline
+		(pts
+			(xy 17.78 124.46) (xy 21.59 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "ce4a1848-f8b1-47c9-8a54-b0018e6d72f8")
+	)
+	(polyline
+		(pts
+			(xy 332.105 280.67) (xy 332.105 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "da298910-e0ce-4acb-9a64-ac45bd70b61a")
+	)
+	(polyline
+		(pts
+			(xy 433.07 124.46) (xy 436.88 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "e2e2b1f3-2b92-4102-a667-1c6059266fa1")
+	)
+	(polyline
+		(pts
+			(xy 433.07 71.12) (xy 436.88 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "eccc1423-4d32-4c2b-b7a2-b6775ce3c2ee")
+	)
+	(polyline
+		(pts
+			(xy 332.105 17.78) (xy 332.105 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "fc14fd29-0c57-4f8a-a921-6cad39248a9a")
+	)
+	(polyline
+		(pts
+			(xy 174.9425 280.67) (xy 174.9425 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "fe20c756-e60c-4f96-bd85-9572ceb63e85")
+	)
+	(polyline
+		(pts
+			(xy 384.4925 17.78) (xy 384.4925 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "fef95fe0-b4f8-4006-996e-2165d8cc869a")
+	)
+	(polyline
+		(pts
+			(xy 17.78 71.12) (xy 21.59 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "fffe13f4-e772-45a0-bc6e-f8bd0eb6ba58")
+	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 201.1363 19.685 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "09ffcc3f-eea7-499c-9a2a-2f0581a6d027")
+	)
+	(text "B"
+		(exclude_from_sim no)
+		(at 434.975 97.79 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "18311654-62e9-4bc3-87e3-5e74321c9b91")
+	)
+	(text "8"
+		(exclude_from_sim no)
+		(at 410.6863 282.575 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "1a3ee2ee-48eb-4246-8bf5-149813852446")
+	)
+	(text "C"
+		(exclude_from_sim no)
+		(at 434.975 151.13 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "24b24285-1b54-49f8-bf0c-1ec20b7be1c3")
+	)
+	(text "7"
+		(exclude_from_sim no)
+		(at 358.2988 282.575 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "24d6a998-7e53-43c6-b3fe-839faab0c17a")
+	)
+	(text "ADC A2 - Det4/5"
+		(exclude_from_sim no)
+		(at 35.56 40.64 0)
+		(effects
+			(font
+				(size 6.4516 5.4838)
+			)
+			(justify left bottom)
+		)
+		(uuid "288b4fb6-0d4a-4f35-8ae5-c5c4f4adc494")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 305.9113 282.575 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "329dcc61-de3a-4cfd-8126-09dcb0f34fc4")
+	)
+	(text "A"
+		(exclude_from_sim no)
+		(at 434.975 44.45 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "3475776a-cfc8-471e-884a-4510b3f00b53")
+	)
+	(text "B"
+		(exclude_from_sim no)
+		(at 19.685 97.79 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "3b769bf0-3444-418a-8689-9f0964dc7f46")
+	)
+	(text "A"
+		(exclude_from_sim no)
+		(at 19.685 44.45 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "4d4e74a5-bbf7-46a8-9b3f-ef8988b28f5d")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 305.9113 19.685 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "58babaf1-10dd-4c3c-9f4e-6e9cce59097a")
+	)
+	(text "C"
+		(exclude_from_sim no)
+		(at 19.685 151.13 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "70480a5e-461b-4fdf-bdab-2622ce63e857")
+	)
+	(text "3"
+		(exclude_from_sim no)
+		(at 148.7488 19.685 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "71171205-e312-4be3-a0c8-2236e50d5421")
+	)
+	(text "5"
+		(exclude_from_sim no)
+		(at 253.5238 282.575 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "78bf1bda-2c2c-4eda-8ba1-89581e9d7ed1")
+	)
+	(text "5"
+		(exclude_from_sim no)
+		(at 253.5238 19.685 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "79ca8b72-a4ea-493a-aa22-05e5136b2de4")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 43.9738 282.575 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "80be5d6f-fdfb-41df-80c9-028764522c58")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 43.9738 19.685 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "832062cb-0fa2-410b-8674-bc99ff41100f")
+	)
+	(text "D"
+		(exclude_from_sim no)
+		(at 19.685 204.47 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "988d64e2-2ccb-48b9-84bc-bd20ee22f9e9")
+	)
+	(text "E"
+		(exclude_from_sim no)
+		(at 434.975 257.81 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "9b8761e6-b8c0-4579-b0e8-91ebe96110b7")
+	)
+	(text "D"
+		(exclude_from_sim no)
+		(at 434.975 204.47 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "b6025014-973e-41a0-a99d-47a88361aad2")
+	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 96.3613 19.685 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "b6e0a29d-1e9a-4ad9-8ad2-55e1cd759a6f")
+	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 96.3613 282.575 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "ba32d70b-d800-4018-b917-626202e5de23")
+	)
+	(text "8"
+		(exclude_from_sim no)
+		(at 410.6863 19.685 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "daeb573d-d0a3-4845-bb4d-cd8e5a00aa3d")
+	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 201.1363 282.575 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "de67c651-ed8c-4c94-8c5c-338f9997176c")
+	)
+	(text "E"
+		(exclude_from_sim no)
+		(at 19.685 257.81 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "f4961d62-9159-4c05-987b-511bb97474c9")
+	)
+	(text "3"
+		(exclude_from_sim no)
+		(at 148.7488 282.575 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "f551e648-2d93-4938-9707-d097fa1b3090")
+	)
+	(text "7"
+		(exclude_from_sim no)
+		(at 358.2988 19.685 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "f86bb66d-01c0-42c8-b7e3-bc742cf73720")
+	)
+	(junction
+		(at 271.78 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c05386b-5aa4-4b5a-b778-1df44c2acc43")
+	)
+	(junction
+		(at 172.72 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "182f2659-3887-4ece-9e28-903a6aa1b8f6")
+	)
+	(junction
+		(at 172.72 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19166a14-9e42-4fcc-a641-bbc67388155d")
+	)
+	(junction
+		(at 259.08 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27b763d3-4d21-4489-88c5-5cb0d98e410b")
+	)
+	(junction
+		(at 177.8 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "448f5d51-765b-43fb-8de9-b3625e1613d6")
+	)
+	(junction
+		(at 160.02 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48b38802-1001-46ae-b50b-ee8ec4d0b23b")
+	)
+	(junction
+		(at 246.38 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a47c4b0-f403-481e-9864-7d64e35e3e16")
+	)
+	(junction
+		(at 160.02 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c2b83a9-b31c-40e0-93b9-2507834adc79")
+	)
+	(junction
+		(at 254 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66745016-c443-40ca-bb5c-660d29c3c9ee")
+	)
+	(junction
+		(at 160.02 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "799fb343-3fbf-44fc-98f7-1bed63d6b0be")
+	)
+	(junction
+		(at 223.52 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7df4cce2-d3fc-4d38-a085-809e5bbc57fc")
+	)
+	(junction
+		(at 165.1 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b6443a7-ef29-4247-94be-9e31dcefaa4e")
+	)
+	(junction
+		(at 177.8 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d79ec0f-cc07-4a2b-8ba8-01cfcad30984")
+	)
+	(junction
+		(at 144.78 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ef9bec1-04b1-47bf-840b-e600c5ac47a6")
+	)
+	(junction
+		(at 223.52 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3f4539f-29bc-48b8-a575-32862879e4e5")
+	)
+	(junction
+		(at 144.78 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a75136d1-07a3-483a-82d7-4723761776a0")
+	)
+	(junction
+		(at 223.52 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2416ee7-4052-40e4-91f2-83b4dc473ad7")
+	)
+	(junction
+		(at 223.52 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc2d23d4-fef1-4774-9917-c8763fdc43f2")
+	)
+	(junction
+		(at 266.7 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2fc4d95-a7b6-45aa-82a2-e8b55458b583")
+	)
+	(junction
+		(at 266.7 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc72236b-bd44-4a91-995e-f0da3fb6d9bc")
+	)
+	(junction
+		(at 165.1 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de554f7a-6953-46d0-9eab-0c07c3d2806c")
+	)
+	(junction
+		(at 177.8 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e866f951-36be-42e4-b236-8d0ff5c444f1")
+	)
+	(junction
+		(at 180.34 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4a64832-45e0-4239-a3c2-1dc1f8f8185a")
+	)
+	(junction
+		(at 180.34 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f662ff59-6638-47cf-89a5-40cddf42aa3c")
+	)
+	(junction
+		(at 251.46 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8cec340-28e8-426d-ab34-509b72258916")
+	)
+	(junction
+		(at 160.02 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fad3ea8b-adf8-429d-8d2f-6fdccdbbcd3a")
+	)
+	(junction
+		(at 177.8 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff519cef-34b7-4e5c-a65a-8204a732155c")
+	)
+	(wire
+		(pts
+			(xy 162.56 203.2) (xy 160.02 203.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0130e792-2071-46a3-92d6-19581875907a")
+	)
+	(wire
+		(pts
+			(xy 261.62 121.92) (xy 254 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "064bad09-057f-40fa-8266-ec807afbcb68")
+	)
+	(wire
+		(pts
+			(xy 246.38 157.48) (xy 246.38 198.12)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "071feed9-4948-428a-8e3b-f11fd5f4f8fd")
+	)
+	(wire
+		(pts
+			(xy 276.86 137.16) (xy 261.62 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0b2ad258-0f71-4260-86e3-f029377de858")
+	)
+	(wire
+		(pts
+			(xy 160.02 114.3) (xy 160.02 124.46)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0b39fdb7-2ce5-4ec2-ab22-4782b60d3950")
+	)
+	(wire
+		(pts
+			(xy 223.52 180.34) (xy 241.3 180.34)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0cb64bee-ab71-4943-9f0d-1a90c51646f7")
+	)
+	(wire
+		(pts
+			(xy 165.1 210.82) (xy 165.1 220.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0cd51b0c-5313-48c1-8ba6-bdfacc6678f9")
+	)
+	(wire
+		(pts
+			(xy 162.56 91.44) (xy 160.02 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0dde88cb-26b2-4c67-b686-507d69efaa03")
+	)
+	(wire
+		(pts
+			(xy 220.98 114.3) (xy 223.52 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0dfae9bd-3951-481e-81a4-b18e3b36ed6d")
+	)
+	(wire
+		(pts
+			(xy 223.52 101.6) (xy 223.52 104.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "10493772-2616-4d6c-919b-21cca205b4f5")
+	)
+	(wire
+		(pts
+			(xy 160.02 99.06) (xy 165.1 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1181dfd8-0d3f-4918-866e-be4a60cae198")
+	)
+	(wire
+		(pts
+			(xy 223.52 203.2) (xy 223.52 205.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "15817b78-c271-4e22-b49b-377109ba75f2")
+	)
+	(wire
+		(pts
+			(xy 177.8 99.06) (xy 185.42 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1628b3f4-30af-46b9-8959-1ae2cfc19ad5")
+	)
+	(wire
+		(pts
+			(xy 157.48 99.06) (xy 160.02 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "17b550bb-a975-4754-8a84-4200bf61afe2")
+	)
+	(wire
+		(pts
+			(xy 160.02 114.3) (xy 157.48 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1d552218-889f-4cae-99b5-6ab544ffff9b")
+	)
+	(wire
+		(pts
+			(xy 185.42 198.12) (xy 175.26 198.12)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1f0c6169-0382-42d8-8c0e-f0b00cc49f12")
+	)
+	(wire
+		(pts
+			(xy 220.98 193.04) (xy 223.52 193.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "21ac4591-6bab-4d7b-ae53-40dde809cdcd")
+	)
+	(wire
+		(pts
+			(xy 254 124.46) (xy 254 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "22edc5dd-8af3-4abb-9bdf-1c459e77ce1c")
+	)
+	(wire
+		(pts
+			(xy 185.42 187.96) (xy 160.02 187.96)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "23095cd1-fb40-40d9-9ea2-853674d393e6")
+	)
+	(wire
+		(pts
+			(xy 165.1 231.14) (xy 165.1 228.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "26379aec-8570-43cf-bcc3-00f060ea0189")
+	)
+	(wire
+		(pts
+			(xy 220.98 180.34) (xy 223.52 180.34)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "271ef2ee-2678-47f2-9ee8-74e90f59eb13")
+	)
+	(wire
+		(pts
+			(xy 223.52 167.64) (xy 233.68 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "279ad475-86c0-49fd-8556-f5ed6efe3e34")
+	)
+	(wire
+		(pts
+			(xy 208.28 104.14) (xy 208.28 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "27cd81ef-ac2b-4c12-9944-81f0b2a64283")
+	)
+	(wire
+		(pts
+			(xy 243.84 149.86) (xy 243.84 193.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2936f37c-b725-417f-881d-e56d24cb8615")
+	)
+	(wire
+		(pts
+			(xy 160.02 182.88) (xy 160.02 177.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2a22e3dc-8e86-406e-85ff-8147784f1fd6")
+	)
+	(wire
+		(pts
+			(xy 172.72 213.36) (xy 157.48 213.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2ade0147-a113-4b18-a5de-c951ba5531c3")
+	)
+	(wire
+		(pts
+			(xy 223.52 180.34) (xy 223.52 177.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2da3ef18-1741-404c-bba4-b69daab9d27c")
+	)
+	(wire
+		(pts
+			(xy 182.88 139.7) (xy 180.34 139.7)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2dbf1b43-d35a-47f3-8d86-8ceb0dd00d40")
+	)
+	(wire
+		(pts
+			(xy 177.8 213.36) (xy 172.72 213.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2e13b679-8b5e-41db-aab4-30b9beadf0be")
+	)
+	(wire
+		(pts
+			(xy 129.54 177.8) (xy 144.78 177.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2ff36507-44cd-4fa8-9826-cff7eaa3ebd0")
+	)
+	(wire
+		(pts
+			(xy 205.74 182.88) (xy 208.28 182.88)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "31d69481-afd5-49c1-a57d-8ee65ea45de7")
+	)
+	(wire
+		(pts
+			(xy 266.7 116.84) (xy 266.7 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "31e889df-6fd4-4375-aa15-d7621ffc2e22")
+	)
+	(wire
+		(pts
+			(xy 276.86 149.86) (xy 243.84 149.86)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "321aabb8-8846-417e-9253-02757556947e")
+	)
+	(wire
+		(pts
+			(xy 144.78 114.3) (xy 144.78 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "35c01337-d1e2-4058-8a89-3d711c79425a")
+	)
+	(wire
+		(pts
+			(xy 223.52 114.3) (xy 241.3 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3628eb19-426b-4be5-9db2-833b7779fa3b")
+	)
+	(wire
+		(pts
+			(xy 177.8 114.3) (xy 175.26 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3bb459b7-47d5-41b1-ac13-22660a76bbbb")
+	)
+	(wire
+		(pts
+			(xy 147.32 99.06) (xy 144.78 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3d0ea0fb-935c-4376-9afa-724d69b301a8")
+	)
+	(wire
+		(pts
+			(xy 180.34 218.44) (xy 180.34 220.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3e939245-4776-485b-a343-179994095702")
+	)
+	(wire
+		(pts
+			(xy 172.72 203.2) (xy 172.72 195.58)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "40ac5724-77f4-470c-8e9d-09c78450662e")
+	)
+	(wire
+		(pts
+			(xy 254 121.92) (xy 254 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4161f3ee-c992-4ed7-8910-2a5bbc692983")
+	)
+	(wire
+		(pts
+			(xy 172.72 231.14) (xy 172.72 228.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "42199848-e03b-4edc-a2a0-0766027cc93b")
+	)
+	(wire
+		(pts
+			(xy 160.02 170.18) (xy 160.02 177.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "421dde43-22de-40af-a173-759a0529bbe6")
+	)
+	(wire
+		(pts
+			(xy 180.34 139.7) (xy 157.48 139.7)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "42526049-b2af-408a-b7d5-16aa957c7da4")
+	)
+	(wire
+		(pts
+			(xy 182.88 205.74) (xy 182.88 218.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "430a73a8-45a5-47b2-8e58-9b9069cb7b2c")
+	)
+	(wire
+		(pts
+			(xy 172.72 134.62) (xy 172.72 142.24)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "434facb4-31bc-44f6-a5f8-17c3f773a508")
+	)
+	(wire
+		(pts
+			(xy 144.78 175.26) (xy 144.78 177.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "43bc47c7-6b33-4226-884e-020d9f16ae71")
+	)
+	(wire
+		(pts
+			(xy 182.88 218.44) (xy 180.34 218.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "43ff6cba-a1d7-4f03-84cb-12864773fa71")
+	)
+	(wire
+		(pts
+			(xy 182.88 127) (xy 182.88 139.7)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4500b165-5a66-4982-88b9-863b30f79622")
+	)
+	(wire
+		(pts
+			(xy 241.3 180.34) (xy 241.3 152.4)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "45414a88-6e66-4495-b43c-971bcafdfab4")
+	)
+	(wire
+		(pts
+			(xy 177.8 195.58) (xy 177.8 193.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "45f9aba5-4293-459f-a49b-ac41ba4167d3")
+	)
+	(wire
+		(pts
+			(xy 165.1 132.08) (xy 165.1 142.24)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "47f5348f-3baf-4a5e-885e-e09000e02cec")
+	)
+	(wire
+		(pts
+			(xy 185.42 119.38) (xy 175.26 119.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4889710a-4ab9-486e-81ef-8ecc6c4f42a2")
+	)
+	(wire
+		(pts
+			(xy 208.28 180.34) (xy 210.82 180.34)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "495d461b-54f1-4956-b98e-a5592d9bdb75")
+	)
+	(wire
+		(pts
+			(xy 251.46 157.48) (xy 251.46 165.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4a30a5e8-e765-46c7-81e6-f9fbbda49bfc")
+	)
+	(wire
+		(pts
+			(xy 312.42 144.78) (xy 345.44 144.78)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4cd07ac4-17cb-4115-b881-b46215389758")
+	)
+	(wire
+		(pts
+			(xy 223.52 101.6) (xy 223.52 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4f28102b-5fbd-4475-a69a-05233c5ccaa6")
+	)
+	(wire
+		(pts
+			(xy 220.98 101.6) (xy 223.52 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4f98d409-743b-44e1-972b-a6ebfbaf1ac3")
+	)
+	(wire
+		(pts
+			(xy 271.78 175.26) (xy 271.78 177.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4fcd2253-df55-4e40-8bc9-5e08ec5704ba")
+	)
+	(wire
+		(pts
+			(xy 144.78 96.52) (xy 144.78 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4fcd3b5e-ec91-476b-a69d-40bff383abbb")
+	)
+	(wire
+		(pts
+			(xy 185.42 114.3) (xy 177.8 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "53309ba9-f5c8-4b56-9841-93ba6def4f67")
+	)
+	(wire
+		(pts
+			(xy 160.02 91.44) (xy 160.02 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "57d4d14b-a53a-4e8b-8260-ca2ff5201901")
+	)
+	(wire
+		(pts
+			(xy 208.28 101.6) (xy 210.82 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "58be844c-379c-49e3-b169-08a20e10c48a")
+	)
+	(wire
+		(pts
+			(xy 276.86 160.02) (xy 259.08 160.02)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5a012fd5-9a26-4572-a9db-a4a51231221c")
+	)
+	(wire
+		(pts
+			(xy 175.26 210.82) (xy 165.1 210.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5a814ed6-b9c4-4284-91e8-2683b0d450b2")
+	)
+	(wire
+		(pts
+			(xy 223.52 180.34) (xy 223.52 182.88)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5ba1b0bc-40d6-4308-ad66-f20a5e4dcf37")
+	)
+	(wire
+		(pts
+			(xy 147.32 114.3) (xy 144.78 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5c92bd89-e05b-4dee-a7e0-a8e2ab4e7fde")
+	)
+	(wire
+		(pts
+			(xy 160.02 193.04) (xy 165.1 193.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5dda72b5-5cf9-4301-bdd5-3c9c66a03ccb")
+	)
+	(wire
+		(pts
+			(xy 185.42 193.04) (xy 177.8 193.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5e7e65b9-eed3-4a8f-96d0-65e358946485")
+	)
+	(wire
+		(pts
+			(xy 185.42 127) (xy 182.88 127)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "65fdab5c-aea3-4fd7-b554-0c40e26c3109")
+	)
+	(wire
+		(pts
+			(xy 185.42 109.22) (xy 160.02 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6b1872db-955e-4f76-a319-f4489ec2250b")
+	)
+	(wire
+		(pts
+			(xy 223.52 114.3) (xy 223.52 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6b2bcf2d-9f7a-4cc1-b264-76e02b15c4f8")
+	)
+	(wire
+		(pts
+			(xy 175.26 132.08) (xy 165.1 132.08)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6b40e920-525e-4324-bc53-b664be3583cf")
+	)
+	(wire
+		(pts
+			(xy 185.42 104.14) (xy 160.02 104.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6bc58062-c6a4-4df2-b079-a274e5d6cc28")
+	)
+	(wire
+		(pts
+			(xy 223.52 88.9) (xy 233.68 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6c843fbc-8f86-4f2a-b314-b2cbb312687d")
+	)
+	(wire
+		(pts
+			(xy 233.68 167.64) (xy 233.68 170.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6cb0f137-8f0d-48de-b2ed-efd4e084861d")
+	)
+	(wire
+		(pts
+			(xy 160.02 203.2) (xy 160.02 193.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6fc170b2-d620-4e13-9f72-58771846bfcd")
+	)
+	(wire
+		(pts
+			(xy 312.42 147.32) (xy 345.44 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "708110de-5014-487b-a0b1-57c2ae66415d")
+	)
+	(wire
+		(pts
+			(xy 175.26 198.12) (xy 175.26 210.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "719c62ed-1045-4c93-9b9b-2af4a316e11c")
+	)
+	(wire
+		(pts
+			(xy 251.46 172.72) (xy 251.46 175.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "73226814-1003-4774-bd46-fac760145bb8")
+	)
+	(wire
+		(pts
+			(xy 246.38 208.28) (xy 246.38 210.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "741d361a-a2ae-4aea-9380-c5b7f3d69805")
+	)
+	(wire
+		(pts
+			(xy 144.78 99.06) (xy 129.54 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "744c10f0-d085-41c5-9251-4af0872ba684")
+	)
+	(wire
+		(pts
+			(xy 165.1 132.08) (xy 157.48 132.08)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "763f600e-56ef-4b7e-b642-db93debb560e")
+	)
+	(wire
+		(pts
+			(xy 266.7 172.72) (xy 266.7 175.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7697a2b4-8364-4f51-b842-101c8b6d7f4d")
+	)
+	(wire
+		(pts
+			(xy 223.52 193.04) (xy 223.52 195.58)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "771e393c-e1da-426b-90f3-81bd87abc3a1")
+	)
+	(wire
+		(pts
+			(xy 177.8 121.92) (xy 177.8 134.62)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "78c95703-8666-408a-984d-5f7511f5a354")
+	)
+	(wire
+		(pts
+			(xy 203.2 223.52) (xy 205.74 223.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7b4a7f8d-fe77-4024-be55-ad20eb818712")
+	)
+	(wire
+		(pts
+			(xy 274.32 134.62) (xy 274.32 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7d24ddd0-e72c-4cdc-bdd5-ec92b2a5476d")
+	)
+	(wire
+		(pts
+			(xy 243.84 193.04) (xy 223.52 193.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "80541c2d-b9df-4e49-8d41-08ebc5d4de1b")
+	)
+	(wire
+		(pts
+			(xy 246.38 210.82) (xy 246.38 213.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "82ecfd7c-6325-4bd0-a07d-296fc016fdb1")
+	)
+	(wire
+		(pts
+			(xy 208.28 114.3) (xy 210.82 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "88151b75-3025-4327-9b7c-a2db3f486522")
+	)
+	(wire
+		(pts
+			(xy 248.92 210.82) (xy 246.38 210.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8b49b4db-e161-4b9d-96bf-6028cb54fffb")
+	)
+	(wire
+		(pts
+			(xy 243.84 101.6) (xy 243.84 144.78)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8f714fa0-3073-4ff3-b95b-6d98d012e0d8")
+	)
+	(wire
+		(pts
+			(xy 160.02 177.8) (xy 165.1 177.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "90b6f153-3fb1-4248-8308-3aff344f83c0")
+	)
+	(wire
+		(pts
+			(xy 147.32 193.04) (xy 144.78 193.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "92898f41-90d3-43cd-aff3-5042eb8fe066")
+	)
+	(wire
+		(pts
+			(xy 233.68 88.9) (xy 233.68 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "93e35058-5459-419b-b973-64fe3e3b1c78")
+	)
+	(wire
+		(pts
+			(xy 177.8 193.04) (xy 175.26 193.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "957b83c6-84ba-44ec-bdf4-9d9dea365669")
+	)
+	(wire
+		(pts
+			(xy 276.86 152.4) (xy 241.3 152.4)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "969f1ac6-9057-4385-b6a7-b6384bdd9bf4")
+	)
+	(wire
+		(pts
+			(xy 274.32 116.84) (xy 266.7 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9c5be812-f3a2-4c9f-bc8c-b756d562a843")
+	)
+	(wire
+		(pts
+			(xy 266.7 119.38) (xy 266.7 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9d1bb205-64a3-4f8a-a98d-94172c0b3bc4")
+	)
+	(wire
+		(pts
+			(xy 276.86 144.78) (xy 243.84 144.78)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9eb20368-397a-4a50-9151-ca229010dd80")
+	)
+	(wire
+		(pts
+			(xy 259.08 160.02) (xy 259.08 165.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9eb379e9-c8fa-4a5c-bca9-1f6040a42367")
+	)
+	(wire
+		(pts
+			(xy 208.28 109.22) (xy 208.28 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a0eadcc1-02f0-4496-8565-486c27eb1557")
+	)
+	(wire
+		(pts
+			(xy 165.1 210.82) (xy 157.48 210.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a1868d5c-46e4-4e11-bf22-78e80fadf171")
+	)
+	(wire
+		(pts
+			(xy 177.8 116.84) (xy 172.72 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a1deda0a-1441-4fdb-a3a9-768e26a36827")
+	)
+	(wire
+		(pts
+			(xy 172.72 134.62) (xy 157.48 134.62)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a46a132c-27de-45f0-a9e6-c97a713fe5d7")
+	)
+	(wire
+		(pts
+			(xy 177.8 170.18) (xy 177.8 177.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a6776425-1449-45a6-9299-7125b23a71bf")
+	)
+	(wire
+		(pts
+			(xy 241.3 114.3) (xy 241.3 142.24)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a7bff51b-6252-4f2a-842c-ffcd8b1db208")
+	)
+	(wire
+		(pts
+			(xy 180.34 139.7) (xy 180.34 142.24)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a8e653e7-f63c-4f79-8ef2-d287936ead01")
+	)
+	(wire
+		(pts
+			(xy 185.42 121.92) (xy 177.8 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ab7751d3-e493-428a-94ce-b3807eb34112")
+	)
+	(wire
+		(pts
+			(xy 205.74 223.52) (xy 205.74 226.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ac778cda-608f-4ff1-b8c7-6864183cde8a")
+	)
+	(wire
+		(pts
+			(xy 208.28 187.96) (xy 208.28 193.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "acd7c2f8-2a53-40ba-8eac-9c25f1719392")
+	)
+	(wire
+		(pts
+			(xy 223.52 170.18) (xy 223.52 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ad8d9298-fcbe-4d3e-997b-05b817e88ee3")
+	)
+	(wire
+		(pts
+			(xy 170.18 91.44) (xy 177.8 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b01666c4-0423-412e-84c2-7127650e3d1c")
+	)
+	(wire
+		(pts
+			(xy 185.42 182.88) (xy 160.02 182.88)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b18a06a5-fcaf-46a4-bfcd-4fbe08c0154f")
+	)
+	(wire
+		(pts
+			(xy 177.8 134.62) (xy 172.72 134.62)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b2f1fd4a-4821-4fbe-bd89-38413151905e")
+	)
+	(wire
+		(pts
+			(xy 276.86 142.24) (xy 241.3 142.24)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b337e5b9-8f2b-4b97-8046-4b107482afc7")
+	)
+	(wire
+		(pts
+			(xy 185.42 205.74) (xy 182.88 205.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b44d56f4-7dc9-4b95-b9e5-2021408e733d")
+	)
+	(wire
+		(pts
+			(xy 276.86 162.56) (xy 266.7 162.56)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b4575f0a-47da-4ae0-81d8-f98897980e72")
+	)
+	(wire
+		(pts
+			(xy 162.56 170.18) (xy 160.02 170.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b68c17d6-c0ea-41be-8acb-63db97ee73dc")
+	)
+	(wire
+		(pts
+			(xy 254 134.62) (xy 254 132.08)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b6a8af3e-e06f-474e-9ef2-8122d93345a9")
+	)
+	(wire
+		(pts
+			(xy 175.26 99.06) (xy 177.8 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b7f3f4c5-09ec-406e-936e-345f96689812")
+	)
+	(wire
+		(pts
+			(xy 261.62 137.16) (xy 261.62 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b87f1d34-318c-4606-b4ac-c434150fe7aa")
+	)
+	(wire
+		(pts
+			(xy 223.52 193.04) (xy 223.52 190.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b90999f9-4ac7-4dc7-a7ea-7ccbf4953516")
+	)
+	(wire
+		(pts
+			(xy 160.02 109.22) (xy 160.02 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ba01d741-ceda-458e-a4a9-834777a30713")
+	)
+	(wire
+		(pts
+			(xy 223.52 124.46) (xy 223.52 127)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ba14b16f-fe0c-4e2b-a18c-3c7f9ad34c38")
+	)
+	(wire
+		(pts
+			(xy 208.28 182.88) (xy 208.28 180.34)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ba37f6a9-a329-4f4b-9c1b-60bdf10f31a9")
+	)
+	(wire
+		(pts
+			(xy 160.02 187.96) (xy 160.02 193.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bada65d0-8805-4403-bf8c-0c85225edaa7")
+	)
+	(wire
+		(pts
+			(xy 205.74 104.14) (xy 208.28 104.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bb5c2845-f1f7-438a-8778-4ef5b17cb188")
+	)
+	(wire
+		(pts
+			(xy 172.72 124.46) (xy 170.18 124.46)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bec429c8-5cd6-4751-ba59-31c760d8f4fa")
+	)
+	(wire
+		(pts
+			(xy 160.02 193.04) (xy 157.48 193.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bfbedc59-4dc5-4db9-9eb5-e31470a2f58f")
+	)
+	(wire
+		(pts
+			(xy 312.42 134.62) (xy 345.44 134.62)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bfd126f8-de23-49e5-80d3-056a7d661b36")
+	)
+	(wire
+		(pts
+			(xy 160.02 114.3) (xy 165.1 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c186e63e-0e8f-4043-a525-6ed802ebd72c")
+	)
+	(wire
+		(pts
+			(xy 172.72 116.84) (xy 172.72 124.46)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c3e482b9-b14d-4872-b64b-f09ec332e4b8")
+	)
+	(wire
+		(pts
+			(xy 180.34 218.44) (xy 157.48 218.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c7562f0b-a3e5-4ca8-af0b-3bc7154fc25e")
+	)
+	(wire
+		(pts
+			(xy 180.34 152.4) (xy 180.34 149.86)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c7e2f1e2-6bcb-4604-95db-53b91fb62ea6")
+	)
+	(wire
+		(pts
+			(xy 223.52 101.6) (xy 243.84 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c92c4f3b-15c9-418c-87c9-e5dc7664363c")
+	)
+	(wire
+		(pts
+			(xy 266.7 175.26) (xy 271.78 175.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cb15d452-2a78-4807-9667-d5a0e5ba778e")
+	)
+	(wire
+		(pts
+			(xy 165.1 152.4) (xy 165.1 149.86)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cd3d9119-77ef-4c37-9b94-9f375cb3f720")
+	)
+	(wire
+		(pts
+			(xy 144.78 177.8) (xy 147.32 177.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cdc98d24-9ab0-4e19-bff6-314e8ab26697")
+	)
+	(wire
+		(pts
+			(xy 177.8 114.3) (xy 177.8 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cf218586-89b8-45d5-99f5-9f0e7df8bc96")
+	)
+	(wire
+		(pts
+			(xy 160.02 104.14) (xy 160.02 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cf716a99-7854-4de5-8035-93de7de69d95")
+	)
+	(wire
+		(pts
+			(xy 170.18 170.18) (xy 177.8 170.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cf8cecb8-141d-4f25-85af-18a43c95ce13")
+	)
+	(wire
+		(pts
+			(xy 160.02 124.46) (xy 162.56 124.46)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cfaf21ea-3b0b-4a1a-8d32-fe898f35958f")
+	)
+	(wire
+		(pts
+			(xy 276.86 134.62) (xy 274.32 134.62)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d0dce486-b5d9-46f5-86ba-1cc9d091b1da")
+	)
+	(wire
+		(pts
+			(xy 177.8 177.8) (xy 175.26 177.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d1600fe1-492c-459b-97c4-68c50984cbff")
+	)
+	(wire
+		(pts
+			(xy 208.28 193.04) (xy 210.82 193.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d21c4335-1e45-4ddd-8a9e-68642a680cea")
+	)
+	(wire
+		(pts
+			(xy 274.32 167.64) (xy 274.32 175.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d43cd66f-9d24-499c-84da-fcaa90730d9c")
+	)
+	(wire
+		(pts
+			(xy 177.8 91.44) (xy 177.8 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d4adb415-2208-4e83-ba72-31f6bf2cd4de")
+	)
+	(wire
+		(pts
+			(xy 274.32 175.26) (xy 271.78 175.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d4e544cb-a284-4459-99cd-9d7ad3aeb821")
+	)
+	(wire
+		(pts
+			(xy 172.72 213.36) (xy 172.72 220.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d69eb916-78ea-4f3a-90ef-a266be8e3ce9")
+	)
+	(wire
+		(pts
+			(xy 177.8 200.66) (xy 177.8 213.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d8aed412-e1a6-422c-a4d1-b60b5c2cd265")
+	)
+	(wire
+		(pts
+			(xy 205.74 187.96) (xy 208.28 187.96)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d976a4f6-bf44-4e17-baba-4a562916f1c4")
+	)
+	(wire
+		(pts
+			(xy 259.08 172.72) (xy 259.08 175.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "de8ace2d-599e-4935-be38-e181276f971f")
+	)
+	(wire
+		(pts
+			(xy 180.34 231.14) (xy 180.34 228.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "de96c31f-097d-4666-9e25-b7f7acb6a8eb")
+	)
+	(wire
+		(pts
+			(xy 170.18 203.2) (xy 172.72 203.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "df18e1b5-2de5-49d1-acb0-1cd66834fbd3")
+	)
+	(wire
+		(pts
+			(xy 345.44 137.16) (xy 312.42 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e42524d7-802a-4869-a0c1-0c40c05a9248")
+	)
+	(wire
+		(pts
+			(xy 223.52 91.44) (xy 223.52 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e42ad7ed-9f44-4387-9ad3-5d8b3aff21e7")
+	)
+	(wire
+		(pts
+			(xy 251.46 175.26) (xy 259.08 175.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e6af2bad-b7c9-4769-8e31-8629cd10de5b")
+	)
+	(wire
+		(pts
+			(xy 157.48 177.8) (xy 160.02 177.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e6e118b9-872a-476e-9f15-aef1a19a2c7a")
+	)
+	(wire
+		(pts
+			(xy 175.26 119.38) (xy 175.26 132.08)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e7ec705f-9e14-4e5f-b201-ff7bba537671")
+	)
+	(wire
+		(pts
+			(xy 246.38 223.52) (xy 246.38 226.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e7fa2983-9aa6-4edd-8710-fe55e2f4097d")
+	)
+	(wire
+		(pts
+			(xy 251.46 157.48) (xy 246.38 157.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e99aa2b9-6c17-4fe2-82ac-77369764cd4a")
+	)
+	(wire
+		(pts
+			(xy 276.86 157.48) (xy 251.46 157.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e9ea7cb9-57d2-4d9b-9a73-cf98a64afdad")
+	)
+	(wire
+		(pts
+			(xy 223.52 114.3) (xy 223.52 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ea828d18-b471-4fad-902f-ed5af23b6071")
+	)
+	(wire
+		(pts
+			(xy 172.72 152.4) (xy 172.72 149.86)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "eb619c7f-3d77-4f17-92ae-b3e081be66bc")
+	)
+	(wire
+		(pts
+			(xy 259.08 175.26) (xy 266.7 175.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ec0647a5-95b4-404a-8bc8-df11db7514f8")
+	)
+	(wire
+		(pts
+			(xy 205.74 109.22) (xy 208.28 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ed7c57ee-36ab-4ee1-8bb1-c0fde0525a44")
+	)
+	(wire
+		(pts
+			(xy 185.42 177.8) (xy 177.8 177.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f17cc196-6c19-4206-bf77-05ad7c73033a")
+	)
+	(wire
+		(pts
+			(xy 266.7 162.56) (xy 266.7 165.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f1e761a5-6dd1-42fb-b59a-a6688d110e74")
+	)
+	(wire
+		(pts
+			(xy 266.7 129.54) (xy 266.7 127)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f49081db-40e2-4b57-ad6d-4db5d7543110")
+	)
+	(wire
+		(pts
+			(xy 185.42 200.66) (xy 177.8 200.66)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f80181cc-b264-45cb-ae16-fc06bef90c5e")
+	)
+	(wire
+		(pts
+			(xy 312.42 142.24) (xy 345.44 142.24)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f8b6809b-1a3e-402e-a6e1-32c4adeb56c3")
+	)
+	(wire
+		(pts
+			(xy 172.72 195.58) (xy 177.8 195.58)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fa920502-6ac1-43b2-989a-cdb3d67f541e")
+	)
+	(wire
+		(pts
+			(xy 246.38 210.82) (xy 231.14 210.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fdd4e0be-4b6d-45ca-bbee-8f319b1c59ec")
+	)
+	(wire
+		(pts
+			(xy 276.86 167.64) (xy 274.32 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fe3bd1cf-401c-4de4-b4a2-2e31183f8d0c")
+	)
+	(wire
+		(pts
+			(xy 144.78 193.04) (xy 144.78 195.58)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fede4654-4054-4898-8a70-2c2bc49b24bd")
+	)
+	(global_label "DET5"
+		(shape bidirectional)
+		(at 132.08 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "0dff8eb4-1563-46c6-877f-8d8f7b3dc09c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.5985 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VOCM_A2"
+		(shape bidirectional)
+		(at 157.48 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "10e6339a-c795-4d56-908d-b6687b4b96d2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.7323 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VN1P2"
+		(shape bidirectional)
+		(at 157.48 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "11cd704a-3d2b-4f76-9007-98a97bad6935")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.4801 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "V3P3A"
+		(shape bidirectional)
+		(at 157.48 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "4833dd61-1c2e-46b8-93af-b034e9e890ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.243 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "V3P3A"
+		(shape bidirectional)
+		(at 266.7 116.84 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "56389986-d7fa-4bfa-8326-51c43deae1a4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 266.7 107.077 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SDOB_A2"
+		(shape bidirectional)
+		(at 332.74 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "5e0788ad-4868-4705-abb5-2a8e80e96d0f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 344.933 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "V3P3"
+		(shape bidirectional)
+		(at 254 119.38 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "72576ac9-222e-437f-be88-1e852de11a9a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254 110.6838 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SDOA_A2"
+		(shape bidirectional)
+		(at 332.74 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "7bc6515e-de93-417d-8f36-64cb35dcdc5e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 344.7552 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "/CS_A2"
+		(shape bidirectional)
+		(at 332.74 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "9ab7583b-2650-47fc-98a1-b0212fb62708")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 343.6884 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "DET4"
+		(shape bidirectional)
+		(at 132.08 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "9ac0d69c-9dcb-4109-a704-c2fe987ea5fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.5985 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VOCM_A2"
+		(shape bidirectional)
+		(at 157.48 213.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "a725d7ca-39bb-43c1-b80c-4da85368c5b0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.7323 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VOCM_A2"
+		(shape bidirectional)
+		(at 231.14 210.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "b709ffe7-7330-4562-be29-09c56351cba3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 243.3923 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VN1P2"
+		(shape bidirectional)
+		(at 157.48 218.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "de8f092a-9704-4463-8c29-84b9c6fa4319")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.4801 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SDI_A2"
+		(shape bidirectional)
+		(at 332.74 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "e31c8dc9-7331-4f60-baf6-d1b65103efa3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 342.9772 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "V3P3A"
+		(shape bidirectional)
+		(at 157.48 210.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "f061e68c-49fc-4282-8a95-25b573cccdaf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.243 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SCLK_A2"
+		(shape bidirectional)
+		(at 332.74 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "ffcde258-5f7f-45e3-92be-341a1161b987")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 344.6366 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:TESTPOINT_ROUND")
+		(at 144.78 91.44 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "08a580eb-6e68-4356-9406-d3d29feca261")
+		(property "Reference" "TP6"
+			(at 144.78 89.916 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TESTPOINT_ROUND"
+			(at 144.78 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:TESTPAD_ROUND"
+			(at 144.78 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P$1"
+			(uuid "37fdf162-a0c9-4513-946f-e17f402ff8a0")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:CAP0402-CAP")
+		(at 223.52 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "10f3cedd-d8cc-4bdd-886b-db1e24988cab")
+		(property "Reference" "C23"
+			(at 225.044 93.599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1n"
+			(at 225.044 98.679 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:0402-CAP"
+			(at 223.52 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5fa665ba-19ca-4354-a369-aac7cf72f7de")
+		)
+		(pin "2"
+			(uuid "ce09f4d3-149d-4166-9b90-156bd0601614")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:RESISTOR0402-RES")
+		(at 152.4 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1568ce2d-0a7b-49cb-8e4a-4c554e90e578")
+		(property "Reference" "R21"
+			(at 148.59 176.3014 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "18k"
+			(at 148.59 181.102 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:0402-RES"
+			(at 152.4 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8923b507-6857-4e7f-8c0b-5d2eeab10213")
+		)
+		(pin "2"
+			(uuid "fd84c1a7-3910-4980-ad02-9c8e0b6cf4d8")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:CAP0402-CAP")
+		(at 251.46 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1753c89b-a6e1-41fb-8ea0-ccfb2cd984ce")
+		(property "Reference" "C33"
+			(at 252.984 167.259 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1u"
+			(at 252.984 172.339 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:0402-CAP"
+			(at 251.46 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "195c7237-715f-4aba-818e-d6f47241901a")
+		)
+		(pin "2"
+			(uuid "ce2e8a02-e4f7-487f-88f0-729a1291c73e")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:GND")
+		(at 144.78 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "17e2ce88-c737-4287-9b39-b5248b431c06")
+		(property "Reference" "#GND20"
+			(at 144.78 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "26c9736a-5ad0-4690-8ff8-6b860282965a")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "#GND20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:CAP0402-CAP")
+		(at 259.08 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1823fac2-3cdd-4331-bf96-81c04bd7f460")
+		(property "Reference" "C34"
+			(at 260.604 167.259 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 260.604 172.339 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:0402-CAP"
+			(at 259.08 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b522cbd-d8b6-4b24-a0b5-dcb8167dcea3")
+		)
+		(pin "2"
+			(uuid "4e6ce66c-c629-421b-833f-36026bdfac6a")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:GND")
+		(at 223.52 208.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "189b6450-bb3a-4902-8755-68ee2c96458c")
+		(property "Reference" "#GND30"
+			(at 223.52 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 210.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9f713066-e679-409d-8148-9fe7de66d47e")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "#GND30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:CAP0402-CAP")
+		(at 223.52 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "18b9fa76-c843-40be-aefb-211fbba9d895")
+		(property "Reference" "C24"
+			(at 225.044 106.299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1n"
+			(at 225.044 111.379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:0402-CAP"
+			(at 223.52 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "297ece52-7bf5-4406-a904-23f9633fe621")
+		)
+		(pin "2"
+			(uuid "76633113-bf76-482b-b8c9-6c167771b59f")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:RESISTOR0402-RES")
+		(at 152.4 193.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1a183a10-7e36-4e03-a190-25576ee4d91e")
+		(property "Reference" "R24"
+			(at 148.59 191.5414 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "18k"
+			(at 148.59 196.342 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:0402-RES"
+			(at 152.4 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "80b1d9f3-0f50-477c-9f2f-e67775be12d5")
+		)
+		(pin "2"
+			(uuid "e912cd17-6c7f-4801-9f93-8b3fe3112fe7")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:GND")
+		(at 144.78 198.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1e08135d-42bf-4a47-baa2-c4a084aa8f61")
+		(property "Reference" "#GND29"
+			(at 144.78 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 200.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5122b9d0-67bd-4b4e-beb1-3e31644e1dab")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "#GND29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:GND")
+		(at 172.72 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "210a2d40-bcdc-4963-a6e6-eaf160749d4f")
+		(property "Reference" "#GND25"
+			(at 172.72 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "db0ee2ac-b11e-406b-8bdf-37fb7ddde886")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "#GND25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:GND")
+		(at 271.78 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "25d18522-5d59-4ed6-b02c-39b499ac314a")
+		(property "Reference" "#GND28"
+			(at 271.78 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 269.24 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 271.78 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3e98cb5e-61db-4d2b-8dec-1a0b9361d30e")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "#GND28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:CAP0402-CAP")
+		(at 165.1 226.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3323ea57-a216-4445-93c6-aeb86509f0ab")
+		(property "Reference" "C40"
+			(at 166.624 223.139 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 166.624 228.219 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:0402-CAP"
+			(at 165.1 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "848932cc-cf89-469a-9489-fdcde6abbafe")
+		)
+		(pin "2"
+			(uuid "0227803e-8c57-4ebb-9c1d-1421cc9b9455")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:RESISTOR0402-RES")
+		(at 246.38 203.2 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3369147c-0d05-4995-a3bb-edaf633d019b")
+		(property "Reference" "R27"
+			(at 244.8814 207.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "18k"
+			(at 249.682 207.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:0402-RES"
+			(at 246.38 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "73e00832-3b14-4965-a2a4-163b385914de")
+		)
+		(pin "2"
+			(uuid "5e176d20-77be-476a-b752-69c37c77959d")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:GND")
+		(at 205.74 228.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "33e30a6c-ec80-4f8e-b4b0-884036f33f8c")
+		(property "Reference" "#GND31"
+			(at 205.74 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 231.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2ee76742-f8d5-42b2-bb4e-2f36b566aa88")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "#GND31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:CAP0402-CAP")
+		(at 172.72 226.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "35affe61-f477-44a3-8b34-363fd17bd741")
+		(property "Reference" "C41"
+			(at 174.244 223.139 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 174.244 228.219 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:0402-CAP"
+			(at 172.72 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca2e4794-69ce-43f1-ac80-f18678355be6")
+		)
+		(pin "2"
+			(uuid "f8893bb1-eae8-4f4d-8a2f-e51649a1631c")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:CAP0402-CAP")
+		(at 223.52 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "37a8c3d9-e4ba-4c46-a79c-61b7ef38ce45")
+		(property "Reference" "C37"
+			(at 225.044 185.039 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1n"
+			(at 225.044 190.119 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:0402-CAP"
+			(at 223.52 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "618696b2-886a-4b2f-b2ab-b2511a668780")
+		)
+		(pin "2"
+			(uuid "1fd44e65-a579-499d-ad2f-47b5e5488355")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:RESISTOR0402-RES")
+		(at 170.18 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3d0fb835-c55f-48f3-98d6-595776f422da")
+		(property "Reference" "R16"
+			(at 166.37 97.5614 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 166.37 102.362 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:0402-RES"
+			(at 170.18 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f117f72-2c83-404f-b5c1-e25cf8748ffe")
+		)
+		(pin "2"
+			(uuid "9a126260-3747-41ad-a0b4-550a4e7182b8")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:GND")
+		(at 233.68 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4115af52-ca9c-4c81-830f-5eee5df0a767")
+		(property "Reference" "#GND19"
+			(at 233.68 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 231.14 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2e18cb5b-6aa9-44d4-8bae-1fa7642cdac1")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "#GND19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:RESISTOR0402-RES")
+		(at 152.4 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4402de13-f0cd-4528-99bc-975e4de3a75d")
+		(property "Reference" "R15"
+			(at 148.59 97.5614 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "18k"
+			(at 148.59 102.362 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:0402-RES"
+			(at 152.4 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf0bd6e7-1773-4ecc-8bcf-378bf7717232")
+		)
+		(pin "2"
+			(uuid "be0bbcb2-b649-4e81-ac91-750b6d6865a1")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:CAP0402-CAP")
+		(at 254 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "46d2c0e4-d39b-4947-bad0-8caa6213338d")
+		(property "Reference" "C28"
+			(at 255.524 126.619 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1u"
+			(at 255.524 131.699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:0402-CAP"
+			(at 254 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 254 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e9c094b-79b1-4b72-8f8d-2e489af06638")
+		)
+		(pin "2"
+			(uuid "f6cff12b-cca5-4940-8249-17a96be7c7c0")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:CAP0402-CAP")
+		(at 180.34 226.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "46d528c9-200d-4141-a9b5-4cc37de62229")
+		(property "Reference" "C42"
+			(at 181.864 223.139 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 181.864 228.219 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:0402-CAP"
+			(at 180.34 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c7b4685a-90b4-428b-b029-90943ac60904")
+		)
+		(pin "2"
+			(uuid "c90dd9cb-3da7-4af4-87f8-459bcc01e36e")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:RESISTOR0402-RES")
+		(at 215.9 193.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "46f31b25-624b-44a9-a6f3-addf227475a0")
+		(property "Reference" "R26"
+			(at 212.09 191.5414 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "33"
+			(at 212.09 196.342 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:0402-RES"
+			(at 215.9 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fc5fc3b3-648b-4cf6-aa9f-9d9642b26607")
+		)
+		(pin "2"
+			(uuid "40f517d8-30a7-4390-81b3-da816dfa71a4")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:GND")
+		(at 233.68 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "480ceb3e-9d9c-420b-b728-7ccd86ec6bff")
+		(property "Reference" "#GND27"
+			(at 233.68 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 231.14 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "47824055-7a48-4ffa-b040-8e4b7515a040")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "#GND27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:AD7380")
+		(at 284.48 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "61d80a2b-d056-442b-9fbd-0fc2fc632769")
+		(property "Reference" "U3"
+			(at 281.94 129.032 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "AD7380"
+			(at 297.18 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:LFCSP16"
+			(at 284.48 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 284.48 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 284.48 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cc5b885c-3e4e-4ed7-9f0a-9f567bdcf558")
+		)
+		(pin "2"
+			(uuid "738673c2-6974-4212-835e-d57ce706fb56")
+		)
+		(pin "3"
+			(uuid "417ad9e9-bd02-4c3e-9d12-f2014c523828")
+		)
+		(pin "4"
+			(uuid "e8313211-a8b6-4615-9da8-dd184080ba76")
+		)
+		(pin "5"
+			(uuid "6dceee91-c25d-4440-a125-9e079f0a1392")
+		)
+		(pin "6"
+			(uuid "73259030-7719-4aa9-a1b5-a693c70dc499")
+		)
+		(pin "7"
+			(uuid "4305e858-e1ae-4c15-a052-46a7e03be084")
+		)
+		(pin "8"
+			(uuid "a138a494-194e-43dc-9b62-ecee0c974125")
+		)
+		(pin "9"
+			(uuid "f5794be1-c5af-437d-9563-f2962ed6916e")
+		)
+		(pin "10"
+			(uuid "dcb22a46-bf48-4921-bfb1-4aa2cfc31bd3")
+		)
+		(pin "11"
+			(uuid "85b806e1-b0d9-447f-8543-d67eadc790c8")
+		)
+		(pin "12"
+			(uuid "4eabb2dd-f219-43ef-b841-9bac9c23c6f6")
+		)
+		(pin "13"
+			(uuid "6ecb3685-abb6-400f-8a24-f06efdae1663")
+		)
+		(pin "14"
+			(uuid "d97e617b-2aa5-4769-b51e-911284524dc4")
+		)
+		(pin "15"
+			(uuid "3c8672d9-c810-4151-95fd-66ad11bc59a1")
+		)
+		(pin "16"
+			(uuid "4ae79dee-b71c-4537-8786-45d8e68e4194")
+		)
+		(pin "EP"
+			(uuid "e767396a-3d72-4da8-ab97-7f93a431343a")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:GND")
+		(at 246.38 228.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "68aa724b-057b-426d-8240-b528bd72f58a")
+		(property "Reference" "#GND32"
+			(at 246.38 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 231.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "05011b79-5806-45ce-b0b9-7ac9982b4c08")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "#GND32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:GND")
+		(at 180.34 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "69991511-112b-45c2-8564-d87f10ffa580")
+		(property "Reference" "#GND26"
+			(at 180.34 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0894aeb7-5d87-4d20-a65f-9677e9fb5eb9")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "#GND26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:CAP0402-CAP")
+		(at 266.7 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6d439d16-2372-411c-b0cf-f9dc7cc27477")
+		(property "Reference" "C27"
+			(at 268.224 121.539 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1u"
+			(at 268.224 126.619 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:0402-CAP"
+			(at 266.7 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e0dd69c4-c4a0-4222-b369-ae93b69b3891")
+		)
+		(pin "2"
+			(uuid "3aad84fd-f27e-43fb-8c38-ed620cbc08ed")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:GND")
+		(at 165.1 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7a3be7ff-7569-4b48-840c-75687c8ac34e")
+		(property "Reference" "#GND24"
+			(at 165.1 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dc24bc54-c26a-4810-80f2-cffdc28b3ca6")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "#GND24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:RESISTOR0402-RES")
+		(at 170.18 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7a8023e5-7030-4012-8c1a-363d6b7f9098")
+		(property "Reference" "R19"
+			(at 166.37 112.8014 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 166.37 117.602 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:0402-RES"
+			(at 170.18 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b6a38cf-1eed-4434-b3dc-066e2275a26d")
+		)
+		(pin "2"
+			(uuid "41316dd8-4467-4482-8ce5-1663862226a7")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:CAP0402-CAP")
+		(at 167.64 203.2 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7b02d0b6-ba3f-4ce9-a177-60283736eb5a")
+		(property "Reference" "C39"
+			(at 164.719 201.676 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "330p"
+			(at 169.799 201.676 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:0402-CAP"
+			(at 167.64 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1ceba036-d540-462c-9d68-44d63db9854e")
+		)
+		(pin "2"
+			(uuid "a02ce876-a82b-4c20-bc42-64238e752c09")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:CAP0402-CAP")
+		(at 266.7 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7b321c25-a1a4-41fe-95b1-ce09e2c4c4ca")
+		(property "Reference" "C35"
+			(at 268.224 167.259 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1u"
+			(at 268.224 172.339 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:0402-CAP"
+			(at 266.7 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "153d63ca-6901-487c-b6ef-8ee4414960cf")
+		)
+		(pin "2"
+			(uuid "109913a4-791c-4a14-b12e-f0d69b91b959")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:GND")
+		(at 266.7 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "87bbc4b9-bcac-4222-b1d0-594b911087d6")
+		(property "Reference" "#GND22"
+			(at 266.7 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 264.16 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "897f91ad-282b-406f-869b-8ecc06115814")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "#GND22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:CAP0402-CAP")
+		(at 223.52 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8b316bf4-f388-4487-9a71-a9942304716e")
+		(property "Reference" "C25"
+			(at 225.044 118.999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1n"
+			(at 225.044 124.079 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:0402-CAP"
+			(at 223.52 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c1607cd1-9be3-4cc0-9cb3-41cc6ab8652d")
+		)
+		(pin "2"
+			(uuid "7436e73d-ff1f-4744-9242-2653b0dcef10")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:CAP0402-CAP")
+		(at 180.34 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "974fc833-1218-48f5-a56e-f48309d03efd")
+		(property "Reference" "C31"
+			(at 181.864 144.399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 181.864 149.479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:0402-CAP"
+			(at 180.34 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cc3b0d4e-b353-44ea-aa6b-a24335db12d1")
+		)
+		(pin "2"
+			(uuid "cb06ca96-9c52-4d84-8124-7c7a5adb96b2")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:GND")
+		(at 172.72 233.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "996aa2fe-6981-4a4f-9df9-78c43028e1c9")
+		(property "Reference" "#GND34"
+			(at 172.72 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "44d5f571-4a8e-4602-a166-68fd00cb60e1")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "#GND34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:RESISTOR0402-RES")
+		(at 215.9 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "99d587b9-8398-4bd3-b19c-0156a4f7fc2d")
+		(property "Reference" "R17"
+			(at 212.09 100.1014 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "33"
+			(at 212.09 104.902 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:0402-RES"
+			(at 215.9 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c2fa205-d6b7-4a9b-add8-403f67ace0f7")
+		)
+		(pin "2"
+			(uuid "072abd8f-1e14-4cf5-a2df-0f842122068a")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:ADA4940-2")
+		(at 190.5 99.06 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a1d1dc2c-4717-437a-bc2a-877f86009f95")
+		(property "Reference" "U4"
+			(at 187.96 95.758 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "ADA4940-2"
+			(at 193.04 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:LFCSP24"
+			(at 190.5 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cc6e688b-e789-4759-b596-f9cbfde405f9")
+		)
+		(pin "2"
+			(uuid "4b37a371-bc29-4420-a3e4-650637bae65d")
+		)
+		(pin "3"
+			(uuid "3fb83eb5-fd16-4847-aabd-feed65659178")
+		)
+		(pin "4"
+			(uuid "db458c13-9f85-410f-a3de-5775e9d646e1")
+		)
+		(pin "17"
+			(uuid "e4a25069-22b2-446d-8bc2-f84b94f8f67f")
+		)
+		(pin "18"
+			(uuid "18eb3806-663e-40a8-b7ea-0f6620318074")
+		)
+		(pin "19"
+			(uuid "6a6e93a4-0128-4aea-a31e-4a2291fe36a7")
+		)
+		(pin "20"
+			(uuid "43d2e8be-248b-4ae0-8cb4-237830d48a18")
+		)
+		(pin "21"
+			(uuid "45434c47-b730-4e9d-b495-7717a7ddbc9a")
+		)
+		(pin "22"
+			(uuid "10c7b0c8-e4a3-4839-ae45-0fbd04ef8d73")
+		)
+		(pin "23"
+			(uuid "78395074-0488-4077-990f-437aa1351f11")
+		)
+		(pin "24"
+			(uuid "0f94110a-4545-4a6e-8739-e7df4f23bb03")
+		)
+		(pin "5"
+			(uuid "8d3dc6ec-d363-48aa-aaa5-d56a270d3966")
+		)
+		(pin "6"
+			(uuid "cf9b09ed-ab31-4366-833f-5394e7e82efd")
+		)
+		(pin "7"
+			(uuid "27d87f8a-a086-4b70-af3a-d447523a14af")
+		)
+		(pin "8"
+			(uuid "c2602ad4-abae-4b90-9d11-e10571ded120")
+		)
+		(pin "9"
+			(uuid "d14d5ae0-31f5-40a8-9d9e-5e07ffcc7270")
+		)
+		(pin "10"
+			(uuid "5d502574-4b83-4488-9c84-66b7c6c18e77")
+		)
+		(pin "11"
+			(uuid "bf861c29-7cac-4ff8-9a46-61ef2351ccdb")
+		)
+		(pin "12"
+			(uuid "a1a73dff-405e-48ba-80c5-9aba43f8f5d2")
+		)
+		(pin "13"
+			(uuid "884f12c6-a4af-4af3-90c6-555fb3fa6a27")
+		)
+		(pin "14"
+			(uuid "b62e7469-3282-4e4b-916b-086209120a86")
+		)
+		(pin "15"
+			(uuid "251f086f-9e39-4f2f-b023-20b72d1b7454")
+		)
+		(pin "16"
+			(uuid "307bbf06-ceac-4f50-b144-4423092c6316")
+		)
+		(pin "EP"
+			(uuid "bcc0bd86-541b-4b8f-b261-3d7f83d0e152")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "U4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:GND")
+		(at 165.1 233.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a4e41f2f-b75c-437a-8bc2-e205728d00f1")
+		(property "Reference" "#GND33"
+			(at 165.1 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2d5964ae-65fe-48c1-b142-6437a05aaa21")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "#GND33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:CAP0402-CAP")
+		(at 167.64 91.44 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a7fe6e3f-30ca-4b9c-b363-240c48519dfd")
+		(property "Reference" "C22"
+			(at 164.719 89.916 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "330p"
+			(at 169.799 89.916 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:0402-CAP"
+			(at 167.64 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a502064-cfde-449e-aa84-2c740d694eba")
+		)
+		(pin "2"
+			(uuid "c5f851ae-b979-4bc3-8fca-a2626079ccff")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:RESISTOR0402-RES")
+		(at 170.18 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ad49bd96-f269-4230-9ae7-e5e56b2fda6f")
+		(property "Reference" "R22"
+			(at 166.37 176.3014 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 166.37 181.102 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:0402-RES"
+			(at 170.18 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4735c009-3c5e-4f9d-9df7-b6e693cfe549")
+		)
+		(pin "2"
+			(uuid "9bc8b7f4-dfb2-4a07-baf3-ab49b146f818")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:CAP0402-CAP")
+		(at 167.64 124.46 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b22b05a7-71de-478a-b61f-fe8f02975619")
+		(property "Reference" "C26"
+			(at 164.719 122.936 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "330p"
+			(at 169.799 122.936 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:0402-CAP"
+			(at 167.64 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "951efb62-cdca-4b07-b51e-19ba598a77e6")
+		)
+		(pin "2"
+			(uuid "827bf046-4a4e-43ad-932f-4650c5582e03")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:ADA4940-2")
+		(at 190.5 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b391acef-691e-40d8-b093-5ca4ae83dea2")
+		(property "Reference" "U4"
+			(at 187.96 174.498 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "ADA4940-2"
+			(at 193.04 210.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:LFCSP24"
+			(at 190.5 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8e405325-70e4-475a-bcd7-a2d6b34a3ba7")
+		)
+		(pin "2"
+			(uuid "62be47eb-5fb1-462f-b45f-129cef5ab497")
+		)
+		(pin "3"
+			(uuid "92999ce6-0416-496b-9524-8f55d4a8ecc3")
+		)
+		(pin "4"
+			(uuid "fb79c6b3-4f14-4485-ba5b-347113a7d581")
+		)
+		(pin "17"
+			(uuid "53cbd2a3-64c9-4979-bcfe-0a150d204271")
+		)
+		(pin "18"
+			(uuid "9ad5f017-7aa9-454d-8962-199aa132d1ea")
+		)
+		(pin "19"
+			(uuid "4a7ceb82-bedc-424a-8a08-936caddf6c16")
+		)
+		(pin "20"
+			(uuid "2a2db80d-6776-47f8-80fc-5a42e1125f05")
+		)
+		(pin "21"
+			(uuid "ed0d279c-4e64-44e9-a31b-5c8021dbc8f4")
+		)
+		(pin "22"
+			(uuid "e7e04fb1-632d-4b4f-9fd6-5f5b63268b5a")
+		)
+		(pin "23"
+			(uuid "b656ea1f-77d7-4315-bbba-a3b81049c9e8")
+		)
+		(pin "24"
+			(uuid "5b85def6-d581-4223-848b-af6792bfd4d2")
+		)
+		(pin "5"
+			(uuid "28fd6d49-f12c-46df-aa84-8d461698db8b")
+		)
+		(pin "6"
+			(uuid "fff89269-5af6-4dcb-9754-daa05d6d0db9")
+		)
+		(pin "7"
+			(uuid "aa9d285f-fd8c-400e-8e2f-62fcd3efc641")
+		)
+		(pin "8"
+			(uuid "c31f1ad8-ca90-449c-bc7a-236b482ef93b")
+		)
+		(pin "9"
+			(uuid "f8366f3d-3804-49d1-8335-a967851c9e8d")
+		)
+		(pin "10"
+			(uuid "946d8ee1-122b-4221-914d-b2188f9b24ee")
+		)
+		(pin "11"
+			(uuid "a6d095aa-87b8-4c4a-9be6-b62f8c23100e")
+		)
+		(pin "12"
+			(uuid "47ea9b2d-9c8a-4f10-bd3e-2ddf8401aa57")
+		)
+		(pin "13"
+			(uuid "9f3b2c11-13b4-4903-8f59-6fa5d6dbc3ab")
+		)
+		(pin "14"
+			(uuid "d8e24b87-9d0b-4de2-a27f-a3cfb4aaeec0")
+		)
+		(pin "15"
+			(uuid "054cf6c0-7972-4f48-9d28-1f79ca8277fe")
+		)
+		(pin "16"
+			(uuid "2136f574-82f7-439a-bac1-49e2c2195744")
+		)
+		(pin "EP"
+			(uuid "2e9a1c5f-a159-4af5-a3e9-e68f1207dfd1")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:CAP0402-CAP")
+		(at 172.72 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b94eb5df-b689-4ff9-a7e6-392e0abf634e")
+		(property "Reference" "C30"
+			(at 174.244 144.399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 174.244 149.479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:0402-CAP"
+			(at 172.72 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a446b25c-c1e9-4b73-9b0a-b5c8acb0a8f4")
+		)
+		(pin "2"
+			(uuid "0968b56c-177a-45cd-af49-a95e44f785a0")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:RESISTOR0402-RES")
+		(at 215.9 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c24e6330-af7d-4c7c-a91b-be4b5ae9f650")
+		(property "Reference" "R20"
+			(at 212.09 112.8014 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "33"
+			(at 212.09 117.602 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:0402-RES"
+			(at 215.9 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b42f8f30-8a63-4f8f-a136-d43e9949286d")
+		)
+		(pin "2"
+			(uuid "b29f1fe2-d645-4ff5-9d01-39f8adc04023")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:GND")
+		(at 254 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c700b8e2-ca4c-4f93-b9b1-45a1d0f085a2")
+		(property "Reference" "#GND23"
+			(at 254 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.46 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 254 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aac73d84-32da-4d59-89f7-87e4d90afa23")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "#GND23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:CAP0402-CAP")
+		(at 223.52 200.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cae9f8ec-4795-4db5-ae6c-68aa3bad3c68")
+		(property "Reference" "C38"
+			(at 225.044 197.739 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1n"
+			(at 225.044 202.819 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:0402-CAP"
+			(at 223.52 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ad1dd219-be33-417f-8aaf-6e03721c0410")
+		)
+		(pin "2"
+			(uuid "3332a131-ecdd-4e8d-95a1-819b6339b212")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:RESISTOR0402-RES")
+		(at 152.4 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cc64c5fc-64b1-45e4-b3c8-baa8898939ee")
+		(property "Reference" "R18"
+			(at 148.59 112.8014 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "18k"
+			(at 148.59 117.602 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:0402-RES"
+			(at 152.4 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "40649be7-28b5-41ba-bada-d08212aee122")
+		)
+		(pin "2"
+			(uuid "5c26569b-a1fd-49b0-8d05-e58df0573f86")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:RESISTOR0402-RES")
+		(at 246.38 218.44 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cf81da66-0a71-4b8f-a3eb-e050fe8c30d3")
+		(property "Reference" "R28"
+			(at 244.8814 222.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "18k"
+			(at 249.682 222.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:0402-RES"
+			(at 246.38 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4942678d-ba56-4395-8a75-25f1d67587e9")
+		)
+		(pin "2"
+			(uuid "535938dc-d4e8-4d43-b663-5be6d598cb6c")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:CAP0402-CAP")
+		(at 165.1 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d7ea2913-0f1c-478d-9d4b-9b8b5e723ae1")
+		(property "Reference" "C29"
+			(at 166.624 144.399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 166.624 149.479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:0402-CAP"
+			(at 165.1 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2bfac499-de9c-41c4-93d0-c3838f477965")
+		)
+		(pin "2"
+			(uuid "2f2c381f-0e42-49dc-85b8-4aa77ce3c7a6")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:CAP0402-CAP")
+		(at 223.52 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dc56b975-6d47-4335-b2ef-25846c57e152")
+		(property "Reference" "C36"
+			(at 225.044 172.339 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1n"
+			(at 225.044 177.419 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:0402-CAP"
+			(at 223.52 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "88bb40cb-05fb-4569-bc1b-046d00c059b1")
+		)
+		(pin "2"
+			(uuid "9cf91d74-e56a-457c-a7e0-a5db7aed9e0d")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:RESISTOR0402-RES")
+		(at 170.18 193.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e18d9c56-54f0-4813-9f4f-60370a5da658")
+		(property "Reference" "R25"
+			(at 166.37 191.5414 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 166.37 196.342 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:0402-RES"
+			(at 170.18 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "42f3cd5e-3c63-48be-9a71-495f46222890")
+		)
+		(pin "2"
+			(uuid "6e2e4328-bfd0-4292-b3fd-b64bba82c6cc")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:GND")
+		(at 223.52 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e192c750-357b-4a82-af1d-b3ce9d5cdacd")
+		(property "Reference" "#GND21"
+			(at 223.52 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3e41533e-93c7-45b4-b624-679ecd20549a")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "#GND21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:RESISTOR0402-RES")
+		(at 215.9 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ec74e950-be80-4aa8-aa95-9c413b562545")
+		(property "Reference" "R23"
+			(at 212.09 178.8414 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "33"
+			(at 212.09 183.642 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:0402-RES"
+			(at 215.9 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06a44ae3-c9d9-4a51-9a95-cf3d01c2baff")
+		)
+		(pin "2"
+			(uuid "ebf70090-28bb-4a00-954e-89fb96341762")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:CAP0402-CAP")
+		(at 167.64 170.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f21cc720-8701-459d-91ba-1835abce56f8")
+		(property "Reference" "C32"
+			(at 164.719 168.656 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "330p"
+			(at 169.799 168.656 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:0402-CAP"
+			(at 167.64 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e94fa08-1589-431d-84f7-51bcdfc362f9")
+		)
+		(pin "2"
+			(uuid "16a3308b-dafd-4de2-bc5a-e4bbf96bb7f4")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:TESTPOINT_ROUND")
+		(at 254 210.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f7ca95d2-7715-44b5-9fc2-42e76f30d2fb")
+		(property "Reference" "TP8"
+			(at 255.524 210.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TESTPOINT_ROUND"
+			(at 254 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:TESTPAD_ROUND"
+			(at 254 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 254 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P$1"
+			(uuid "8f3bce21-a05a-455b-8e25-747c7a406a69")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:GND")
+		(at 180.34 233.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f9e12b62-c611-4f68-94ff-b27f4fa72c33")
+		(property "Reference" "#GND35"
+			(at 180.34 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5d338165-a4e0-477e-a6ce-c0c1d719c927")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "#GND35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:TESTPOINT_ROUND")
+		(at 144.78 170.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fc3db582-462e-4850-bd87-1f3bd671a97d")
+		(property "Reference" "TP7"
+			(at 144.78 168.656 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TESTPOINT_ROUND"
+			(at 144.78 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:TESTPAD_ROUND"
+			(at 144.78 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P$1"
+			(uuid "e10b28b0-0e7f-4a3a-9c24-85b45b8a18b7")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:ADA4940-2")
+		(at 195.58 223.52 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ffe98958-8423-47c8-b56b-e22d8a77d5d2")
+		(property "Reference" "U4"
+			(at 193.04 220.218 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "ADA4940-2"
+			(at 193.04 228.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NN22_RPi_DetAdapter03_s00:LFCSP24"
+			(at 195.58 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c70965f9-7dcb-49bc-b4c3-3ec9e849c4c6")
+		)
+		(pin "2"
+			(uuid "039c91a0-47df-42d3-8e9a-745b4a3c594a")
+		)
+		(pin "3"
+			(uuid "f9d6fe40-3e22-444d-86e3-9623d7ddeda6")
+		)
+		(pin "4"
+			(uuid "924b59f3-ff68-46a4-afb8-f3d301e442b5")
+		)
+		(pin "17"
+			(uuid "d3f1948e-701a-45e5-8061-fd242aac0809")
+		)
+		(pin "18"
+			(uuid "f971d37f-0ed7-491e-ad6b-978b04247562")
+		)
+		(pin "19"
+			(uuid "ee38001f-a491-4508-b751-fccd9a5ed4a0")
+		)
+		(pin "20"
+			(uuid "5be32d5b-20af-4949-8573-96b8ee297237")
+		)
+		(pin "21"
+			(uuid "7f7d53ca-73ee-463c-89a3-b67c7e97c694")
+		)
+		(pin "22"
+			(uuid "0eda7e14-911c-4cab-9141-1d6d2645bd43")
+		)
+		(pin "23"
+			(uuid "9b2ed146-f849-411e-89db-72e96c35fce3")
+		)
+		(pin "24"
+			(uuid "51ab403e-437b-4f64-bf94-73466b23384a")
+		)
+		(pin "5"
+			(uuid "ff2e734c-0ea9-42ea-a1e9-e8ebb92fd867")
+		)
+		(pin "6"
+			(uuid "16cf00f4-affb-4054-a392-54f7159892d5")
+		)
+		(pin "7"
+			(uuid "96060b5d-65fa-4ed5-a6d3-0c635876a891")
+		)
+		(pin "8"
+			(uuid "b7b2ce3d-e724-4d83-9080-4755754f6c00")
+		)
+		(pin "9"
+			(uuid "62188fcb-dc12-43ec-979c-51c94b97179e")
+		)
+		(pin "10"
+			(uuid "b224853c-6b5e-4780-a74e-6a174d6fbf7c")
+		)
+		(pin "11"
+			(uuid "983712d2-1f7c-4c66-ae11-bef03ee46f4a")
+		)
+		(pin "12"
+			(uuid "54e70f38-8ae7-4b29-adcf-e70b1b9e90e3")
+		)
+		(pin "13"
+			(uuid "7ed36928-61bd-4882-b857-df0b2dd5705b")
+		)
+		(pin "14"
+			(uuid "185dd219-12c7-4fd1-b99e-51dfd8626517")
+		)
+		(pin "15"
+			(uuid "6452d2ca-245f-455d-8f6b-bf10553fa4f5")
+		)
+		(pin "16"
+			(uuid "0df7cdd6-bcfc-45c9-9100-e823549c691a")
+		)
+		(pin "EP"
+			(uuid "0a894bfd-01c2-40b1-961a-2f484cc97c4c")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/ec3b0e5e-a6c5-4b82-bd98-ccf5898bafc2"
+					(reference "U4")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "2")
+		)
+	)
+)

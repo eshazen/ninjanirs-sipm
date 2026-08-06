@@ -1,40 +1,37 @@
 # For PCBs designed using KiCad: https://www.kicad.org/
 # Format documentation: https://kicad.org/help/file-formats/
 
-*.elf
-*.hex
-*.map
-*.lst
+.idea/
 
-# Temporary files
-*.000
+# ==========================================
+# KiCad 10 Recommended .gitignore
+# ==========================================
+
+# KiCad 10 Local Backups and Git History
+.history/
 *.bak
+*-bak
 *.bck
-*.kicad_pcb-bak
-*.kicad_sch-bak
-*-backups
+
+# Local Project Workspace State (Window positions, active layers)
 *.kicad_prl
-*.sch-bak
-*~
-_autosave-*
-*.tmp
-*-save.pro
-*-save.kicad_pcb
-fp-info-cache
+
+# Temporary and Lock Files
 *.lck
+*.tmp
 
-# Netlist files (exported from Eeschema)
-*.net
+# Auto-generated ERC and DRC Reports
+*.erc
+*.drc
+*.rpt
 
-# Autorouter files (exported from Pcbnew)
-*.dsn
-*.ses
+# Standard Manufacturing Output Folders
+# (Uncomment if you regenerate these locally and do not want them in Git)
+# gbr/
+# gerber/
+# gerbers/
+# specctra_dsn/
 
-# Exported BOM files
-*.xml
-# *.csv
-
-# -*- mode: gitignore; -*-
 *~
 \#*\#
 /.emacs.desktop
@@ -137,3 +134,8 @@ core
 lost+found
 
 # ignore ./con
+
+*.elf
+*.lst
+*.hex
+*.map

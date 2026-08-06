@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "NN22_RPi_DetAdapter03_s00-eagle-import") (type "KiCad") (uri "${KIPRJMOD}/NN22_RPi_DetAdapter03_s00-eagle-import.kicad_sym") (options "") (descr ""))
+)
