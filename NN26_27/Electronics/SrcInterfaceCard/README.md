@@ -25,3 +25,5 @@ There is an updated BOM downloaded from MacroFab.
 
 As of today (8/6/26) the MacroFab design NN22_VCCS_SrcAdapter02
 version 2 is the high power version.  Version 1 is the std one.
+
+**2026-08-24** Ordered 20 pcs of the HP source adapter on Macrofab (#jr15eh3)
