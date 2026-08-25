@@ -5268,6 +5268,28 @@
 				)
 			)
 		)
+		(property "MFG1" "Murata"
+			(at 180.34 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "GRM155R71H104KE14D"
+			(at 180.34 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e0911606-8995-4944-a4f3-8fb0aff36b7f")
 		)
@@ -5349,6 +5371,28 @@
 				)
 			)
 		)
+		(property "MFG1" "Murata"
+			(at 167.64 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "GRM1555C1H331JA01D"
+			(at 167.64 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "86b0e3d1-f0bd-44cd-b629-eb68352ad682")
 		)
@@ -5420,6 +5464,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 266.7 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG1" "Samsung"
+			(at 266.7 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "CL05A105KP5NNNC"
 			(at 266.7 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -5589,6 +5655,28 @@
 				)
 			)
 		)
+		(property "MFG1" "Vishay"
+			(at 215.9 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "CRCW040233R0FKEDC"
+			(at 215.9 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c7d1bcf9-98fe-47e4-a12b-d09e73d1e4a7")
 		)
@@ -5738,6 +5826,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 170.18 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG1" "Susumu"
+			(at 170.18 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "RR0510P-222-D"
 			(at 170.18 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -5907,6 +6017,28 @@
 				)
 			)
 		)
+		(property "MFG1" "Susumu"
+			(at 152.4 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "RR0510P-183-D"
+			(at 152.4 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e75cadc1-b97f-4f8f-ba0c-07b2d2c9ab9f")
 		)
@@ -6066,6 +6198,28 @@
 				)
 			)
 		)
+		(property "MFG1" "Murata"
+			(at 223.52 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "GRM1555C1H102JA01D"
+			(at 223.52 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "58a8fe2e-e72f-45c0-92ac-cf7dd4c81b25")
 		)
@@ -6090,7 +6244,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "200895fd-c546-4663-8fea-897ab243305a")
 		(property "Reference" "TP13"
 			(at 144.78 89.916 0)
@@ -6137,6 +6291,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 144.78 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG1" ""
+			(at 144.78 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" ""
 			(at 144.78 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6215,6 +6391,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 284.48 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG1" "Analog Devices"
+			(at 284.48 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "AD7380BCPZ-RL7"
 			(at 284.48 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -6351,6 +6549,28 @@
 				)
 			)
 		)
+		(property "MFG1" "Murata"
+			(at 167.64 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "GRM1555C1H331JA01D"
+			(at 167.64 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9ba14ec6-3eaf-4c7c-aa67-8d2d91a9873f")
 		)
@@ -6422,6 +6642,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 170.18 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG1" "Susumu"
+			(at 170.18 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "RR0510P-222-D"
 			(at 170.18 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -6591,6 +6833,28 @@
 				)
 			)
 		)
+		(property "MFG1" "Vishay"
+			(at 215.9 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "CRCW040233R0FKEDC"
+			(at 215.9 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b2c3f024-d779-4321-835f-ce06816fbabf")
 		)
@@ -6662,6 +6926,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 223.52 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG1" "Murata"
+			(at 223.52 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "GRM1555C1H102JA01D"
 			(at 223.52 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6753,6 +7039,28 @@
 				)
 			)
 		)
+		(property "MFG1" "Susumu"
+			(at 170.18 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "RR0510P-222-D"
+			(at 170.18 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2ff28b29-9fb4-4dcb-bfa3-893f6414a40d")
 		)
@@ -6824,6 +7132,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 152.4 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG1" "Susumu"
+			(at 152.4 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "RR0510P-183-D"
 			(at 152.4 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -6915,6 +7245,28 @@
 				)
 			)
 		)
+		(property "MFG1" "Susumu"
+			(at 170.18 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "RR0510P-222-D"
+			(at 170.18 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a9c96e62-5507-4822-b3a5-3160cb4545ed")
 		)
@@ -6986,6 +7338,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 251.46 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG1" "Samsung"
+			(at 251.46 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "CL05A105KP5NNNC"
 			(at 251.46 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -7098,7 +7472,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4bf8329e-070c-423f-aaec-fd249c5a31ff")
 		(property "Reference" "TP16"
 			(at 255.524 210.82 0)
@@ -7145,6 +7519,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 254 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG1" ""
+			(at 254 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" ""
 			(at 254 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -7223,6 +7619,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 190.5 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG1" "Analog Devices"
+			(at 190.5 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "ADA4940-2ACPZ-R7"
 			(at 190.5 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -7383,6 +7801,28 @@
 				)
 			)
 		)
+		(property "MFG1" "Susumu"
+			(at 152.4 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "RR0510P-183-D"
+			(at 152.4 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "999e15af-f193-4680-91e4-34be72392106")
 		)
@@ -7464,6 +7904,28 @@
 				)
 			)
 		)
+		(property "MFG1" "Susumu"
+			(at 152.4 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "RR0510P-183-D"
+			(at 152.4 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8349a43a-3590-4e31-b844-af3a43bf4924")
 		)
@@ -7488,7 +7950,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "60542b8e-0962-4b5c-af30-5bc605804b82")
 		(property "Reference" "TP15"
 			(at 144.78 168.656 0)
@@ -7535,6 +7997,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 144.78 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG1" ""
+			(at 144.78 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" ""
 			(at 144.78 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -7701,6 +8185,28 @@
 				)
 			)
 		)
+		(property "MFG1" "Vishay"
+			(at 215.9 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "CRCW040233R0FKEDC"
+			(at 215.9 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5e776cb9-2904-49c9-b374-3cfba1ae682a")
 		)
@@ -7782,6 +8288,28 @@
 				)
 			)
 		)
+		(property "MFG1" "Murata"
+			(at 180.34 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "GRM155R71H104KE14D"
+			(at 180.34 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d49963d5-1a81-4278-8863-c057af46c18d")
 		)
@@ -7853,6 +8381,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 246.38 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG1" "Susumu"
+			(at 246.38 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "RR0510P-183-D"
 			(at 246.38 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -8090,6 +8640,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 165.1 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG1" "Murata"
+			(at 165.1 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "GRM155R71H104KE14D"
 			(at 165.1 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -8415,6 +8987,28 @@
 				)
 			)
 		)
+		(property "MFG1" "Murata"
+			(at 223.52 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "GRM1555C1H102JA01D"
+			(at 223.52 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "57ea0f55-ca4f-49ec-a6ba-b42c3354c57e")
 		)
@@ -8496,6 +9090,28 @@
 				)
 			)
 		)
+		(property "MFG1" "Murata"
+			(at 223.52 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "GRM1555C1H102JA01D"
+			(at 223.52 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b80d3037-2d90-4f98-9ab1-670c72c25fe2")
 		)
@@ -8567,6 +9183,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 190.5 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG1" "Analog Devices"
+			(at 190.5 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "ADA4940-2ACPZ-R7"
 			(at 190.5 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -8727,6 +9365,28 @@
 				)
 			)
 		)
+		(property "MFG1" "Susumu"
+			(at 246.38 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "RR0510P-183-D"
+			(at 246.38 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f2c388a6-35db-4664-816b-862480b5e9e4")
 		)
@@ -8798,6 +9458,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 172.72 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG1" "Murata"
+			(at 172.72 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "GRM155R71H104KE14D"
 			(at 172.72 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -8889,6 +9571,28 @@
 				)
 			)
 		)
+		(property "MFG1" "Murata"
+			(at 259.08 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "GRM155R71H104KE14D"
+			(at 259.08 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "76287d83-d27f-4a00-9444-04eccc25ea48")
 		)
@@ -8960,6 +9664,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 223.52 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG1" "Murata"
+			(at 223.52 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "GRM1555C1H102JA01D"
 			(at 223.52 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -9051,6 +9777,28 @@
 				)
 			)
 		)
+		(property "MFG1" "Samsung"
+			(at 254 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "CL05A105KP5NNNC"
+			(at 254 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "092ef5bd-d082-47d4-824a-45864ae4db79")
 		)
@@ -9132,6 +9880,28 @@
 				)
 			)
 		)
+		(property "MFG1" "Vishay"
+			(at 215.9 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "CRCW040233R0FKEDC"
+			(at 215.9 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "28359bba-a632-4b8c-be85-2f1583a3631a")
 		)
@@ -9203,6 +9973,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 195.58 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG1" "Analog Devices"
+			(at 195.58 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "ADA4940-2ACPZ-R7"
 			(at 195.58 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -9353,6 +10145,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 165.1 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG1" "Murata"
+			(at 165.1 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "GRM155R71H104KE14D"
 			(at 165.1 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -9600,6 +10414,28 @@
 				)
 			)
 		)
+		(property "MFG1" "Murata"
+			(at 167.64 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "GRM1555C1H331JA01D"
+			(at 167.64 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "be65ea5a-279c-492b-9310-54bcb7f4675a")
 		)
@@ -9671,6 +10507,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 266.7 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG1" "Samsung"
+			(at 266.7 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "CL05A105KP5NNNC"
 			(at 266.7 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -9918,6 +10776,28 @@
 				)
 			)
 		)
+		(property "MFG1" "Murata"
+			(at 167.64 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "GRM1555C1H331JA01D"
+			(at 167.64 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6f1dcc2d-dd9e-4f2c-8953-ef8d91b1a161")
 		)
@@ -9989,6 +10869,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 172.72 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG1" "Murata"
+			(at 172.72 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "GRM155R71H104KE14D"
 			(at 172.72 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -10148,6 +11050,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 223.52 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG1" "Murata"
+			(at 223.52 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "GRM1555C1H102JA01D"
 			(at 223.52 187.96 0)
 			(hide yes)
 			(show_name no)

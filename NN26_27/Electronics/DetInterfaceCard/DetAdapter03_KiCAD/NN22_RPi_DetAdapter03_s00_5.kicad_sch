@@ -9239,6 +9239,28 @@
 				)
 			)
 		)
+		(property "MFG1" "Yageo"
+			(at 154.94 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "RC0402FR-071K2L"
+			(at 154.94 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d5c00ff1-74fd-47fc-8e1a-527d05f86583")
 		)
@@ -9398,6 +9420,28 @@
 				)
 			)
 		)
+		(property "MFG1" "Winbond"
+			(at 297.18 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "W25Q16RVXHJQ TR"
+			(at 297.18 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8d5b23c2-3ff6-4834-acb8-8b7c413ede02")
 		)
@@ -9487,6 +9531,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 226.06 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG1" "Raspberry Pi"
+			(at 226.06 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "SC0914(7)"
 			(at 226.06 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -9743,6 +9809,28 @@
 				)
 			)
 		)
+		(property "MFG1" "CTS Components"
+			(at 274.32 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "403I35D12M00000"
+			(at 274.32 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "511f8f6e-b958-404e-b425-ae1bcc57bc0d")
 		)
@@ -9820,6 +9908,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 264.16 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG1" "Murata"
+			(at 264.16 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "GRM155R71H104KE14D"
 			(at 264.16 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -9990,6 +10100,28 @@
 				)
 			)
 		)
+		(property "MFG1" "Lite-On"
+			(at 154.94 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "LTST-C191KRKT"
+			(at 154.94 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A"
 			(uuid "02e5dfec-febb-4484-af57-9aae8c6f2e8f")
 		)
@@ -10062,6 +10194,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 355.6 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG1" "Amphenol Communications Solutions"
+			(at 355.6 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "101181940001LF"
 			(at 355.6 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -10258,6 +10412,28 @@
 				)
 			)
 		)
+		(property "MFG1" "Yageo"
+			(at 287.02 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "RC0402FR-0727RL"
+			(at 287.02 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3b0ef9a8-124c-4d4c-8040-77016ae03e09")
 		)
@@ -10329,6 +10505,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 259.08 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG1" "Yageo"
+			(at 259.08 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "RC0402FR-071K2L"
 			(at 259.08 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -10576,6 +10774,28 @@
 				)
 			)
 		)
+		(property "MFG1" "Yageo"
+			(at 254 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "RC0402FR-07100KL"
+			(at 254 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "334bf078-a037-4f99-ae57-dcd3704fe80b")
 		)
@@ -10725,6 +10945,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 99.06 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG1" "Raspberry Pi"
+			(at 99.06 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "SC0914(7)"
 			(at 99.06 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -10981,6 +11223,28 @@
 				)
 			)
 		)
+		(property "MFG1" "Yageo"
+			(at 238.76 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "RC0402FR-071K2L"
+			(at 238.76 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "51492b5c-2603-420f-85ba-dce00a4269fb")
 		)
@@ -11062,6 +11326,28 @@
 				)
 			)
 		)
+		(property "MFG1" "Yageo"
+			(at 292.1 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "RC0402FR-0727RL"
+			(at 292.1 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "52fba75a-253b-49e9-8fd8-2af960504f7f")
 		)
@@ -11086,7 +11372,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "91aa4f87-b3f5-48b2-9c37-1a62068044b9")
 		(property "Reference" "R63"
 			(at 161.29 95.0214 0)
@@ -11133,6 +11419,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 165.1 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG1" ""
+			(at 165.1 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" ""
 			(at 165.1 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -11302,6 +11610,28 @@
 				)
 			)
 		)
+		(property "MFG1" "C&K Components"
+			(at 228.6 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "KMR231NGLFS"
+			(at 228.6 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7424e1f2-47b7-4ae1-8224-96fcae5581d4")
 		)
@@ -11461,6 +11791,28 @@
 				)
 			)
 		)
+		(property "MFG1" "Murata"
+			(at 266.7 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "GCM1555C1H270JA16D"
+			(at 266.7 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c29e30a0-4253-4d3f-961b-3b4cd69e53c2")
 		)
@@ -11532,6 +11884,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 248.92 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG1" "Yageo"
+			(at 248.92 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "RC0402FR-07100KL"
 			(at 248.92 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -11935,6 +12309,28 @@
 				)
 			)
 		)
+		(property "MFG1" "HARTING Elektronik"
+			(at 124.46 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "15150402601000"
+			(at 124.46 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A1"
 			(uuid "0ade2303-fd66-494b-b4bf-3e05ad2421a5")
 		)
@@ -12130,6 +12526,28 @@
 				)
 			)
 		)
+		(property "MFG1" "Murata"
+			(at 281.94 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "GCM1555C1H270JA16D"
+			(at 281.94 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "85634814-b525-4d26-a9c5-68c8a6a226d8")
 		)
@@ -12154,7 +12572,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f717d7bb-d550-4e26-a848-047abf91ac4d")
 		(property "Reference" "J3"
 			(at 303.276 187.198 0)
@@ -12201,6 +12619,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 304.8 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG1" ""
+			(at 304.8 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" ""
 			(at 304.8 190.5 0)
 			(hide yes)
 			(show_name no)
