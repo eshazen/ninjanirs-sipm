@@ -799,165 +799,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "NN22_RPi_DetAdapter03_s00-eagle-import:DIODE_SOD523"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at -3.81 2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -3.81 -4.064 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "NN22_RPi_DetAdapter03_s00:SOD523"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "DIODE_SOD523_1_0"
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "NN22_RPi_DetAdapter03_s00-eagle-import:FIDUCIALUFIDUCIAL"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3176,162 +3017,212 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(polyline
-		(pts
-			(xy 70.1675 17.78) (xy 70.1675 21.59)
+		(symbol "my_Diode:Diode_DFN-3"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D3"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Diode_DFN-3"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Diode"
+				(at 10.16 5.334 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 8.128 3.302 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 11.938 7.366 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Diode_DFN-3_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Diode_DFN-3_1_0"
+				(pin bidirectional line
+					(at 3.81 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Diode_DFN-3_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "0b239773-02ec-42e5-b545-b48185dd5dce")
-	)
-	(polyline
-		(pts
-			(xy 17.78 124.46) (xy 21.59 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "1e6c64c1-f6bc-46e2-a962-94d1916b905f")
-	)
-	(polyline
-		(pts
-			(xy 174.9425 280.67) (xy 174.9425 284.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "22111a6f-61f6-48bb-90fb-cc2278c54e62")
-	)
-	(polyline
-		(pts
-			(xy 279.7175 17.78) (xy 279.7175 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "259e1ad2-1ca5-4643-8bc3-d0a9d76b165a")
-	)
-	(polyline
-		(pts
-			(xy 17.78 177.8) (xy 21.59 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "44a83fa3-eaf6-4d9d-a6a5-265616eb365e")
-	)
-	(polyline
-		(pts
-			(xy 433.07 280.67) (xy 21.59 280.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "4e082c61-0398-4c02-bb54-90fd8261e759")
-	)
-	(polyline
-		(pts
-			(xy 332.105 280.67) (xy 332.105 284.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "574f6805-982d-40b0-8904-e9d34dd0555d")
-	)
-	(polyline
-		(pts
-			(xy 433.07 231.14) (xy 436.88 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "5ca3422e-0895-4e31-8b6e-be5feb881fe3")
-	)
-	(polyline
-		(pts
-			(xy 332.105 17.78) (xy 332.105 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "5f36ce28-70ef-4dbf-b3e5-480fbe6e4ffa")
-	)
-	(polyline
-		(pts
-			(xy 433.07 124.46) (xy 436.88 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "69554a39-0812-43e3-83d8-7d6f2c35abd7")
-	)
-	(polyline
-		(pts
-			(xy 122.555 280.67) (xy 122.555 284.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "6aa5331e-cf87-4e5d-83b9-f71a8fcc6701")
-	)
-	(polyline
-		(pts
-			(xy 17.78 231.14) (xy 21.59 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "6e3df129-704d-46df-bfc9-3888c38952ca")
 	)
 	(polyline
 		(pts
@@ -3345,188 +3236,6 @@
 			(type none)
 		)
 		(uuid "7f8c9792-6682-4442-9bca-44d7f809aacb")
-	)
-	(polyline
-		(pts
-			(xy 227.33 17.78) (xy 227.33 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "855f8d4b-4ae2-4a42-8ef2-8efc1e4dd2f9")
-	)
-	(polyline
-		(pts
-			(xy 70.1675 280.67) (xy 70.1675 284.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "8a0a4288-dd4a-4430-9e1f-86bdee5d06a9")
-	)
-	(polyline
-		(pts
-			(xy 21.59 21.59) (xy 21.59 280.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "8e20d069-64bc-4804-93b6-7296ff1a823d")
-	)
-	(polyline
-		(pts
-			(xy 384.4925 17.78) (xy 384.4925 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "9477b3d2-d124-447a-b4df-98ada3ad410d")
-	)
-	(polyline
-		(pts
-			(xy 433.07 21.59) (xy 433.07 280.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "9d12b282-c773-4280-8f7f-bcda7d5d8492")
-	)
-	(polyline
-		(pts
-			(xy 17.78 71.12) (xy 21.59 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "9d5de34c-c345-4b10-97d2-2344bbaebd9c")
-	)
-	(polyline
-		(pts
-			(xy 384.4925 280.67) (xy 384.4925 284.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "a4f77d87-fe1f-485b-ad3c-2a89c173b8e3")
-	)
-	(polyline
-		(pts
-			(xy 174.9425 17.78) (xy 174.9425 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "b31d2c76-d317-432f-b084-ac7decf4e912")
-	)
-	(polyline
-		(pts
-			(xy 279.7175 280.67) (xy 279.7175 284.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "b5806e48-2c88-42da-b151-c9396501e556")
-	)
-	(polyline
-		(pts
-			(xy 227.33 280.67) (xy 227.33 284.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "d2f35cb3-b572-43fd-b7e4-83ca594a0475")
-	)
-	(polyline
-		(pts
-			(xy 433.07 21.59) (xy 21.59 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "e10d1b0c-0e40-4768-b254-a672e0503537")
-	)
-	(polyline
-		(pts
-			(xy 433.07 177.8) (xy 436.88 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "e8de891a-d34f-41f5-a863-d761a016b788")
-	)
-	(polyline
-		(pts
-			(xy 122.555 17.78) (xy 122.555 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "f11127fa-348c-4177-8e9f-14de93725070")
-	)
-	(polyline
-		(pts
-			(xy 433.07 71.12) (xy 436.88 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "f83c8161-2995-4bab-a556-f03e773e370d")
 	)
 	(text "E"
 		(exclude_from_sim no)
@@ -3598,6 +3307,17 @@
 			)
 		)
 		(uuid "1bdae0c4-a0aa-439d-9f8f-a64ca6318a05")
+	)
+	(text "D1, D2 replaced with DFN"
+		(exclude_from_sim no)
+		(at 54.102 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2ae7a0e7-f409-4450-9708-49fd17c0950f")
 	)
 	(text "3"
 		(exclude_from_sim no)
@@ -4143,6 +3863,16 @@
 		)
 		(uuid "0b0a6575-24de-4b60-b87e-c3d18a76f129")
 	)
+	(polyline
+		(pts
+			(xy 70.1675 17.78) (xy 70.1675 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b239773-02ec-42e5-b545-b48185dd5dce")
+	)
 	(wire
 		(pts
 			(xy 114.3 208.28) (xy 111.76 208.28)
@@ -4253,6 +3983,16 @@
 		)
 		(uuid "1bd6b55c-b453-424e-acb3-f3da07c57fa6")
 	)
+	(polyline
+		(pts
+			(xy 17.78 124.46) (xy 21.59 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e6c64c1-f6bc-46e2-a962-94d1916b905f")
+	)
 	(wire
 		(pts
 			(xy 144.78 83.82) (xy 144.78 86.36)
@@ -4272,6 +4012,16 @@
 			(type solid)
 		)
 		(uuid "1f631f78-9067-4dd7-9e11-76295a7e9455")
+	)
+	(polyline
+		(pts
+			(xy 174.9425 280.67) (xy 174.9425 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22111a6f-61f6-48bb-90fb-cc2278c54e62")
 	)
 	(wire
 		(pts
@@ -4302,6 +4052,16 @@
 			(type solid)
 		)
 		(uuid "2577a7c0-5547-4d45-a62c-8d5a281dd465")
+	)
+	(polyline
+		(pts
+			(xy 279.7175 17.78) (xy 279.7175 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "259e1ad2-1ca5-4643-8bc3-d0a9d76b165a")
 	)
 	(wire
 		(pts
@@ -4553,6 +4313,16 @@
 		)
 		(uuid "41115c3b-b6db-4d38-aaa2-e944e7690012")
 	)
+	(polyline
+		(pts
+			(xy 17.78 177.8) (xy 21.59 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44a83fa3-eaf6-4d9d-a6a5-265616eb365e")
+	)
 	(wire
 		(pts
 			(xy 149.86 162.56) (xy 149.86 165.1)
@@ -4592,6 +4362,16 @@
 			(type solid)
 		)
 		(uuid "4c90673c-2123-465e-bd96-9d44856ac93c")
+	)
+	(polyline
+		(pts
+			(xy 433.07 280.67) (xy 21.59 280.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e082c61-0398-4c02-bb54-90fd8261e759")
 	)
 	(wire
 		(pts
@@ -4633,6 +4413,16 @@
 		)
 		(uuid "56a9e7e7-d1b6-48d9-bee1-e582cb8bd951")
 	)
+	(polyline
+		(pts
+			(xy 332.105 280.67) (xy 332.105 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "574f6805-982d-40b0-8904-e9d34dd0555d")
+	)
 	(wire
 		(pts
 			(xy 177.8 259.08) (xy 187.96 259.08)
@@ -4663,6 +4453,16 @@
 		)
 		(uuid "5c8b4898-15a9-491f-b5a9-6db152c4ebfa")
 	)
+	(polyline
+		(pts
+			(xy 433.07 231.14) (xy 436.88 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ca3422e-0895-4e31-8b6e-be5feb881fe3")
+	)
 	(wire
 		(pts
 			(xy 353.06 177.8) (xy 342.9 177.8)
@@ -4682,6 +4482,16 @@
 			(type solid)
 		)
 		(uuid "5f1b9513-6b32-4dbc-ac4a-6b5add6da8d6")
+	)
+	(polyline
+		(pts
+			(xy 332.105 17.78) (xy 332.105 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f36ce28-70ef-4dbf-b3e5-480fbe6e4ffa")
 	)
 	(wire
 		(pts
@@ -4763,6 +4573,16 @@
 		)
 		(uuid "6610e8e2-f0b6-4b9c-8a1c-bc13a7642e50")
 	)
+	(polyline
+		(pts
+			(xy 433.07 124.46) (xy 436.88 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69554a39-0812-43e3-83d8-7d6f2c35abd7")
+	)
 	(wire
 		(pts
 			(xy 114.3 109.22) (xy 106.68 109.22)
@@ -4783,6 +4603,16 @@
 		)
 		(uuid "6a77e33e-5429-4127-bdab-1c50ff05175e")
 	)
+	(polyline
+		(pts
+			(xy 122.555 280.67) (xy 122.555 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aa5331e-cf87-4e5d-83b9-f71a8fcc6701")
+	)
 	(wire
 		(pts
 			(xy 297.18 177.8) (xy 297.18 175.26)
@@ -4802,6 +4632,16 @@
 			(type solid)
 		)
 		(uuid "6d02ce29-f216-4112-aa72-6dee19a64cba")
+	)
+	(polyline
+		(pts
+			(xy 17.78 231.14) (xy 21.59 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e3df129-704d-46df-bfc9-3888c38952ca")
 	)
 	(wire
 		(pts
@@ -5023,6 +4863,16 @@
 		)
 		(uuid "84c6d60d-e129-49ba-903d-0a4cf2d96f75")
 	)
+	(polyline
+		(pts
+			(xy 227.33 17.78) (xy 227.33 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "855f8d4b-4ae2-4a42-8ef2-8efc1e4dd2f9")
+	)
 	(wire
 		(pts
 			(xy 350.52 129.54) (xy 335.28 129.54)
@@ -5043,6 +4893,16 @@
 		)
 		(uuid "8844c6ff-2bd1-44fd-8fa4-d8f7f0c1584c")
 	)
+	(polyline
+		(pts
+			(xy 70.1675 280.67) (xy 70.1675 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a0a4288-dd4a-4430-9e1f-86bdee5d06a9")
+	)
 	(wire
 		(pts
 			(xy 106.68 205.74) (xy 106.68 210.82)
@@ -5052,6 +4912,16 @@
 			(type solid)
 		)
 		(uuid "8ca629e2-a317-4faf-a4b6-5c3c58f84cd6")
+	)
+	(polyline
+		(pts
+			(xy 21.59 21.59) (xy 21.59 280.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e20d069-64bc-4804-93b6-7296ff1a823d")
 	)
 	(wire
 		(pts
@@ -5102,6 +4972,16 @@
 			(type solid)
 		)
 		(uuid "93fa408a-1616-49a5-8ced-80d3095e686e")
+	)
+	(polyline
+		(pts
+			(xy 384.4925 17.78) (xy 384.4925 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9477b3d2-d124-447a-b4df-98ada3ad410d")
 	)
 	(wire
 		(pts
@@ -5163,6 +5043,26 @@
 		)
 		(uuid "9c306376-77b5-4850-bb0f-9bc5606bf194")
 	)
+	(polyline
+		(pts
+			(xy 433.07 21.59) (xy 433.07 280.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d12b282-c773-4280-8f7f-bcda7d5d8492")
+	)
+	(polyline
+		(pts
+			(xy 17.78 71.12) (xy 21.59 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d5de34c-c345-4b10-97d2-2344bbaebd9c")
+	)
 	(wire
 		(pts
 			(xy 157.48 109.22) (xy 167.64 109.22)
@@ -5192,6 +5092,16 @@
 			(type solid)
 		)
 		(uuid "a1c100fe-8070-4fbf-84a7-0a3f417d2c20")
+	)
+	(polyline
+		(pts
+			(xy 384.4925 280.67) (xy 384.4925 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4f77d87-fe1f-485b-ad3c-2a89c173b8e3")
 	)
 	(wire
 		(pts
@@ -5253,6 +5163,16 @@
 		)
 		(uuid "ab99b13c-13d4-4ac9-9480-37f327afcab0")
 	)
+	(polyline
+		(pts
+			(xy 174.9425 17.78) (xy 174.9425 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b31d2c76-d317-432f-b084-ac7decf4e912")
+	)
 	(wire
 		(pts
 			(xy 147.32 259.08) (xy 154.94 259.08)
@@ -5262,6 +5182,16 @@
 			(type solid)
 		)
 		(uuid "b449585c-473e-40c8-afbf-090d4cc618a9")
+	)
+	(polyline
+		(pts
+			(xy 279.7175 280.67) (xy 279.7175 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5806e48-2c88-42da-b151-c9396501e556")
 	)
 	(wire
 		(pts
@@ -5473,6 +5403,16 @@
 		)
 		(uuid "d27a80b1-f563-494e-a0e6-b7507181fcf5")
 	)
+	(polyline
+		(pts
+			(xy 227.33 280.67) (xy 227.33 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2f35cb3-b572-43fd-b7e4-83ca594a0475")
+	)
 	(wire
 		(pts
 			(xy 353.06 167.64) (xy 353.06 165.1)
@@ -5593,6 +5533,16 @@
 		)
 		(uuid "df96f745-ac40-45fe-b89f-9f2ae3bf94e8")
 	)
+	(polyline
+		(pts
+			(xy 433.07 21.59) (xy 21.59 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e10d1b0c-0e40-4768-b254-a672e0503537")
+	)
 	(wire
 		(pts
 			(xy 363.22 175.26) (xy 363.22 177.8)
@@ -5622,6 +5572,16 @@
 			(type solid)
 		)
 		(uuid "e803adbc-63ca-4812-a1a3-6ac99c792211")
+	)
+	(polyline
+		(pts
+			(xy 433.07 177.8) (xy 436.88 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8de891a-d34f-41f5-a863-d761a016b788")
 	)
 	(wire
 		(pts
@@ -5663,6 +5623,16 @@
 		)
 		(uuid "ecf3b857-c6fb-4881-b893-e1a7d4458ed4")
 	)
+	(polyline
+		(pts
+			(xy 122.555 17.78) (xy 122.555 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f11127fa-348c-4177-8e9f-14de93725070")
+	)
 	(wire
 		(pts
 			(xy 106.68 246.38) (xy 106.68 241.3)
@@ -5702,6 +5672,16 @@
 			(type solid)
 		)
 		(uuid "f58e7230-7390-4b3a-9ea2-5db1ac024ba2")
+	)
+	(polyline
+		(pts
+			(xy 433.07 71.12) (xy 436.88 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f83c8161-2995-4bab-a556-f03e773e370d")
 	)
 	(wire
 		(pts
@@ -7028,6 +7008,111 @@
 		)
 	)
 	(symbol
+		(lib_id "my_Diode:Diode_DFN-3")
+		(at 72.39 83.82 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ada63c2-58f6-4139-b95a-27440bd9e13b")
+		(property "Reference" "D2"
+			(at 72.39 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SBR1U40LP"
+			(at 72.39 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "my_DFN:DFN1411"
+			(at 72.39 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 62.23 89.154 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 64.262 87.122 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 60.452 91.186 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "981a45b8-433a-48ba-9405-cc96c93e7f46")
+		)
+		(pin "3"
+			(uuid "8fbe818e-5907-4694-a280-c6cf92d91e7b")
+		)
+		(pin "1"
+			(uuid "f321e95c-14f7-4c09-922f-6fdaee9444aa")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/23015512-1cf6-4c07-8d99-91511b5fe5b5"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:GND")
 		(at 162.56 190.5 180)
 		(unit 1)
@@ -7343,6 +7428,111 @@
 			(project "NN22_RPi_DetAdapter03_s00"
 				(path "/23015512-1cf6-4c07-8d99-91511b5fe5b5"
 					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "my_Diode:Diode_DFN-3")
+		(at 72.39 73.66 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3631e5fd-20d5-489e-9fc0-6b72c3f38327")
+		(property "Reference" "D1"
+			(at 72.39 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SBR1U40LP"
+			(at 72.39 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "my_DFN:DFN1411"
+			(at 72.39 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 62.23 78.994 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 64.262 76.962 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 60.452 81.026 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "44b3bda1-633f-479d-ae43-9f819aa20209")
+		)
+		(pin "3"
+			(uuid "9e91e5a4-8b9d-462e-93f8-babcbd8bc2c5")
+		)
+		(pin "1"
+			(uuid "02c06833-8a6f-476a-8864-d3034e30e27d")
+		)
+		(instances
+			(project "NN22_RPi_DetAdapter03_s00"
+				(path "/23015512-1cf6-4c07-8d99-91511b5fe5b5"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -9542,87 +9732,6 @@
 			(project "NN22_RPi_DetAdapter03_s00"
 				(path "/23015512-1cf6-4c07-8d99-91511b5fe5b5"
 					(reference "#GND94")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:DIODE_SOD523")
-		(at 73.66 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9a6ff3ec-f93d-4279-a1e0-066325051bab")
-		(property "Reference" "D1"
-			(at 69.85 71.628 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "SBR1A20T5"
-			(at 69.85 77.724 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "NN22_RPi_DetAdapter03_s00:SOD523"
-			(at 73.66 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 73.66 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "A"
-			(uuid "c06f1de8-8520-417c-95b9-2234ca0afe59")
-		)
-		(pin "C"
-			(uuid "5317506f-b7ca-4ddc-93fe-b36ad2aa9c6c")
-		)
-		(instances
-			(project "NN22_RPi_DetAdapter03_s00"
-				(path "/23015512-1cf6-4c07-8d99-91511b5fe5b5"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -12134,87 +12243,6 @@
 			(project "NN22_RPi_DetAdapter03_s00"
 				(path "/23015512-1cf6-4c07-8d99-91511b5fe5b5"
 					(reference "U12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NN22_RPi_DetAdapter03_s00-eagle-import:DIODE_SOD523")
-		(at 73.66 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f12a993d-9ac1-43db-ba28-931f2b3325c8")
-		(property "Reference" "D2"
-			(at 69.85 81.788 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "SBR1A20T5"
-			(at 69.85 87.884 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "NN22_RPi_DetAdapter03_s00:SOD523"
-			(at 73.66 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 73.66 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "A"
-			(uuid "5e8ea4cd-11ab-4f84-bb3e-10f8a1384c44")
-		)
-		(pin "C"
-			(uuid "82a92a5f-a7ff-40a6-8d88-81d6cb206e60")
-		)
-		(instances
-			(project "NN22_RPi_DetAdapter03_s00"
-				(path "/23015512-1cf6-4c07-8d99-91511b5fe5b5"
-					(reference "D2")
 					(unit 1)
 				)
 			)
