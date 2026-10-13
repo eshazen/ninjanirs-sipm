@@ -1,0 +1,2102 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "7a4e58b0-86c2-4574-8bcc-e5ce61179c58")
+	(paper "User" 457.2 304.9524)
+	(lib_symbols
+		(symbol "SiPM_Ada_S13360_v05_DualTip-eagle-import:GND"
+			(power global)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#GND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SUPPLY SYMBOL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_1_0"
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SiPM_Ada_S13360_v05_DualTip-eagle-import:PHOTODIODE_S13360-30XXPE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "PD"
+				(at -3.81 3.302 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -3.81 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "SiPM_Ada_S13360_v05_DualTip:S13360-30XXPE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PHOTODIODE_S13360-30XXPE_1_0"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 2.54) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.778) (xy -1.778 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.778) (xy -1.27 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 2.794) (xy -0.254 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 2.032) (xy -0.762 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 2.032) (xy -0.254 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SiPM_Ada_S13360_v05_DualTip-eagle-import:RESISTOR0603-RES"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at -3.81 1.4986 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -3.81 -3.302 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "SiPM_Ada_S13360_v05_DualTip:0603-RES"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor Basic schematic elements and footprints for 0603, 1206, and PTH resistors."
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RESISTOR0603-RES_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.159 1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.159 1.016) (xy -1.524 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -1.016) (xy -0.889 1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -1.016) (xy 0.381 1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.016) (xy 1.651 1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.651 1.016) (xy 2.286 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.016) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SiPM_Ada_S13360_v05_DualTip-eagle-import:TESTPOINT_PADMEDIUM"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 1.524 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SiPM_Ada_S13360_v05_DualTip:TESTPAD_MEDIUM"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TESTPOINT_PADMEDIUM_1_0"
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "P$1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "P$1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(polyline
+		(pts
+			(xy 70.1675 280.67) (xy 70.1675 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "03ab1661-8748-4804-a394-9a5e296c8b8f")
+	)
+	(polyline
+		(pts
+			(xy 433.07 280.67) (xy 21.59 280.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "06e8a3e3-6f99-4803-b0bb-b8ce62c0d737")
+	)
+	(polyline
+		(pts
+			(xy 122.555 17.78) (xy 122.555 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "12272c62-fde0-4249-8e86-90f2aac232e0")
+	)
+	(polyline
+		(pts
+			(xy 21.59 21.59) (xy 21.59 280.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "17f85490-b783-4f3f-bd33-7ffbaa711011")
+	)
+	(polyline
+		(pts
+			(xy 433.07 21.59) (xy 21.59 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "19afcfe1-7624-47dc-9d1c-a6bc74f55dc9")
+	)
+	(polyline
+		(pts
+			(xy 17.78 231.14) (xy 21.59 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "23471914-0f15-4f18-a2b3-8d4d3fec215e")
+	)
+	(polyline
+		(pts
+			(xy 384.4925 280.67) (xy 384.4925 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "2398246c-177a-4b0f-9ad7-b26882d32792")
+	)
+	(polyline
+		(pts
+			(xy 433.07 124.46) (xy 436.88 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "42f8fb73-af48-48de-a202-73c2dbebe1f7")
+	)
+	(polyline
+		(pts
+			(xy 279.7175 280.67) (xy 279.7175 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "46750a2b-8072-4d86-94d4-c00d97d88903")
+	)
+	(polyline
+		(pts
+			(xy 332.105 17.78) (xy 332.105 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "4773ee37-eee3-4201-9684-94cab94dd8ac")
+	)
+	(polyline
+		(pts
+			(xy 17.78 71.12) (xy 21.59 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "495b301c-594e-4054-8fe8-d8f1685dcb7d")
+	)
+	(polyline
+		(pts
+			(xy 17.78 124.46) (xy 21.59 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "58979408-02b9-4201-9fe7-de65d0f704c3")
+	)
+	(polyline
+		(pts
+			(xy 17.78 17.78) (xy 436.88 17.78) (xy 436.88 284.48) (xy 17.78 284.48) (xy 17.78 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "95357289-ffcb-4a49-b00e-3b0744908d46")
+	)
+	(polyline
+		(pts
+			(xy 227.33 280.67) (xy 227.33 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "9734ede2-f1c9-49e4-8346-a9f30dec1424")
+	)
+	(polyline
+		(pts
+			(xy 174.9425 17.78) (xy 174.9425 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "9d078cf1-bd9b-4280-b1de-21595afd332d")
+	)
+	(polyline
+		(pts
+			(xy 433.07 177.8) (xy 436.88 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "a237bfd6-9cef-42e2-989e-7ebb44cab951")
+	)
+	(polyline
+		(pts
+			(xy 433.07 21.59) (xy 433.07 280.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "a69b6fcf-06b7-401b-929c-c87df6ede252")
+	)
+	(polyline
+		(pts
+			(xy 433.07 71.12) (xy 436.88 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "b2fca4b7-73d0-417b-bd55-e46e92a48ebc")
+	)
+	(polyline
+		(pts
+			(xy 17.78 177.8) (xy 21.59 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c9709ea6-9154-4117-b099-b13b32dbd482")
+	)
+	(polyline
+		(pts
+			(xy 174.9425 280.67) (xy 174.9425 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "cd6f4873-d352-47da-805b-5815a1880cc2")
+	)
+	(polyline
+		(pts
+			(xy 433.07 231.14) (xy 436.88 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "d0100389-5bea-4963-a0d7-6fae230d0013")
+	)
+	(polyline
+		(pts
+			(xy 70.1675 17.78) (xy 70.1675 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "d8cf44f2-0d69-40c7-b96b-c4ca31a9821f")
+	)
+	(polyline
+		(pts
+			(xy 122.555 280.67) (xy 122.555 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "e8d7d5b4-ff51-4c3b-8b2b-614dffa9a102")
+	)
+	(polyline
+		(pts
+			(xy 332.105 280.67) (xy 332.105 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "f2eb9e84-0642-4b7e-ba4d-1aa19dd69944")
+	)
+	(polyline
+		(pts
+			(xy 227.33 17.78) (xy 227.33 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "f86ecf05-2a9a-4ca8-8f44-69b1362686c1")
+	)
+	(polyline
+		(pts
+			(xy 279.7175 17.78) (xy 279.7175 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "fdc3a306-a863-4974-a513-f21109be076e")
+	)
+	(polyline
+		(pts
+			(xy 384.4925 17.78) (xy 384.4925 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "ffed38e0-812b-46f4-907a-770af84e2ff4")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 305.9113 282.575 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "1205b6c6-297c-4d41-8714-bde5198cc4c6")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 43.9738 19.685 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "1d2b4613-955c-4ce4-b769-6dc051c22b41")
+	)
+	(text "A"
+		(exclude_from_sim no)
+		(at 434.975 44.45 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "1f50bcb1-0ef3-4244-b9d1-d05878c42d7d")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 305.9113 19.685 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "2447bc79-6b18-4800-9229-60e15c4ca0a1")
+	)
+	(text "Thermistor NTC 10k"
+		(exclude_from_sim no)
+		(at 60.96 205.74 0)
+		(effects
+			(font
+				(size 3.81 3.2385)
+			)
+			(justify left bottom)
+		)
+		(uuid "24ffa2d2-a0b7-49e9-8ab2-236a960260bd")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 43.9738 282.575 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "27773790-2e72-4528-89c8-8f766b0231ec")
+	)
+	(text "5"
+		(exclude_from_sim no)
+		(at 253.5238 19.685 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "2b78b8ab-a5c7-4d84-824d-2efe6e90257e")
+	)
+	(text "7"
+		(exclude_from_sim no)
+		(at 358.2988 19.685 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "3b2b0094-fdfe-4211-a3f5-1d3cd7f7efd0")
+	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 96.3613 282.575 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "3c07c32f-8581-4338-821d-b7906be9fba2")
+	)
+	(text "SiPM Adapter Board for NIRx Dual Tip Optode"
+		(exclude_from_sim no)
+		(at 40.64 43.18 0)
+		(effects
+			(font
+				(size 6.4516 5.4838)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c7c811c-7f84-4bad-966f-74a9db0db826")
+	)
+	(text "E"
+		(exclude_from_sim no)
+		(at 434.975 257.81 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "3dcb47bb-35c5-4649-b6ee-d411ba537f5c")
+	)
+	(text "E"
+		(exclude_from_sim no)
+		(at 19.685 257.81 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "45564ba1-762f-45f3-a716-cd5b0cf49101")
+	)
+	(text "3"
+		(exclude_from_sim no)
+		(at 148.7488 19.685 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "4bb52577-b770-4880-a630-d356658b15a2")
+	)
+	(text "7"
+		(exclude_from_sim no)
+		(at 358.2988 282.575 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "4d2cf327-5163-4336-9ebd-e6d45f7d0ca8")
+	)
+	(text "A"
+		(exclude_from_sim no)
+		(at 19.685 44.45 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "605583b9-0fe9-4a17-ad38-5a001419668e")
+	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 96.3613 19.685 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "699971b1-e52d-4639-84ad-6321f82b18e7")
+	)
+	(text "Hamamatsu S13360"
+		(exclude_from_sim no)
+		(at 40.64 50.8 0)
+		(effects
+			(font
+				(size 3.81 3.2385)
+			)
+			(justify left bottom)
+		)
+		(uuid "847d1815-a286-4415-9a74-60c035f9f3f3")
+	)
+	(text "8"
+		(exclude_from_sim no)
+		(at 410.6863 282.575 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "9bab55e6-1b27-4c64-a64d-b8b4384b7643")
+	)
+	(text "B"
+		(exclude_from_sim no)
+		(at 434.975 97.79 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "9f83cc06-1e46-47a5-9a61-8ef2182c1109")
+	)
+	(text "5"
+		(exclude_from_sim no)
+		(at 253.5238 282.575 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "abc34adc-5ba8-405f-8c3e-74a1da39fec7")
+	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 201.1363 19.685 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "b4a0cab8-e7c2-4a23-b235-d9d2d53fc1e3")
+	)
+	(text "B"
+		(exclude_from_sim no)
+		(at 19.685 97.79 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "bcf326f5-ba53-47b9-9ae1-3dc24bbc32a5")
+	)
+	(text "3"
+		(exclude_from_sim no)
+		(at 148.7488 282.575 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "c8459ccb-286f-42d4-9c3f-913a980966eb")
+	)
+	(text "8"
+		(exclude_from_sim no)
+		(at 410.6863 19.685 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "c8fc82b0-b4d4-480f-bbe9-7af5da8e185c")
+	)
+	(text "C"
+		(exclude_from_sim no)
+		(at 434.975 151.13 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "cd201296-40ae-4d89-8c82-8544ae16aa87")
+	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 201.1363 282.575 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "dc4bfd96-09a7-4304-85b7-1b52fe6f3a0f")
+	)
+	(text "C"
+		(exclude_from_sim no)
+		(at 19.685 151.13 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "e86a2ae0-fc62-421d-98b3-3a39fb2dcd80")
+	)
+	(text "D"
+		(exclude_from_sim no)
+		(at 19.685 204.47 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "f4c0a7cd-1bbc-4db2-8e7c-9f8f5bf59577")
+	)
+	(text "D"
+		(exclude_from_sim no)
+		(at 434.975 204.47 0)
+		(effects
+			(font
+				(size 2.54 2.286)
+			)
+		)
+		(uuid "f4c0b45f-0460-42c4-9dbe-b2096161013e")
+	)
+	(junction
+		(at 175.26 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9bde3fcf-ed82-4dc1-baaf-4bcb243e8b90")
+	)
+	(junction
+		(at 109.22 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee3043de-f0d3-4a8a-9e23-ff8a3b8d0e61")
+	)
+	(junction
+		(at 175.26 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef1d9f2a-e4fc-456b-865b-ca133c827e4e")
+	)
+	(wire
+		(pts
+			(xy 187.96 91.44) (xy 187.96 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "109a4901-6610-45cf-a19d-ca49501b07af")
+	)
+	(wire
+		(pts
+			(xy 175.26 91.44) (xy 175.26 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "36e465de-ca78-4a97-acaa-1f5b11034bdb")
+	)
+	(wire
+		(pts
+			(xy 111.76 91.44) (xy 175.26 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "41a8a3f9-c1f6-41dc-bb30-fde526eee64e")
+	)
+	(wire
+		(pts
+			(xy 109.22 213.36) (xy 109.22 218.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "425b7898-a7e3-4e76-8948-38c4724ccb11")
+	)
+	(wire
+		(pts
+			(xy 106.68 233.68) (xy 109.22 233.68)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "78cba3dc-c6cd-4316-bf5e-66300f53eea1")
+	)
+	(wire
+		(pts
+			(xy 175.26 111.76) (xy 187.96 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a89a6acc-1d50-4ef5-b638-0ef6a256b403")
+	)
+	(wire
+		(pts
+			(xy 175.26 106.68) (xy 175.26 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c12b5d71-f426-4552-91fa-7127b94a8fbf")
+	)
+	(wire
+		(pts
+			(xy 106.68 213.36) (xy 109.22 213.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "de2bd60a-ef6e-42a3-b345-818c34a1695b")
+	)
+	(wire
+		(pts
+			(xy 175.26 91.44) (xy 187.96 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e3667cb6-49e2-4080-8396-801bcacbeb5b")
+	)
+	(wire
+		(pts
+			(xy 109.22 228.6) (xy 109.22 233.68)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e3d24fb7-45cc-4908-99e9-fb33be537680")
+	)
+	(wire
+		(pts
+			(xy 111.76 111.76) (xy 175.26 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "eeac2596-75ef-4c16-b9b5-22332db2f3fb")
+	)
+	(wire
+		(pts
+			(xy 109.22 233.68) (xy 109.22 238.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f97524d0-9c8b-448d-92a8-3e0234fb7e33")
+	)
+	(wire
+		(pts
+			(xy 187.96 111.76) (xy 187.96 106.68)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fe5e2745-cac8-480c-944a-231d126bcf0f")
+	)
+	(symbol
+		(lib_id "SiPM_Ada_S13360_v05_DualTip-eagle-import:PHOTODIODE_S13360-30XXPE")
+		(at 175.26 101.6 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "16d9c9bf-5522-4aa5-a8b8-c8bedfc47f6f")
+		(property "Reference" "PD1"
+			(at 171.958 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PHOTODIODE_S13360-30XXPE"
+			(at 180.34 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SiPM_Ada_S13360_v05_DualTip-import-fps:S13360-30XXPE"
+			(at 175.26 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A"
+			(uuid "2e368f09-7018-4e8c-aa00-6656bd83c76b")
+		)
+		(pin "C"
+			(uuid "2e24239b-2edb-4e4a-87fd-a36040e87bb9")
+		)
+		(instances
+			(project "SiPM_Ada_S13360_v05_DualTip"
+				(path "/dbaa420b-3df9-4ad5-957f-a6cc7798edff"
+					(reference "PD1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SiPM_Ada_S13360_v05_DualTip-eagle-import:TESTPOINT_PADMEDIUM")
+		(at 106.68 91.44 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "20d82752-67b3-47bb-b986-925a7c261489")
+		(property "Reference" "TP1"
+			(at 105.156 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TESTPOINT_PADMEDIUM"
+			(at 106.68 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SiPM_Ada_S13360_v05_DualTip-import-fps:TESTPAD_MEDIUM"
+			(at 106.68 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P$1"
+			(uuid "9e8a9ab4-4424-4ff1-99d6-404f1ff6410b")
+		)
+		(instances
+			(project "SiPM_Ada_S13360_v05_DualTip"
+				(path "/dbaa420b-3df9-4ad5-957f-a6cc7798edff"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SiPM_Ada_S13360_v05_DualTip-eagle-import:TESTPOINT_PADMEDIUM")
+		(at 106.68 111.76 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "29e09fe1-fbe0-4db4-a2b6-3c8841f822ca")
+		(property "Reference" "TP2"
+			(at 105.156 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TESTPOINT_PADMEDIUM"
+			(at 106.68 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SiPM_Ada_S13360_v05_DualTip-import-fps:TESTPAD_MEDIUM"
+			(at 106.68 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P$1"
+			(uuid "e14fe10c-0089-47e8-b948-1e7101f72146")
+		)
+		(instances
+			(project "SiPM_Ada_S13360_v05_DualTip"
+				(path "/dbaa420b-3df9-4ad5-957f-a6cc7798edff"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SiPM_Ada_S13360_v05_DualTip-eagle-import:RESISTOR0603-RES")
+		(at 109.22 223.52 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4b34bdd7-8248-4b64-9006-1f6f686003d8")
+		(property "Reference" "R1"
+			(at 107.7214 227.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k NTC"
+			(at 112.522 227.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SiPM_Ada_S13360_v05_DualTip-import-fps:0603-RES"
+			(at 109.22 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d5c25b88-f0ef-4cb4-9459-e42cd14956d8")
+		)
+		(pin "2"
+			(uuid "79422426-c576-4d79-868d-cf64342ced0b")
+		)
+		(instances
+			(project "SiPM_Ada_S13360_v05_DualTip"
+				(path "/dbaa420b-3df9-4ad5-957f-a6cc7798edff"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SiPM_Ada_S13360_v05_DualTip-eagle-import:TESTPOINT_PADMEDIUM")
+		(at 101.6 233.68 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4e2dc356-a01a-44d2-a3e9-15cdbfe98db4")
+		(property "Reference" "TP4"
+			(at 100.076 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TESTPOINT_PADMEDIUM"
+			(at 101.6 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SiPM_Ada_S13360_v05_DualTip-import-fps:TESTPAD_MEDIUM"
+			(at 101.6 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P$1"
+			(uuid "78ac073e-6d1c-44eb-8c47-7b63cf1fbce8")
+		)
+		(instances
+			(project "SiPM_Ada_S13360_v05_DualTip"
+				(path "/dbaa420b-3df9-4ad5-957f-a6cc7798edff"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SiPM_Ada_S13360_v05_DualTip-eagle-import:PHOTODIODE_S13360-30XXPE")
+		(at 187.96 101.6 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "64a62103-be70-4cc3-9962-cfefba3b14a7")
+		(property "Reference" "PD2"
+			(at 184.658 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PHOTODIODE_S13360-30XXPE"
+			(at 193.04 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SiPM_Ada_S13360_v05_DualTip-import-fps:S13360-30XXPE"
+			(at 187.96 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A"
+			(uuid "abe44781-f3f1-42c8-8b44-0b4cef7e888d")
+		)
+		(pin "C"
+			(uuid "770d7b54-17fe-48a0-be08-58ac2887f4e5")
+		)
+		(instances
+			(project "SiPM_Ada_S13360_v05_DualTip"
+				(path "/dbaa420b-3df9-4ad5-957f-a6cc7798edff"
+					(reference "PD2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SiPM_Ada_S13360_v05_DualTip-eagle-import:TESTPOINT_PADMEDIUM")
+		(at 101.6 213.36 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a6a4e33a-a4f8-40dc-be83-93c9c2b2ed7e")
+		(property "Reference" "TP3"
+			(at 100.076 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TESTPOINT_PADMEDIUM"
+			(at 101.6 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SiPM_Ada_S13360_v05_DualTip-import-fps:TESTPAD_MEDIUM"
+			(at 101.6 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P$1"
+			(uuid "798b9aeb-3bac-4e93-87a5-7b0262c957ef")
+		)
+		(instances
+			(project "SiPM_Ada_S13360_v05_DualTip"
+				(path "/dbaa420b-3df9-4ad5-957f-a6cc7798edff"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SiPM_Ada_S13360_v05_DualTip-eagle-import:GND")
+		(at 109.22 241.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ab2b0004-4e12-4d21-b568-729912cace40")
+		(property "Reference" "#GND1"
+			(at 109.22 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 243.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de039e06-b919-4e24-ae41-0bd00ccb6012")
+		)
+		(instances
+			(project "SiPM_Ada_S13360_v05_DualTip"
+				(path "/dbaa420b-3df9-4ad5-957f-a6cc7798edff"
+					(reference "#GND1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

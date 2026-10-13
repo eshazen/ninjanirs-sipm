@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "SiPM_Ada_S13360_v05_DualTip-import-fps") (type "KiCad") (uri "${KIPRJMOD}/SiPM_Ada_S13360_v05_DualTip-import-fps.pretty") (options "kicad_import_cache=1") (descr ""))
+	(lib (name "my_SiPM") (type "KiCad") (uri "${KIPRJMOD}/my_SiPM.pretty") (options "") (descr ""))
+)

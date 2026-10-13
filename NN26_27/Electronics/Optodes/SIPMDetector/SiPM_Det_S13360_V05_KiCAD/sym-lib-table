@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "SiPM_Ada_S13360_v05_DualTip-eagle-import") (type "KiCad") (uri "${KIPRJMOD}/SiPM_Ada_S13360_v05_DualTip-eagle-import.kicad_sym") (options "") (descr ""))
+)
