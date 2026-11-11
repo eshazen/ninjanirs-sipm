@@ -72,7 +72,10 @@ to provide more margin for failures.  Currently:
     ADC_VOLT_LOW   472 (32V) at minimum VR output
 	ADC_CURRENT_LOW 50 (1mA) at minimum VR output
 
+Update board#1 firmware to current (tag `Splitter-FW-V1.1`).
+<br>Modify the detector IF card I have bypass U13
 
+--------------------------------------------------
 Wire up a NIRx cable to alligator clip adapter.
 
 Test with 47k load in parallel with 75k = 28.9k
