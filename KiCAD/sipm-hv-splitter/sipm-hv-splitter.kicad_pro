@@ -267,7 +267,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "1.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -681,25 +681,25 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -821,16 +821,16 @@
       {
         "filename": "sipm-hv-splitter.kicad_sch",
         "name": "sipm-hv-splitter",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "03ef3d8e-2ac8-4438-85f5-d9af2b63dd73"
       }
     ],
-    "used_designators": "",
+    "used_designators": "FID1-2",
     "variants": []
   },
   "sheets": [
     [
       "03ef3d8e-2ac8-4438-85f5-d9af2b63dd73",
-      "Root"
+      "sipm-hv-splitter"
     ],
     [
       "aa3cc695-72c6-4651-973b-f357b85ffa72",

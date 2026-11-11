@@ -32,6 +32,10 @@
 #define ADC_VOLT_NOM 779
 // nominal ADC reading for minimum voltage (32V)
 #define ADC_VOLT_LOW 472
+// maximum ADC current reading at 33V
+#define ADC_CURRENT_LOW 50
+// range for voltage readings
+#define ADC_VOLT_MARGIN 20
 
 // default SPI phase/polarity
 static uint8_t spi_cpha = 1;
@@ -49,15 +53,21 @@ static uint16_t v_adc, i_adc;
 #define VREG_ON() { VR_PORT &= ~_BV(VR_SHDN_BIT); }
 #define VREG_OFF() { VR_PORT |= _BV(VR_SHDN_BIT); }
 
-void error() {
-  // error on power-up, hang here blinking fast
+void error( int nerr) {
+  // error on power-up, hang here blinking fast n times
+  int n;
+
   VREG_OFF();
   BOOST_OFF();
   while(1) {
-    LED_ON();
-    _delay_ms(100);
-    LED_OFF();
-    _delay_ms(100);
+    _delay_ms( 500);
+    n = nerr;
+    while( n--) {
+      LED_ON();
+      _delay_ms(100);
+      LED_OFF();
+      _delay_ms(100);
+    }
   }
 }
 
@@ -94,8 +104,9 @@ int main (void)
   i_adc = ReadADC( 0);		/* read current */
   v_adc = ReadADC( 1);		/* read voltage */
 
-  if( i_adc > 20 || v_adc < (ADC_VOLT_LOW-5) || v_adc > (ADC_VOLT_LOW+5))
-    error();
+  if( i_adc > ADC_CURRENT_LOW || v_adc < (ADC_VOLT_LOW-ADC_VOLT_MARGIN) || 
+      v_adc > (ADC_VOLT_LOW+ADC_VOLT_MARGIN))
+    error( 2);
 
   // passed power-up test, turn off LED and power for now
   LED_OFF();
@@ -121,16 +132,17 @@ int main (void)
 
       // loop checking voltage and current
       while( 1) {
-	_delay_ms( 500);
+	_delay_ms( 1000);
 	// read and check voltage and current
 	i_adc = ReadADC( 0);		/* read current */
 	v_adc = ReadADC( 1);		/* read voltage */
 
-	if( v_adc < (ADC_VOLT_NOM-10) || v_adc > (ADC_VOLT_NOM+10)) {
+	if( v_adc < (ADC_VOLT_NOM-ADC_VOLT_MARGIN) || 
+	    v_adc > (ADC_VOLT_NOM+ADC_VOLT_MARGIN)) {
 	  // voltage out of range, turn all off and blink until next reset
 	  VREG_OFF();
 	  BOOST_OFF();
-	  error();
+	  error( 3);
 	}
 
 	// blink briefly at 1Hz to indicate all is well

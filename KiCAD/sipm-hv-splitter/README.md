@@ -59,6 +59,124 @@ on pin 7.
 
 ## Testing Log
 
+### 11/11/26:
+
+Summary:
+
+Up to about 2.5mA is OK at 56V.  Firmware is updated
+to provide more margin for failures.  Currently:
+
+	DAC            195 (56V)
+	ADC_VOLT_NOM   779 (55.8V) with range +/-10
+	                    55.0 .. 56.6 more or less
+    ADC_VOLT_LOW   472 (32V) at minimum VR output
+	ADC_CURRENT_LOW 50 (1mA) at minimum VR output
+
+
+Wire up a NIRx cable to alligator clip adapter.
+
+Test with 47k load in parallel with 75k = 28.9k
+<br>57/29.9 = 1.73mA
+
+    > a
+    56.8 V 1717.0 uA -104.0 degC
+    >a 0
+    83
+
+ADJ on U4 is 1.2V
+
+Try 10k (8.8k or 6.5mA).  Output is 62V on meter
+
+    >a
+    72.8 V 6723.2 uA -104.0 degC
+
+<br>ADJ is 1.5V!
+<br>IMON is ~ 1.1V
+<br>Also 350mV 25kHz oscillation at end of NIRx cable.
+<br>Pins on U2 (INA201):
+
+    2 - 1.1
+    3 - 0.287
+
+    >a
+    72.4 V 3599.5 uA -104.0 degC
+    >a 0
+    171
+    >
+
+Measure IMON @ 600mV.  (this is the trip point)
+
+Back to 75k
+
+    >a
+    56.8 V 786.1 uA -104.0 degC
+    >a 0
+    39
+
+Measure IMON @ 126mV.  
+
+Test with 44k = 27.7k or 2mA.
+
+    >a
+    56.8 V 1841.1 uA -104.0 degC
+    >a 0
+    90
+    >
+
+With 22k bad news.  U4 VR output is 72V and ADJ=1.5V!
+
+(realize that the SiPM Anode connection is not a good place
+to connect my dummy load, so move to the shield (GND)).
+
+Try again with 22k and see the same issue.
+<br>44k is OK.
+<br>32k (parallel with 75k so 22k) is OK.  Current = 2.5mA.
+
+    >a
+    56.8 V 2234.1 uA -104.0 degC
+    >a 0
+    108
+
+Measure voltages:
+
+    55.6 at testpoint (boost out)
+    53.9 at end of cable.  
+	
+1k series gives a 1.8V drop so that's consistent	
+
+### 11/10/26:
+
+Board#2 is in the hands of Srikanth.  Seems to work OK but trips with
+4 optodes exposed to room light.
+
+Preparing Board#1 for shipment to NIRx.  Power up as-is with 12V.
+LED D3 comes on briefly, then off.  D2 (trip) then on steady.
+If the ISP is connected, D3 blinks fast.
+
+Wire up 75k load on a NIRx cable and connect to optode #1.
+Now get trip and fast blink.  Re-flash with debug software.
+
+Power-up sequence:
+
+    >p 170
+	>vs 0
+	>b 1
+    >a
+    56.9 V 765.4 uA -104.0 degC
+	>a 0
+    39
+
+This seems reasonable.  57V / 75k = 760uA.
+
+
+Recalculate trip point.  INA201 amp gain 50V/V
+<br>Comparator VREF = 0.6V
+<br>With R2=210k and R3=75k trip at IMON = 2.28V
+<br>(2.28V/50)/3 = 15mA
+
+Readback:  IMON = current * 3 Ohms * 50
+<br>So 760uA * 3 * 50 = 114mV or 35 ADC counts.
+
 ### 2/26/26:
 
 Thinking some more about the observed issues.  On the splitter the delta-v on
