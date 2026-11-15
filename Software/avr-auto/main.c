@@ -10,6 +10,8 @@
  *   OK:  brief LED flash at 1Hz
  *   
  * on any error flash LED fast and wait for reset
+ *   double flash - power-up voltage or current out of range
+ *   triple flash - voltage error after initialization
  */
 
 // turn on without any external input

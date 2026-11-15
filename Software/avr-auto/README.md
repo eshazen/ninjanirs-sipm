@@ -17,12 +17,14 @@ Stand-alone bias voltage software.
 ```
 
 LED code:
-	On for 1s on power-up
-	Off while waiting for start pulse
-	Short blink at 1Hz during normal operation (bias on)
-	fast continuous blink on error condition
-	
-	
+
+* On for 1s on power-up
+* Off while waiting for start pulse
+* Short blink at 1Hz during normal operation (bias on)
+* Error blink at 2Hz
+    * 2 flashes - voltage or current out of range on initialization at 33V
+	* 3 flashes - voltage out of range while operating
+	    
 ## EDITS
 
 **2026-11-10**
@@ -33,3 +35,5 @@ Increase margins quite a bit.
 	Current ADC maximum at 33V change from 20 5- 50
 
 Change "normal" blink to 1Hz (was 2Hz)
+
+Add error blink codes
