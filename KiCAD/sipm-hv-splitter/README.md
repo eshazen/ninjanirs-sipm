@@ -59,11 +59,23 @@ on pin 7.
 
 ## Testing Log
 
+### 11/12/26:
+
+Estimate total full-scale current for all SiPMs.
+SiPM P/N are S13360-3050PE.  56V is 3V over VBR though VBR is given
+as +/-5V.  In theory the gain is 1.7E6.
+
+Asking ChatGPT to estimate the worst-case bias current requirement.
+
+
 ### 11/11/26:
 
 Summary:
 
-Up to about 2.5mA is OK at 56V.  Firmware is updated
+Up to about 2.5mA is OK at 56V.  Above this the
+output goes to 72V!  Not currently understood.
+
+Firmware is updated
 to provide more margin for failures.  Currently:
 
 	DAC            195 (56V)
@@ -72,11 +84,12 @@ to provide more margin for failures.  Currently:
     ADC_VOLT_LOW   472 (32V) at minimum VR output
 	ADC_CURRENT_LOW 50 (1mA) at minimum VR output
 
-Update board#1 firmware to current (tag `Splitter-FW-V1.1`).
+Update Board#2 firmware to current (tag `Splitter-FW-V1.1`).
 <br>Modify the detector IF card I have bypass U13
 
 --------------------------------------------------
 Wire up a NIRx cable to alligator clip adapter.
+Testing Board#2 in my office.
 
 Test with 47k load in parallel with 75k = 28.9k
 <br>57/29.9 = 1.73mA
